@@ -1,0 +1,22 @@
+[
+  {
+    "name": "adjustmentLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Adjustment Label')]"
+  },
+  {
+    "name": "adjustmentField",
+    "type": "id",
+    "value": "PEADDED_AdjustmentID_Id"
+  },
+  {
+    "name": "adjustmentEntered",
+    "type": "id",
+    "value": "PEADDED_AdjustmentID_Id_Text"
+  },
+  {
+    "name": "adjustmentDescription",
+    "type": "id",
+    "value": "PEADDED_AdjustmentDescription_Id"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "netChangeSpan",
+    "type": "id",
+    "value": "C1_lblNetChng"
+  },
+  {
+    "name": "contractAmountAfterChangeSpan",
+    "type": "id",
+    "value": "C1_lblAmtAftChng"
+  }
+]

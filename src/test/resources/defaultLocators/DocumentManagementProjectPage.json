@@ -1,0 +1,172 @@
+[
+  {
+    "name": "documentPropertySetDropDown",
+    "type": "id",
+    "value": "ddlDocumentPropertyList"
+  },
+  {
+    "name": "saveDocumentProperty",
+    "type": "id",
+    "value": "btnSave"
+  },
+  {
+    "name": "tabContainerTextBox",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'_TextBox003_Id')]"
+  },
+  {
+    "name": "sectionWithBorderBox",
+    "type": "xpath",
+    "value": ".//*[@id = 'td1']//strong[contains(text(),'Section 001')]"
+  },
+  {
+    "name": "titleTextBox",
+    "type": "id",
+    "value": "C2_txtdesc"
+  },
+  {
+    "name": "selectFiles",
+    "type": "id",
+    "value": "C2_docMultiUpload_files"
+  },
+  {
+    "name": "addComment",
+    "type": "id",
+    "value": "C2_txtdesc"
+  },
+  {
+    "name": "checkIn",
+    "type": "id",
+    "value": "C2_btnCheckIn"
+  },
+  {
+    "name": "cancelCheckIn",
+    "type": "id",
+    "value": "C2_btnDocCancel"
+  },
+  {
+    "name": "chooseFileToCheckIn",
+    "type": "id",
+    "value": "C2_uploaddoc"
+  },
+  {
+    "name": "checkOutOption",
+    "type": "xpath",
+    "value": ".//*[@class = 'rrbText'][text()='Check Out']"
+  },
+  {
+    "name": "discardCheckOutOption",
+    "type": "xpath",
+    "value": ".//*[@class = 'rrbText'][text()='Discard Check Out']"
+  },
+  {
+    "name": "titleBoxPath",
+    "type": "xpath",
+    "value": ".//*[contains(@id,'_txtdesc')]"
+  },
+  {
+    "name": "copyDocumentLink",
+    "type": "id",
+    "value": "CopyLink"
+  },
+  {
+    "name": "inheritPermissionCheckBox",
+    "type": "xpath",
+    "value": "//*[contains(@id,'_Inheritpermissioncheckbox')]"
+  },
+  {
+    "name": "cancelButtonInNewFolder",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'_btnFolderCancel')]"
+  },
+  {
+    "name": "documentFolderStructureDropDownInContract",
+    "type": "id",
+    "value": "CONTMGT_TemplateID_Id"
+  },
+  {
+    "name": "rolesTextBox",
+    "type": "id",
+    "value": "gs_Roles"
+  },
+  {
+    "name": "selectCreatePermissionCheckBox",
+    "type": "xpath",
+    "value": ".//*/th[@id = 'gsh_DocPermissions_Create']/div/input[@id = 'CreateChkAll']"
+  },
+  {
+    "name": "noDataDisplayed",
+    "type": "xpath",
+    "value": ".//*/div[contains(text(),'No data to display.')]"
+  },
+  {
+    "name": "contractDetailsTab",
+    "type": "xpath",
+    "value": ".//*[@id='PageTabs_tabBar']//a[text()='Contract Details']"
+  },
+  {
+    "name": "createdDateTextBox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'CreationDate_dateInput') and @type='text']"
+  },
+  {
+    "name": "createdDateFilterOption",
+    "type": "xpath",
+    "value": "//input[contains(@id,'Filter_CreationDate') and @title='Filter']"
+  },
+  {
+    "name": "workflowDropdown",
+    "type": "id",
+    "value": "C2_lstWorkflowsToAssociate"
+  },
+  {
+    "name": "clickAddBtnForCommentLog",
+    "type": "id",
+    "value": "C1_btnAddItem"
+  },
+  {
+    "name": "fileUploadLoadingText",
+    "type": "xpath",
+    "value": "//div[@id='kendoUploadController']/descendant::*[contains(text(),'Uploading')]"
+  },
+  {
+    "name": "propertiesText",
+    "type": "xpath",
+    "value": "//span[@title='Properties']"
+  },
+  {
+    "name": "documentFolderPopUp",
+    "type": "xpath",
+    "value": "//div[@aria-describedby='ctl14_aspPnlFolder']"
+  },
+  {
+    "name": "folderNameField",
+    "type": "id",
+    "value": "ctl14_txtfoldername"
+  },
+  {
+    "name": "folderDescriptionField",
+    "type": "id",
+    "value": "ctl14_txtfolderdesc"
+  },
+  {
+    "name": "saveButton",
+    "type": "id",
+    "value": "ctl14_btnFolderOk"
+  },
+  {
+    "name": "inheritLibraryLabel",
+    "type": "id",
+    "value": "lblInheritPermissionCheckbox"
+  },
+  {
+    "name": "inheritLibraryLabelCheckBox",
+    "type": "id",
+    "value": "ctl14_Inheritpermissioncheckbox"
+  },
+  {
+    "name": "okButton",
+    "type": "id",
+    "value": "ctl11_btnOk"
+  }
+]

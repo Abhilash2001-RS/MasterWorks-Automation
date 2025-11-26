@@ -1,0 +1,22 @@
+[
+  {
+    "name": "libraryDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Library Management')]"
+  },
+  {
+    "name": "xpath_LibraryTreeItem",
+    "type": "xpath",
+    "value": "//a/nobr[contains(text(),'LIBRARY')]"
+  },
+  {
+    "name": "unitsGridHead",
+    "type": "id",
+    "value": "ctl00_C1_MEARSYS_MeasurementUnits_id_GridHeader"
+  },
+  {
+    "name": "unitsGridBody",
+    "type": "id",
+    "value": "ctl00_C1_MEARSYS_MeasurementUnits_id_GridData"
+  }
+]

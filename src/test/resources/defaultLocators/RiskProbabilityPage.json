@@ -1,0 +1,27 @@
+[
+  {
+    "name": "riskProbabilityLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Risk Probability')]"
+  },
+  {
+    "name": "riskProbabilityTextBox",
+    "type": "id",
+    "value": "RISKPRB_RiskProbability_Id"
+  },
+  {
+    "name": "probabilityRatingLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Probability Rating')]"
+  },
+  {
+    "name": "probabilityRatingDropDown",
+    "type": "id",
+    "value": "RISKPRB_ProbabilityRating_Id"
+  },
+  {
+    "name": "libraryManagementDashBoard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  }
+]

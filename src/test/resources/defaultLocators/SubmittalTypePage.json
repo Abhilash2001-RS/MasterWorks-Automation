@@ -1,0 +1,12 @@
+[
+  {
+    "name": "submittalTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Submittal Type')]"
+  },
+  {
+    "name": "submittalTypeTextBox",
+    "type": "id",
+    "value": "SBMLTYP_SubmittalType_Id"
+  }
+]

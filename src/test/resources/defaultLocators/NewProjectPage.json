@@ -1,0 +1,377 @@
+[
+  {
+    "name": "projectNameTextArea",
+    "type": "id",
+    "value": "PROJECT_ProjectName_Id"
+  },
+  {
+    "name": "projectCodeTextBox",
+    "type": "id",
+    "value": "PROJECT_ProjectCode_Id"
+  },
+  {
+    "name": "ownerTextBox",
+    "type": "id",
+    "value": "PROJECT_Owner_Id"
+  },
+  {
+    "name": "endDateInput",
+    "type": "id",
+    "value": "PROJECT_EndDate_Id_input"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "PROJECT_Description_Id"
+  },
+  {
+    "name": "programCategoryComboBox",
+    "type": "id",
+    "value": "PROJECT_ProjectClass_Id"
+  },
+  {
+    "name": "businessUnitComboBox",
+    "type": "id",
+    "value": "PROJECT_BusinessUnitID_Id"
+  },
+  {
+    "name": "documentFolderStructureDropdown",
+    "type": "id",
+    "value": "PROJECT_DocumentTemplateID_Id"
+  },
+  {
+    "name": "documentProperties",
+    "type": "id",
+    "value": "PROJECT_DocMetadataID_Id"
+  },
+  {
+    "name": "expandAttachments",
+    "type": "xpath",
+    "value": "//input[contains(@id , 'imgAttach') and @onClick]"
+  },
+  {
+    "name": "uploadDocument",
+    "type": "xpath",
+    "value": "//input[contains(@id,'_UploadFileControl') and (not(contains(@id,'appWorkflow_WFAttachments')))]"
+  },
+  {
+    "name": "projectEndDate",
+    "type": "id",
+    "value": "PROJECT_EndDate_Id_input"
+  },
+  {
+    "name": "projectStartDate",
+    "type": "id",
+    "value": "PROJECT_StartDate_Id_input"
+  },
+  {
+    "name": "projectTypeDrpdwn",
+    "type": "id",
+    "value": "PROJECT_ProjectTypeID_Id"
+  },
+  {
+    "name": "projectValueTextBox",
+    "type": "id",
+    "value": "igtxtPROJECT_ProjectValue_Id"
+  },
+  {
+    "name": "statusDropDown",
+    "type": "id",
+    "value": "PROJECT_StatusId_Id"
+  },
+  {
+    "name": "dateCreated",
+    "type": "id",
+    "value": "PROJECT_CreateDate_Id_Text"
+  },
+  {
+    "name": "activeCheckbox",
+    "type": "xpath",
+    "value": "//label[@for='PROJECT_IsActive_Id']"
+  },
+  {
+    "name": "calendarDays",
+    "type": "id",
+    "value": "PROJECT_CalendarDays_Id_Text"
+  },
+  {
+    "name": "projectScoreField",
+    "type": "id",
+    "value": "igtxtPROJECT_TotalScore_Id"
+  },
+  {
+    "name": "projectNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Name')]"
+  },
+  {
+    "name": "projectCodeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Code') and not (@style) ]"
+  },
+  {
+    "name": "ownerLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Owner') and not (@style) ]"
+  },
+  {
+    "name": "programCategoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Program Category') ]"
+  },
+  {
+    "name": "businessUnitLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Business Unit') ]"
+  },
+  {
+    "name": "attributesTab",
+    "type": "xpath",
+    "value": "//a[@targetid='C1_ERP_CC_BODY_tabAttributes']"
+  },
+  {
+    "name": "statusAndAttributesTable",
+    "type": "id",
+    "value": "ctl00_C1_PROJSTS_DGStatus_id"
+  },
+  {
+    "name": "statusAndAttributesHeader",
+    "type": "id",
+    "value": "ctl00_C1_PROJSTS_DGStatus_id_GridHeader"
+  },
+  {
+    "name": "statusAndAttributesGridData",
+    "type": "id",
+    "value": "ctl00_C1_PROJSTS_DGStatus_id_ctl00"
+  },
+  {
+    "name": "programDurationInAdministration",
+    "type": "xpath",
+    "value": "//select[@id='PGMCYCL_ProgramDuration_Id']/option[@selected]"
+  },
+  {
+    "name": "businessUnitTable",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PROJECT_BusinessUnitID_Id_EmbeddedTree')]"
+  },
+  {
+    "name": "businessUnitSpans",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PROJECT_BusinessUnitID_Id_EmbeddedTree')]//span[@class='rtIn']"
+  },
+  {
+    "name": "programYearDropDown",
+    "type": "xpath",
+    "value": "//select[contains(@id,'PROJECT_ProgramYear_Id')]"
+  },
+  {
+    "name": "calendarDropDown",
+    "type": "id",
+    "value": "PROJECT_ExpenditureCurve_Id"
+  },
+  {
+    "name": "attributesGrid",
+    "type": "id",
+    "value": "ctl00_C1_PROJECT_ProjectAttributes_id"
+  },
+  {
+    "name": "attributesAddButton",
+    "type": "xpath",
+    "value": "//div[@id='ProjectAttributes']//input[(@type = 'submit') and (@value='Add')]"
+  },
+  {
+    "name": "attributesEditButton",
+    "type": "xpath",
+    "value": "//div[@id='ProjectAttributes']//input[(@type = 'submit') and (@value='Edit') and (not(contains(@style,'display:none;')))]"
+  },
+  {
+    "name": "attributesDeleteButton",
+    "type": "xpath",
+    "value": "//div[@id='ProjectAttributes']//input[(@type = 'submit') and (@value='Delete')]"
+  },
+  {
+    "name": "attributesExpandButton",
+    "type": "id",
+    "value": "toggler1"
+  },
+  {
+    "name": "attachmentsDeleteBtn",
+    "type": "xpath",
+    "value": "//input[contains(@id,'_btnDelete') and not (contains(@id,'appWorkflow_WFAttachments_btnDelete'))]"
+  },
+  {
+    "name": "attributeRows",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PROJECT_ProjectAttributes_id_GridData')]//tbody/tr[not(contains(@style,'display: none;'))]"
+  },
+  {
+    "name": "attributeDropDown",
+    "type": "id",
+    "value": "ProjectAttributes_AttributeId_Id"
+  },
+  {
+    "name": "valueFieldInAttribute",
+    "type": "id",
+    "value": "ProjectAttributes_AttributeValue_Id"
+  },
+  {
+    "name": "attributesOkButton",
+    "type": "xpath",
+    "value": "//div[@id='ProjectAttributes_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "attributesCancelButton",
+    "type": "xpath",
+    "value": "//div[@id='ProjectAttributes_EditTemplate']//input[@value='Cancel']"
+  },
+  {
+    "name": "isActiveCheckboxInListPage",
+    "type": "xpath",
+    "value": "//input[contains(@id,'FilterCheckBox_IsActive')]"
+  },
+  {
+    "name": "modulesGridLabel",
+    "type": "xpath",
+    "value": "//strong[contains(text(),'Modules')]"
+  },
+  {
+    "name": "modulesGridExpandButton",
+    "type": "xpath",
+    "value": "//div[@id='ProjectModules']//span[@class='DynamicGridToggler']"
+  },
+  {
+    "name": "moduleNameColumnInModulesGrid",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Module Name')]"
+  },
+  {
+    "name": "webColumnInModulesGrid",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Web')]"
+  },
+  {
+    "name": "offlineClientColumnInModulesGrid",
+    "type": "xpath",
+    "value": "//a[@title='Click here to sort by Offline Client']"
+  },
+  {
+    "name": "modulesGridCheckAllCheckbox",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_PROJECT_ProjectModules_id_GridHeader']//label[@class='radgrid-cb-label']"
+  },
+  {
+    "name": "copyProjectNameField",
+    "type": "id",
+    "value": "CPYPROJ_NewProjectName_Id"
+  },
+  {
+    "name": "copyProjectCodeField",
+    "type": "id",
+    "value": "CPYPROJ_NewProjectCode_Id"
+  },
+  {
+    "name": "statusGridID",
+    "type": "id",
+    "value": "ctl00_C1_PROJSTS_DGStatus_id"
+  },
+  {
+    "name": "masterAttributeGridID",
+    "type": "id",
+    "value": "ctl00_C1_PROJSTS_ProjectMasterAttributes_id"
+  },
+  {
+    "name": "statusGridAddButton",
+    "type": "xpath",
+    "value": "//div[@id='DGStatus']//input[@value='Add']"
+  },
+  {
+    "name": "statusGridDeleteButton",
+    "type": "xpath",
+    "value": "//div[@id='DGStatus']//input[@value='Delete']"
+  },
+  {
+    "name": "statusGridEditButton",
+    "type": "xpath",
+    "value": "//div[@id='DGStatus']//input[@value='Edit' and not(contains(@style,'none'))]"
+  },
+  {
+    "name": "masterAttributeAddButton",
+    "type": "xpath",
+    "value": "//div[@id='ProjectMasterAttributes']//input[(@type = 'submit') and (@value='Add')]"
+  },
+  {
+    "name": "masterAttributeDeleteButton",
+    "type": "xpath",
+    "value": "//div[@id='ProjectMasterAttributes']//input[(@type = 'submit') and (@value='Delete')]"
+  },
+  {
+    "name": "masterAttributeEditButton",
+    "type": "xpath",
+    "value": "//div[@id='ProjectMasterAttributes']//input[(@type = 'submit') and (@value='Edit')]"
+  },
+  {
+    "name": "statusNameField",
+    "type": "id",
+    "value": "DGStatus_StatusName_Id"
+  },
+  {
+    "name": "statusSaveButton",
+    "type": "xpath",
+    "value": "//div[@id='DGStatus_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "statusCloseButton",
+    "type": "xpath",
+    "value": "//span[contains(text(),'close')]"
+  },
+  {
+    "name": "statusRows",
+    "type": "xpath",
+    "value": "//table[@id='ctl00_C1_PROJSTS_DGStatus_id_ctl00']//tbody/tr[@style!='display:none;']"
+  },
+  {
+    "name": "masterAttributeRows",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_PROJSTS_ProjectMasterAttributes_id']//tbody/tr[@class!='rgNoRecords']"
+  },
+  {
+    "name": "masterAttributeNameField",
+    "type": "id",
+    "value": "ProjectMasterAttributes_AttributeName_Id"
+  },
+  {
+    "name": "masterAttributeSaveButton",
+    "type": "xpath",
+    "value": "//div[@id='ProjectMasterAttributes_EditTemplate']//input[@type='submit' and @value='Save']"
+  },
+  {
+    "name": "masterAttributeCloseButton",
+    "type": "xpath",
+    "value": "//span[contains(text(),'close')]"
+  },
+  {
+    "name": "attachmentsExpandLabel",
+    "type": "xpath",
+    "value": "//input[contains(@id,'imgAttach')and not (contains(@id,'appWorkflow_'))]"
+  },
+  {
+    "name": "attachmentTable",
+    "type": "xpath",
+    "value": "//div[contains(@id,'upAttachments')and @style]"
+  },
+  {
+    "name": "attachmentTableHeader",
+    "type": "xpath",
+    "value": "//div[contains(@id,'upAttachments')and @style]//div[contains(@id,'gridAttachment_GridHeader')and @style]"
+  },
+  {
+    "name": "defaultFiscalYearLabel",
+    "type": "xpath",
+    "value": "//span[.='Default Fiscal Year']"
+  },
+  {
+    "name": "defaultFiscalYearSelect",
+    "type": "id",
+    "value": "PROJECT_DefaultFiscalYearID_Id"
+  }
+]

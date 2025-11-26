@@ -1,0 +1,204 @@
+[
+  {
+    "name": "attachmentsLinkDocumentButton",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'LinkDocument')]"
+  },
+  {
+    "name": "attachmentsUploadDocumentButton",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'UploadFileControl') and (not(contains(@id,'app')))]"
+  },
+  {
+    "name": "expandAttachments",
+    "type": "xpath",
+    "value": "//input[contains(@id,'imgAttach') and (not(contains(@id,'app')))]/.."
+  },
+  {
+    "name": "downloadAttachment",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'btnDownload')]"
+  },
+  {
+    "name": "attachmentTable",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and not(contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "attachmentTableHeader",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and (contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "projectCodeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Code')]"
+  },
+  {
+    "name": "contractCodeLabel",
+    "type": "xpath",
+    "value": "//table[@formdesignername='Code']//span[contains(text(),'Contract Code')]"
+  },
+  {
+    "name": "projectNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Name')]"
+  },
+  {
+    "name": "measurementSystemLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Measurement System')]"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "contractNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contract Name')]"
+  },
+  {
+    "name": "createdDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Created Date')]"
+  },
+  {
+    "name": "areaOfficeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Area Office')]"
+  },
+  {
+    "name": "documentFolderStructureLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Document Folder Structure')]"
+  },
+  {
+    "name": "statusLabel",
+    "type": "xpath",
+    "value": "//table[@formdesignername='StatusId']//span[contains(text(),'Status')]"
+  },
+  {
+    "name": "typeLabel",
+    "type": "xpath",
+    "value": "//table[@formdesignername='TypeOfContractID']//span[contains(text(),'Type')]"
+  },
+  {
+    "name": "calendarLabel",
+    "type": "xpath",
+    "value": "//table[@formdesignername='CalendarID']//span[contains(text(),'Calendar')]"
+  },
+  {
+    "name": "noticeToProceedDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Notice to Proceed Date')]"
+  },
+  {
+    "name": "startDateLabel",
+    "type": "xpath",
+    "value": "//table[@formdesignername='Begin']//span[contains(text(),'Start Date')]"
+  },
+  {
+    "name": "constructionStartedDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Construction Started Date')]"
+  },
+  {
+    "name": "calendarDaysLabel",
+    "type": "xpath",
+    "value": "//*[@class='tdTextAlignRgt']//span[contains(text(),'Calendar Days')]"
+  },
+  {
+    "name": "openToTrafficDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Open to Traffic Date')]"
+  },
+  {
+    "name": "closureDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Closure Date')]"
+  },
+  {
+    "name": "contractWorkCompletedDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contract Work Completed Date')]"
+  },
+  {
+    "name": "contractClosedDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contract Closed (Final Estimate) Date')]"
+  },
+  {
+    "name": "bidCodeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Bid Code')]"
+  },
+  {
+    "name": "bidNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Bid Name')]"
+  },
+  {
+    "name": "bidLettingDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Bid Letting Date')]"
+  },
+  {
+    "name": "bidAwardedDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Bid Awarded Date')]"
+  },
+  {
+    "name": "projectCodeField",
+    "type": "id",
+    "value": "CONTMGT_ProjectCode_Id_Text"
+
+  },
+  {
+    "name": "projectNameField",
+    "type": "id",
+    "value": "CONTMGT_ProjectName_Id_Text"
+  },
+  {
+    "name": "descriptionInputField",
+    "type": "id",
+    "value": "CONTMGT_Desc_Id"
+  },
+  {
+    "name": "createdDateTextBox",
+    "type": "id",
+    "value": "CONTMGT_CreatedOn_Id_input"
+  },
+  {
+    "name": "startDateTextBox",
+    "type": "id",
+    "value": "CONTMGT_Begin_Id_Text"
+
+  },
+  {
+    "name": "closureDateTextBox",
+    "type": "id",
+    "value": "CONTMGT_End_Id_Text"
+  },
+  {
+    "name": "calendarDaysField",
+    "type": "id",
+    "value": "CONTMGT_CTDays_Id"
+  },
+  {
+    "name": "cancelBtnWorkFlowHistory",
+    "type": "id",
+    "value": "appWorkflowHistory_btnCancel"
+  },
+  {
+    "name": "statusWorkFlowHistory",
+    "type": "xpath",
+    "value": "//div[@class='flexItem']//span[contains(text(),'Draft')]"
+  },
+  {
+    "name": "dailyProgressReportOfflineCheckbox",
+    "type": "xpath",
+    "value": ".//td[text()='Daily Progress Report']/following-sibling::td/following-sibling::td//input"
+  }
+]

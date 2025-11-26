@@ -1,0 +1,37 @@
+[
+  {
+    "name": "businessUnit",
+    "type": "id",
+    "value": "BUSUNIT_Name_Id"
+  },
+  {
+    "name": "businessUnitIsActiveCheckbox",
+    "type": "id",
+    "value": "BUSUNIT_IsActive_Id"
+  },
+  {
+    "name": "isRootYesRadioBtn",
+    "type": "id",
+    "value": "BUSUNIT_IsRoot_Id_0"
+  },
+  {
+    "name": "isRootNoRadioBtn",
+    "type": "id",
+    "value": "BUSUNIT_IsRoot_Id_1"
+  },
+  {
+    "name": "parentBusinessUnitBtn",
+    "type": "id",
+    "value": "BUSUNIT_ParentID_Id"
+  },
+  {
+    "name": "businessUnitText",
+    "type": "id",
+    "value": "BUSUNIT_ParentID_Id_Text"
+  },
+  {
+    "name": "businessUnitTextLoc",
+    "type": "id",
+    "value": "C1_ERP_CC_BODY_txtBusinessUnitReadOnly"
+  }
+]

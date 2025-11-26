@@ -1,0 +1,177 @@
+[
+  {
+    "name": "bidLettingIdTxt",
+    "type": "id",
+    "value": "C1_txtID"
+  },
+  {
+    "name": "bidLettingDescriptionTxtArea",
+    "type": "id",
+    "value": "C1_txtBidLettingDesc"
+  },
+  {
+    "name": "statusDropDown",
+    "type": "id",
+    "value": "C1_ddlStatus"
+  },
+  {
+    "name": "bidDueTimeTxtBox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'radbidDueTime_dateInput') and not(contains(@id,'ClientState'))]"
+  },
+  {
+    "name": "bidAdvertisementDateTextBox",
+    "type": "id",
+    "value": "C1_wdcDatePub_input"
+  },
+  {
+    "name": "bidIssueDateTextBox",
+    "type": "id",
+    "value": "C1_wdcDateIssue_input"
+  },
+  {
+    "name": "preBidMeetingDateTextBox",
+    "type": "id",
+    "value": "C1_wdcDateMeeting_input"
+  },
+  {
+    "name": "bidOpeningDateTimeTextBox",
+    "type": "id",
+    "value": "ctl00_C1_radbidOpnTime_dateInput"
+  },
+  {
+    "name": "bidDueDateTimeTextBox",
+    "type": "id",
+    "value": "ctl00_C1_radbidDueTime_dateInput"
+  },
+  {
+    "name": "bidAdvertisementDropDown",
+    "type": "xpath",
+    "value": "//table[contains(@id,'C1_wdcDatePub') and (contains(@ig_drp,'C1_wdcDatePub'))]"
+  },
+  {
+    "name": "bidIssueDropDown",
+    "type": "xpath",
+    "value": "//table[contains(@id,'C1_wdcDateIssue') and (contains(@ig_drp,'C1_wdcDateIssue'))]"
+  },
+  {
+    "name": "bidOpeningDate",
+    "type": "xpath",
+    "value": "//input[contains(@id,'C1_radbidOpnTime_dateInput') and @type = 'text']"
+  },
+  {
+    "name": "bidAdvertisementCalendar",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_wdcDatePub_container')]"
+  },
+  {
+    "name": "bidIssueCalendar",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_wdcDateIssue_container')]"
+  },
+  {
+    "name": "bidAdvertisementLabel",
+    "type": "xpath",
+    "value": "//span[contains(@id,'C1_lblBidAdvertiseDate')]"
+  },
+  {
+    "name": "bidIssueLabel",
+    "type": "xpath",
+    "value": "//span[contains(@id,'C1_lblBidIssueDate')]"
+  },
+  {
+    "name": "addendumIssueDate",
+    "type": "xpath",
+    "value": "//input[contains(@id,'C1_wdcAddendumIssueDate_input')]"
+  },
+  {
+    "name": "deleteItemPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'stdItemNumber_pickerContainer')]"
+  },
+  {
+    "name": "projectCodeLetting",
+    "type": "id",
+    "value": "C1_lblProjectestimateID"
+  },
+  {
+    "name": "noAttachments",
+    "type": "xpath",
+    "value": "//div[text()='No Attachments available']"
+  },
+  {
+    "name": "description",
+    "type": "xpath",
+    "value": "//textarea[contains(@id,'C1_txtAddDescription')]"
+  },
+  {
+    "name": "addendumIDView",
+    "type": "id",
+    "value": "C1_lblLettingID"
+  },
+  {
+    "name": "descriptionView",
+    "type": "id",
+    "value": "C1_lblAddDesc"
+  },
+  {
+    "name": "bidAdDateView",
+    "type": "id",
+    "value": "C1_lblAdvDate"
+  },
+  {
+    "name": "bidIssueView",
+    "type": "id",
+    "value": "C1_lblBidIssueDate"
+  },
+  {
+    "name": "prebidDateView",
+    "type": "id",
+    "value": "C1_lblPreBidMeetingDate"
+  },
+  {
+    "name": "addendumIssueDateView",
+    "type": "id",
+    "value": "C1_lblAddendumIssueDate"
+  },
+  {
+    "name": "bidOpeningDateView",
+    "type": "id",
+    "value": "C1_lblBidOpnDateTime"
+  },
+  {
+    "name": "bidDueDateView",
+    "type": "id",
+    "value": "C1_lblBidDueTime"
+  },
+  {
+    "name": "approvedByView",
+    "type": "id",
+    "value": "C1_lblIsApproved"
+  },
+  {
+    "name": "attachmentGrid",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_attachments_gridAttachment']"
+  },
+  {
+    "name": "attachmentTable",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and not(contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "attachmentTableHeader",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and (contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "downloadButton",
+    "type": "xpath",
+    "value": "//input[contains(@name,'Download')]"
+  },
+  {
+    "name": "bidLettingDescriptionView",
+    "type": "id",
+    "value": "C1_lblLettingDesc"
+  }
+]

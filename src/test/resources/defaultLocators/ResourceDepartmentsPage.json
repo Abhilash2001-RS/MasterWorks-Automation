@@ -1,0 +1,32 @@
+[
+  {
+    "name": "resourceDepartment",
+    "type": "id",
+    "value": "RESDEPT_Name_Id"
+  },
+  {
+    "name": "isRootYes",
+    "type": "xpath",
+    "value": "//label[contains(text(), 'Yes')]"
+  },
+  {
+    "name": "isRootNo",
+    "type": "xpath",
+    "value": "//label[contains(text(), 'No')]"
+  },
+  {
+    "name": "description",
+    "type": "id",
+    "value": "RESDEPT_Description_Id"
+  },
+  {
+    "name": "isActive",
+    "type": "id",
+    "value": "RESDEPT_IsActive_Id"
+  },
+  {
+    "name": "spanResourceDepartment",
+    "type": "id",
+    "value": "RESDEPT_Name_Id_Text"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "vendorCategoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Vendor Category')]"
+  },
+  {
+    "name": "subCategoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Sub-Category')]"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "isActiveLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Is Active')]"
+  },
+  {
+    "name": "vendorCategoryDropDown",
+    "type": "id",
+    "value": "VNDSCAT_Category_Id"
+  },
+  {
+    "name": "vendorSubCategoryTextBox",
+    "type": "id",
+    "value": "VNDSCAT_SubCategory_Id"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "VNDSCAT_Description_Id"
+  },
+  {
+    "name": "vendorCategoryRequiredField",
+    "type": "xpath",
+    "value": ".//select[@id='VNDSCAT_Category_Id']/../..//span[.='Required!']"
+  },
+  {
+    "name": "vendorSubCategoryRequiredField",
+    "type": "xpath",
+    "value": ".//input[@id='VNDSCAT_SubCategory_Id']/../..//span[.='Required!']"
+  },
+  {
+    "name": "isActiveCheckbox",
+    "type": "id",
+    "value": "VNDSCAT_IsActive_Id"
+  }
+]

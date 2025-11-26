@@ -1,0 +1,37 @@
+[
+  {
+    "name": "nameTextBox",
+    "type": "id",
+    "value": "SCORDPT_DeptName_Id"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "SCORDPT_DeptDescription_Id"
+  },
+  {
+    "name": "weightageTextBox",
+    "type": "id",
+    "value": "SCORDPT_Weightage_Id"
+  },
+  {
+    "name": "nameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "nameTextLabel",
+    "type": "id",
+    "value": "SCORDPT_DeptName_Id_Text"
+  },
+  {
+    "name": "descriptionTextLabel",
+    "type": "id",
+    "value": "SCORDPT_DeptDescription_Id_Text"
+  },
+  {
+    "name": "weightageTextLabel",
+    "type": "id",
+    "value": "SCORDPT_Weightage_Id_Text"
+  }
+]

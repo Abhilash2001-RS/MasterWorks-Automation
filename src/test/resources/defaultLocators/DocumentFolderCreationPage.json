@@ -1,0 +1,27 @@
+[
+  {
+    "name": "folderNameLocator",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'_txtfoldername')]"
+  },
+  {
+    "name": "folderDescriptionLocator",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'_txtfolderdesc')]"
+  },
+  {
+    "name": "inheritParentPermissionCheckbox",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'_Inheritpermissioncheckbox')]"
+  },
+  {
+    "name": "saveFolderButton",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'_btnFolderOk')]"
+  },
+  {
+    "name": "cancelFolderButton",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'_btnFolderCancel')]"
+  }
+]

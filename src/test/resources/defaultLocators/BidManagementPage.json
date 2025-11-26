@@ -1,0 +1,27 @@
+[
+  {
+    "name": "bidManagementLink",
+    "type": "xpath",
+    "value": "//nobr[normalize-space()='Bid Management']"
+  },
+  {
+    "name": "showBidManagementFolderLabel",
+    "type": "xpath",
+    "value": "//span[normalize-space()='Show Bid Management folder expanded']"
+  },
+  {
+    "name": "bidManagementCheckbox",
+    "type": "id",
+    "value": "SgAPPSettings_ESTMATELoadTreeOnDemand_Id"
+  },
+  {
+    "name": "bidderRole",
+    "type": "xpath",
+    "value": "//span[normalize-space()='Bidder Role']"
+  },
+  {
+    "name": "bidderRoleTextbox",
+    "type": "xpath",
+    "value": "//input[@id='SgAPPSettings_1_2']"
+  }
+]

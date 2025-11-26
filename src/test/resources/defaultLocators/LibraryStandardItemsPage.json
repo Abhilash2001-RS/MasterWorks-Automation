@@ -1,0 +1,52 @@
+[
+  {
+    "name": "tableNameTextField",
+    "type": "id",
+    "value": "C1_txtStandardTable"
+  },
+  {
+    "name": "measurementSystemComboBox",
+    "type": "id",
+    "value": "C1_ddl_meassys"
+  },
+  {
+    "name": "scheduleTemplateName",
+    "type": "id",
+    "value": "LIBSCHT_Name_Id"
+  },
+  {
+    "name": "scheduleTab",
+    "type": "xpath",
+    "value": "//*[@id='toolBarAndTabContent']//li//a[contains(text(),'Schedule')]"
+  },
+  {
+    "name": "components",
+    "type": "xpath",
+    "value": "//a[text()='Components']"
+  },
+  {
+    "name": "componentsGrid",
+    "type": "id",
+    "value": "C1xucComponentsxgridComponents_div"
+  },
+  {
+    "name": "componentsGridNameTextField",
+    "type": "id",
+    "value": "C1_ucComponents_txtComponentName"
+  },
+  {
+    "name": "componentsGridNameDescriptionField",
+    "type": "id",
+    "value": "C1_ucComponents_txtComponentDescription"
+  },
+  {
+    "name": "saveButton",
+    "type": "id",
+    "value": "C1_ucComponents_btnSaveComponent"
+  },
+  {
+    "name": "componentDetailsRow",
+    "type": "xpath",
+    "value": "//table[contains(@id,'G_C1xucComponentsxgridComponents')]/tbody/tr"
+  }
+]

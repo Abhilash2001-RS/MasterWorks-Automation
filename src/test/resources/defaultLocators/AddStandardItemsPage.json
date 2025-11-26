@@ -1,0 +1,67 @@
+[
+  {
+    "name": "standardItemListDropDown",
+    "type": "id",
+    "value": "C1_ddlStdTables"
+  },
+  {
+    "name": "itemPickerDiv",
+    "type": "xpath",
+    "value": ".//div[@id='C1_itemPicker_pickerContainer']"
+  },
+  {
+    "name": "ignoreContainerStandardItemsCheckbox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'chkIgnoreContainer')]"
+  },
+  {
+    "name": "selectButtonSingleItem",
+    "type": "xpath",
+    "value": "//input[contains(@id,'stdItemNumber_btnShowPicker')]"
+  },
+  {
+    "name": "singleItemStandardItemPicker",
+    "type": "xpath",
+    "value": ".//div[contains(@id,'stdItemNumber_pickerContainer')]"
+  },
+  {
+    "name": "standardItemSelectionForSingleItem",
+    "type": "xpath",
+    "value": "//select[contains(@id,'ddlStdItmTbl')]"
+  },
+  {
+    "name": "containerText",
+    "type": "xpath",
+    "value": "//input[contains(@id,'C1_txtItemPath')]"
+  },
+  {
+    "name": "itemName",
+    "type": "xpath",
+    "value": "//input[contains(@id,'txtStandardItemNo')]"
+  },
+  {
+    "name": "clearItem",
+    "type": "xpath",
+    "value": "//a[contains(@id,'C1_lnkClear')]"
+  },
+  {
+    "name": "standardItemsDropDown",
+    "type": "xpath",
+    "value": "//select[@id='C1_multipleItemPicker_dropDownStandardItemList']"
+  },
+  {
+    "name": "standardItemsDropDownSave",
+    "type": "xpath",
+    "value": "//input[@id='C1_multipleItemPicker_btnSelect']"
+  },
+  {
+    "name": "multipleItemPickerDiv",
+    "type": "xpath",
+    "value": "//div[@id='C1_multipleItemPicker_pickerContainer']"
+  },
+  {
+    "name": "multipleItemPickerRows",
+    "type": "xpath",
+    "value": "//div[@id='C1_multipleItemPicker_pickerGrid']/descendant::tbody//tr"
+  }
+]

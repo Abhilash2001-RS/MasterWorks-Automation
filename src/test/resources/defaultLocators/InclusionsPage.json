@@ -1,0 +1,12 @@
+[
+  {
+    "name": "xpath_sendingLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Sending')]"
+  },
+  {
+    "name": "id_sendingTxtBox",
+    "type": "id",
+    "value": "SNDGWHT_Sending_Id"
+  }
+]

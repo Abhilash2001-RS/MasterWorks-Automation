@@ -1,0 +1,62 @@
+[
+  {
+    "name": "contractDashboardTab",
+    "type": "xpath",
+    "value": ".//a[@title='Contract Dashboard']"
+  },
+  {
+    "name": "contractDetailsTab",
+    "type": "xpath",
+    "value": ".//a[@title='Contract Details']"
+  },
+  {
+    "name": "attachmentsLinkDocumentButton",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'LinkDocument')]"
+  },
+  {
+    "name": "attachmentsUploadDocumentButton",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'UploadFileControl')]"
+  },
+  {
+    "name": "attachmentsGridXpath",
+    "type": "xpath",
+    "value": "//table[contains(@id,'tblAttachments') and (not (contains(@id,'app')))]"
+  },
+  {
+    "name": "expandAttachments",
+    "type": "id",
+    "value": "imgAttach"
+  },
+  {
+    "name": "downloadAttachment",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'btnDownload')]"
+  },
+  {
+    "name": "attachmentTable",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and not(contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "attachmentTableHeader",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and (contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "contractName",
+    "type": "id",
+    "value": "CONTMGT_Name_Id"
+  },
+  {
+    "name": "contractCode",
+    "type": "id",
+    "value": "CONTMGT_Code_Id"
+  },
+  {
+    "name": "modulesTab",
+    "type": "xpath",
+    "value": "//*[@targetid='C1_ERP_CC_BODY_tabModules']"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "name": "username",
+    "type": "id",
+    "value": "txtUserID"
+  },
+  {
+  "name": "firstname",
+  "type": "id",
+  "value": "txtFirstName"
+  },
+  {
+    "name": "password",
+    "type": "id",
+    "value": "txtPassword"
+  },
+  {
+    "name": "confirmpassword",
+    "type": "id",
+    "value": "txtConfirmPassword"
+  },
+  {
+    "name": "email",
+    "type": "id",
+    "value": "txtEmailID"
+  },
+  {
+    "name": "telephone",
+    "type": "id",
+    "value": "txtTelephone"
+  },
+  {
+    "name": "zip",
+    "type": "id",
+    "value": "txtZIP"
+  },
+  {
+    "name": "fax",
+    "type": "id",
+    "value": "txtFax"
+  },
+  {
+    "name": "city",
+    "type": "id",
+    "value": "txtCity"
+  },
+  {
+    "name": "state",
+    "type": "id",
+    "value": "txtState"
+  },
+  {
+    "name": "register",
+    "type": "id",
+    "value": "btnRegister"
+  },
+  {
+    "name": "cancel",
+    "type": "id",
+    "value": "btnCancel"
+  },
+  {
+    "name": "errorMessageHeader",
+    "type": "xpath",
+    "value": "//div[@id='txtValidationResult']/b"
+  },
+  {
+    "name": "errorMessageForFields",
+    "type": "xpath",
+    "value": "//div[@id='txtValidationResult']/ul"
+  },
+  {
+    "name": "captchaErrorMsg",
+    "type": "id",
+    "value": "RadCaptchaRegistration_ctl00"
+  },
+  {
+    "name": "reset",
+    "type": "id",
+    "value": "btnReset"
+  },
+  {
+    "name": "header",
+    "type": "xpath",
+    "value": "//span[@class='main-header']"
+  },
+  {
+    "name": "passwordErrorMessage",
+    "type": "xpath",
+    "value": "//span[@id='rfvPassword']"
+  },
+  {
+    "name": "confirmPasswordErrorMessage",
+    "type": "xpath",
+    "value": "//span[@id='rfvConfirmPassword']"
+  },
+  {
+    "name": "userNameErrorMessage",
+    "type": "xpath",
+    "value": "//span[@id='rfvUserID']"
+  },
+  {
+    "name": "firstNameErrorMessage",
+    "type": "xpath",
+    "value": "//span[@id='rfvFirstName']"
+  },
+  {
+    "name": "emailErrorMessage",
+    "type": "xpath",
+    "value": "//span[@id='emailrfv']"
+  },
+  {
+    "name": "passwordNotMatchingErrorMessage",
+    "type": "xpath",
+    "value": "//span[@id='cmvConfirmPassword']"
+  },
+  {
+    "name": "passwordRegErrorMessage",
+    "type": "xpath",
+    "value": "//span[@id='regPassword']"
+  },
+  {
+    "name": "emailFormatErrorMessage",
+    "type": "xpath",
+    "value": "//span[@id='regEmailID']"
+  },
+  {
+    "name": "captchaTextBox",
+    "type": "id",
+    "value": "RadCaptchaRegistration_CaptchaTextBox"
+  },
+  {
+    "name": "zipCodeError",
+    "type": "id",
+    "value": "RadCaptchaRegistration_CaptchaTextBox"
+  }
+]

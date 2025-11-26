@@ -1,0 +1,77 @@
+[
+  {
+    "name": "projectUsersTable",
+    "type": "id",
+    "value": "ctl00_C1_grdProjectUsers_ctl00"
+  },
+  {
+    "name": "projectUsersRadGrid",
+    "type": "id",
+    "value": "ctl00_C1_grdProjectUsers"
+  },
+  {
+    "name": "allUserTable",
+    "type": "id",
+    "value": "ctl00_C1_grdAllUsers"
+  },
+  {
+    "name": "allUserTableId",
+    "type": "id",
+    "value": "ctl00_C1_grdAllUsers_ctl00"
+  },
+  {
+    "name": "addUsersButton",
+    "type": "id",
+    "value": "C1_btnAdd_AddNewDialog"
+  },
+  {
+    "name": "addProjectButton",
+    "type": "id",
+    "value": "C1_btnProjectPicker"
+  },
+  {
+    "name": "projectPickerXpath",
+    "type": "xpath",
+    "value": "//div[@id='C1_ProjectPicker_pickerContainer']"
+  },
+  {
+    "name": "comboUsers",
+    "type": "xpath",
+    "value": "./td/span[contains(@id,'lblComboUsers')]"
+  },
+  {
+    "name": "expandButtonMcon",
+    "type": "xpath",
+    "value": "//*[(@type='submit') and (@title='Expand')]"
+  },
+  {
+    "name": "noUserInTheSystemMessage",
+    "type": "xpath",
+    "value": "//*[contains(text(),'No user exists in the system.')]"
+  },
+  {
+    "name": "addUsersMultiSelectCheckbox",
+    "type": "id",
+    "value": "ctl00_C1_grdAllUsers_ctl00_ctl02_ctl01_MultiSelectCheckBox"
+  },
+  {
+    "name": "manageUsersGridTableID",
+    "type": "id",
+    "value": "ctl00_C1_grdProjectUsers_ctl00"
+  },
+  {
+    "name": "nextPageButtonInGrid",
+    "type": "xpath",
+    "value": "//*[@aria-label='Next Page']"
+  },
+  {
+    "name": "previousPageButtonInGrid",
+    "type": "xpath",
+    "value": "//*[@aria-label='Previous Page']"
+  },
+  {
+    "name": "selectAllRecordsButton",
+    "type": "id",
+    "value": "C1_btnAddAllNewDialog"
+  }
+]

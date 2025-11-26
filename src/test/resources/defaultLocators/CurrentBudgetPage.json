@@ -1,0 +1,22 @@
+[
+  {
+    "name": "currentBudgetItemsTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Current Budget Items')]"
+  },
+  {
+    "name": "itemDetailsTableDivID",
+    "type": "id",
+    "value": "headerTbl"
+  },
+  {
+    "name": "expandContainerInCurrentBudgetDetailsReport",
+    "type": "xpath",
+    "value": ".//a/img[@src='/Reserved.ReportViewerWebControl.axd?OpType=Resource&Version=10.0.30319.1&Name=Microsoft.ReportingServices.Rendering.HtmlRenderer.RendererResources.TogglePlus.gif']"
+  },
+  {
+    "name": "inflationHighlight",
+    "type": "xpath",
+    "value": "//span[contains(@style,'#3399CC')]"
+  }
+]

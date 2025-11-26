@@ -1,0 +1,42 @@
+[
+  {
+    "name": "projectScoringTab",
+    "type": "xpath",
+    "value": ".//div[@id='PageTabs']//a[contains(text(),'Project Scoring')]/.."
+  },
+  {
+    "name": "departmentDropdown",
+    "type": "id",
+    "value": "PRJSCNG_DeptId_Id"
+  },
+  {
+    "name": "remarksTextArea",
+    "type": "id",
+    "value": "PRJSCNG_Remarks_Id"
+  },
+  {
+    "name": "scoreGrid",
+    "type": "id",
+    "value": "ctl00_C1_PRJSCNG_PRJSCDetails_id_GridData"
+  },
+  {
+    "name": "scoreGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_PRJSCNG_PRJSCDetails_id_ctl00_Header"
+  },
+  {
+    "name": "scoreCellInput",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'PRJSCNG_PRJSCDetails_id_ctl00_Score_RNTB_Score')]"
+  },
+  {
+    "name": "scoreField",
+    "type": "id",
+    "value": "igtxtPROJECT_TotalScore_Id"
+  },
+  {
+    "name": "weightedScoreField",
+    "type": "id",
+    "value": "PRJSCNG_ProjectScoreTotal_Id"
+  }
+]

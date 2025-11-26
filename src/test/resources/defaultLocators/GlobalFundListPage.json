@@ -1,0 +1,153 @@
+[
+  {
+    "name": "fundSourceIdLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source ID']"
+  },
+  {
+    "name": "fundSourceNameLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Name']"
+  },
+  {
+    "name": "fundSourceCodeLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Code']"
+  },
+  {
+    "name": "fundSourceCategoryLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Category']"
+  },
+  {
+    "name": "fundSourceTypeLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Type']"
+  },
+  {
+    "name": "fundingAgencyLabel",
+    "type": "xpath",
+    "value": "//span[.='Funding Agency']"
+  },
+  {
+    "name": "totalAmountLabel",
+    "type": "xpath",
+    "value": "//span[.='Total Amount in $']"
+  },
+  {
+    "name": "remainingAmountLabel",
+    "type": "xpath",
+    "value": "//span[.='Remaining Amount in $']"
+  },
+  {
+    "name": "notesLabel",
+    "type": "xpath",
+    "value": "//span[.='Notes']"
+  },
+  {
+    "name": "isActiveLabel",
+    "type": "xpath",
+    "value": "//span[.='Is Active']"
+  },
+  {
+    "name": "fundSourceNameTextBox",
+    "type": "id",
+    "value": "FNDMGMT_FundName_Id"
+  },
+  {
+    "name": "fundSourceNameText",
+    "type": "id",
+    "value": "FNDMGMT_FundName_Id_Text"
+  },
+  {
+    "name": "fundSourceCodeTextBox",
+    "type": "id",
+    "value": "FNDMGMT_FundCode_Id"
+  },
+  {
+    "name": "fundSourceCategoryDropDown",
+    "type": "id",
+    "value": "FNDMGMT_FundCategory_Id"
+  },
+  {
+    "name": "fundSourceTypeDropDown",
+    "type": "id",
+    "value": "FNDMGMT_FundType_Id"
+  },
+  {
+    "name": "fundingAgencyDropDown",
+    "type": "id",
+    "value": "FNDMGMT_FundingAgency_Id"
+  },
+  {
+    "name": "notesTextBox",
+    "type": "id",
+    "value": "FNDMGMT_Notes_Id"
+  },
+  {
+    "name": "isActiveCheckBox",
+    "type": "id",
+    "value": "FNDMGMT_IsActive_Id"
+  },
+  {
+    "name": "totalAmountViewFormText",
+    "type": "id",
+    "value": "igtxtFNDMGMT_TotalFund_Id"
+  },
+  {
+    "name": "remainingAmountViewFormText",
+    "type": "id",
+    "value": "igtxtFNDMGMT_RemainingAmount_Id"
+  },
+  {
+    "name": "globalFundListTab",
+    "type": "xpath",
+    "value": "//div[@id='centerContent']//a[@title='Global Fund List']"
+  },
+  {
+    "name": "uploadDocument",
+    "type": "xpath",
+    "value": "//input[contains(@id,'UploadFileControl')]"
+  },
+  {
+    "name": "selectFirstDocumentInAttachments",
+    "type": "id",
+    "value": "ctl00_C1_docgrid_ctl00__0"
+  },
+  {
+    "name": "versionHistoryTable",
+    "type": "xpath",
+    "value": "//table[contains(@id,'grdVersionHistory') and not(contains(@id,'main'))]"
+  },
+  {
+    "name": "popUpCloseBtn",
+    "type": "xpath",
+    "value": "//button[@title='Close']"
+  },
+  {
+    "name": "checkIn",
+    "type": "id",
+    "value": "C2_btnCheckInUI"
+  },
+  {
+    "name": "addComment",
+    "type": "id",
+    "value": "C2_txtdesc"
+  },
+  {
+    "name": "chooseFileToCheckIn",
+    "type": "id",
+    "value": "C2_uploaddoc_fileUploadCtrl"
+  },
+  {
+    "name": "tableId",
+    "type": "id",
+    "value": "ctl00_C1_docgrid_GridHeader"
+  },
+  {
+    "name": "attachmentsGridData",
+    "type": "id",
+    "value": "ctl00_C1_docgrid_GridData"
+  }
+
+]

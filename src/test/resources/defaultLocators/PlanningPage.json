@@ -1,0 +1,102 @@
+[
+  {
+    "name": "planningDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Planning Dashboard')]"
+  },
+  {
+    "name": "projectDetailsTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Project Details')]"
+  },
+  {
+    "name": "plannedProjectsListTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Planned Projects')]"
+  },
+  {
+    "name": "planningModule",
+    "type": "css",
+    "value": "#MenuTabsUL a[aria-label='Planning']"
+  },
+  {
+    "name": "clickUnifierSyncButton",
+    "type": "id",
+    "value": "lnkUpdateUnifierData"
+  },
+  {
+    "name": "projectDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Project Dashboard')]"
+  },
+  {
+    "name": "selectUserComboBox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'ComboBoxUserSelection_Input')]"
+  },
+  {
+    "name": "generalDetailsTabInWorkflowMgmt",
+    "type": "xpath",
+    "value": "//*[contains(text(),'General Details')]"
+  },
+  {
+    "name": "allowEditingByNonActionStakeHoldersCheckBox",
+    "type": "xpath",
+    "value": "//div[@id='wf-definition-form']//input[@id='chkEnableEditByNonStakeHolder']/../label"
+  },
+  {
+    "name": "createdDateTextBox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'RDIPFCreateDate_dateInput') and @type='text']"
+  },
+  {
+    "name": "createdDateFilterOption",
+    "type": "xpath",
+    "value": "//input[contains(@id,'Filter_CreateDate') and @title='Filter']"
+  },
+  {
+    "name": "markProjectOffline",
+    "type": "id",
+    "value": "lnkMarkOffline"
+  },
+  {
+    "name": "offlineProjectUsersTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Offline Project Users')]"
+  },
+  {
+    "name": "addOfflineProject",
+    "type": "id",
+    "value": "C1_DGProjectOfflineUsers_ProjectUserPicker_btnShowPicker"
+  },
+  {
+    "name": "offlineProjectPicker",
+    "type": "xpath",
+    "value": "//div[@id='C1_DGProjectOfflineUsers_ProjectUserPicker_pickerContainer']"
+  },
+  {
+    "name": "addOfflineProjectContainer",
+    "type": "id",
+    "value": "C1_DGProjectOfflineUsers_ProjectUserPicker_pickerContainer"
+  },
+  {
+    "name": "newFolderName",
+    "type": "xpath",
+    "value": "//input[(contains(@id,'txtfoldername'))]"
+  },
+  {
+    "name": "newFolderSave",
+    "type": "xpath",
+    "value": "//input[(contains(@id,'btnFolderOk'))]"
+  },
+  {
+    "name": "projectValue",
+    "type": "id",
+    "value": "igtxtPROJECT_ProjectValue_Id"
+  },
+  {
+    "name": "projectListTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Projects')]"
+  }
+]

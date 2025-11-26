@@ -1,0 +1,57 @@
+[
+  {
+    "name": "tableId",
+    "type": "id",
+    "value": "ctl00_C1_docgrid_ctl00"
+  },
+  {
+    "name": "headerId",
+    "type": "id",
+    "value": "ctl00_C1_docgrid_ctl00_Header"
+  },
+  {
+    "name": "attachementDataGridId",
+    "type": "id",
+    "value": "ctl00_C1_docgrid"
+  },
+  {
+    "name": "pickerId",
+    "type": "xpath",
+    "value": "//div[contains(@id,'aspPnlWF')]"
+  },
+  {
+    "name": "attachmentResultGridHeaderId",
+    "type": "id",
+    "value": "ctl00_C1_docgrid_GridHeader"
+  },
+  {
+    "name": "attachmentResultGridDataId",
+    "type": "id",
+    "value": "ctl00_C1_docgrid_ctl00"
+  },
+  {
+    "name": "documentInDocumentViewer",
+    "type": "xpath",
+    "value": "//div[contains(@id,'imageViewerDiv')]"
+  },
+  {
+    "name": "attachmentsGridData",
+    "type": "id",
+    "value": "ctl00_C1_docgrid_GridData"
+  },
+  {
+    "name": "attachmentsDeleteBtn",
+    "type": "xpath",
+    "value": "//input[starts-with(@id,'C') and contains(@id,'btnDelete') and @title='Delete']"
+  },
+  {
+    "name": "expandAttachments",
+    "type": "xpath",
+    "value": "//input[contains(@id , 'imgAttach') and @onClick]"
+  },
+  {
+    "name": "globalFundListDocuments",
+    "type": "xpath",
+    "value": "//a[@title='Global Fund List Documents']"
+  }
+]

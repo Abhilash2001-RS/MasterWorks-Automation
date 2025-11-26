@@ -1,0 +1,22 @@
+[
+  {
+    "name": "title",
+    "type": "id",
+    "value": "MEETSCH_MeetingTitle_Id"
+  },
+  {
+    "name": "meetingDate",
+    "type": "id",
+    "value": "MEETSCH_MeetingDate_Id_input"
+  },
+  {
+    "name": "startTime",
+    "type": "id",
+    "value": "igtxtMEETSCH_MeetingStartTime_Id"
+  },
+  {
+    "name": "endTime",
+    "type": "id",
+    "value": "igtxtMEETSCH_MeetingEndTime_Id"
+  }
+]

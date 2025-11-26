@@ -1,0 +1,102 @@
+[
+  {
+    "name": "programForecastDetailsTab",
+    "type": "xpath",
+    "value": "//a[@title = 'Forecast Details']"
+  },
+  {
+    "name": "scheduleGanttViewTab",
+    "type": "xpath",
+    "value": ".//a[.='Schedule - Gantt View']/.."
+  },
+  {
+    "name": "headerCellsXpath",
+    "type": "xpath",
+    "value": ".//table[contains(@class,'ui-grid-head-table')]//th[contains(@class,'ui-widget-header')]"
+  },
+  {
+    "name": "contentRowsXpath",
+    "type": "xpath",
+    "value": ".//table[@class='ui-selectable ui-grid-body-table']//tr[contains(@class,'rq-grid-row')]"
+  },
+  {
+    "name": "taskNameCell",
+    "type": "xpath",
+    "value": ".//td/div[contains(@class,'rq-grid-expander-text')]"
+  },
+  {
+    "name": "textContentCell",
+    "type": "xpath",
+    "value": ".//div[text() and not(contains(@class,'arrowContainer'))]"
+  },
+  {
+    "name": "getProjectCostValue",
+    "type": "id",
+    "value": "igtxtPROGRAM_ProjectCost_Id"
+  },
+  {
+    "name": "programDynamicGridIdInProgram",
+    "type": "id",
+    "value": "DGPlanningPrograms"
+  },
+  {
+    "name": "projectDynamicGridIdInProgram",
+    "type": "id",
+    "value": "DGPlanningProjects"
+  },
+  {
+    "name": "programCountInForm",
+    "type": "id",
+    "value": "PROGRAM_ProgramCount_Id_Text"
+  },
+  {
+    "name": "programCount",
+    "type": "id",
+    "value": "PROGRAM_ProgramCount_Id"
+  },
+  {
+    "name": "forecastPageGridId",
+    "type": "xpath",
+    "value": "//div[@id='gantt_container_grid']"
+  },
+  {
+    "name": "programGridCancel",
+    "type": "id",
+    "value": "C1_DGPlanningPrograms_ProgramPicker_btnCancel"
+  },
+  {
+    "name": "fieldSelection",
+    "type": "xpath",
+    "value": "//*[@title='Ready']"
+  },
+  {
+    "name": "workFlowStateTemplate",
+    "type": "xpath",
+    "value": "//div[@id='upWFlowContainer']//span[contains(text(),'%s')]"
+  },
+  {
+    "name": "programYearDropDown",
+    "type": "id",
+    "value": "PROGRAM_ProgramYear_Id"
+  },
+  {
+    "name": "remainingFundInForecast",
+    "type": "xpath",
+    "value": "//div[text()='Remaining Funds']"
+  },
+  {
+    "name": "attachmentTable",
+    "type": "id",
+    "value": "C1_ctl647_tblAttachments"
+  },
+  {
+    "name": "attachmentTableHeader",
+    "type": "id",
+    "value": "ctl00_C1_ctl639_gridAttachment_GridHeader"
+  },
+  {
+    "name": "deleteAttachment",
+    "type": "xpath",
+    "value": "//tr[starts-with(@id,'C1_ct') and contains(@id,'trAttachHeaderPanel')]/descendant::input[@title='Delete']"
+  }
+]

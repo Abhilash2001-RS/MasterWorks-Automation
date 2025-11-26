@@ -1,0 +1,57 @@
+[
+  {
+    "name": "forecastsDetailsTab",
+    "type": "xpath",
+    "value": "//a[.='Forecast Details']"
+  },
+  {
+    "name": "frozenDataTableBudgetForecast",
+    "type": "xpath",
+    "value": "//div[@class='ui-widget-content ui-body-frozen-div']"
+  },
+  {
+    "name": "forecastDataTable",
+    "type": "xpath",
+    "value": "//div[@class='ui-widget-content ui-grid-body']"
+  },
+  {
+    "name": "forecastCPHeader",
+    "type": "xpath",
+    "value": "//div[@class='ui-widget-header ui-grid-head']"
+  },
+  {
+    "name": "budgetForecastTableId",
+    "type": "id",
+    "value": "gantt_container_Table"
+  },
+  {
+    "name": "distributionChart",
+    "type": "id",
+    "value": "distributionchart"
+  },
+  {
+    "name": "maximizeChart",
+    "type": "id",
+    "value": "maximizebutton"
+  },
+  {
+    "name": "minimizeChart",
+    "type": "id",
+    "value": "minimizebutton"
+  },
+  {
+    "name": "closeChart",
+    "type": "id",
+    "value": "cancelbutton"
+  },
+  {
+    "name": "distributionChartWindow",
+    "type": "id",
+    "value": "distributionchartwindow"
+  },
+  {
+    "name": "distributionChartWindowCloseButton",
+    "type": "xpath",
+    "value": "//a[@aria-label='Close']"
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "name": "projectCodeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Code')]"
+  },
+  {
+    "name": "projectNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Name')]"
+  },
+  {
+    "name": "contractCodeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contract Code')]"
+  },
+  {
+    "name": "contractNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contract Name')]"
+  },
+  {
+    "name": "idLabel",
+    "type": "xpath",
+    "value": "\"//*[@id = 'PUNCLST_PunchListID_Id']//ancestor::tr//span[contains(text(),'ID')])"
+  },
+  {
+    "name": "initiatedByLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Initiated By')]"
+  },
+  {
+    "name": "punchItemLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Punch Item')]"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "createdOnLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Created On')]"
+  },
+  {
+    "name": "createdByLabel",
+    "type": "xpath",
+    "value": "\".//span[@id='PUNCLST_CreatedBy_Id']/../preceding-sibling::td/span[.='Created By'])"
+  },
+  {
+    "name": "linkedRecordsLabel",
+    "type": "xpath",
+    "value": "//strong[contains(text(),'Linked Records')]"
+  },
+  {
+    "name": "commentsLabel",
+    "type": "xpath",
+    "value": "//strong[contains(text(),'Comments')]"
+  },
+  {
+    "name": "attachmentsLabel",
+    "type": "xpath",
+    "value": "//strong[contains(text(),'Attachments')]"
+  },
+  {
+    "name": "dueDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Due Date')]"
+  },
+  {
+    "name": "punchItemBox",
+    "type": "xpath",
+    "value": "//input[contains(@name,'PUNCLST_PunchItem_Id')]"
+  },
+  {
+    "name": "commentsTxtBox",
+    "type": "xpath",
+    "value": "//textarea[@name ='ctl00$C1$CDGPunchListComments_Comments_Id']"
+  },
+  {
+    "name": "saveComments",
+    "type": "xpath",
+    "value": "//div[contains(@id,'CDGPunchListComments_EditTemplate')]//input[@value = 'Save']"
+  },
+  {
+    "name": "addButton",
+    "type": "xpath",
+    "value": "//div[@id='CDGPunchListComments']//input[@value='Add' and not(contains(@style,'display:none;'))]"
+  },
+  {
+    "name": "clearFilterButton",
+    "type": "xpath",
+    "value": "//a[@id='lnkClearCurrentFilter']"
+  },
+  {
+    "name": "projectDueDate",
+    "type": "id",
+    "value": "PUNCLST_DueDate_Id_input"
+  },
+  {
+    "name": "projectDueDateView",
+    "type": "id",
+    "value": "PUNCLST_DueDate_Id_Text"
+  },
+  {
+    "name": "gridLocatorComments",
+    "type": "id",
+    "value": "PUNCLST_CDGPunchListComments_id"
+  },
+  {
+    "name": "contractCodeContractSetup",
+    "type": "id",
+    "value": "CONTMGT_Code_Id_Text"
+  },
+  {
+    "name": "punchListTextView",
+    "type": "id",
+    "value": "PUNCLST_PunchItem_Id_Text"
+  },
+  {
+    "name": "contractCodePunchList",
+    "type": "id",
+    "value": "PUNCLST_ContractCode_Id"
+  },
+  {
+    "name": "detailReportOptionInReports",
+    "type": "xpath",
+    "value": "//a[@id]/span[contains(text(),'Details Report')]"
+  },
+  {
+    "name": "gridLocatorLabels",
+    "type": "id",
+    "value": "PunchListDetails"
+  },
+  {
+    "name": "mergeAndAttachPicker",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_SessionNotification_popup']/following-sibling::div"
+  },
+  {
+    "name": "mergeAndAttachPickerSelectAttachment",
+    "type": "id",
+    "value": "C2_mmMailMergeAndAttachControl_ddlMappingList"
+  },
+  {
+    "name": "mergeAndAttachPickerAttachBtn",
+    "type": "xpath",
+    "value": "//input[@id='C2_mmMailMergeAndAttachControl_btnMailMerge']"
+  },
+  {
+    "name": "mailMergeTitleAttachments",
+    "type": "xpath",
+    "value": "//div[contains(@id,'gridAttachment')]"
+  },
+  {
+    "name": "requiredMandatoryField",
+    "type": "xpath",
+    "value": "//span[contains(@style,'display: inline') and contains(text(),'Required')]"
+  },
+  {
+    "name": "commentsGridLocator",
+    "type": "id",
+    "value": "PUNCLST_CDGPunchListComments_id"
+  },
+  {
+    "name": "mailMergeAttachmentTable",
+    "type": "xpath",
+    "value": "//div[contains(@id,'upAttachments') and(not(contains(@id,'Work')))]"
+  },
+  {
+    "name": "mailMergeAttachmentTableTitleId",
+    "type": "xpath",
+    "value": "//div[contains(@id,'gridAttachment_GridHeader') and(not(contains(@id,'Work')))]"
+  },
+  {
+    "name": "linkedRecordAddBtn",
+    "type": "xpath",
+    "value": "//div[@id='PUNCLSTLinkToGrid']//input[@value='Add']"
+  },
+  {
+    "name": "searchResultsGridInLinkedRecordForm",
+    "type": "id",
+    "value": "ctl00_C1_gridResults"
+  }
+]

@@ -1,0 +1,417 @@
+[
+  {
+    "name": "submittalID",
+    "type": "xpath",
+    "value": "//div[@id='SUBMITL_SubmittalID_Id']/span"
+  },
+  {
+    "name": "projectCodePath",
+    "type": "id",
+    "value": "SUBMITL_ProjectCode_Id"
+  },
+  {
+    "name": "submitType",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Submittal Type')]"
+  },
+  {
+    "name": "projectNamePath",
+    "type": "id",
+    "value": "SUBMITL_ProjectName_Id"
+  },
+  {
+    "name": "createdBy",
+    "type": "id",
+    "value": "SUBMITL_CreatedBy_Id"
+  },
+  {
+    "name": "contractName",
+    "type": "id",
+    "value": "SUBMITL_ContractName_Id"
+  },
+  {
+    "name": "subOwner",
+    "type": "id",
+    "value": "SUBMITL_SubmittalOwner_Id"
+  },
+  {
+    "name": "createdDate",
+    "type": "id",
+    "value": "SUBMITL_CreatedDate_Id_Text"
+  },
+  {
+    "name": "subCont",
+    "type": "id",
+    "value": "C1_div_SUBMITL_SubContractor_Id"
+  },
+  {
+    "name": "viewSubContractor",
+    "type": "id",
+    "value": "lbl_SUBMITL_SubContractor_Id"
+  },
+  {
+    "name": "dueDate",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Due Date')]"
+  },
+  {
+    "name": "submittalPackage",
+    "type": "id",
+    "value": "SUBMITL_SubmittalPackageDisplay_Id"
+  },
+  {
+    "name": "specificationSection",
+    "type": "id",
+    "value": "SUBMITL_SpecificationSection_Id"
+  },
+  {
+    "name": "revisionNumber",
+    "type": "id",
+    "value": "SUBMITL_RevisionNumber_Id"
+  },
+  {
+    "name": "submittalTitle",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Submittal Title')]"
+  },
+  {
+    "name": "description",
+    "type": "id",
+    "value": "SUBMITL_Description_Id"
+  },
+  {
+    "name": "attachmentsSection",
+    "type": "xpath",
+    "value": "//tr[contains(@id,'trAttachmentCaption')]//strong[contains(text(),'Attachments')]"
+  },
+  {
+    "name": "linkedItems",
+    "type": "id",
+    "value": "SUBMITL_SUBMITLLinkTo_id"
+  },
+  {
+    "name": "submittalReview",
+    "type": "id",
+    "value": "SubmittalReview"
+  },
+  {
+    "name": "submittalApproval",
+    "type": "id",
+    "value": "SubmittalApproval"
+  },
+  {
+    "name": "submittalResponse",
+    "type": "xpath",
+    "value": "//table[@formdesignername='SubmittalResponse']"
+  },
+  {
+    "name": "approverComments",
+    "type": "xpath",
+    "value": "//table[@formdesignername='ApproverComments']"
+  },
+  {
+    "name": "closeDate",
+    "type": "xpath",
+    "value": "//table[@formdesignername='CloseDate']"
+  },
+  {
+    "name": "closedBy",
+    "type": "xpath",
+    "value": "//table[@formdesignername='ClosedBy']"
+  },
+  {
+    "name": "expandingReview",
+    "type": "xpath",
+    "value": "//span[@id='toggler2']/img"
+  },
+  {
+    "name": "expandingApproval",
+    "type": "xpath",
+    "value": "//span[@id='toggler1']/a/img"
+  },
+  {
+    "name": "submittalType",
+    "type": "id",
+    "value": "SUBMITL_SubmittalType_Id"
+  },
+  {
+    "name": "submittalTitleInput",
+    "type": "id",
+    "value": "SUBMITL_SubmittalTitle_Id"
+  },
+  {
+    "name": "dueDateInput",
+    "type": "id",
+    "value": "SUBMITL_DueDate_Id_input"
+  },
+  {
+    "name": "viewDueDate",
+    "type": "id",
+    "value": "SUBMITL_DueDate_Id_Text"
+  },
+  {
+    "name": "viewSpecificationSection",
+    "type": "id",
+    "value": "SUBMITL_SpecificationSection_Id_Text"
+  },
+  {
+    "name": "invite",
+    "type": "xpath",
+    "value": "//input[@value='Invite' and not(contains(@style,'display:none;'))]"
+  },
+  {
+    "name": "projOwnerEntryDropDown",
+    "type": "xpath",
+    "value": "//ul[@id='SUBMITLDiscussionControl_To_Id_taglist']/.."
+  },
+  {
+    "name": "savePopper",
+    "type": "xpath",
+    "value": "//div[@id='SUBMITLDiscussionControl_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "submittalResponseDropDrown",
+    "type": "id",
+    "value": "SUBMITL_SubmittalResponse_Id"
+  },
+  {
+    "name": "viewRevisionNumber",
+    "type": "id",
+    "value": "SUBMITL_RevisionNumber_Id"
+  },
+  {
+    "name": "viewSubmittalTitle",
+    "type": "id",
+    "value": "SUBMITL_SubmittalTitle_Id_Text"
+  },
+  {
+    "name": "openPackagePicker",
+    "type": "id",
+    "value": "C1_SubmittalPackageTriggerButton_SubmittalPackageTrigger_btnShowPicker"
+  },
+  {
+    "name": "packagePickerPath",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_SubmittalPackageTriggerButton_SubmittalPackageTrigger_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "editSubmittalPackage",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SubmittalPackageDisplay_Id')]"
+  },
+  {
+    "name": "viewDescription",
+    "type": "id",
+    "value": "SUBMITL_Description_Id_Text"
+  },
+  {
+    "name": "viewSubmittalType",
+    "type": "id",
+    "value": "SUBMITL_SubmittalType_Id_Text"
+  },
+  {
+    "name": "transmittalsCreated",
+    "type": "id",
+    "value": "SUBMITL_TransmittalsCreated_Id"
+  },
+  {
+    "name": "libraryManagementDashBoard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  },
+  {
+    "name": "transmittalSubject",
+    "type": "id",
+    "value": "TRSMITL_Subject_Id"
+  },
+  {
+    "name": "transmittalTo",
+    "type": "xpath",
+    "value": "//ul[@id='TRSMITL_ToUsers_Id_taglist']/../input"
+  },
+  {
+    "name": "transmittalTemplatePath",
+    "type": "xpath",
+    "value": "//ul[@id='TRSMITL_TransmittalTemplate_Id_taglist']/../input"
+  },
+  {
+    "name": "transmittalTemplate",
+    "type": "xpath",
+    "value": "//ul[@id='TRSMITL_TransmittalTemplate_Id_listbox']//span"
+  },
+  {
+    "name": "viewTransmittalsCreated",
+    "type": "id",
+    "value": "SUBMITL_TransmittalsCreated_Id"
+  },
+  {
+    "name": "selectingSubContractorPath",
+    "type": "xpath",
+    "value": "//ul[@id='SUBMITL_SubContractor_Id_listbox']//span"
+  },
+  {
+    "name": "reviewFrom",
+    "type": "id",
+    "value": "SUBMITLDiscussionControl_From_Disp_Id"
+  },
+  {
+    "name": "reviewDueDate",
+    "type": "id",
+    "value": "SUBMITLDiscussionControl_DueDate_Id_input"
+  },
+  {
+    "name": "reviewStatus",
+    "type": "id",
+    "value": "SUBMITLDiscussionControl_Status_Id_Text"
+  },
+  {
+    "name": "reviewMessage",
+    "type": "id",
+    "value": "SUBMITLDiscussionControl_Notes_Id"
+  },
+  {
+    "name": "reviewGrid",
+    "type": "id",
+    "value": "SUBMITL_SUBMITLDiscussionControl_id"
+  },
+  {
+    "name": "approverCommentsPath",
+    "type": "id",
+    "value": "SUBMITL_ApproverComments_Id"
+  },
+  {
+    "name": "approvalCloseDate",
+    "type": "id",
+    "value": "SUBMITL_CloseDate_Id_Text"
+  },
+  {
+    "name": "approvalClosedBy",
+    "type": "id",
+    "value": "SUBMITL_ClosedBy_Id"
+  },
+  {
+    "name": "viewApproverComments",
+    "type": "id",
+    "value": "SUBMITL_ApproverComments_Id_Text"
+  },
+  {
+    "name": "postReview",
+    "type": "xpath",
+    "value": "//a[contains(@onclick,'SUBMITL_SUBMITLDiscussionControl_id') and contains(@onclick, 'TogglePost') and contains(@title,'Post') and not( contains(@style,'display: none'))]//span"
+  },
+  {
+    "name": "undoPostBtn",
+    "type": "xpath",
+    "value": "//a[contains(@onclick,'SUBMITL_SUBMITLDiscussionControl_id') and contains(@onclick, 'TogglePost') and contains(@title,'Undo') and contains(@class,'Post')]/span"
+  },
+  {
+    "name": "undoRespondBtn",
+    "type": "xpath",
+    "value": "//a[contains(@onclick,'SUBMITL_SUBMITLDiscussionControl_id') and contains(@onclick, 'ToggleRespond') and contains(@title,'Undo') and contains(@class,'Respond')]/span"
+  },
+  {
+    "name": "editActionItem",
+    "type": "xpath",
+    "value": "//div[@id='SUBMITL_SUBMITLDiscussionControl_id']//td[contains(text(),'Open')]/following-sibling::td[not(@style='display:none')]/span[@class='textAreaLineBreaks']/.."
+  },
+  {
+    "name": "editActionItemField",
+    "type": "xpath",
+    "value": "//textarea[@id='txtAreaValue']"
+  },
+  {
+    "name": "reviewRespond",
+    "type": "xpath",
+    "value": "//a[contains(@onclick,'SUBMITL_SUBMITLDiscussionControl_id') and contains(@onclick, 'ToggleRespond')]/span"
+  },
+  {
+    "name": "recallBtn",
+    "type": "xpath",
+    "value": "//a[contains(@onclick,'SUBMITL_SUBMITLDiscussionControl_id') and contains(@onclick, 'ToggleRecall') and contains(@title,'Recall')]/span"
+  },
+  {
+    "name": "deleteBtn",
+    "type": "xpath",
+    "value": "//a[contains(@onclick,'SUBMITL_SUBMITLDiscussionControl_id') and contains(@onclick, 'Delete')]/span"
+  },
+  {
+    "name": "librarySubResponse",
+    "type": "id",
+    "value": "SBMLRSP_SubmittalResponse_Id"
+  },
+  {
+    "name": "linkedItemGrid",
+    "type": "id",
+    "value": "SUBMITLLinkTo"
+  },
+  {
+    "name": "submittalPicker",
+    "type": "xpath",
+    "value": "//*[(@id='SUBMITL_SUBMITLDiscussionControl_id')]"
+  },
+  {
+    "name": "linkedItemAddButton",
+    "type": "xpath",
+    "value": "//div[contains(@id,'SUBMITLLinkTo')]//input[@value='Add']"
+  },
+  {
+    "name": "linkedItemsFormTextBox",
+    "type": "xpath",
+      "value": "//input[@aria-describedby='ctl00_C1_cboModules_taglist']"
+  },
+  {
+    "name": "linkedItemsFormTextBoxSelectOption",
+    "type": "id",
+    "value": "ctl00_C1_cboModules"
+  },
+  {
+    "name": "formGridData",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_GridData"
+  },
+  {
+    "name": "linkedRecordFrame",
+    "type": "xpath",
+    "value": "//div[@id='overlayWindow']//iframe"
+  },
+  {
+    "name": "formGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_GridHeader"
+  },
+  {
+    "name": "linkedRecordsHeader",
+    "type": "xpath",
+    "value": "//strong[text()='Linked Records']"
+  },
+  {
+    "name": "linkedItemDeleteButton",
+    "type": "xpath",
+    "value": "//div[contains(@id,'SUBMITLLinkTo')]//input[@value='Delete']"
+  },
+  {
+    "name": "showButton",
+    "type": "xpath",
+    "value": "//*[@id='SUBMITL_SUBMITLDiscussionControl_id']//a[contains(@title,'Show')]"
+  },
+  {
+    "name": "hideButton",
+    "type": "xpath",
+    "value": "//*[@id='SUBMITL_SUBMITLDiscussionControl_id']//a[contains(@title,'Hide')]"
+  },
+  {
+    "name": "statusSelect",
+    "type": "xpath",
+    "value": "//div[@id='SUBMITL_SUBMITLDiscussionControl_id']//td[contains(text(),'Open')]"
+  },
+  {
+    "name": "linkedItemsTransmittals",
+    "type": "id",
+    "value": "TRSMITL_TRSMITLLinkTo_id"
+  },
+  {
+    "name": "searchResultsCheck",
+    "type": "id",
+    "value": "chkResult"
+  }
+]

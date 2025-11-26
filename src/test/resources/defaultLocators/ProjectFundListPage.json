@@ -1,0 +1,62 @@
+[
+  {
+    "name": "projectFundIdLabel",
+    "type": "xpath",
+    "value": "//span[.='Project Fund ID']"
+  },
+  {
+    "name": "fundSourceNameLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Name']"
+  },
+  {
+    "name": "fundSourceCodeLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Code']"
+  },
+  {
+    "name": "fundSourceCategoryLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Category']"
+  },
+  {
+    "name": "fundSourceTypeLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Type']"
+  },
+  {
+    "name": "availableAmountLabel",
+    "type": "xpath",
+    "value": "//span[.='Available Amount in Fund Source($)']"
+  },
+  {
+    "name": "remainingAmountLabel",
+    "type": "xpath",
+    "value": "//span[.='Remaining Amount in $']"
+  },
+  {
+    "name": "notesLabel",
+    "type": "xpath",
+    "value": "//span[.='Notes']"
+  },
+  {
+    "name": "fundSourceNameDropDown",
+    "type": "id",
+    "value": "FNDPRJT_FundName_Id"
+  },
+  {
+    "name": "notesTextBox",
+    "type": "id",
+    "value": "FNDPRJT_Notes_Id"
+  },
+  {
+    "name": "notesText",
+    "type": "id",
+    "value": "FNDPRJT_Notes_Id_Text"
+  },
+  {
+    "name": "reportPagePrintButton",
+    "type": "xpath",
+    "value": "//img[@title='Print Report']"
+  }
+]

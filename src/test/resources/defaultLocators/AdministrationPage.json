@@ -1,0 +1,33 @@
+[
+  {
+    "name": "administrationTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Administration')]"
+  },
+  {
+    "name": "mailBodyTemplateDropDown",
+    "type": "id",
+    "value": "SgAppSettings_3_2"
+  },
+  {
+    "name": "availableLinksInLeftTreePane",
+    "type": "xpath",
+    "value": "//a[@aria-level='2' or @aria-level='3']"
+  },
+  {
+    "name": "administrationLink",
+    "type": "xpath",
+    "value": "//a[@title='Administration']"
+  },
+  {
+    "name": "rolesDropDown",
+    "type": "xpath",
+    "value": "//input[@class='k-input clsRoles']"
+  },
+  {
+    "name": "userOptionInDropDown",
+    "type": "xpath",
+    "value": "//ul[@id='selRoles_listbox']//li[text()='User']"
+  }
+
+]

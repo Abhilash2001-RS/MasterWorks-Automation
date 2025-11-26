@@ -1,0 +1,67 @@
+[
+  {
+    "name": "nameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "contactNumberLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contact Number')]"
+  },
+  {
+    "name": "address1Label",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Address1')]"
+  },
+  {
+    "name": "address2Label",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Address2')]"
+  },
+  {
+    "name": "address3Label",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Address3')]"
+  },
+  {
+    "name": "cityLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'City')]"
+  },
+  {
+    "name": "stateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'State')]"
+  },
+  {
+    "name": "zipCodeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'ZipCode')]"
+  },
+  {
+    "name": "faxNumberLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Fax Number')]"
+  },
+  {
+    "name": "emailIDLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Email ID')]"
+  },
+  {
+    "name": "contractorLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contractor')]"
+  },
+  {
+    "name": "cityTextBox",
+    "type": "id",
+    "value": "CONTLST_City_Id"
+  },
+  {
+    "name": "nameTextBox",
+    "type": "id",
+    "value": "CONTLST_Name_Id"
+  }
+]

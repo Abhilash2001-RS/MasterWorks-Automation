@@ -1,0 +1,338 @@
+[
+  {
+    "name": "resourceId",
+    "type": "id",
+    "value": "ERESDIR_PersonalID_Id"
+  },
+  {
+    "name": "resourceFullName",
+    "type": "id",
+    "value": "ERESDIR_Name_Id"
+  },
+  {
+    "name": "resourceTypeDropdown",
+    "type": "id",
+    "value": "ERESDIR_ResourceType_Id"
+  },
+  {
+    "name": "resourceDepartment",
+    "type": "id",
+    "value": "ERESDIR_Department_Id"
+  },
+  {
+    "name": "resourceTypeDropdownData",
+    "type": "xpath",
+    "value": "//select[contains(@id,'ERESDIR_ResourceType_Id')]//option[not(contains(@value,'_DBNULL_'))]"
+  },
+  {
+    "name": "reportingManagerPicker",
+    "type": "xpath",
+    "value": "//input[contains(@id,'ManagerPicker_btnShowPicker')]"
+  },
+  {
+    "name": "fullNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Full Name')]"
+  },
+  {
+    "name": "resourceIDLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Resource ID')]"
+  },
+  {
+    "name": "resourceTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Resource Type')]"
+  },
+  {
+    "name": "departmentTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Department')]"
+  },
+  {
+    "name": "workingHoursPerDayLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Working Hours per Day')]"
+  },
+  {
+    "name": "reportingManagerLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Reporting Manager')]"
+  },
+  {
+    "name": "businessUnitLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Business Unit')]"
+  },
+  {
+    "name": "userNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'User Name')]"
+  },
+  {
+    "name": "addressLabelFirst",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Address Line 1')]"
+  },
+  {
+    "name": "addressLabelSecond",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Address Line 2')]"
+  },
+  {
+    "name": "addressLabelThird",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Address Line 3')]"
+  },
+  {
+    "name": "cityLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'City')]"
+  },
+  {
+    "name": "phoneNumberLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Phone Number')]"
+  },
+  {
+    "name": "faxNumberLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Fax Number')]"
+  },
+  {
+    "name": "emailIDLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Email ID')]"
+  },
+  {
+    "name": "stateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'State')]"
+  },
+  {
+    "name": "zipCodeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Zip Code')]"
+  },
+  {
+    "name": "eRDTitle",
+    "type": "xpath",
+    "value": "//*[@id='PageTabs_tabBar']//a"
+  },
+  {
+    "name": "resourceDepartmentValue",
+    "type": "xpath",
+    "value": "//*[contains(@id,'_ERESDIR_Department_Id_EmbeddedTree')]//li[contains(@class,'rtLI rtFirst')]"
+  },
+  {
+    "name": "workingHoursErrorMessage",
+    "type": "id",
+    "value": "C1_ctl39_ctl31"
+  },
+  {
+    "name": "workingHoursTxtBox",
+    "type": "id",
+    "value": "igtxtERESDIR_WorkingHours_Id"
+  },
+  {
+    "name": "emailErrorMessage",
+    "type": "id",
+    "value": "C1_ctl39_ctl178"
+  },
+  {
+    "name": "emailTextBox",
+    "type": "id",
+    "value": "ERESDIR_EmailID_Id"
+  },
+  {
+    "name": "phoneNumberErrorMessage",
+    "type": "id",
+    "value": "C1_ctl39_ctl162"
+  },
+  {
+    "name": "phoneTextBox",
+    "type": "id",
+    "value": "ERESDIR_PhoneNo_Id"
+  },
+  {
+    "name": "businessUnitId",
+    "type": "id",
+    "value": "ERESDIR_BusinessUnitID_Id"
+  },
+  {
+    "name": "businessUnitTable",
+    "type": "xpath",
+    "value": "//div[contains(@id,'_ERESDIR_BusinessUnitID_Id_EmbeddedTree')]/.."
+  },
+  {
+    "name": "businessUnitSpans",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ERESDIR_BusinessUnitID_Id_EmbeddedTree')]//span[@class='rtIn']"
+  },
+  {
+    "name": "resourceManagerPickerGrid",
+    "type": "xpath",
+    "value": "//div[contains(@id,'_ReportingManagerTrigger_ManagerPicker_pickerContainer')]"
+  },
+  {
+    "name": "reportingManagerPickerId",
+    "type": "id",
+    "value": "C1_ctl39_ReportingManagerTrigger_ManagerPicker_pickerContainer"
+  },
+  {
+    "name": "resourceDepartmentTable",
+    "type": "xpath",
+    "value": "//div[contains(@id,'_ERESDIR_Department_Id_EmbeddedTree')]/.."
+  },
+  {
+    "name": "resourceDepartmentSpans",
+    "type": "xpath",
+    "value": "//div[contains(@id,'_ERESDIR_Department_Id_EmbeddedTree')]//span[@class='rtIn']"
+  },
+  {
+    "name": "skillSetDescription",
+    "type": "id",
+    "value": "ResDirSkillSet_Description_Id"
+  },
+  {
+    "name": "skillSetExperience",
+    "type": "id",
+    "value": "ResDirSkillSet_Experience_Id"
+  },
+  {
+    "name": "skillSetLevel",
+    "type": "id",
+    "value": "ResDirSkillSet_Level_Id"
+  },
+  {
+    "name": "addSkillSetButton",
+    "type": "xpath",
+    "value": "//div[@id='ResDirSkillSet']//input[@value='Add']"
+  },
+  {
+    "name": "deleteSkillSetButton",
+    "type": "xpath",
+    "value": "//div[@id='ResDirSkillSet']//input[@value='Delete']"
+  },
+  {
+    "name": "saveSkillSetButton",
+    "type": "xpath",
+    "value": "//div[@id='ResDirSkillSet_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "cancelSkillSetButton",
+    "type": "xpath",
+    "value": "//div[@id='ResDirSkillSet_EditTemplate']//input[@value='Cancel']"
+  },
+  {
+    "name": "skillSetTab",
+    "type": "xpath",
+    "value": "//a[@title='Skill Set & Roles']"
+  },
+  {
+    "name": "detailsTab",
+    "type": "xpath",
+    "value": "//a[@title='Details']"
+  },
+  {
+    "name": "workDetailsTab",
+    "type": "xpath",
+    "value": "//a[@title='Working Day Exceptions']"
+  },
+  {
+    "name": "resourceTitleGrid",
+    "type": "id",
+    "value": "ctl00_C1_ctl39_ERESDIR_ResDirPersonnelTitle_id"
+  },
+  {
+    "name": "resourceUserName",
+    "type": "id",
+    "value": "C1_ctl39_UserTrigger_UserPicker_btnShowPicker"
+  },
+  {
+    "name": "departmentDropDown",
+    "type": "xpath",
+    "value": "//div[(@id='ERESDIR_Department_Id')]//span[(@class='rddtIcon')]"
+  },
+  {
+    "name": "userNamePicker",
+    "type": "xpath",
+    "value": "//input[contains(@name,'UserPicker$btnShowPicker')]"
+  },
+  {
+    "name": "userNamePickerTable",
+    "type": "xpath",
+    "value": "//div[contains(@id,'UserTrigger_UserPicker_pickerGrid')]/.."
+  },
+  {
+    "name": "userNamePickerTablelocator",
+    "type": "xpath",
+    "value": "//div[contains(@id,'UserTrigger_UserPicker_pickerGrid')]"
+  },
+  {
+    "name": "reportingManagerPickerTable",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ReportingManagerTrigger_ManagerPicker_pickerGrid')]/.."
+  },
+  {
+    "name": "reportingManagerPickerTablelocator",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ReportingManagerTrigger_ManagerPicker_pickerGrid')]"
+  },
+  {
+    "name": "userDetailsCancel",
+    "type": "xpath",
+    "value": "//input[contains(@id,'UserTrigger_UserPicker_btnCancel')]"
+  },
+  {
+    "name": "clearUserName",
+    "type": "id",
+    "value": "ERESDIR_UnlinkUserName_Id"
+  },
+  {
+    "name": "detailsReportResourceTitles",
+    "type": "xpath",
+    "value": "//span[contains(text(), 'RESOURCE TITLE')]"
+  },
+  {
+    "name": "skillSetResourceTitles",
+    "type": "xpath",
+    "value": "//strong[contains(text(), 'Resource title')]"
+  },
+  {
+    "name": "skillSetAndRoles",
+    "type": "id",
+    "value": "Id_Skill_Set_&_Roles"
+  },
+  {
+    "name": "titleID",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ERESDIR_ResDirPersonnelTitle_id_GridHeader')]/descendant::th[@data-column-control-type='TextBox']/a[text()='Title ID']"
+  },
+  {
+    "name": "viewTitleID",
+    "type": "xpath",
+    "value": "//div[contains(@id, 'VisibleReportContentct')]/descendant::span[text()='Title ID']"
+  },
+  {
+    "name": "reportResourceId",
+    "type": "xpath",
+    "value": "//span[text()='Resource ID:']"
+  },
+  {
+    "name": "listPageReportResourceId",
+    "type": "xpath",
+    "value": "//div[text()='Resource ID']"
+  },
+  {
+    "name": "listFormResourceId",
+    "type": "xpath",
+    "value": "//a[text()='Resource ID']"
+  },
+  {
+    "name": "filterDropDownList",
+    "type": "xpath",
+    "value": ".//*[@class='k-animation-container' and @aria-hidden='false']"
+  }
+
+]

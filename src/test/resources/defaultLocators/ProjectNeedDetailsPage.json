@@ -1,0 +1,52 @@
+[
+  {
+    "name": "titleFieldLbl",
+    "type": "id",
+    "value": "PRJNEDS_Name_Id_Text"
+  },
+  {
+    "name": "businessUnitLbl",
+    "type": "id",
+    "value": "PRJNEDS_BusinessUnit_Id_Text"
+  },
+  {
+    "name": "problemStatementLbl",
+    "type": "id",
+    "value": "PRJNEDS_AreaProblemStatement_Id_Text"
+  },
+  {
+    "name": "addressLbl",
+    "type": "id",
+    "value": "PRJNEDS_Address_Id_Text"
+  },
+  {
+    "name": "expectedCompletionMonthLbl",
+    "type": "id",
+    "value": "PRJNEDS_ExpectedCompletionMonth_Id_Text"
+  },
+  {
+    "name": "expectedCompletionYearLbl",
+    "type": "id",
+    "value": "PRJNEDS_ExpectedCompletionYear_Id_Text"
+  },
+  {
+    "name": "commentsLbl",
+    "type": "id",
+    "value": "PRJNEDS_Comments_Id_Text"
+  },
+  {
+    "name": "programYearLbl",
+    "type": "id",
+    "value": "PRJNEDS_ProgramYear_Id_Text"
+  },
+  {
+    "name": "estimatedCostLbl",
+    "type": "id",
+    "value": "igtxtPRJNEDS_EstimatedCost_Id_Text"
+  },
+  {
+    "name": "strategicGoalsLbl",
+    "type": "id",
+    "value": "lbl_PRJNEDS_StrategicGoals_Id_Text"
+  }
+]

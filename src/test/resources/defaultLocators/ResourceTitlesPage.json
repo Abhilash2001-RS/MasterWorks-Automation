@@ -1,0 +1,143 @@
+[
+  {
+    "name": "titleId",
+    "type": "id",
+    "value": "LIBLABR_ResItemID_Id"
+  },
+  {
+    "name": "resourceTitle",
+    "type": "id",
+    "value": "LIBLABR_Description_Id"
+  },
+  {
+    "name": "fixedPriceInDollar",
+    "type": "id",
+    "value": "igtxtLIBLABR_Rate_Id"
+  },
+  {
+    "name": "DirectPriceInUnit",
+    "type": "id",
+    "value": "igtxtLIBLABR_DirectPrice_Id"
+  },
+  {
+    "name": "inDirectPriceInUnit",
+    "type": "id",
+    "value": "igtxtLIBLABR_IndirectPrice_Id"
+  },
+  {
+    "name": "workingHoursPerDay",
+    "type": "id",
+    "value": "igtxtLIBLABR_WorkingHours_Id"
+  },
+  {
+    "name": "workingHoursPerDayErrorMessage",
+    "type": "xpath",
+    "value": ".//span[contains(text(),'Working Hours should be > 0 and <= 24 hrs')]"
+  },
+  {
+    "name": "workingHoursPerDayText",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Working Hours per Day')]"
+  },
+  {
+    "name": "currentResourceHavingTitleAddBtn",
+    "type": "id",
+    "value": "C1_CurrentPersonItem_UserDetailsPicker_btnShowPicker"
+  },
+  {
+    "name": "resourceTypeDropDown",
+    "type": "id",
+    "value": "LIBLABR_ResourceType_Id"
+  },
+  {
+    "name": "unitResourcePicker",
+    "type": "id",
+    "value": "C1_UnitTrigger_UnitPicker_btnShowPicker"
+  },
+  {
+    "name": "unitResourcePickerGrid",
+    "type": "xpath",
+    "value": "//div[@id='C1_UnitTrigger_UnitPicker_pickerContainer']"
+  },
+  {
+    "name": "currentResourceHavingTitleGridPicker",
+    "type": "xpath",
+    "value": "//div[@id='C1_CurrentPersonItem_UserDetailsPicker_pickerContainer']"
+  },
+  {
+    "name": "titleLabel",
+    "type": "xpath",
+    "value": "//table[@formdesignername='Description']//span[contains(text(),'Title')]"
+  },
+  {
+    "name": "unitLabel",
+    "type": "xpath",
+    "value": "//table[@formdesignername='SetUnit']//span[contains(text(),'Unit')]"
+  },
+  {
+    "name": "resourceTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Resource Type')]"
+  },
+  {
+    "name": "totalVariablePrice",
+    "type": "id",
+    "value": "igtxtLIBLABR_TotalVariablePrice_Id"
+  },
+  {
+    "name": "currentResourceHavingTitleGridId",
+    "type": "id",
+    "value": "ctl00_C1_LIBLABR_CurrentPersonItem_id"
+  },
+  {
+    "name": "currentResourceHavingTitleGridPickerId",
+    "type": "id",
+    "value": "C1_CurrentPersonItem_UserDetailsPicker_pickerContainer"
+  },
+  {
+    "name": "currentResourceHavingTitleLabel",
+    "type": "xpath",
+    "value": "//strong[contains(text(),'Current resources having title')]"
+  },
+  {
+    "name": "selectResourcePickerTitleLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Select Resource')]"
+  },
+  {
+    "name": "resourceIDGridColumnHeader",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_LIBLABR_CurrentPersonItem_id_GridHeader']/descendant::a[text()='Resource ID']"
+  },
+  {
+    "name": "resourceIDPickerColumnHeader",
+    "type": "xpath",
+    "value": "//div[@id='C1_CurrentPersonItem_UserDetailsPicker_pickerGrid']/descendant::span[text()='Resource ID']"
+  },
+  {
+    "name": "resourceTitlesDetailedReport",
+    "type": "xpath",
+    "value": "//div[@id='VisibleReportContentctl00_C1_rptvwrReport_ctl10']/descendant::div[text()='RESOURCE TITLES - DETAILS REPORT']"
+  },
+  {
+    "name": "titleIDLabel",
+    "type": "xpath",
+    "value": "//span[text()='Title ID']"
+  },
+  {
+    "name": "resourceTitlesListPageReport",
+    "type": "xpath",
+    "value": "//div[@id='VisibleReportContentctl00_C1_rptvwrReport_ctl10']/descendant::div[text()='RESOURCE TITLES - LIST REPORT']"
+  },
+  {
+    "name": "resourceTitlesBreadCrumb",
+    "type": "xpath",
+    "value": "//div[@id='listBreadCrumb']//a[(text()='Resource Titles')]"
+  },
+  {
+    "name": "resourceTitlesHeader",
+    "type": "xpath",
+    "value": "//ul[@id='PageTabs_tabBar']/descendant::a[text()='Resource Titles']"
+  }
+
+]

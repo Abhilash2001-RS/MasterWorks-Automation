@@ -1,0 +1,217 @@
+[
+  {
+    "name": "changeOrderItemsTab",
+    "type": "xpath",
+    "value": "//a[text()='Change Order Items']"
+  },
+  {
+    "name": "changeOrderDetailsTab",
+    "type": "xpath",
+    "value": "//a[text()='Change Order Details']"
+  },
+  {
+    "name": "payItemNoPickerButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'stdItemNumber_btnShowPicker')]"
+  },
+  {
+    "name": "selectAnItemPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'stdItemNumber_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "changeOrderNewButton",
+    "type": "id",
+    "value": "MainToolBar_lnkNew"
+  },
+  {
+    "name": "addCOItemButton",
+    "type": "xpath",
+    "value": "//*[text() = 'Add CO Item']"
+  },
+  {
+    "name": "newChangeOrderButton",
+    "type": "xpath",
+    "value": "//*[text() = 'New Change Order']"
+  },
+  {
+    "name": "modifyExistingItemButton",
+    "type": "xpath",
+    "value": "//*[text() = 'Modify Existing Item']"
+  },
+  {
+    "name": "changeOrderItemsNewButton",
+    "type": "id",
+    "value": "MainToolBar_lnkNewCO"
+  },
+  {
+    "name": "changeOrderPrioritySelect",
+    "type": "id",
+    "value": "C1_ddlPriority"
+  },
+  {
+    "name": "selectedOptionInPriority",
+    "type": "xpath",
+    "value": "//*[@id = 'C1_ddlPriority']//option[@selected = 'selected']"
+  },
+  {
+    "name": "payItemNoLabel",
+    "type": "xpath",
+    "value": "//span[.='Pay Item No.']"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[.='Description']"
+  },
+  {
+    "name": "unitLabel",
+    "type": "xpath",
+    "value": "//span[.='Unit']"
+  },
+  {
+    "name": "quantityLabel",
+    "type": "xpath",
+    "value": "//span[.='Quantity']"
+  },
+  {
+    "name": "unitPriceIn$",
+    "type": "xpath",
+    "value": "//span[.='Unit Price in $']"
+  },
+  {
+    "name": "payItemNoTextBox",
+    "type": "id",
+    "value": "C1_txtStandardItemNo"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "C1_txtItemDesc"
+  },
+  {
+    "name": "unitDropDown",
+    "type": "id",
+    "value": "C1_ddlUnit"
+  },
+  {
+    "name": "quantity",
+    "type": "id",
+    "value": "igtxtC1_wneQuantity"
+  },
+  {
+    "name": "unitPriceIn$TextBox",
+    "type": "id",
+    "value": "igtxtC1_wneUnitCost"
+  },
+  {
+    "name": "shortDescriptionTextBox",
+    "type": "xpath",
+    "value": "//*[contains(@id,'txtShortDesc')]"
+  },
+  {
+    "name": "nonContractToContractButton",
+    "type": "xpath",
+    "value": "//span[@class='rrbText' and text() = 'Non Contract to Contract']"
+  },
+  {
+    "name": "nonContractToContractPickerXpath",
+    "type": "xpath",
+    "value": "//div[@id='C1_ctl01_stdItemNumber_pickerContainer']"
+  },
+  {
+    "name": "nonContractToContractPickerSelectButton",
+    "type": "id",
+    "value": "C1_ctl01_stdItemNumber_btnSelect"
+  },
+  {
+    "name": "shortDescriptionTextBoxCCO",
+    "type": "id",
+    "value": "C1_txtShortDesc"
+  },
+  {
+    "name": "modifiedContractAmount",
+    "type": "id",
+    "value": "C1_lblAmtAftChng"
+  },
+  {
+    "name": "descriptionCCO",
+    "type": "id",
+    "value": "C1_txtDescLoc"
+  },
+  {
+    "name": "currentContractAmountLabel",
+    "type": "id",
+    "value": "C1_lblCurCntAmt"
+  },
+  {
+    "name": "originalContractDuration",
+    "type": "id",
+    "value" : "C1_lblOrgCntTime"
+  },
+  {
+    "name": "currentCalendarDays",
+    "type": "id",
+    "value": "C1_lblCurrentDaysValue"
+  },
+  {
+    "name": "beginningDate",
+    "type": "id",
+    "value": "C1_dtBeginDate_input"
+  },
+  {
+    "name": "currentCompletionDate",
+    "type": "id",
+    "value": "C1_lblCurrentEndDateValue"
+  },
+  {
+    "name": "additionalCalendarDays",
+    "type": "id",
+    "value": "igtxtC1_txtContractDays"
+  },
+  {
+    "name": "completionDateAfterChange",
+    "type": "id",
+    "value": "C1_dtEndDate_input"
+  },
+  {
+    "name": "changerOrderDate",
+    "type": "id",
+    "value": "C1_dtChngOrdDate_input"
+  },
+  {
+    "name": "pcoLink",
+    "type": "id",
+    "value": "C1_lnkPCO"
+  },
+  {
+    "name": "rfiLink",
+    "type": "id",
+    "value": "C1_lnkRFI"
+  },
+  {
+    "name": "budgetItemPicker",
+    "type": "id",
+    "value": "C1_btnShowItemPicker"
+  },
+  {
+    "name": "budgetItemPickerGrid",
+    "type": "xpath",
+    "value": ".//*[@id = 'C1_associateBudgetItem_pickerContainer']"
+  },
+  {
+    "name": "budgetItemTextBox",
+    "type": "id",
+    "value": "ctl00$C1$txtBudgetItem"
+  },
+  {
+    "name": "okButtonPicker",
+    "type": "xpath",
+    "value": "//div[not(contains(@id,'appWorkflow'))]//input[contains(@id,'Ok') and @value ='OK']"
+  },
+  {
+    "name": "attachmentLabel",
+    "type": "xpath",
+    "value": "//legend[.='Attachments']"
+  }
+]

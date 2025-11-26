@@ -1,0 +1,342 @@
+[
+  {
+    "name": "libraryDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Work Orders and Contracts')]"
+  },
+  {
+    "name": "masterContractCode",
+    "type": "id",
+    "value": "MSTRCNT_ContractCode_Id"
+  },
+  {
+    "name": "masterContractName",
+    "type": "id",
+    "value": "MSTRCNT_ContractName_Id"
+  },
+  {
+    "name": "masterContractCategory",
+    "type": "id",
+    "value": "MSTRCNT_ContractCategory_Id"
+  },
+  {
+    "name": "startDateTextBox",
+    "type": "id",
+    "value": "MSTRCNT_StartDate_Id_input"
+  },
+  {
+    "name": "endDateTextBox",
+    "type": "id",
+    "value": "MSTRCNT_EndDate_Id_input"
+  },
+  {
+    "name": "endDateTextInView",
+    "type": "xpath",
+    "value": "//*[@id='MSTRCNT_EndDate_Id_Text']"
+  },
+  {
+    "name": "solicitationReferenceNumber",
+    "type": "id",
+    "value": "MSTRCNT_SolicitationRefNumber_Id"
+  },
+  {
+    "name": "masterContractDescription",
+    "type": "id",
+    "value": "MSTRCNT_Description_Id"
+  },
+  {
+    "name": "ceilingValue",
+    "type": "id",
+    "value": "igtxtMSTRCNT_CurrentCeilingValue_Id"
+  },
+  {
+    "name": "ceilingValueInView",
+    "type": "xpath",
+    "value": "//*[@id='MSTRCNT_CurrentCeilingValue_Id']"
+  },
+  {
+    "name": "created",
+    "type": "id",
+    "value": "MSTRCNT_AUR_CreatedBy_Id"
+  },
+  {
+    "name": "createdOn",
+    "type": "id",
+    "value": "MSTRCNT_AUR_CreatedOn_Id"
+  },
+  {
+    "name": "priceListTab",
+    "type": "xpath",
+    "value": ".//*[@id='PageTabs_tabBar']//a[text()='Price List']"
+  },
+  {
+    "name": "masterContractDetailsTab",
+    "type": "xpath",
+    "value": ".//*[@id='PageTabs_tabBar']//a[text()='Master Contract Details']"
+  },
+  {
+    "name": "measurementSystem",
+    "type": "id",
+    "value": "MSTRCNT_MeasurementSystem_Id"
+  },
+  {
+    "name": "masterContractManagerPickerButton",
+    "type": "id",
+    "value": "C1_ManagerTrigger_ManagerPicker_btnShowPicker"
+  },
+  {
+    "name": "masterContractManagerPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_ManagerTrigger_ManagerPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "masterContractManagerText",
+    "type": "xpath",
+    "value": "//*[@id='MSTRCNT_ManagerName_Id']"
+  },
+  {
+    "name": "awardedConsultantPickerButton",
+    "type": "id",
+    "value": "C1_AwardedConsultantTrigger_AwardedConsultantPicker_btnShowPicker"
+  },
+  {
+    "name": "awardedConsultantText",
+    "type": "xpath",
+    "value": "//*[@id='MSTRCNT_AwardedConsultant_Id']"
+  },
+  {
+    "name": "awardedConsultantPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_AwardedConsultantTrigger_AwardedConsultantPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "tableHeaders",
+    "type": "xpath",
+    "value": "//div[@class='headerDiv']"
+  },
+  {
+    "name": "ceilingValueLabel",
+    "type": "xpath",
+    "value": "//*[.='Ceiling Value in $']"
+  },
+  {
+    "name": "ceilingValueWarning",
+    "type": "xpath",
+    "value": "//span[.='Ceiling value should be greater than zero.']"
+  },
+  {
+    "name": "ceilingValueExceedingWarning",
+    "type": "xpath",
+    "value": "//span[.='Ceiling Value should be less than 1,000,000,000,000']"
+  },
+  {
+    "name": "attachmentTable",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and not(contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "attachmentTableHeader",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and (contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "deleteAttachment",
+    "type": "xpath",
+    "value": "//*[contains(@id,'btnDelete') and not(contains(@id,'Attachment'))]"
+  },
+  {
+    "name": "downloadAttachment",
+    "type": "xpath",
+    "value": "//*[contains(@id,'btnDownload')]"
+  },
+  {
+    "name": "detailsReportTitle",
+    "type": "xpath",
+    "value": "//div[text()='MASTER CONTRACTS - DETAILS REPORT']"
+  },
+  {
+    "name": "listPageReportTitle",
+    "type": "xpath",
+    "value": "//div[text()='MASTER CONTRACTS - LIST REPORT']"
+  },
+  {
+    "name": "detailsReportRevisionTitle",
+    "type": "xpath",
+    "value": "//div[text()='MASTER CONTRACT REVISION - DETAILS REPORT']"
+  },
+  {
+    "name": "listPageReportRevisionTitle",
+    "type": "xpath",
+    "value": "//div[text()='MASTER CONTRACT REVISION - LIST REPORT']"
+  },
+  {
+    "name": "reportPagePrintButton",
+    "type": "xpath",
+    "value": "//img[@title='Print Report']"
+  },
+  {
+    "name": "emailMergePopUp",
+    "type": "xpath",
+    "value": "//*[@id='C2_pnlMailMergeAndEmail']"
+  },
+  {
+    "name": "recipientPicker",
+    "type": "xpath",
+    "value": "//*[@id='C2_mmMailMergeAndEmailControl_btnUsers']"
+  },
+  {
+    "name": "mailMergeConfigSelectionXpath",
+    "type": "xpath",
+    "value": "//*[@id='C2_mmMailMergeAndEmailControl_ddlMappingList']"
+  },
+  {
+    "name": "mailMergeBodyTemplateSelectionXpath",
+    "type": "xpath",
+    "value": "//*[@id='C2_mmMailMergeAndEmailControl_ddlMailBodyTemp']"
+  },
+  {
+    "name": "mailMergeSaveButtonXpath",
+    "type": "xpath",
+    "value": "//*[@id='C2_mmMailMergeAndEmailControl_btnMailMerge']"
+  },
+  {
+    "name": "awardedConsultantLabelXpath",
+    "type": "xpath",
+    "value": "//span[text()='Awarded Consultant']"
+  },
+  {
+    "name": "contractManagerLabelXpath",
+    "type": "xpath",
+    "value": "//span[text()='Contract Manager']"
+  },
+  {
+    "name": "startDateLabelXpath",
+    "type": "xpath",
+    "value": "//span[text()='Start Date']"
+  },
+  {
+    "name": "measurementSystemLabelXpath",
+    "type": "xpath",
+    "value": "//span[text()='Measurement System']"
+  },
+  {
+    "name": "endDateLabelXpath",
+    "type": "xpath",
+    "value": "//span[text()='End Date']"
+  },
+  {
+    "name": "categoryLabelXpath",
+    "type": "xpath",
+    "value": "//span[text()='Category']"
+  },
+  {
+    "name": "nameLabelXpath",
+    "type": "xpath",
+    "value": "//span[text()='Name']"
+  },
+  {
+    "name": "ceilingValueExceedingWarning",
+    "type": "xpath",
+    "value": "//span[.='Ceiling Value should be less than 1,000,000,000,000']"
+  },
+  {
+    "name": "payItemNoLabel",
+    "type": "xpath",
+    "value": "//span[text()='Pay Item No.']"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[text()='Description']"
+  },
+  {
+    "name": "unitLabel",
+    "type": "xpath",
+    "value": "//span[text()='Unit']"
+  },
+  {
+    "name": "workOrderDataGrid",
+    "type": "id",
+    "value": "ctl00_C1_MSTRCNT_grdContractWorkOrder_id_GridData"
+  },
+  {
+    "name": "payItemNoField",
+    "type": "id",
+    "value": "C1_txtStandardItemNo"
+  },
+  {
+    "name": "payItemUnitSelect",
+    "type": "id",
+    "value": "C1_ddlUnit"
+  },
+  {
+    "name": "originalCeilingValueLabel",
+    "type": "xpath",
+    "value": "//span[text()='Original Ceiling Value in $']"
+  },
+  {
+    "name": "originalCeilingValueField",
+    "type": "id",
+    "value": "igtxtMSTRCNT_OriginalCeilingValue_Id"
+  },
+  {
+    "name": "originalDateField",
+    "type": "id",
+    "value": "MSTRCNT_OriginalStartDate_Id_Text"
+  },
+  {
+    "name": "originalEndDateField",
+    "type": "id",
+    "value": "MSTRCNT_OriginalEndDate_Id_Text"
+  },
+  {
+    "name": "originalCeilingValueFieldInReport",
+    "type": "xpath",
+    "value": "//span[text() = 'Original Ceiling Value in $:']"
+  },
+  {
+    "name": "originalStartDateFieldInReport",
+    "type": "xpath",
+    "value": "//span[text() = 'Original Start Date:']"
+  },
+  {
+    "name": "originalEndDateFieldInReport",
+    "type": "xpath",
+    "value": "//span[text() = 'Original End Date:']"
+  },
+  {
+    "name": "descriptionTextField",
+    "type": "id",
+    "value": "C1_txtItemDesc"
+  },
+  {
+    "name": "unitPriceTextField",
+    "type": "xpath",
+    "value": "//input[contains(@id,'wneUnitCost') and @type='text' and not(contains(@id,'Final'))]"
+  },
+  {
+    "name": "attachmentsTitle",
+    "type": "xpath",
+    "value": "//tr[contains(@id,'trAttachmentCaption') and contains(@style,'block')]"
+  },
+  {
+    "name": "measurementSystemText",
+    "type": "xpath",
+    "value": "//select[@id='MSTRCNT_MeasurementSystem_Id']"
+  },
+  {
+    "name": "revisedStartDateField",
+    "type": "id",
+    "value": "MSTRCNT_StartDate_Id_Text"
+  },
+  {
+    "name": "revisedEndDateField",
+    "type": "id",
+    "value": "MSTRCNT_EndDate_Id_Text"
+  },
+  {
+    "name": "originalCeilingValueInMasterContractPage",
+    "type": "id",
+    "value": "igtxtMSTRCNT_OriginalCeilingValue_Id"
+  }
+]

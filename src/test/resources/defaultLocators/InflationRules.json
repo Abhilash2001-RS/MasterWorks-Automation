@@ -1,0 +1,52 @@
+[
+  {
+    "name": "libraryPage",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Library Management')]"
+  },
+  {
+    "name": "inflationRuleID",
+    "type": "id",
+    "value": "COESCRL_Name_Id"
+  },
+  {
+    "name": "inflationRuleDescription",
+    "type": "id",
+    "value": "COESCRL_Description_Id"
+  },
+  {
+    "name": "annualRate",
+    "type": "id",
+    "value": "igtxtCOESCRL_Percent_Id"
+  },
+  {
+    "name": "effectiveFromDate",
+    "type": "id",
+    "value": "COESCRL_EffectiveFromDate_Id_input"
+  },
+  {
+    "name": "inflationRulesList",
+    "type": "xpath",
+    "value": ".//*[contains(@id,'_MWGrid_GridData')]/table/tbody/tr/td[2]"
+  },
+  {
+    "name": "annualRateErrorMessage",
+    "type": "id",
+    "value": "C1_ctl64"
+  },
+  {
+    "name": "inflationRulesTab",
+    "type": "xpath",
+    "value": "//ul[@id='PageTabs_tabBar']/li/a[contains(text(),'Inflation Rules')]"
+  },
+  {
+    "name": "inflationRuleIDLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Inflation Rule ID')]"
+  },
+  {
+    "name": "annualInflationRateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Annual Inflation Rate in %')]"
+  }
+]

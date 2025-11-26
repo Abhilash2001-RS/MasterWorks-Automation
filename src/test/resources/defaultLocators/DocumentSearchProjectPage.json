@@ -1,0 +1,23 @@
+[
+  {
+    "name": "documentPropertyField",
+    "type": "xpath",
+    "value": "//select[contains(@id,'C1_ddlDocumentProperty')]"
+  },
+  {
+    "name": "documentTitleField",
+    "type": "xpath",
+    "value": ".//*[@id = 'C1_txtDesc']"
+  },
+  {
+    "name": "dateField",
+    "type": "xpath",
+    "value": "//input[contains(@id,'Id_input')]"
+  },
+  {
+    "name": "searchGridData",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_gridResults']//th[@class='rgHeader' and (not(contains(@style,'display:none')))]//a"
+  }
+
+]

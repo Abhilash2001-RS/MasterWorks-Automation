@@ -1,0 +1,317 @@
+[
+  {
+    "name": "portfolioCodeTextBox",
+    "type": "xpath",
+    "value": "//input[@clntid = 'PORTENT_PortfolioCode_Id']"
+  },
+  {
+    "name": "portfolioManagerClickButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'PortfolioManagerTrigger_PortfolioManagerPicker_btnShowPicker')]"
+  },
+  {
+    "name": "portfolioManagerPicker",
+    "type": "xpath",
+    "value": "//div[@id='C1_ctl24_PortfolioManagerTrigger_PortfolioManagerPicker_pickerContainer']/.."
+  },
+  {
+    "name": "portfolioDescTextBox",
+    "type": "xpath",
+    "value": "//textarea[@id='PORTENT_Description_Id']"
+  },
+  {
+    "name": "portfolioStartDate",
+    "type": "id",
+    "value": "PORTENT_StartDate_Id_input"
+  },
+  {
+    "name": "portfolioEndDate",
+    "type": "id",
+    "value": "PORTENT_EndDate_Id_input"
+  },
+  {
+    "name": "portfolioBudgetTextBox",
+    "type": "xpath",
+    "value": "//input[@id='igtxtPORTENT_Budget_Id']"
+  },
+  {
+    "name": "addProjectsButton",
+    "type": "xpath",
+    "value": "//input[@value='Add' and contains(@id,'PortfolioManagementProjects_ProjectsPicker_btnShowPicker')]"
+  },
+  {
+    "name": "addProgramsButton",
+    "type": "xpath",
+    "value": "//input[@value='Add' and contains(@id,'PortfolioManagementPrograms_ProgramsPicker_btnShowPicker')]"
+  },
+  {
+    "name": "addSubPortfolioButton",
+    "type": "xpath",
+    "value": "//input[@value='Add' and contains(@id,'PortfolioManagementSubPortfolios_PortfolioPicker')]"
+  },
+  {
+    "name": "deleteProjectsButton",
+    "type": "xpath",
+    "value": "//input[@value='Delete' and contains(@onclick,'PORTENT_PortfolioManagementProjects_id_data')]"
+  },
+  {
+    "name": "deleteProgramsButton",
+    "type": "xpath",
+    "value": "//input[@value='Delete' and contains(@onclick,'PORTENT_PortfolioManagementPrograms_id_data')]"
+  },
+  {
+    "name": "deleteSubPortfolioButton",
+    "type": "xpath",
+    "value": "//input[@value='Delete' and contains(@onclick,'PORTENT_PortfolioManagementSubPortfolios_id_data')]"
+  },
+  {
+    "name": "projectPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PortfolioManagementProjects_ProjectsPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "programPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PortfolioManagementPrograms_ProgramsPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "subPortfolioPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PortfolioManagementSubPortfolios_PortfolioPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "portfolioCodeLabel",
+    "type": "xpath",
+    "value": "//table[@formdesignername = 'PortfolioCode']/tbody/tr/td/span[contains(text(),'Portfolio Code')]"
+  },
+  {
+    "name": "projectNameTextBox",
+    "type": "xpath",
+    "value": "//textarea[contains(@id,'ProjectName')]"
+  },
+  {
+    "name": "projectsTableId",
+    "type": "id",
+    "value": "ctl00_C1_ctl24_PORTENT_PortfolioManagementProjects_id_ctl00"
+  },
+  {
+    "name": "projectsTableGridHeaderLocator",
+    "type": "id",
+    "value": "ctl00_C1_ctl24_PORTENT_PortfolioManagementProjects_id_GridHeader"
+  },
+  {
+    "name": "projectsGridLocator",
+    "type": "id",
+    "value": "ctl00_C1_ctl24_PORTENT_PortfolioManagementProjects_id_GridData"
+  },
+  {
+    "name": "programGridLocator",
+    "type": "id",
+    "value": "ctl00_C1_ctl24_PORTENT_PortfolioManagementPrograms_id_GridData"
+  },
+  {
+    "name": "subPortfolioGridLocator",
+    "type": "id",
+    "value": "ctl00_C1_ctl24_PORTENT_PortfolioManagementSubPortfolios_id_GridData"
+  },
+  {
+    "name": "programTableId",
+    "type": "id",
+    "value": "ctl00_C1_ctl24_PORTENT_PortfolioManagementPrograms_id_ctl00"
+  },
+  {
+    "name": "programTableGridHeaderLocator",
+    "type": "id",
+    "value": "ctl00_C1_ctl24_PORTENT_PortfolioManagementPrograms_id_GridHeader"
+  },
+  {
+    "name": "subPortfolioTableId",
+    "type": "id",
+    "value": "ctl00_C1_ctl24_PORTENT_PortfolioManagementSubPortfolios_id_ctl00"
+  },
+  {
+    "name": "subPortfolioTableGridHeaderLocator",
+    "type": "id",
+    "value": "ctl00_C1_ctl24_PORTENT_PortfolioManagementSubPortfolios_id_GridHeader"
+  },
+  {
+    "name": "portfolioStartDateView",
+    "type": "id",
+    "value": "PORTENT_StartDate_Id_Text"
+  },
+  {
+    "name": "portfolioEndDateView",
+    "type": "id",
+    "value": "PORTENT_EndDate_Id_Text"
+  },
+  {
+    "name": "enterpriseDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Enterprise Dashboard')]"
+  },
+  {
+    "name": "createdBy",
+    "type": "id",
+    "value": "PORTENT_CreatedBy_Id_Text"
+  },
+  {
+    "name": "createdOn",
+    "type": "id",
+    "value": "PORTENT_CreatedOn_Id_Text"
+  },
+  {
+    "name": "portfolioCodeField",
+    "type": "xpath",
+    "value": "//span[contains(@id,'PORTENT_PortfolioCode_Id')]"
+  },
+  {
+    "name": "portfolioManagerField",
+    "type": "id",
+    "value": "PORTENT_PortfolioManager_Id_Text"
+  },
+  {
+    "name": "portfolioDescField",
+    "type": "id",
+    "value": "PORTENT_Description_Id_Text"
+  },
+  {
+    "name": "portfolioStartDateField",
+    "type": "id",
+    "value": "PORTENT_StartDate_Id_Text"
+  },
+  {
+    "name": "portfolioEndDateField",
+    "type": "id",
+    "value": "PORTENT_EndDate_Id_Text"
+  },
+  {
+    "name": "portfolioBudgetField",
+    "type": "xpath",
+    "value": "//input[@type = 'text' and @id='igtxtPORTENT_Budget_Id']"
+  },
+  {
+    "name": "attachmentTitle",
+    "type": "xpath",
+    "value": "//*[@id='ctl00_C1_ctl26_gridAttachment_ctl00__0']//textarea"
+  },
+  {
+    "name": "attachmentGrid",
+    "type": "id",
+    "value": "ctl00_C1_ctl26_gridAttachment_GridData"
+  },
+  {
+    "name": "attachmentTable",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and not(contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "attachmentTableHeader",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and (contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "deleteAttachment",
+    "type": "xpath",
+    "value": "//*[contains(@id,'btnDelete') and not(contains(@id,'Attachment'))]"
+  },
+  {
+    "name": "downloadButton",
+    "type": "xpath",
+    "value": "//input[contains(@name,'Download')]"
+  },
+  {
+    "name": "tableId",
+    "type": "id",
+    "value": "G_C1xdocgrid"
+  },
+  {
+    "name": "documentInDocumentViewer",
+    "type": "xpath",
+    "value": "//div[contains(@id,'imageViewerDiv')]"
+  },
+  {
+    "name": "annotation",
+    "type": "id",
+    "value": "annotationsMenuItem"
+  },
+  {
+    "name": "loadingBanner",
+    "type": "id",
+    "value": "dlgLoading_ProgressBar"
+  },
+  {
+    "name": "viewAttachments",
+    "type": "xpath",
+    "value": "//span[contains(@id,'lnkView')]//img[@src = '/Images/Officebar/Icn_View.png']"
+  },
+  {
+    "name": "checkbox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'MultiSelectCheckBox') and not(contains(@onclick,'_selectAllRows'))]"
+  },
+  {
+    "name": "noRecordsFoundDiv",
+    "type": "xpath",
+    "value": ".//div[contains(text(),'No records to display')]"
+  },
+  {
+    "name": "collapseButton",
+    "type": "xpath",
+    "value": "//a[@title='collapse']"
+  },
+  {
+    "name": "fundManagementLeftPlaneTree",
+    "type": "xpath",
+    "value": "//nobr[contains(text(),'Fund Transaction')]"
+  },
+  {
+    "name": "portfolioTreeTab",
+    "type": "id",
+    "value": "Id_Portfolio_Tree"
+  },
+  {
+    "name": "selectAllRecordsProgram",
+    "type": "xpath",
+    "value": "//input[contains(@id,'PortfolioManagementPrograms_ProgramsPicker_btnSelAll')]"
+  },
+  {
+    "name": "expandButton",
+    "type": "xpath",
+    "value": "//a[@title='expand']"
+  },
+  {
+    "name": "reportImage",
+    "type": "xpath",
+    "value": "//tr[@valign='top']//td//div//img"
+  },
+  {
+    "name": "getPortfolioBudgetValue",
+    "type": "id",
+    "value": "igtxtPORTENT_Budget_Id"
+  },
+  {
+    "name": "portfolioDetailsTab",
+    "type": "id",
+    "value": "Id_Details"
+  },
+  {
+    "name": "radGridHeaderAttachments",
+    "type": "id",
+    "value": "ctl00_C1_docgrid_GridHeader"
+  },
+  {
+    "name": "portfolioFavorite",
+    "type": "id",
+    "value": "favoritesTrigger"
+  },
+  {
+    "name": "addPortfolioFavorite",
+    "type": "id",
+    "value": "btnFavAdd"
+  },
+  {
+    "name": "highLightPortfolio",
+    "type": "xpath",
+    "value": "//div[@id='treeWrapper']//nobr[.='Portfolio']/parent::a"
+  }
+]

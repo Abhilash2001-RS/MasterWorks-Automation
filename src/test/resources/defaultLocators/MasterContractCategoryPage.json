@@ -1,0 +1,62 @@
+[
+  {
+    "name": "categoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Category')]"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "categoryTextBox",
+    "type": "id",
+    "value": "MCONCAT_MasterContractCategory_Id"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "MCONCAT_CatDescription_Id"
+  },
+  {
+    "name": "categoryTextLabel",
+    "type": "id",
+    "value": "MCONCAT_MasterContractCategory_Id_Text"
+  },
+  {
+    "name": "descriptionTextLabel",
+    "type": "id",
+    "value": "MCONCAT_CatDescription_Id_Text"
+  },
+  {
+    "name": "allowMasterContractApprovalText",
+    "type": "xpath",
+    "value": "//span[.='Allow Master Contract Approval Without Item(s)']"
+  },
+  {
+    "name": "allowMasterContractApprovalCheckbox",
+    "type": "id",
+    "value": "MCONCAT_PriceListItemCheck_Id"
+  },
+  {
+    "name": "allowNewItemsInWOApprovalText",
+    "type": "xpath",
+    "value": "//span[.='Allow New Item(s) in Work Order']"
+  },
+  {
+    "name": "allowNewItemsInWOApprovalCheckbox",
+    "type": "id",
+    "value": "MCONCAT_NewItemCheck_Id"
+  },
+  {
+    "name": "allowUnitPriceChangeCheckbox",
+    "type": "id",
+    "value": "MCONCAT_UnitPriceChangeCheck_Id"
+  },
+  {
+    "name": "allowUnitPriceChangeText",
+    "type": "xpath",
+    "value": "//span[.='Allow Unit Price Change for Master Contract Item(s)']"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "enterpriseDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Enterprise Dashboard')]"
+  }
+]

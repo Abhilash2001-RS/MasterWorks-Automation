@@ -1,0 +1,52 @@
+[
+  {
+    "name": "scheduleTemplateNameField",
+    "type": "id",
+    "value": "LIBSCHT_Name_Id"
+  },
+  {
+    "name": "scheduleTemplateDescriptionField",
+    "type": "id",
+    "value": "LIBSCHT_Description_Id"
+  },
+  {
+    "name": "taskNameField",
+    "type": "id",
+    "value": "C1_txtStandardItemNo"
+  },
+  {
+    "name": "scheduleTemplateHeaderName",
+    "type": "xpath",
+    "value": "//ul[@id='PageTabs_tabBar']/descendant::a[@role='tab']"
+  },
+  {
+    "name": "scheduleTemplateNameFieldInViewMode",
+    "type": "id",
+    "value": "LIBSCHT_Name_Id_Text"
+  },
+  {
+    "name": "scheduleTemplateDescriptionFieldInViewMode",
+    "type": "id",
+    "value": "LIBSCHT_Description_Id_Text"
+  },
+  {
+    "name": "defaultTaskNameEditField",
+    "type": "xpath",
+    "value": "//div[@class='rq-grid-expander-text']/input"
+  },
+  {
+    "name": "scheduleGridHeader",
+    "type": "xpath",
+    "value": "//div[@id='gantt_container_Table']/descendant::table[@class='ui-widget-header ui-grid-head-table']/descendant::th"
+  },
+  {
+    "name": "scheduleTaskPickerHeader",
+    "type": "xpath",
+    "value": "//div[starts-with(@id,'C') and contains(@id,'pnlTaskPicker')]/descendant::th[not(contains(@style,'display: none') or contains(@style,'display:none'))]"
+  },
+  {
+    "name": "scheduleTaskPickerID",
+    "type": "id",
+    "value": "C1_pnlTaskPicker"
+  }
+]

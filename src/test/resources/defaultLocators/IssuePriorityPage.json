@@ -1,0 +1,27 @@
+[
+  {
+    "name": "libraryManagementDashBoard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  },
+  {
+    "name": "priorityField",
+    "type": "id",
+    "value": "ISSPRTY_Priority_Id"
+  },
+  {
+    "name": "description",
+    "type": "id",
+    "value": "ISSPRTY_Description_Id"
+  },
+  {
+    "name": "sequence",
+    "type": "id",
+    "value": "ISSPRTY_Sequence_Id"
+  },
+  {
+    "name": "sequenceLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Sequence')]"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "snpshtDscrptnPopUp",
+    "type": "id",
+    "value": "SnapshotNotes_pnlNotes"
+  },
+  {
+    "name": "snpshtDscrptnPopUpTitle",
+    "type": "xpath",
+    "value": "//div[@role='dialog']//span[@role='heading']"
+  },
+  {
+    "name": "snpshtDscrptnOkBtn",
+    "type": "id",
+    "value": "SnapshotNotes_btnOk"
+  },
+  {
+    "name": "snpshtDscrptnTxtBox",
+    "type": "id",
+    "value": "SnapshotNotes_txtNotes"
+  },
+  {
+    "name": "snapShotHeaderColumns",
+    "type": "xpath",
+    "value": "//div[contains(@class,'ui-grid-head-parent')]"
+  },
+  {
+    "name": "snapShotBody",
+    "type": "xpath",
+    "value": "//div[contains(@class,'ui-widget-content ui-body-frozen-div')]"
+  }
+]

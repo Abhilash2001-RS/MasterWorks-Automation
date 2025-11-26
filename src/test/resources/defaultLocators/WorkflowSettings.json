@@ -1,0 +1,7 @@
+[
+  {
+    "name": "overrideWorkflowProcessWaitTime",
+    "type": "xpath",
+    "value": "//input[@id='SgAppSettings_OverrideWorkflowProcessWaitTime_Value_Id']"
+  }
+]

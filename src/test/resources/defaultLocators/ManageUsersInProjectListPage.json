@@ -1,0 +1,97 @@
+[
+  {
+    "name": "selectUserComboBoxID",
+    "type": "id",
+    "value": "ComboBoxUserSelection"
+  },
+  {
+    "name": "existingProjectsGrid",
+    "type": "id",
+    "value": "ctl00_C1_grdProjectsWithRoles_ctl00"
+  },
+  {
+    "name": "addProjectsGrid",
+    "type": "id",
+    "value": "ctl00_C1_grdNewProjects"
+  },
+  {
+    "name": "addProjectsButton",
+    "type": "id",
+    "value": "C1_btnProjectPicker"
+  },
+  {
+    "name": "deleteProjectsButton",
+    "type": "id",
+    "value": "C1_btnRemoveNewProject"
+  },
+  {
+    "name": "selectUsersComboBoxInput",
+    "type": "id",
+    "value": "ComboBoxUserSelection_Input"
+  },
+  {
+    "name": "addProjectsPicker",
+    "type": "xpath",
+    "value": "//div[@id='C1_ProjectPicker_pickerContainer']"
+  },
+  {
+    "name": "addProjectsPicker",
+    "type": "xpath",
+    "value": "//div[@id='C1_ProjectPicker_pickerContainer']"
+  },
+  {
+    "name": "noMatchesMessageInSelectUser",
+    "type": "xpath",
+    "value": "//*[contains(text(),'No matches')]"
+  },
+  {
+    "name": "userDropDownLoading",
+    "type": "xpath",
+    "value": "//li[@class='rcbLoading']"
+  },
+  {
+    "name": "projectNameTextField",
+    "type": "id",
+    "value": "ctl00_C1_grdProjectsWithRoles_ctl00_ctl02_ctl02_FilterTextBox_ProjectName"
+  },
+  {
+    "name": "filterButtonId",
+    "type": "id",
+    "value": "ctl00_C1_grdProjectsWithRoles_ctl00_ctl02_ctl02_Filter_ProjectName"
+  },
+  {
+    "name": "equalToOption",
+    "type": "xpath",
+    "value": ".//span[text()='Equal To']"
+  },
+  {
+    "name": "existingProjectsMultiSelectCheckBox",
+    "type": "xpath",
+    "value": "//div[@id='C1_divProjectsWithRoles']//th/input[@type='checkbox']"
+  },
+  {
+    "name": "nextButtonInExistingProjectsGrid",
+    "type": "xpath",
+    "value": "//input[@title='Next Page']"
+  },
+  {
+    "name": "previousButtonInExistingProjectsGrid",
+    "type": "xpath",
+    "value": "//input[@title='Previous Page']"
+  },
+  {
+    "name": "isPrimaryCheckbox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'CBIsPrimary')]"
+  },
+  {
+    "name": "existingProjectsGridID",
+    "type": "id",
+    "value": "ctl00_C1_grdProjectsWithRoles"
+  },
+  {
+    "name": "savePendingForEdit",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Save pending for edited data.')]"
+  }
+]

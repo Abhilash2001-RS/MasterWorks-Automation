@@ -1,0 +1,12 @@
+[
+  {
+    "name": "budgetManagementReportsPath",
+    "type": "xpath",
+    "value": "//a[nobr='Budget Management']/following-sibling::ul//a[nobr='Reports']"
+  },
+  {
+    "name": "getReportList",
+    "type": "xpath",
+    "value": "//*[@id='ctl00_C1_MWGrid_ctl00']/tbody/tr/following-sibling::tr//td[not(contains(@class,'rgGroupCol') or contains(@style,'display:none;'))]"
+  }
+]

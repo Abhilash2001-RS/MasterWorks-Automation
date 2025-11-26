@@ -1,0 +1,232 @@
+[
+  {
+    "name": "checkBoxUnchecked",
+    "type": "xpath",
+    "value": "//td[.='Show Attributes']/following-sibling::td[not(@style='display:none;')]//input[not(@checked)]"
+  },
+  {
+    "name": "attributesTab",
+    "type": "xpath",
+    "value": "//a[@id='Id_Attributes']"
+  },
+  {
+    "name": "administrationTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Administration')]"
+  },
+  {
+    "name": "contractorType",
+    "type": "id",
+    "value": "CONTMGT_TypeOfContractID_Id"
+  },
+  {
+    "name": "contractorStatusXpath",
+    "type": "id",
+    "value": "CONTMGT_StatusId_Id"
+  },
+  {
+    "name": "contractorCodeXpath",
+    "type": "id",
+    "value": "CONTMGT_Code_Id"
+  },
+  {
+    "name": "contractorSystemXpath",
+    "type": "id",
+    "value": "CONTMGT_MeasSysID_Id"
+  },
+  {
+    "name": "contractorNameXpath",
+    "type": "id",
+    "value": "CONTMGT_Name_Id"
+  },
+  {
+    "name": "contractorTypeSelectedXpath",
+    "type": "xpath",
+    "value": "//select[@id='CONTMGT_TypeOfContractID_Id']//option[@value='1']"
+  },
+  {
+    "name": "newContractNameInCopyContractor",
+    "type": "id",
+    "value": "CPYCONT_NewContractName_Id"
+  },
+  {
+    "name": "newContractCodeInCopyContractor",
+    "type": "id",
+    "value": "CPYCONT_NewContractCode_Id"
+  },
+  {
+    "name": "projectNameToCopyContract",
+    "type": "id",
+    "value": "C1_ProjectNameTrigger_ProjectPicker_btnShowPicker"
+  },
+  {
+    "name": "projectSelectionPicker",
+    "type": "xpath",
+    "value": "//div[@id='C1_ProjectNameTrigger_ProjectPicker_pickerContainer']"
+  },
+  {
+    "name": "selectButtonInPicker",
+    "type": "xpath",
+    "value": "//input[@id='C1_ProjectNameTrigger_ProjectPicker_btnSelect']"
+  },
+  {
+    "name": "bidCode",
+    "type": "id",
+    "value": "CONTMGT_BidCode_Id"
+  },
+  {
+    "name": "bidName",
+    "type": "id",
+    "value": "CONTMGT_BidName_Id"
+  },
+  {
+    "name": "bidLettingDate",
+    "type": "id",
+    "value": "CONTMGT_BidLettingDate_Id_input"
+  },
+  {
+    "name": "bidAwardedDate",
+    "type": "id",
+    "value": "CONTMGT_BidAwardedDate_Id_input"
+  },
+  {
+    "name": "bidSection",
+    "type": "xpath",
+    "value": "//table[@formdesignername='BidDetailsLeftSec']"
+  },
+  {
+    "name": "bidEstimateName",
+    "type": "id",
+    "value": "importEstimateUC_ddlEstimate"
+  },
+  {
+    "name": "doneInBidEstimateSelection",
+    "type": "id",
+    "value": "btnDone"
+  },
+  {
+    "name": "closeInBidEstimateSelection",
+    "type": "xpath",
+    "value": "//button[@title='Close']"
+  },
+  {
+    "name": "bidCodeEntered",
+    "type": "id",
+    "value": "CONTMGT_BidCode_Id"
+  },
+  {
+    "name": "bidNameEntered",
+    "type": "id",
+    "value": "CONTMGT_BidName_Id"
+  },
+  {
+    "name": "bidLettingDateEntered",
+    "type": "id",
+    "value": "CONTMGT_BidLettingDate_Id_input"
+  },
+  {
+    "name": "bidAwardedDateEntered",
+    "type": "id",
+    "value": "CONTMGT_BidAwardedDate_Id_input"
+  },
+  {
+    "name": "contractManagementDiv",
+    "type": "id",
+    "value": "ctl00_C1_CONTCNF_FinalPEValidationsGrid_id_GridData"
+  },
+  {
+    "name": "contractManagementHeader",
+    "type": "id",
+    "value": "ctl00_C1_CONTCNF_FinalPEValidationsGrid_id_ctl00_Header"
+  },
+  {
+    "name": "keyContactsSection",
+    "type": "xpath",
+    "value": "//table[@formdesignername='KeyContactsSec']"
+  },
+  {
+    "name": "productEngineer",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Engineer')]"
+  },
+  {
+    "name": "residentEngineer",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Resident Engineer')]"
+  },
+  {
+    "name": "contractAdministrator",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contract Administrator')]"
+  },
+  {
+    "name": "contractUploadDocument",
+    "type": "xpath",
+    "value": "//input[@id='C1_ERP_CC_BODY_contractAttachments_UploadFileControl']"
+  },
+  {
+    "name": "contractCodeErrorMessage",
+    "type": "xpath",
+    "value": "//span[text()='Required!' and (not(contains(@style,'none')))]"
+  },
+  {
+    "name": "estimatePopUp",
+    "type": "id",
+    "value": "importEstimateUC_aspMainPanel"
+  },
+  {
+    "name": "engineerEstimateCheckBox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'chkEngEstimate')]"
+  },
+  {
+    "name": "selectEstimate",
+    "type": "xpath",
+    "value": "//select[contains(@id,'ddlEstimate')]"
+  },
+  {
+    "name": "selectAwardBid",
+    "type": "xpath",
+    "value": "//select[contains(@id,'ddlAwarded')]"
+  },
+  {
+    "name": "contractCalendarDays",
+    "type": "id",
+    "value": "igtxtCONTMGT_CTDays_Id"
+  },
+  {
+    "name": "contractStartDate",
+    "type": "id",
+    "value": "CONTMGT_Begin_Id_input"
+  },
+  {
+    "name": "contractClosureDate",
+    "type": "id",
+    "value": "CONTMGT_End_Id_input"
+  },
+  {
+    "name": "awardedBid",
+    "type": "id",
+    "value": "C1_ERP_CC_BODY_UpdatePaneA"
+  },
+  {
+    "name": "defaultRetentionPercentage",
+    "type": "id",
+    "value": "igtxtCONTCNF_DefaultRetentionPercent_Id"
+  },
+  {
+    "name": "showContractManagamenetFolderExpanded",
+    "type": "xpath",
+    "value": "//span[normalize-space()='Show Contract Management folder expanded']"
+  },
+  {
+    "name": "showContractManagamenetFolderExpandedCheckbox",
+    "type": "id",
+    "value": "SgAPPSettings_CONTMGTLoadTreeOnDemand_Value_Id"
+  },
+  {
+    "name": "finalPEConfigGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_CONTCNF_FinalPEValidationsGrid_id_GridHeader"
+  }
+]

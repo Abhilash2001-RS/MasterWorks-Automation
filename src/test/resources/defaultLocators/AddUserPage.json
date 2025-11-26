@@ -1,0 +1,162 @@
+[
+  {
+    "name": "addUserTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Add User')]"
+  },
+  {
+    "name": "usernameTxtBox",
+    "type": "id",
+    "value": "C1_txtUserID"
+  },
+  {
+    "name": "firstNameTxtBox",
+    "type": "id",
+    "value": "C1_txtFirstName"
+  },
+  {
+    "name": "passwordTxtBox",
+    "type": "id",
+    "value": "C1_txtPassword"
+  },
+  {
+    "name": "confirmPasswordTxtBox",
+    "type": "id",
+    "value": "C1_txtConfirmPassword"
+  },
+  {
+    "name": "newPasswordTxtBox",
+    "type": "id",
+    "value": "C1_txtNewPwd"
+  },
+  {
+    "name": "confirmNewPasswordTxtBox",
+    "type": "id",
+    "value": "C1_txtConfNewPwd"
+  },
+  {
+    "name": "emailTxtBox",
+    "type": "id",
+    "value": "C1_txtEmailID"
+  },
+  {
+    "name": "businessUnitComboBox",
+    "type": "id",
+    "value": "ctl00_C1_radddlBusinessUnitTree"
+  },
+  {
+    "name": "userTypeComboBox",
+    "type": "id",
+    "value": "ddlType"
+  },
+  {
+    "name": "selectUserListBox",
+    "type": "id",
+    "value": "C1_leftlist"
+  },
+  {
+    "name": "addARoleButton",
+    "type": "id",
+    "value": "C1_Addbutton"
+  },
+  {
+    "name": "removeARole",
+    "type": "id",
+    "value": "C1_Removebutton"
+  },
+  {
+    "name": "associatedRolesTable",
+    "type": "id",
+    "value": "C1_rightlist"
+  },
+  {
+    "name": "typeLabel",
+    "type": "xpath",
+    "value": "//span[contains(@id,'C1_lblUserType')]"
+  },
+  {
+    "name": "typeDropDown",
+    "type": "xpath",
+    "value": "//select[contains(@name,'ctl00$C1$ddlType')]/option"
+  },
+  {
+    "name": "vendorItem",
+    "type": "id",
+    "value": "divExternalCompanyList"
+  },
+  {
+    "name": "vendorDropItem",
+    "type": "xpath",
+    "value": "//ul[@id='lstExternalCompany_taglist']/li/span"
+  },
+  {
+    "name": "vendorTextBox",
+    "type": "xpath",
+    "value": "//input[contains(@aria-owns,'lstExternalCompany_taglist lstExternalCompany_listbox')]"
+  },
+  {
+    "name": "selectedVendor",
+    "type": "xpath",
+    "value": "//span[@class = 'MultiSelectDropdown-selected-value']"
+  },
+  {
+    "name": "spinningBanner",
+    "type": "xpath",
+    "value": "//span[contains(@class,'k-icon k-i-loading k-hidden')]"
+  },
+  {
+    "name": "vendorsList",
+    "type": "id",
+    "value": "lstExternalCompany-list"
+  },
+  {
+    "name": "errorMessage",
+    "type": "xpath",
+    "value": "//div[@id='C1_lblValidationResult']"
+  },
+  {
+    "name": "passwordError",
+    "type": "xpath",
+    "value": "//div[@id='C1_lblValidationResult']//li"
+  },
+  {
+  "name": "businessUnitLabel",
+  "type": "id",
+  "value": "C1_lblBusinessUnit"
+  },
+  {
+    "name": "statusDropdown",
+    "type": "id",
+    "value": "C1_cmbstatus"
+  },
+  {
+    "name": "getUsername",
+    "type": "id",
+    "value": "C1_txtUserID"
+  },
+  {
+    "name": "activityStatus",
+    "type": "id",
+    "value": "C1_dlblActive"
+  },
+  {
+    "name": "expiryDate",
+    "type": "id",
+    "value": "C1_webExpiryDate_input"
+  },
+  {
+    "name": "viewProfileUserName",
+    "type": "id",
+    "value": "C1_dlblUserID"
+  },
+  {
+    "name": "viewProfileFirstName",
+    "type": "id",
+    "value": "C1_dlblFirstName"
+  },
+  {
+    "name": "viewProfileEmail",
+    "type": "id",
+    "value": "C1_dlblEmailID"
+  }
+]

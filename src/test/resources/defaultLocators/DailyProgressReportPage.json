@@ -1,0 +1,262 @@
+[
+  {
+    "name": "itemPostingTab",
+    "type": "xpath",
+    "value": ".//*[contains(@title,'Item Posting')][contains(text(),'Item Posting')]"
+  },
+  {
+    "name": "dailyProgressReportDetailsTab",
+    "type": "xpath",
+    "value": ".//*[contains(@title,'Daily Progress Report Details')][contains(text(),'Daily Progress Report Details')]"
+  },
+  {
+    "name": "pickerGrid",
+    "type": "xpath",
+    "value": ".//*[@id = 'C1_ItemGrid_ItemPicker_pickerContainer']"
+  },
+  {
+    "name": "postingQuantityTextBox",
+    "type": "id",
+    "value": "ctl00_C1_ITMPOST_ItemGrid_id_ctl00_C1_ITMPOST_ItemGrid_id_ctl00_PostedQty_RNTB_PostedQty"
+  },
+  {
+    "name": "itemPostingQuantityCheckBox",
+    "type": "id",
+    "value": "DPRSETT_PostBeyondContractQuantity_Id"
+  },
+  {
+    "name": "allEditableFields",
+    "type": "xpath",
+    "value": ".//*[@id='ctl00_C1_ITMPOST_ItemGrid_id_ctl00__0']//td[contains(@idv,'')]/following-sibling::td[contains(@class,'gridInlineEditing')]"
+  },
+  {
+    "name": "locationTextBox",
+    "type": "id",
+    "value": "CONTDWR_Location_Id"
+  },
+  {
+    "name": "lowTempTextBox",
+    "type": "id",
+    "value": "CONTDWR_LowTemperature_Id"
+  },
+  {
+    "name": "highTempTextBox",
+    "type": "id",
+    "value": "CONTDWR_HighTemperature_Id"
+  },
+  {
+    "name": "skiesDropDown",
+    "type": "id",
+    "value": "CONTDWR_Weather_Id"
+  },
+  {
+    "name": "windDropDown",
+    "type": "id",
+    "value": "CONTDWR_Wind_Id"
+  },
+  {
+    "name": "precipitationDropDown",
+    "type": "id",
+    "value": "CONTDWR_Rain_Id"
+  },
+  {
+    "name": "soilDropDown",
+    "type": "id",
+    "value": "CONTDWR_Soil_Id"
+  },
+  {
+    "name": "workingConditionsDropDown",
+    "type": "id",
+    "value": "CONTDWR_WorkingConditions_Id"
+  },
+  {
+    "name": "addItemButton",
+    "type": "id",
+    "value": "C1_ItemGrid_ItemPicker_btnShowPicker"
+  },
+  {
+    "name": "contractOnsiteTable",
+    "type": "id",
+    "value": "ctl00_C1_CONTDWR_ContractorTime_id_ctl00"
+  },
+  {
+    "name": "contractorOnsiteTimeEndDate",
+    "type": "id",
+    "value": "ctl00_C1_ContractorTime_EndDateTime_ControlId_dateInput"
+  },
+  {
+    "name": "contractorOnSiteTableHeader",
+    "type": "id",
+    "value": "ctl00_C1_CONTDWR_ContractorTime_id_GridHeader"
+  },
+  {
+    "name": "equipmentTable",
+    "type": "id",
+    "value": "ctl00_C1_CONTDWR_Equipment_id_ctl00"
+  },
+  {
+    "name": "equipmentQuantityText",
+    "type": "id",
+    "value": "igtxtEquipment_EqpQuantity_Id"
+  },
+  {
+    "name": "equipmentTableHeader",
+    "type": "id",
+    "value": "ctl00_C1_CONTDWR_Equipment_id_GridHeader"
+  },
+  {
+    "name": "resourceTitleTable",
+    "type": "id",
+    "value": "ctl00_C1_CONTDWR_Personnel_id_ctl00"
+  },
+  {
+    "name": "resourceTitleQuantityText",
+    "type": "id",
+    "value": "igtxtPersonnel_LabQuantity_Id"
+  },
+  {
+    "name": "resourceTitleTableHeader",
+    "type": "id",
+    "value": "ctl00_C1_CONTDWR_Personnel_id_GridHeader"
+  },
+  {
+    "name": "materialsTable",
+    "type": "id",
+    "value": "ctl00_C1_CONTDWR_Materials_id_ctl00"
+  },
+  {
+    "name": "materialsQuantityText",
+    "type": "id",
+    "value": "igtxtMaterials_MatQuantity_Id"
+  },
+  {
+    "name": "materialsTableHeader",
+    "type": "id",
+    "value": "ctl00_C1_CONTDWR_Materials_id_GridHeader"
+  },
+  {
+    "name": "reportTitle",
+    "type": "xpath",
+    "value": "//tr/td//div[contains(text(),'DAILY PROGRESS REPORT')]"
+  },
+  {
+    "name": "reportTitleDetailsReport",
+    "type": "xpath",
+    "value": "//div[contains(text(),'DAILY PROGRESS REPORT - DETAILS REPORT')]"
+  },
+  {
+    "name": "postedItemTable",
+    "type": "id",
+    "value": "ctl00_C1_ITMPOST_ItemGrid_id_ctl00"
+  },
+  {
+    "name": "postedItemTableHeader",
+    "type": "id",
+    "value": "ctl00_C1_ITMPOST_ItemGrid_id_GridHeader"
+  },
+  {
+    "name": "isCompleteCheckbox",
+    "type": "id",
+    "value": "ctl00_C1_ITMPOST_ItemGrid_id_ctl00_ctl04_cbControlIsCompleteCheck"
+  },
+  {
+    "name": "itemsPostedDiv",
+    "type": "id",
+    "value": "ctl00_C1_ITMPOST_ItemGrid_id"
+  },
+  {
+    "name": "soilTypeText",
+    "type": "id",
+    "value": "CONTDWR_Soil_Id_Text"
+  },
+  {
+    "name": "dprNumberView",
+    "type": "xpath",
+    "value": "//div[@id='CONTDWR_DPRNumber_Id']/span"
+  },
+  {
+    "name": "dateOfDPR",
+    "type": "id",
+    "value": "CONTDWR_WorkDate_Id_input"
+  },
+  {
+    "name": "linkDocument",
+    "type": "xpath",
+    "value": "//input[contains(@id,'LinkDocument')]"
+  },
+  {
+    "name": "externalDocument",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SelectDocMode_1') and not(contains(@id,'app'))]"
+  },
+  {
+    "name": "okButton",
+    "type": "xpath",
+    "value": "//input[@value='OK' and (not(contains(@id,'app')) and not(contains(@id,'Cancel')))]"
+  },
+  {
+    "name": "documentTable",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and not(contains(@id,'Header')) and not(contains(@id,'appWorkflow'))]"
+  },
+  {
+    "name": "documentTableHeader",
+    "type": "xpath",
+    "value": "//div[contains(@id,'gridAttachment_GridHeader') and not(contains(@id,'appWorkflow'))]"
+  },
+  {
+    "name": "itemQuantityChecboxLabel",
+    "type": "xpath",
+    "value": "//label[@for='DPRSETT_PostBeyondContractQuantity_Id']"
+  },
+  {
+    "name": "createdByLabel",
+    "type": "xpath",
+    "value": "//span[text()='Created By']"
+  },
+  {
+    "name": "linkedRecordsGridID",
+    "type": "id",
+    "value": "CONTDWR_CONTDWRLinkToGrid_id"
+  },
+  {
+    "name": "linkedItemAddButton",
+    "type": "xpath",
+    "value": "//div[contains(@id,'CONTDWRLinkToGrid')]//input[@value='Add']"
+  },
+  {
+    "name": "linkedItemsFormTextBox",
+    "type": "xpath",
+    "value": "//input[@aria-describedby='ctl00_C1_cboModules_taglist']"
+  },
+  {
+    "name": "linkedItemsFormTextBoxSelectOption",
+    "type": "id",
+    "value": "ctl00_C1_cboModules"
+  },
+  {
+    "name": "formGridData",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_GridData"
+  },
+  {
+    "name": "linkedRecordFrame",
+    "type": "xpath",
+    "value": "//div[@id='overlayWindow']//iframe"
+  },
+  {
+    "name": "formGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_GridHeader"
+  },
+  {
+    "name": "linkedRecordsHeader",
+    "type": "xpath",
+    "value": "//strong[text()='Linked Records']"
+  },
+  {
+    "name": "linkedItemDeleteButton",
+    "type": "xpath",
+    "value": "//div[contains(@id,'CONTDWRLinkToGrid')]//input[@value='Delete']"
+  }
+]

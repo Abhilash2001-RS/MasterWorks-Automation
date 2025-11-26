@@ -1,0 +1,22 @@
+[
+  {
+    "name": "libraryManagementDashBoard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  },
+  {
+    "name": "riskColorTextBox",
+    "type": "id",
+    "value": "RISKCLG_ColorId_Id"
+  },
+  {
+    "name": "riskGradeMinimumRiskTextBox",
+    "type": "id",
+    "value": "RISKCLG_Min_Id"
+  },
+  {
+    "name": "riskGradeMaximumRiskTextBox",
+    "type": "id",
+    "value": "RISKCLG_Max_Id"
+  }
+]

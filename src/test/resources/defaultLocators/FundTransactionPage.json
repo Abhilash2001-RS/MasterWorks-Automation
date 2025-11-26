@@ -1,0 +1,87 @@
+[
+  {
+    "name": "transactionIdLabel",
+    "type": "xpath",
+    "value": "//span[.='Transaction ID']"
+  },
+  {
+    "name": "fundSourceNameLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Name']"
+  },
+  {
+    "name": "fundSourceCodeLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Code']"
+  },
+  {
+    "name": "fundSourceCategoryLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Category']"
+  },
+  {
+    "name": "fundSourceTypeLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Type']"
+  },
+  {
+    "name": "transactionTypeLabel",
+    "type": "xpath",
+    "value": "//span[.='Transaction Type']"
+  },
+  {
+    "name": "transactionDateLabel",
+    "type": "xpath",
+    "value": "//span[.='Transaction Date']"
+  },
+  {
+    "name": "availableAmountInFundSourceLabel",
+    "type": "xpath",
+    "value": "//span[.='Available Amount in Fund Source($)']"
+  },
+  {
+    "name": "amountLabel",
+    "type": "xpath",
+    "value": "//span[.='Amount in $']"
+  },
+  {
+    "name": "notesLabel",
+    "type": "xpath",
+    "value": "//span[.='Notes']"
+  },
+  {
+    "name": "fundSourceNameDropDown",
+    "type": "xpath",
+    "value": "//select[@id='FNDGTRN_FundName_Id']"
+  },
+  {
+    "name": "amount",
+    "type": "id",
+    "value": "igtxtFNDGTRN_Amount_Id"
+  },
+  {
+    "name": "addFundTransaction",
+    "type": "xpath",
+    "value": ".//input[@id='FNDGTRN_TransactionType_Id_0']/.."
+  },
+  {
+    "name": "returnFundTransaction",
+    "type": "xpath",
+    "value": ".//input[@id='FNDGTRN_TransactionType_Id_1']/.."
+  },
+  {
+    "name": "fundSourceNameText",
+    "type": "id",
+    "value": "FNDGTRN_FundName_Id_Text"
+  },
+  {
+    "name": "amountText",
+    "type": "id",
+    "value": "igtxtFNDGTRN_Amount_Id"
+  },
+  {
+    "name": "transactionDate",
+    "type": "id",
+    "value": "FNDGTRN_TransactionDate_Id_input"
+  }
+]

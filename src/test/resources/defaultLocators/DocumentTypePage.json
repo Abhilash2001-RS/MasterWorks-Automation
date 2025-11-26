@@ -1,0 +1,17 @@
+[
+  {
+    "name": "documentTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Type')]"
+  },
+  {
+    "name": "documentTypeField",
+    "type": "id",
+    "value": "DOCTYPE_Name_Id"
+  },
+  {
+    "name": "documentTypeEntered",
+    "type": "id",
+    "value": "DOCTYPE_Name_Id_Text"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "name": "projectNameInProjectDetails",
+    "type": "id",
+    "value": "PROJECT_ProjectName_Id_Text"
+  },
+  {
+    "name": "projectCodeInProjectDetails",
+    "type": "id",
+    "value": "PROJECT_ProjectCode_Id_Text"
+  },
+  {
+    "name": "businessUnitInProjectDetails",
+    "type": "id",
+    "value": "PROJECT_BusinessUnitID_Id_Text"
+  },
+  {
+    "name": "startDateInProjectDetails",
+    "type": "id",
+    "value": "PROJECT_StartDate_Id_Text"
+  },
+  {
+    "name": "endDateInProjectDetails",
+    "type": "id",
+    "value": "PROJECT_EndDate_Id_Text"
+  },
+  {
+    "name": "projectEndDate",
+    "type": "id",
+    "value": "PROJECT_EndDate_Id_input"
+  },
+  {
+    "name": "ownerNameInProjectDetails",
+    "type": "id",
+    "value": "PROJECT_Owner_Id_Text"
+  },
+  {
+    "name": "ownerNameInProjectInEdit",
+    "type": "id",
+    "value": "PROJECT_Owner_Id"
+  },
+  {
+    "name": "programCategoryInProjectDetails",
+    "type": "id",
+    "value": "PROJECT_ProjectClass_Id_Text"
+  },
+  {
+    "name": "programCategoryInProjectInEdit",
+    "type": "xpath",
+    "value": "//select[@id='PROJECT_ProjectClass_Id']/option[@selected]"
+  },
+  {
+    "name": "documentFolderStructureDropdown",
+    "type": "id",
+    "value": "PROJECT_DocumentTemplateID_Id"
+  },
+  {
+    "name": "documentFolderStuctureDropDownInEdit",
+    "type": "id",
+    "value": "PROJECT_DocumentTemplateID_Id"
+  },
+  {
+    "name": "documentProperties",
+    "type": "id",
+    "value": "PROJECT_DocMetadataID_Id"
+  },
+  {
+    "name": "attributes",
+    "type": "xpath",
+    "value": "//strong[contains(text(),'Attributes')]"
+  },
+  {
+    "name": "accessDeniedMsg",
+    "type": "id",
+    "value": "coreMainControlDiv"
+  },
+  {
+    "name": "projectTypeLbl",
+    "type": "id",
+    "value": "PROJECT_ProjectTypeID_Id_Text"
+  },
+  {
+    "name": "projectNameTextBox",
+    "type": "id",
+    "value": "PROJECT_ProjectName_Id"
+  },
+  {
+    "name": "strategicGoalsGrid",
+    "type": "xpath",
+    "value": "//strong[contains(text(),'Strategic Goals')]"
+  },
+  {
+    "name": "strategicObjectivesGrid",
+    "type": "xpath",
+    "value": "//strong[contains(text(),'Strategic Objectives')]"
+  },
+  {
+    "name": "strategicGoalsAddButton",
+    "type": "id",
+    "value": "C1_DGStrategicGoals_StrategicGoalsPicker_btnShowPicker"
+  },
+  {
+    "name": "strategicObjectivesAddButton",
+    "type": "id",
+    "value": "C1_DGStrategicObjectives_StrategicObjectivesPicker_btnShowPicker"
+  },
+  {
+    "name": "strategicGoalsPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_DGStrategicGoals_StrategicGoalsPicker_pickerContainer')]"
+  },
+  {
+    "name": "strategicObjectivesPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_DGStrategicObjectives_StrategicObjectivesPicker_pickerContainer')]"
+  },
+  {
+    "name": "strategicGoalTableId",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PROJECT_DGStrategicGoals_id_GridData')]//table[contains(@id,'PROJECT_DGStrategicGoals_id')]"
+  },
+  {
+    "name": "strategicGoalGrid",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_PROJECT_DGStrategicGoals_id']"
+  },
+  {
+    "name": "strategicObjectivesTableId",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PROJECT_DGStrategicObjectives_id_GridData')]//table[contains(@id,'PROJECT_DGStrategicObjectives_id')]"
+  },
+  {
+    "name": "strategicObjectiveGrid",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_PROJECT_DGStrategicObjectives_id']"
+  },
+  {
+    "name": "projectScoreLabel",
+    "type": "id",
+    "value": "C1_ERP_CC_BODY_Label1"
+  },
+  {
+    "name": "projectTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Type')]"
+  },
+  {
+    "name": "projectTypeData",
+    "type": "xpath",
+    "value": "//select[contains(@id,'PROJECT_ProjectTypeID_Id')]/option[contains(@value,'') and not(contains(@selected,'selected'))]"
+  },
+  {
+    "name": "projectType",
+    "type": "id",
+    "value": "PROJECT_ProjectTypeID_Id"
+  },
+  {
+    "name": "projectTypeInView",
+    "type": "id",
+    "value": "C1_ERP_CC_BODY_lblProjectType"
+  },
+  {
+    "name": "enterpriseDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Enterprise Dashboard')]"
+  },
+  {
+    "name": "projectNameRequiredWarning",
+    "type": "xpath",
+    "value": "//table[@formdesignername='ProjectName']//span[contains(text(),'Required!')]"
+  },
+  {
+    "name": "projectCodeRequiredWarning",
+    "type": "xpath",
+    "value": "//table[@formdesignername='ProjectCode']//span[contains(text(),'Required!')]"
+  },
+  {
+    "name": "projectOwnerRequiredWarning",
+    "type": "xpath",
+    "value": "//table[@formdesignername='Owner']//span[contains(text(),'Required!')]"
+  },
+  {
+    "name": "programCategoryRequiredWarning",
+    "type": "xpath",
+    "value": "//table[@formdesignername='ProjectClass']//span[contains(text(),'Required!')]"
+  },
+  {
+    "name": "businessUnitRequiredWarning",
+    "type": "xpath",
+    "value": "//table[@formdesignername='BusinessUnitID']//span[contains(text(),'Required!')]"
+  },
+  {
+    "name": "activeCheckBox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'PROJECT_IsActive_Id')]"
+  },
+  {
+    "name": "projectNameCopyTextField",
+    "type": "id",
+    "value": "CPYPROJ_NewProjectName_Id"
+  },
+  {
+    "name": "projectCodeCopyTextField",
+    "type": "id",
+    "value": "CPYPROJ_NewProjectCode_Id"
+  },
+  {
+    "name": "estimateAllCheckBox",
+    "type": "xpath",
+    "value": "//label[@for='C1_chkEstimateAll']"
+  },
+  {
+    "name": "plannedProjectsListTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Planned Projects')]"
+  },
+  {
+    "name": "selectAllInStrategicGoal",
+    "type": "xpath",
+    "value": "//input[contains(@id,'radgdStrategicGoals_ctl00_ctl02_ctl00_multiSelectCheckBox')]"
+  },
+  {
+    "name": "deleteButtonStrategicGoal",
+    "type": "xpath",
+    "value": "//input[@id='C1_DGStrategicGoals_StrategicGoalsPicker_btnShowPicker']/../following-sibling::td//input[@value='Delete']"
+  },
+  {
+    "name": "numberOfRowsInStrategicGoals",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_PROJECT_DGStrategicGoals_id_GridData']//tbody/tr[not(contains(@style,'display: none;')) and not(contains(@style,'display:none;'))]"
+  },
+  {
+    "name": "usersCheckBox",
+    "type": "xpath",
+    "value": "//label[contains(text(),'Users')]"
+  },
+  {
+    "name": "getProjectValue",
+    "type": "id",
+    "value": "igtxtPROJECT_ProjectValue_Id"
+  },
+  {
+    "name": "attachmentTable",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and not(contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "attachmentTableHeader",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and (contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "downloadAttachmentInViewMode",
+    "type": "xpath",
+    "value": "//input[contains(@id,'btnDownload')]"
+  },
+  {
+    "name": "downloadAttachmentInEditMode",
+    "type": "xpath",
+    "value": "//input[contains(@id,'btnDownload')]"
+  },
+  {
+    "name": "expandAttachmentsButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'imgAttach') and @onClick]"
+  },
+  {
+    "name": "addProgramsButton",
+    "type": "id",
+    "value": "C1_DGPlanningPrograms_ProgramPicker_btnShowPicker"
+  },
+  {
+    "name": "programPicker",
+    "type": "xpath",
+    "value": ".//div[@id='C1_DGPlanningPrograms_ProgramPicker_pickerContainer']"
+  },
+  {
+    "name": "plannedProjectPicker",
+    "type": "xpath",
+    "value": ".//div[@id='C1_DGPlanningProjects_ProjectPicker_pickerContainer']"
+  },
+  {
+    "name": "fundSourceProgramSelectButton",
+    "type": "id",
+    "value": "PROGRAM_btnProgramBudgetPicker_Id"
+  },
+  {
+    "name": "fundPickerProgram",
+    "type": "xpath",
+    "value": "//div[@id='pickerContainer']"
+  },
+  {
+    "name": "projectCalendarDays",
+    "type": "id",
+    "value": "//*[@id='PROJECT_CalendarDays_Id']"
+  },
+  {
+    "name": "calendarDaysValue",
+    "type": "id",
+    "value": "PROJECT_CalendarDays_Id_Text"
+  },
+  {
+    "name": "copyModuleCheckbox",
+    "type": "xpath",
+    "value": "//label[text()='Modules']"
+  },
+  {
+    "name": "copyAttributeCheckbox",
+    "type": "xpath",
+    "value": "//label[text()='Attributes']"
+  },
+  {
+    "name": "copyUserCheckbox",
+    "type": "xapth",
+    "value": "//label[text()='Users']"
+  },
+  {
+    "name": "copyFundCheckbox",
+    "type": "id",
+    "value": "CPYPROJ_OptionFunds_Id"
+  },
+  {
+    "name": "projectStartDate",
+    "type": "id",
+    "value": "PROJECT_StartDate_Id_input"
+  },
+  {
+    "name": "projectNameTextArea",
+    "type": "id",
+    "value": "PRJTYPE_ProjectType_Id"
+  },
+  {
+    "name": "documentFolderStructureDropdownText",
+    "type": "id",
+    "value": "PROJECT_DocumentTemplateID_Id_Text"
+  },
+  {
+    "name": "documentPropertiesText",
+    "type": "id",
+    "value": "PROJECT_DocMetadataID_Id_Text"
+  }
+]

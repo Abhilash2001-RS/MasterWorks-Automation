@@ -1,0 +1,67 @@
+[
+  {
+    "name": "titleTxtBox",
+    "type": "id",
+    "value": "ENTPNDS_Name_Id"
+  },
+  {
+    "name": "typeComboBox",
+    "type": "id",
+    "value": "ENTPNDS_Type_Id"
+  },
+  {
+    "name": "expectedCompletionMonthComboBox",
+    "type": "id",
+    "value": "ENTPNDS_ExpectedCompletionMonth_Id"
+  },
+  {
+    "name": "expectedCompletionYearComboBox",
+    "type": "id",
+    "value": "ENTPNDS_ExpectedCompletionYear_Id"
+  },
+  {
+    "name": "addressTxtArea",
+    "type": "id",
+    "value": "ENTPNDS_Address_Id"
+  },
+  {
+    "name": "strategicGoalsTxtBox",
+    "type": "id",
+    "value": "C1_div_ENTPNDS_StrategicGoals_Id"
+  },
+  {
+    "name": "strategicGoalsListItem",
+    "type": "xpath",
+    "value": ".//ul[@id='ENTPNDS_StrategicGoals_Id_listbox']/li/span"
+  },
+  {
+    "name": "commentsTxtBox",
+    "type": "id",
+    "value": "ENTPNDS_Comments_Id"
+  },
+  {
+    "name": "estimatesCostTxtBox",
+    "type": "id",
+    "value": "igtxtENTPNDS_EstimatedCost_Id"
+  },
+  {
+    "name": "businessUnitComboBox",
+    "type": "id",
+    "value": "ENTPNDS_BusinessUnit_Id"
+  },
+  {
+    "name": "problemStatementTxtBox",
+    "type": "id",
+    "value": "ENTPNDS_AreaProblemStatement_Id"
+  },
+  {
+    "name": "needsTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Needs')]"
+  },
+  {
+    "name": "programYearComboBox",
+    "type": "id",
+    "value": "ENTPNDS_ProgramYear_Id"
+  }
+]

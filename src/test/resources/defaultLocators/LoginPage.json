@@ -1,0 +1,52 @@
+[
+  {
+    "name": "emailId",
+    "type": "id",
+    "value": "txtUserID"
+  },
+  {
+    "name": "password",
+    "type": "id",
+    "value": "password"
+  },
+  {
+    "name": "loginButton",
+    "type": "id",
+    "value": "btnLogin"
+  },
+  {
+    "name": "errorMessage",
+    "type": "id",
+    "value": "errorMessage"
+  },
+  {
+    "name": "BuildVersion",
+    "type": "id",
+    "value": "copyright_lblVersion"
+  },
+  {
+    "name": "newUserLnk",
+    "type": "xpath",
+    "value": "//a[@id='newUserBtn']"
+  },
+  {
+    "name": "loginError",
+    "type": "id",
+    "value": "warning"
+  },
+  {
+    "name": "loginErrorAfterMaxPasswordAttempts",
+    "type": "xpath",
+    "value": "//span[@id='warning' and contains(normalize-space(),'Your account has been temporarily locked out because of too many invalid login attempts. Please try logging in again after some time.')]"
+  },
+  {
+    "name": "unsuccessfulLoginAttemptsErrorMessage",
+    "type": "xpath",
+    "value": "//span[@id='warning' and contains(normalize-space(), 'Error: Incorrect User Name or Password.')]"
+  },
+  {
+    "name": "redirectedPageName",
+    "type": "xpath",
+    "value": "//div[@id='centerContent']/descendant::li[@class='current']/a"
+  }
+]

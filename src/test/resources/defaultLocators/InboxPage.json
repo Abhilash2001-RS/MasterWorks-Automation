@@ -1,0 +1,37 @@
+[
+  {
+    "name": "inboxTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Inbox')]"
+  },
+  {
+    "name": "subjectTable",
+    "type": "xpath",
+    "value": ".//table[@formdesignername='Subject']"
+  },
+  {
+    "name": "contentsTable",
+    "type": "xpath",
+    "value": ".//table[@formdesignername='Contents']"
+  },
+  {
+    "name": "attachmentsDiv",
+    "type": "xpath",
+    "value": ".//div[@id='DGInboxDocuments']"
+  },
+  {
+    "name": "subjectContent",
+    "type": "id",
+    "value": "ENTINBX_Subject_Id"
+  },
+  {
+    "name": "bodyContent",
+    "type": "xpath",
+    "value": ".//div[@id='ENTINBX_Contents_Id']/table//td"
+  },
+  {
+    "name": "linkOfTheMessage",
+    "type": "xpath",
+    "value": ".//a[.='Link']"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "requiredWarningLbl",
+    "type": "xpath",
+    "value": "//span[.='Required!']"
+  },
+  {
+    "name": "needsTab",
+    "type": "xpath",
+    "value": ".//div[@id='PageTabs']//a[contains(text(),'Needs')]/.."
+  }
+]

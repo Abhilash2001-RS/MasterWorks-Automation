@@ -1,0 +1,12 @@
+[
+  {
+    "name": "bidReports",
+    "type": "xpath",
+    "value": "//table[@id='ctl00_C1_MWGrid_ctl00']//tr[contains(@class,'Row')]/td[not (contains(@class,'rgGroupCol')) and not (contains(@style ,'display:none;'))]"
+  },
+  {
+    "name": "reportGallery",
+    "type": "xpath",
+    "value": "//a[@title='Estimate Report Gallery']"
+  }
+]

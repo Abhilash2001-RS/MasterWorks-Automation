@@ -1,0 +1,42 @@
+[
+  {
+    "name": "budgetManagementTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Budget Management')]"
+  },
+  {
+    "name": "budgetEstimateForecastDistributionDropDown",
+    "type": "id",
+    "value": "BDGCONF_ForecastDistributionType_Id"
+  },
+  {
+    "name": "fiscalStartLabel",
+    "type": "xpath",
+    "value": "//span[normalize-space()='Fiscal Start']"
+  },
+  {
+    "name": "fiscalEndLabel",
+    "type": "xpath",
+    "value": "//span[normalize-space()='Fiscal End']"
+  },
+  {
+    "name": "fiscalStartValue",
+    "type": "id",
+    "value": "BDGCONF_StartMonth_Id_Text"
+  },
+  {
+    "name": "fiscalEndValue",
+    "type": "id",
+    "value": "BDGCONF_EndMonth_Id"
+  },
+  {
+    "name": "isProjectForecastLabel",
+    "type": "xpath",
+    "value": "//span[.='Is Project Forecast Revision Review Required']"
+  },
+  {
+    "name": "isProjectForecastCheckbox",
+    "type": "id",
+    "value": "BDGCONF_ShowIsProjectForecastRevisionReviewRequired_Id"
+  }
+]

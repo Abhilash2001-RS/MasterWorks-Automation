@@ -1,0 +1,47 @@
+[
+  {
+    "name": "createdByLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Created By')]"
+  },
+  {
+    "name": "createdOnLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Created On')]"
+  },
+  {
+    "name": "SOQCycleLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'SOQ Cycle')]"
+  },
+  {
+    "name": "remarksLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Remarks')]"
+  },
+  {
+    "name": "vendorScoreLabel",
+    "type": "xpath",
+    "value": "//strong[contains(text(),'Evaluation Scoring')]"
+  },
+  {
+    "name": "createdByTextBox",
+    "type": "id",
+    "value": "VNDSOQF_Evaluator_Id_Text"
+  },
+  {
+    "name": "createdOnTextBox",
+    "type": "id",
+    "value": "VNDSOQF_ScoredOn_Id_Text"
+  },
+  {
+    "name": "remarksTextBox",
+    "type": "id",
+    "value": "VNDSOQF_Remarks_Id"
+  },
+  {
+    "name": "soqCycleTextBox",
+    "type": "id",
+    "value": "VNDSOQF_SOQCycle_Id"
+  }
+]

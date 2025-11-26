@@ -1,0 +1,7 @@
+[
+  {
+    "name": "mandateCheckbox",
+    "type": "xpath",
+    "value": "//input[@id='FNDCONF_MandateFundsAssociationForPayments_Id']"
+  }
+]

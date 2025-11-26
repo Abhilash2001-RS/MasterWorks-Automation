@@ -1,0 +1,132 @@
+[
+  {
+    "name": "associateDocumentFolderBtn",
+    "type": "xpath",
+    "value": ".//*[@id = 'lnkAssociateDocumentFolder']"
+  },
+  {
+    "name": "folderStructureDropdown",
+    "type": "id",
+    "value": "ddlDocumentFolderStructureList"
+  },
+  {
+    "name": "folderCheckbox",
+    "type": "xpath",
+    "value": ".//*[@id = 'tvwDocumentFolderTree']//*/span[@class = 'dynatree-checkbox']"
+  },
+  {
+    "name": "folderSaveBtn",
+    "type": "id",
+    "value": "btnSave"
+  },
+  {
+    "name": "docPropertiesLinkText",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Settings')]"
+  },
+  {
+    "name": "formIdTxt",
+    "type": "id",
+    "value": "txtFormID"
+  },
+  {
+    "name": "formHeaderTxt",
+    "type": "id",
+    "value": "txtHeader"
+  },
+  {
+    "name": "groupLayout",
+    "type": "xpath",
+    "value": ".//*[@id = 'panelbar']//*/span[contains(text(),'Group Layout')]"
+  },
+  {
+    "name": "tabsContainer",
+    "type": "xpath",
+    "value": ".//*[@id = 'panelbar']//*/span[contains(text(),'Tabs Container')]"
+  },
+  {
+    "name": "sectionWithBorder",
+    "type": "xpath",
+    "value": ".//*[@id = 'panelbar']//*/span[contains(text(),'Section with Border')]"
+  },
+  {
+    "name": "simpleInputControls",
+    "type": "xpath",
+    "value": ".//*[@id = 'panelbar']//*/span[contains(text(),'Simple Input Controls')]"
+  },
+  {
+    "name": "section",
+    "type": "xpath",
+    "value": ".//*[@id='controlHolder']//td//strong[contains(text(),'Section')]"
+  },
+  {
+    "name": "singleLineText",
+    "type": "xpath",
+    "value": ".//ul[@id='panelbar']//span[.='Single Line Text']"
+  },
+  {
+    "name": "controlHolder",
+    "type": "xpath",
+    "value": ".//*[@id = 'controlHolder']"
+  },
+  {
+    "name": "designTab",
+    "type": "xpath",
+    "value": "//a[@title='Design']"
+  },
+  {
+    "name": "generalTab",
+    "type": "xpath",
+    "value": ".//*[@id = 'PageTabs_tabBar']//*/a[.='General']"
+  },
+  {
+    "name": "tabsContainerPresent",
+    "type": "xpath",
+    "value": ".//span[.='Tabs Container']/../.."
+  },
+  {
+    "name": "sectionWithBorderPresent",
+    "type": "xpath",
+    "value": ".//span[.='Section with Border']/../.."
+  },
+  {
+    "name": "singleLineTextPresent",
+    "type": "xpath",
+    "value": ".//span[.='Single Line Text']/../.."
+  },
+  {
+    "name": "dateField",
+    "type": "xpath",
+    "value": "//li[@data-controltype='Date']"
+  },
+  {
+    "name": "attributeFields",
+    "type": "xpath",
+    "value": "//div[contains(@id,'attrib_table')]"
+  },
+  {
+    "name": "readOnlyDropDown",
+    "type": "id",
+    "value": "ReadOnly_value"
+  },
+  {
+    "name": "typeDropDown",
+    "type": "xpath",
+    "value": "//*[@id='Type_value']"
+  },
+  {
+    "name": "advancedAttributes",
+    "type": "xpath",
+    "value": "//*[@id='advance_attr_li']/span[contains(text(),'ADVANCED ATTRIBUTES')]"
+  },
+  {
+    "name": "isSearchableDropDown",
+    "type": "id",
+    "value": "IsSearchable_value"
+  },
+  {
+    "name": "associateFolderCheckbox",
+    "type": "xpath",
+    "value": "//span[@class='dynatree-checkbox']"
+  }
+]

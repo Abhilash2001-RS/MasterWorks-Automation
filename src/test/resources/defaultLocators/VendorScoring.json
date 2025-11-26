@@ -1,0 +1,117 @@
+[
+  {
+    "name": "vendorNamePickerButton",
+    "type": "id",
+    "value": "C1_VendorIdTrigger_VendorPicker_btnShowPicker"
+  },
+  {
+    "name": "vendorNamePicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'VendorIdTrigger_VendorPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "createdByLabel",
+    "type": "xpath",
+    "value": "//span[.='Created By']"
+  },
+  {
+    "name": "createdOnLabel",
+    "type": "xpath",
+    "value": "//span[.='Created On']"
+  },
+  {
+    "name": "vendorNameLabel",
+    "type": "xpath",
+    "value": "//span[.='Vendor Name']"
+  },
+  {
+    "name": "vendorCategoryLabel",
+    "type": "xpath",
+    "value": "//span[.='Vendor Category']"
+  },
+  {
+    "name": "sOQCycle",
+    "type": "xpath",
+    "value": "//span[.='SOQ Cycle']"
+  },
+  {
+    "name": "vendorSubCategoryLabel",
+    "type": "xpath",
+    "value": "//span[.='Vendor Sub-Category']"
+  },
+  {
+    "name": "remarksLabel",
+    "type": "xpath",
+    "value": "//span[.='Remarks']"
+  },
+  {
+    "name": "workSizeLabel",
+    "type": "xpath",
+    "value": "//span[.='Work Size']"
+  },
+  {
+    "name": "vendorNameTextBox",
+    "type": "id",
+    "value": "VNDSCOR_VendorName_Id"
+  },
+  {
+    "name": "vendorCategoryTextBox",
+    "type": "id",
+    "value": "VNDSCOR_Category_Id"
+  },
+  {
+    "name": "sOQCycleDropDown",
+    "type": "id",
+    "value": "VNDSCOR_SOQCycle_Id"
+  },
+  {
+    "name": "vendorSubCategoryTextBox",
+    "type": "id",
+    "value": "VNDSCOR_SubCategory_Id"
+  },
+  {
+    "name": "remarksTextBox",
+    "type": "id",
+    "value": "VNDSCOR_Remarks_Id"
+  },
+  {
+    "name": "remarksTextInView",
+    "type": "id",
+    "value": "VNDSCOR_Remarks_Id_Text"
+  },
+  {
+    "name": "workSizeTextBox",
+    "type": "id",
+    "value": "VNDSCOR_WorkSize_Id"
+  },
+  {
+    "name": "pastPerformanceEvaluationAdjBox",
+    "type": "id",
+    "value": "igtxtVNDSCOR_PastEvalAdjustment_Id"
+  },
+  {
+    "name": "createdByTextBox",
+    "type": "id",
+    "value": "VNDSCOR_Evaluator_Id_Text"
+  },
+  {
+    "name": "createdOnTextBox",
+    "type": "id",
+    "value": "VNDSCOR_ScoredOn_Id_Text"
+  },
+  {
+    "name": "ppeAdjustments",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Past Performance Evaluation Adjustment')]"
+  },
+  {
+    "name": "totalScore",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Total Score')]"
+  },
+  {
+    "name": "notesTextBox",
+    "type": "id",
+    "value": "VNDSCOR_Notes_Id"
+  }
+]

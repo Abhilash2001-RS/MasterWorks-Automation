@@ -1,0 +1,22 @@
+[
+  {
+    "name": "resourceType",
+    "type": "id",
+    "value": "LIBRTYP_ResourceType_Id"
+  },
+  {
+    "name": "description",
+    "type": "id",
+    "value": "LIBRTYP_Description_Id"
+  },
+  {
+    "name": "resourceTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Resource Type')]"
+  },
+  {
+    "name": "resourceTypeText",
+    "type": "id",
+    "value": "LIBRTYP_ResourceType_Id_Text"
+  }
+]

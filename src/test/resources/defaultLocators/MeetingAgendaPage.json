@@ -1,0 +1,27 @@
+[
+  {
+    "name": "addAgendaBtn",
+    "type": "xpath",
+    "value": "//div[@id='CDGMeetingAgenda']//input[@value='Add']"
+  },
+  {
+    "name": "agendaTextBox",
+    "type": "xpath",
+    "value": "//input[@id='Agenda']"
+  },
+  {
+    "name": "agendaTextBoxInEdit",
+    "type": "xpath",
+    "value": "//div[@id='CDGMeetingAgenda']//input[(@type='text') and (@name='Agenda')]"
+  },
+  {
+    "name": "typeSelector",
+    "type": "xpath",
+    "value": "//select[@id='MOMMAGN_MeetingTypeId_Id']"
+  },
+  {
+    "name": "agendaGrid",
+    "type": "id",
+    "value": "MOMMAGN_CDGMeetingAgenda_id"
+  }
+]

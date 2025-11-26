@@ -1,0 +1,52 @@
+[
+  {
+    "name": "bidderListHeaderPage",
+    "type": "id",
+    "value": "C1xgrdItemsList_t_0"
+  },
+  {
+    "name": "unitListPageHeader",
+    "type": "id",
+    "value": "G_C1xgrdSearchResults"
+  },
+  {
+    "name": "listPageDataTable",
+    "type": "className",
+    "value": "ig_b72b3f8f_r1 ig_b72b3f8f_r4"
+  },
+  {
+    "name": "gridItemListTable",
+    "type": "id",
+    "value": "C1xgrdItemsList_tb"
+  },
+  {
+    "name": "linkTotalSave",
+    "type": "id",
+    "value": "lnkTotalSave"
+  },
+  {
+    "name": "pageNumber",
+    "type": "id",
+    "value": "C1_mypager_txtPageNo"
+  },
+  {
+    "name": "bidderItemTable",
+    "type": "id",
+    "value": "G_C1xgrdSearchResults"
+  },
+  {
+    "name": "tableRows",
+    "type": "xpath",
+    "value": ".//*[@id='C1xgrdItemsList_t_0']//tr[contains(@id,'C1xgrdItemsList')]"
+  },
+  {
+    "name": "columnSelectors",
+    "type": "xpath",
+    "value": "./td[@style='background-color:Yellow;']"
+  },
+  {
+    "name": "nextButton",
+    "type": "id",
+    "value": "C1_mypager_btnNext"
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "name": "mohDate",
+    "type": "id",
+    "value": "C1_dtMOHDate_input"
+  },
+  {
+    "name": "comments",
+    "type": "id",
+    "value": "MONHAND_Comments_Id"
+  },
+  {
+    "name": "amount",
+    "type": "id",
+    "value": "igtxtC1_wneAmount"
+  },
+  {
+    "name": "materialPickerBtn",
+    "type": "id",
+    "value": "C1_MaterialPickerTrigger_MaterialPicker_btnShowPicker"
+  },
+  {
+    "name": "materialPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'MaterialPickerTrigger_MaterialPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "itemListPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_ItemsList_ContractItemPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "addContractItemBtn",
+    "type": "id",
+    "value": "C1_ItemsList_ContractItemPicker_btnShowPicker"
+  },
+  {
+    "name": "deleteContractItemBtn",
+    "type": "id",
+    "value": "C1_btnDeleteItem"
+  },
+  {
+    "name": "commentView",
+    "type": "id",
+    "value": "MONHAND_Comments_Id_Text"
+  },
+  {
+    "name": "contractItemTable",
+    "type": "id",
+    "value": "ctl00_C1_MONHAND_ItemsList_id_GridData"
+  },
+  {
+    "name": "contractItemTableHeader",
+    "type": "xpath",
+    "value": "//table[contains(@id,'MONHAND_ItemsList_id') and (contains(@id,'Header'))]"
+  },
+  {
+    "name": "contractAmountTextField",
+    "type": "id",
+    "value": "ctl00_C1_MONHAND_ItemsList_id_ctl00_C1_MONHAND_ItemsList_id_ctl00_Amount_RNTB_Amount"
+  },
+  {
+    "name": "workFlowAssociationPopUp",
+    "type": "id",
+    "value": "C2_appWorkflowAssociation_aspPnlWF"
+  },
+  {
+    "name": "workFlowSelect",
+    "type": "id",
+    "value": "C2_appWorkflowAssociation_ddlViewWF"
+  },
+  {
+    "name": "workFlowApplyBtn",
+    "type": "id",
+    "value": "C2_appWorkflowAssociation_btnApply"
+  },
+  {
+    "name": "workFlowPopUpClose",
+    "type": "xpath",
+    "value": "//button[text()='Close' and @title='Close']"
+  },
+  {
+    "name": "mandatoryMaterialField",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Required!')]"
+  },
+  {
+    "name": "columnGridInCustomizeList",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ColumnSettings')]"
+  },
+  {
+    "name": "setAllCustomizeList",
+    "type": "xpath",
+    "value": "//input[contains(@id,'C2_ColumnSettings_rblScope_0')]"
+  },
+  {
+    "name": "setForMeCustomizeList",
+    "type": "xpath",
+    "value": "//input[contains(@id,'C2_ColumnSettings_rblScope_1')]"
+  },
+  {
+    "name": "saveCustomizeList",
+    "type": "id",
+    "value": "C2_ColumnSettings_btnSave"
+  },
+  {
+    "name": "contractItemsCheckBox",
+    "type": "xpath",
+    "value": ".//*[contains(@id,'_C1_MONHAND_ItemsList_id_GridHeader')]//span/input[contains(@id,'_MultiSelectCheckBox')][@type = 'checkbox']"
+  },
+  {
+    "name": "contractItemBtnDelete",
+    "type": "xpath",
+    "value": "//*[@id='ItemsList']//input[@value='Delete']"
+  },
+  {
+    "name": "mohMaterialValue",
+    "type": "id",
+    "value": "MONHAND_MaterialDesc_Id"
+  },
+  {
+    "name": "recoveredQuantity",
+    "type": "id",
+    "value": "ctl00_C1_MONHAND_ItemsList_id_ctl00_C1_MONHAND_ItemsList_id_ctl00_RecoveryQty_RNTB_RecoveryQty"
+  },
+  {
+    "name": "amountTxtBox",
+    "type": "id",
+    "value": "ctl00_C1_MONHAND_ItemsList_id_ctl00_C1_MONHAND_ItemsList_id_ctl00_Amount_RNTB_Amount"
+  },
+  {
+    "name": "detailsReportTitle",
+    "type": "xpath",
+    "value": "//div[@id='VisibleReportContentctl00_C1_rptvwrReport_ctl10']/descendant::div[contains(text(),'MATERIALS ON HAND - DETAILS REPORT')]"
+  },
+  {
+    "name": "listReportTitle",
+    "type": "xpath",
+    "value": "//div[@id='VisibleReportContentctl00_C1_rptvwrReport_ctl10']/descendant::div[text()='MATERIALS ON HAND - LIST REPORT']"
+  },
+  {
+    "name": "contractItemGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_MONHAND_ItemsList_id_GridHeader"
+  },
+  {
+    "name": "materialMOHView",
+    "type": "id",
+    "value": "MONHAND_MaterialDesc_Id_Text"
+  }
+
+]

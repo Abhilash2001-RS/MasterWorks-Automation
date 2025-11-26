@@ -1,0 +1,32 @@
+[
+  {
+    "name": "pcoNumber",
+    "type": "id",
+    "value": "PCOFORM_PCONo_Id"
+  },
+  {
+    "name": "pcoDescription",
+    "type": "id",
+    "value": "PCOFORM_Description_Id"
+  },
+  {
+    "name": "pcoNumberLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'PCO No')]"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "pcoNumberSpan",
+    "type": "id",
+    "value": "PCOFORM_PCONo_Id_Text"
+  },
+  {
+    "name": "selectRFI",
+    "type": "id",
+    "value": "PCOFORM_RFIID_Id"
+  }
+]

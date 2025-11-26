@@ -1,0 +1,83 @@
+[
+  {
+    "name": "startDate",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl03_txtValue"
+  },
+  {
+    "name": "endDate",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl05_txtValue"
+  },
+  {
+    "name": "loginDates",
+    "type": "xpath",
+    "value": "//td/div[contains(text(),'/')][contains(text(),':')]"
+  },
+  {
+    "name": "loginDatesFromUserAccessDetailsReport",
+    "type": "xpath",
+    "value": "//td/div[contains(text(),'/')]"
+  },
+  {
+    "name": "selectUsersDropDown",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_rptvwrReport_ctl04_ctl07']/descendant::input[@id='ctl00_C1_rptvwrReport_ctl04_ctl07_ddDropDownButton']"
+
+  },
+  {
+    "name": "selectAllUserOption",
+    "type": "xpath",
+    "value": "//label[text()='(Select All)']"
+  },
+  {
+    "name": "viewReport",
+    "type": "xpath",
+    "value": "//input[@value='View Report']"
+  },
+  {
+    "name": "startDateLabel",
+    "type": "xpath",
+    "value": "//span[text()='Start Date']"
+  },
+  {
+    "name": "endDateLabel",
+    "type": "xpath",
+    "value": "//span[text()='End Date']"
+  },
+  {
+    "name": "startDatePickerButton",
+    "type": "xpath",
+    "value": "//img[contains(@id,'C1_rptvwrReport_ctl04_ctl03_txtValueCalendar')]"
+  },
+  {
+    "name": "endDatePickerButton",
+    "type": "xpath",
+    "value": "//img[contains(@id,'C1_rptvwrReport_ctl04_ctl05_txtValueCalendar')]"
+  },
+  {
+    "name": "monthSelector",
+    "type": "xpath",
+    "value": "//select[@data-handler='selectMonth']"
+  },
+  {
+    "name": "yearSelector",
+    "type": "xpath",
+    "value": "//select[@data-handler='selectYear']"
+  },
+  {
+    "name": "datePicker",
+    "type": "xpath",
+    "value": "//div[@id='ui-datepicker-div']"
+  },
+  {
+    "name": "startDateTextBox",
+    "type": "xpath",
+    "value": "//span[text()='Start Date']/../following-sibling::td//input[@value]"
+  },
+  {
+    "name": "endDateTextBox",
+    "type": "xpath",
+    "value": "//span[text()='End Date']/../following-sibling::td//input[@value]"
+  }
+]

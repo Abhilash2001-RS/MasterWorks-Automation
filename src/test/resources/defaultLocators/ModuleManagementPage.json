@@ -1,0 +1,12 @@
+[
+  {
+    "name": "chooseFile",
+    "type": "id",
+    "value": "C1_fuPackageFile"
+  },
+  {
+  "name": "upload",
+  "type": "id",
+  "value": "C1_btnUpload"
+}
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "libraryDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Library')]"
+  },
+  {
+    "name": "nameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "nameTextBox",
+    "type": "id",
+    "value": "CHKACTI_Name_Id"
+  },
+  {
+    "name": "notesLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Notes')]"
+  },
+  {
+    "name": "notesTextBox",
+    "type": "id",
+    "value": "CHKACTI_Notes_Id"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "selectProgramPickerButton",
+    "type": "id",
+    "value": "C1_SelectProgramTrigger_PlanPicker_btnShowPicker"
+  },
+  {
+    "name": "programPickerContainer",
+    "type": "xpath",
+    "value": "//div[@id='C1_SelectProgramTrigger_PlanPicker_pickerContainer']"
+  },
+  {
+    "name": "addProjectPickerButton",
+    "type": "id",
+    "value": "C1_REVPRGMPlanningProjects_ProjectPicker_btnShowPicker"
+  },
+  {
+    "name": "deleteProjectPickerButton",
+    "type": "xpath",
+    "value": "//div[@id='REVPRGMPlanningProjects']//input[@value='Delete']"
+  },
+  {
+    "name": "addProjectPickerContainer",
+    "type": "xpath",
+    "value": "//div[@id='C1_REVPRGMPlanningProjects_ProjectPicker_pickerContainer']"
+  },
+  {
+    "name": "addProjectPickerId",
+    "type": "id",
+    "value": "C1_REVPRGMPlanningProjects_ProjectPicker_pickerContainer"
+  },
+  {
+    "name": "programPickerId",
+    "type": "id",
+    "value": "C1_SelectProgramTrigger_PlanPicker_pickerContainer"
+  },
+  {
+    "name": "addPlannedProjectGridData",
+    "type": "id",
+    "value": "ctl00_C1_REVPRGM_REVPRGMPlanningProjects_id_GridData"
+  },
+  {
+    "name": "addPlannedProjectGridHeaderId",
+    "type": "id",
+    "value": "ctl00_C1_REVPRGM_REVPRGMPlanningProjects_id_GridHeader"
+  },
+  {
+    "name": "deletePlannedProjectsBtnInAddProjectGrid",
+    "type": "xpath",
+    "value": "//div[@id='REVPRGMPlanningProjects']//input[(@type='submit') and (@value='Delete')]"
+  },
+  {
+    "name": "addPlannedProjectsGridId",
+    "type": "id",
+    "value": "REVPRGMPlanningProjects"
+  },
+  {
+    "name": "addButtonInRemovePlannedProjectGrid",
+    "type": "id",
+    "value": "C1_REVPRGMRemovedPlannedProjects_RemoveProjectPicker_btnShowPicker"
+  },
+  {
+    "name": "removePlannedProjectPickerContainer",
+    "type": "xpath",
+    "value": "//div[@id='C1_REVPRGMRemovedPlannedProjects_RemoveProjectPicker_pickerContainer']"
+  },
+  {
+    "name": "removePlannedProjectPickerId",
+    "type": "id",
+    "value": "C1_REVPRGMRemovedPlannedProjects_RemoveProjectPicker_pickerContainer"
+  }
+]

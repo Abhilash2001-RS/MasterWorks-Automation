@@ -1,0 +1,147 @@
+[
+  {
+    "name": "vendorNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Vendor Name')]"
+  },
+  {
+    "name": "projectNumberTextBox",
+    "type": "id",
+    "value": "CONTVDS_ProjectNo_Id_Text"
+  },
+  {
+    "name": "projectNameTextBox",
+    "type": "id",
+    "value": "CONTVDS_ProjectName_Id_Text"
+  },
+  {
+    "name": "createdByTextBox",
+    "type": "id",
+    "value": "CONTVDS_Evaluator_Id_Text"
+  },
+  {
+    "name": "createdOnTextBox",
+    "type": "id",
+    "value": "CONTVDS_ScoredOn_Id_Text"
+  },
+  {
+    "name": "showVendorsBtn",
+    "type": "id",
+    "value": "C1_VendorIdTrigger_VendorPicker_btnShowPicker"
+  },
+  {
+    "name": "vendorsPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_VendorIdTrigger_VendorPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "cancelBtn",
+    "type": "id",
+    "value": "C1_VendorIdTrigger_VendorPicker_btnCancel"
+  },
+  {
+    "name": "reviewStageTextBox",
+    "type": "id",
+    "value": "CONTVDS_ReviewStage_Id"
+  },
+  {
+    "name": "scoringGrid",
+    "type": "id",
+    "value": "ctl00_C1_CONTVDS_VendorScoringCriteriaGrid_id"
+  },
+  {
+    "name": "scoringGridData",
+    "type": "id",
+    "value": "ctl00_C1_CONTVDS_VendorScoringCriteriaGrid_id_GridData"
+  },
+  {
+    "name": "scoringTableId",
+    "type": "id",
+    "value": "ctl00_C1_CONTVDS_VendorScoringCriteriaGrid_id_ctl00_Header"
+  },
+  {
+    "name": "totalScoreBox",
+    "type": "id",
+    "value": "igtxtCONTVDS_EvaluatorScore_Id"
+  },
+  {
+    "name": "vendorId",
+    "type": "xpath",
+    "value": "//span[text()='Vendor ID']"
+  },
+  {
+    "name": "vendorName",
+    "type": "xpath",
+    "value": "//a/span[text()='Vendor Name']"
+  },
+  {
+    "name": "vendorCat",
+    "type": "xpath",
+    "value": "//a/span[text()='Vendor Category']"
+  },
+  {
+    "name": "vendorSubCat",
+    "type": "xpath",
+    "value": "//a/span[text()='Vendor Sub-Category']"
+  },
+  {
+    "name": "workSize",
+    "type": "xpath",
+    "value": "//a/span[text()='Work Size']"
+  },
+  {
+    "name": "vendorEvaluationTab",
+    "type": "xpath",
+    "value": "//a[@title='Vendor Evaluation']"
+  },
+  {
+    "name": "vendorCatLabel",
+    "type": "xpath",
+    "value": "//span[text()='Vendor Category']"
+  },
+  {
+    "name": "vendorSubCatLabel",
+    "type": "xpath",
+    "value": "//span[text()='Vendor Sub-Category']"
+  },
+  {
+    "name": "remarkLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Remarks')]"
+  },
+  {
+    "name": "projectNumberLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Number')]"
+  },
+  {
+    "name": "createdByLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Created By')]"
+  },
+  {
+    "name": "projectNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Name')]"
+  },
+  {
+    "name": "createdOnLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Created On')]"
+  },
+  {
+    "name": "reviewStageLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Review Stage')]"
+  },
+  {
+    "name": "totalScoreLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Total Score')]"
+  },
+  {
+    "name": "scoringGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_CONTVDS_VendorScoringCriteriaGrid_id_GridHeader"
+  }
+]

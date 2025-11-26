@@ -1,0 +1,172 @@
+[
+  {
+    "name": "newItemListTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Item List')]"
+  },
+  {
+    "name": "newContainerNameTextbox",
+    "type": "id",
+    "value": "C1_txtName"
+  },
+  {
+    "name": "newContainerDescriptionTextbox",
+    "type": "id",
+    "value": "C1_txtDescription"
+  },
+  {
+    "name": "newContainerNotesTextBox",
+    "type": "id",
+    "value": "C1_txtNotes"
+  },
+  {
+    "name": "selectAllItemsCheckBox",
+    "type": "id",
+    "value": "chk_checkAllItem"
+  },
+  {
+    "name": "budgetsPicker",
+    "type": "xpath",
+    "value": "//div[@id='C1_associateBudgetItem_pickerContainer']"
+  },
+  {
+    "name": "newEstimateItemDashBoard",
+    "type": "xpath",
+    "value": "//a[contains(text(),'New Estimate Item')]"
+  },
+  {
+    "name": "itemListPageDashBoard",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Item List')]"
+  },
+  {
+    "name": "editUnitPrice",
+    "type": "xpath",
+    "value": "//input[contains(@id,'BaseUnitCost') and not(contains(@class,'FilterBox')) and @type='text']"
+  },
+  {
+    "name": "selectResourceDropDown",
+    "type": "id",
+    "value": "ddlRateAnalysisResource"
+  },
+  {
+    "name": "addFromLibraryButton",
+    "type": "id",
+    "value": "btnResourcePicker"
+  },
+  {
+    "name": "resourcePicker",
+    "type": "xpath",
+    "value": "//div[@id='pickerContainer']"
+  },
+  {
+    "name": "resourceGrid",
+    "type": "id",
+    "value": "ctl00_C1_ucRateAnalysis_gridRateAnalysis"
+  },
+  {
+    "name": "gridHeaders",
+    "type": "id",
+    "value": "ctl00_C1_ucRateAnalysis_gridRateAnalysis_GridHeader"
+  },
+  {
+    "name": "cancelPickerBtn",
+    "type": "xpath",
+    "value": "//input[@id='btnCancel']"
+  },
+  {
+    "name": "addManuallyBtn",
+    "type": "id",
+    "value": "btnResourceAddMisc"
+  },
+  {
+    "name": "deleteResourceBtn",
+    "type": "id",
+    "value": "btnResourceDelete"
+  },
+  {
+    "name": "groupRemoveButton",
+    "type": "id",
+    "value": "C1_btnRemove"
+  },
+  {
+    "name": "alternateAddButton",
+    "type": "id",
+    "value": "C1_btnAddAlt"
+  },
+  {
+    "name": "alternateRemoveButton",
+    "type": "id",
+    "value": "C1_btnRemAlt"
+  },
+  {
+    "name": "groupName",
+    "type": "id",
+    "value": "C1_txtGroupName"
+  },
+  {
+    "name": "groupDescription",
+    "type": "id",
+    "value": "C1_txtGroupDescription"
+  },
+  {
+    "name": "groupSave",
+    "type": "id",
+    "value": "C1_btnSave"
+  },
+  {
+    "name": "alternateCode",
+    "type": "id",
+    "value": "C1_txtAltCode"
+  },
+  {
+    "name": "alternateName",
+    "type": "id",
+    "value": "C1_txtAltName"
+  },
+  {
+    "name": "alternateSave",
+    "type": "id",
+    "value": "C1_btnAltSave"
+  },
+  {
+    "name": "groupAddButton",
+    "type": "id",
+    "value": "C1_btnAdd"
+  },
+  {
+    "name": "filterBidItems",
+    "type": "id",
+    "value": "StandardItemNo_FilterTextBox_Name"
+  },
+  {
+    "name": "filterButtonBidItems",
+    "type": "id",
+    "value": "StandardItemNo_Filter_Name"
+  },
+  {
+    "name": "filterMenu",
+    "type": "id",
+    "value": "FilterMenu_StandardItemNo"
+  },
+  {
+    "name": "bidItemAttachmentGridID",
+    "type": "id",
+    "value": "ctl00_C1_itemAttachments_gridAttachment"
+  },
+  {
+    "name": "bidItemAttachmentGridHeaderID",
+    "type": "id",
+    "value": "ctl00_C1_itemAttachments_gridAttachment_GridHeader"
+  },
+  {
+    "name": "uploadAttachmentDocumentButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'UploadFileControl') and @type='file']"
+  },
+  {
+    "name": "itemListAllRow",
+    "type": "xpath",
+    "value": "//div[@id='topGridDiv']/descendant::tr[@class='hrRow']"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "standardItemTableHeader",
+    "type": "xpath",
+    "value": ".//*[@id='ctl00_C1_MWDataGrid_ctl00']/thead"
+  },
+  {
+    "name": "standardItemTable",
+    "type": "xpath",
+    "value": ".//*[@id='ctl00_C1_MWDataGrid_ctl00']/tbody"
+  },
+  {
+    "name": "standardItemsTableName",
+    "type": "id",
+    "value": "C1_txtStandardTable"
+  },
+  {
+    "name": "standardItemsButton",
+    "type": "id",
+    "value": "lnkStandardItems"
+  },
+  {
+    "name": "standardItemsTitle",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Standard Item List')]"
+  }
+]

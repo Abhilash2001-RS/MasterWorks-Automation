@@ -1,0 +1,32 @@
+[
+  {
+    "name": "automationDocumentName",
+    "type": "id",
+    "value": "ctl00C1DocumentControlWebSplitter1tmpl0FileTree_1"
+  },
+  {
+    "name": "newFolderName",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ctl00C1DocumentControlWebSplitter1tmpl0FileTree')]/descendant::span[text()='New Folder']"
+  },
+  {
+    "name": "editSubFolderName",
+    "type": "id",
+    "value": "ctl00C1DocumentControlWebSplitter1tmpl0FileTree_tb"
+  },
+  {
+    "name": "newlyCreatedSubFolder",
+    "type": "xpath",
+    "value": "//label[@class='radgrid-cb-label']/following-sibling::img"
+  },
+  {
+    "name": "inheritParentCheckBox",
+    "type": "id",
+    "value": "ctl00_C1_DocumentControl_WebSplitter1_tmpl1_chkInheritParent"
+  },
+  {
+    "name": "inheritParentCheckBoxLabel",
+    "type": "xpath",
+    "value": "//tr[@id='ctl00_C1_DocumentControl_WebSplitter1_tmpl1_trInheritParent']/descendant::span[@class='text']"
+  }
+]

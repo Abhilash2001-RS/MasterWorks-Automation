@@ -1,0 +1,32 @@
+[
+  {
+    "name": "accountExpiryDate",
+    "type": "id",
+    "value": "SgUserAccountConfig_AccountExpiryDate_Id_input"
+  },
+  {
+    "name": "accountExpiryWeeks",
+    "type": "xpath",
+    "value": "//input[@aria-label='Enter Weeks']"
+  },
+  {
+    "name": "sendEmailAfterImportCheckbox",
+    "type": "xpath",
+    "value": "//input[@id='SgUserImportConfig_SendEmailAfterImport_Value_Id']/.."
+  },
+  {
+    "name": "userImportPassword",
+    "type": "xpath",
+    "value": "//input[contains(@id,'UserImportConfig') and @aria-label='Password']"
+  },
+  {
+    "name": "accountExpirationPeriodType",
+    "type": "xpath",
+    "value": "//select[contains(@id,'UserAccountConfig') and @aria-label='Account Expiration Period Type']"
+  },
+  {
+  "name": "accountExpiryPeriodType",
+  "type": "id",
+  "value": "SgUserAccountConfig_0_2"
+  }
+]

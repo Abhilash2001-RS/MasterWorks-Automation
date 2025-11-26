@@ -1,0 +1,122 @@
+[
+  {
+    "name": "selectAllTickBox",
+    "type": "id",
+    "value": "ctl00_C1_PRJPRJP_PROJECTProjectPhaseItem_id_ctl00_ctl02_ctl00_MultiSelectCheckBox"
+  },
+  {
+    "name": "selectAllTickBoxLabel",
+    "type": "xpath",
+    "value": "//input[@id='ctl00_C1_PRJPRJP_PROJECTProjectPhaseItem_id_ctl00_ctl02_ctl00_MultiSelectCheckBox']/following-sibling::label"
+  },
+  {
+    "name": "addBtn",
+    "type": "id",
+    "value": "C1_PROJECTProjectPhaseItem_ProjectPhasePicker_btnShowPicker"
+  },
+  {
+    "name": "projectPhasePickerXpath",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ProjectPhasePicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "deleteBtn",
+    "type": "xpath",
+    "value": "//div[@id='PROJECTProjectPhaseItem_EditTemplate']/following-sibling::table//input[@value='Delete']"
+  },
+  {
+    "name": "phasesGrid",
+    "type": "id",
+    "value": "ctl00_C1_PRJPRJP_PROJECTProjectPhaseItem_id"
+  },
+  {
+    "name": "cancelBtn",
+    "type": "id",
+    "value": "C1_PROJECTProjectPhaseItem_ProjectPhasePicker_btnCancel"
+  },
+  {
+    "name": "libraryProjectPhasesDashboard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  },
+  {
+    "name": "projectPhasesPicker",
+    "type": "id",
+    "value": "C1_PROJECTProjectPhaseItem_ProjectPhasePicker_pickerContainer"
+  },
+  {
+    "name": "phaseReorderOption",
+    "type": "id",
+    "value": "ctl00_C1_PRJPRJP_PROJECTProjectPhaseItem_id_ctl00_ctl04_DragDropRowDragHandle"
+  },
+  {
+    "name": "projectStartDate",
+    "type": "id",
+    "value": "PRJPRJP_ProjStartDate_Id_Text"
+  },
+  {
+    "name": "projectEndDate",
+    "type": "id",
+    "value": "PRJPRJP_ProjEndDate_Id_Text"
+  },
+  {
+    "name": "endDateField",
+    "type": "xpath",
+    "value": "//input[@id='ctl00_C1_PRJPRJP_PROJECTProjectPhaseItem_id_ctl00_C1_PRJPRJP_PROJECTProjectPhaseItem_id_ctl00_EndDate_RDIPEndDate_dateInput']"
+  },
+  {
+    "name": "paginationLoading",
+    "type": "xpath",
+    "value": "//td[@class='rgStatus']//div[@title='Loading...']"
+  },
+  {
+    "name": "department",
+    "type": "id",
+    "value": "PRJSCNG_DeptId_Id"
+  },
+  {
+    "name": "projectPhaseName",
+    "type": "id",
+    "value": "LIBPRJP_Name_Id"
+  },
+  {
+    "name": "projectPhaseLastSequence",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_MWGrid_GridData']//tbody/tr[last()]//td[@title]"
+  },
+  {
+    "name": "projectPhaseLastPage",
+    "type": "xpath",
+    "value": "//input[@title='Last Page']"
+  },
+  {
+    "name": "projectPhaseStatusDownArrow",
+    "type": "id",
+    "value": "ctl00_C1_PRJPRJP_PROJECTProjectPhaseItem_id_ctl00_C1_PRJPRJP_PROJECTProjectPhaseItem_id_ctl00_Status_dControlStatus_Arrow"
+  },
+  {
+    "name": "statusNotStarted",
+    "type": "xpath",
+    "value": "//li[text()='Not Started']"
+  },
+  {
+    "name": "startDate",
+    "type": "id",
+    "value": "gridInlineEditing"
+  },
+  {
+    "name": "projectPhasesGridData",
+    "type": "id",
+    "value": "ctl00_C1_PRJPRJP_PROJECTProjectPhaseItem_id_GridData"
+  },
+  {
+    "name": "projectPhaseGridHeaderTableXpath",
+    "type": "xpath",
+    "value": "//table[@id='ctl00_C1_PRJPRJP_PROJECTProjectPhaseItem_id_ctl00_Header']"
+  },
+  {
+    "name": "projectPhaseDragButton",
+    "type": "xpath",
+    "value": "//a[contains(@id,'DragDropRowDragHandle')]/parent::td[@class='rgDragCol']"
+  }
+]

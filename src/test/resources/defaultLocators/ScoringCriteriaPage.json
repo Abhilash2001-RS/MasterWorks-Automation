@@ -1,0 +1,57 @@
+[
+  {
+    "name": "nameTextBox",
+    "type": "id",
+    "value": "SCORCRI_CriteriaName_Id"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "SCORCRI_CriteriaDesc_Id"
+  },
+  {
+    "name": "categoryDropDown",
+    "type": "id",
+    "value": "SCORCRI_CatID_Id"
+  },
+  {
+    "name": "maxValueTextBox",
+    "type": "id",
+    "value": "igtxtSCORCRI_MaxValue_Id"
+  },
+  {
+    "name": "nameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "categoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Category')]"
+  },
+  {
+    "name": "maxValueLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Max Value')]"
+  },
+  {
+    "name": "nameTextLabel",
+    "type": "id",
+    "value": "SCORCRI_CriteriaName_Id_Text"
+  },
+  {
+    "name": "descriptionTextLabel",
+    "type": "id",
+    "value": "SCORCRI_CriteriaDesc_Id_Text"
+  },
+  {
+    "name": "categoryTextLabel",
+    "type": "id",
+    "value": "SCORCRI_CatID_Id_Text"
+  },
+  {
+    "name": "maxValueTextLabel",
+    "type": "id",
+    "value": "igtxtSCORCRI_MaxValue_Id"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "addStandardTaskPageTabName",
+    "type": "xpath",
+    "value": "//ul[@id='PageTabs_tabBar']/li[not(contains(@style,'default'))]/descendant::a[@role='tab']"
+  },
+  {
+    "name": "addStandardTaskColumnNames",
+    "type": "xpath",
+    "value": "//div[@id='standard_task_gantt_container_grid']/descendant::th[contains(@class,'ui-widget-header')]"
+  },
+  {
+    "name": "addStandardItemDropDown",
+    "type": "xpath",
+    "value": "//label[contains(text(),'Task Template')]/following-sibling::div[@class='combo_container']/span[@aria-owns='taskcomboctrl_listbox']"
+  },
+  {
+    "name": "standardItemList",
+    "type": "xpath",
+    "value": "//ul[@id='taskcomboctrl_listbox']/li[@role='option']"
+  },
+  {
+    "name": "addTaskPickerId",
+    "type": "id",
+    "value": "C1_pnlTaskPicker"
+  },
+  {
+    "name": "addedTaskRow",
+    "type": "xpath",
+    "value": "//div[@id='standard_task_gantt_container_grid']/descendant::tr[@class='rq-row-selected ui-state-active rq-grid-row']"
+  }
+]

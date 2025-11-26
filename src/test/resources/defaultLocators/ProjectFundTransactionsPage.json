@@ -1,0 +1,97 @@
+[
+  {
+    "name": "transactionIdLabel",
+    "type": "xpath",
+    "value": "//span[.='Transaction ID']"
+  },
+  {
+    "name": "fundSourceNameLabel",
+    "type": "xpath",
+    "value": "//span[.='Fund Source Name']"
+  },
+  {
+    "name": "remainingAmount",
+    "type": "xpath",
+    "value": "//span[.='Remaining Amount in $']"
+  },
+  {
+    "name": "transactionTypeLabel",
+    "type": "xpath",
+    "value": "//span[.='Transaction Type']"
+  },
+  {
+    "name": "transactionDateLabel",
+    "type": "xpath",
+    "value": "//span[.='Transaction Date']"
+  },
+  {
+    "name": "availableAmountInFundSourceLabel",
+    "type": "xpath",
+    "value": "//span[.='Available Amount in Fund Source($)']"
+  },
+  {
+    "name": "amountLabel",
+    "type": "xpath",
+    "value": "//span[.='Amount in $']"
+  },
+  {
+    "name": "notesLabel",
+    "type": "xpath",
+    "value": "//span[.='Notes']"
+  },
+  {
+    "name": "fundSourceNameDropDown",
+    "type": "id",
+    "value": "FNDPTRN_FundName_Id"
+  },
+  {
+    "name": "amountTextBox",
+    "type": "id",
+    "value": "igtxtFNDPTRN_Amount_Id"
+  },
+  {
+    "name": "addFundTransaction",
+    "type": "xpath",
+    "value": ".//input[@id='FNDPTRN_TransactionType_Id_0']/following-sibling::label"
+  },
+  {
+    "name": "returnFundTransaction",
+    "type": "xpath",
+    "value": ".//input[@id='FNDPTRN_TransactionType_Id_1']/following-sibling::label"
+  },
+  {
+    "name": "transferFundTransaction",
+    "type": "xpath",
+    "value": ".//input[@id='FNDPTRN_TransactionType_Id_2']/following-sibling::label"
+  },
+  {
+    "name": "fundSourceNameText",
+    "type": "id",
+    "value": "FNDPTRN_FundName_Id_Text"
+  },
+  {
+    "name": "amountText",
+    "type": "id",
+    "value": "igtxtFNDPTRN_Amount_Id"
+  },
+  {
+    "name": "transferProject",
+    "type": "id",
+    "value": "FNDPTRN_TransferProjectID_Id"
+  },
+  {
+    "name": "availableAmountText",
+    "type": "id",
+    "value": "FNDPTRN_GlobalRemainingAmt_Id"
+  },
+  {
+    "name": "remainingAmountText",
+    "type": "id",
+    "value": "FNDPTRN_RemainingAmt_Id"
+  },
+  {
+    "name": "transactionDateInput",
+    "type": "id",
+    "value": "FNDPTRN_TransactionDate_Id_input"
+  }
+]

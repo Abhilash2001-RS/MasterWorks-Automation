@@ -1,0 +1,77 @@
+[
+  {
+    "name": "estimateList",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Estimate List')]"
+  },
+  {
+    "name": "bidEstimateTable",
+    "type": "id",
+    "value": "ctl00_C1_MWGrid_GridHeader"
+  },
+  {
+    "name": "bidEstimateGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_MWGrid_GridHeader"
+  },
+  {
+    "name": "dateCreatedViewMode",
+    "type": "id",
+    "value": "C1_lblCreateDate"
+  },
+  {
+    "name": "dateCreatedEditMode",
+    "type": "id",
+    "value": "C1_wdcDateCreated_input"
+  },
+  {
+    "name": "bidEstimateId",
+    "type": "id",
+    "value": "txtEstimateName"
+  },
+  {
+    "name": "bidEstimateName",
+    "type": "id",
+    "value": "txtEstName"
+  },
+  {
+    "name": "measurementSystemDropdown",
+    "type": "id",
+    "value": "ddlMeaSys"
+  },
+  {
+    "name": "bidEstimateGridData",
+    "type": "id",
+    "value": "ctl00_C1_MWGrid_GridData"
+  },
+  {
+    "name": "copyPicker",
+    "type": "id",
+    "value": "aspPnl"
+  },
+  {
+    "name": "copyBidEstimateID",
+    "type": "id",
+    "value": "txtEstimateID"
+  },
+  {
+    "name": "copyBidEstimateName",
+    "type": "id",
+    "value": "txtEstimateDesc"
+  },
+  {
+    "name": "copySelectAll",
+    "type": "id",
+    "value": "chkSelectAll"
+  },
+  {
+    "name": "copySave",
+    "type": "id",
+    "value": "C2_btnOk"
+  },
+  {
+    "name": "bidEstimateTableID",
+    "type": "id",
+    "value": "ctl00_C1_MWGrid_ctl00"
+  }
+]

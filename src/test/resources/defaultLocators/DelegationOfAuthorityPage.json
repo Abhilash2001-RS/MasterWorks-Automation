@@ -1,0 +1,17 @@
+[
+  {
+    "name": "delegateFromUser",
+    "type": "xpath",
+    "value": "//div[@id='C1_div_DELAUTH_FromUserMultiSelectDropDown_Id']//div[@class='k-multiselect-wrap k-floatwrap']"
+  },
+  {
+    "name": "userRole",
+    "type": "id",
+    "value": "DELAUTH_UserRolesDropDown_Id"
+  },
+  {
+    "name": "delegateToUser",
+    "type": "xpath",
+    "value": "//div[@id='C1_div_DELAUTH_ToUserMultiSelectDropDown_Id']//div[@class='k-multiselect-wrap k-floatwrap']"
+  }
+]

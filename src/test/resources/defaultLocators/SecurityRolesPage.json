@@ -1,0 +1,57 @@
+[
+  {
+    "name": "securityRoleNameTxt",
+    "type": "id",
+    "value": "USRROLS_RoleName_Id"
+  },
+  {
+    "name": "securityRoleDescriptionTxt",
+    "type": "id",
+    "value": "USRROLS_RoleDescription_Id"
+  },
+  {
+    "name": "availableUsers",
+    "type": "id",
+    "value": "C1_leftlist"
+  },
+  {
+    "name": "addBtn",
+    "type": "id",
+    "value": "C1_Addbutton"
+  },
+  {
+    "name": "removeBtn",
+    "type": "id",
+    "value": "C1_Removebutton"
+  },
+  {
+    "name": "usersInRole",
+    "type": "id",
+    "value": "C1_rightlist"
+  },
+  {
+    "name": "requiredErrorInRoles",
+    "type": "xpath",
+    "value": "//input[@id = 'USRROLS_RoleName_Id']/../following-sibling::td/span"
+  },
+  {
+    "name": "requiredErrorInDescription",
+    "type": "xpath",
+    "value": "//textarea[@id = 'USRROLS_RoleDescription_Id']/../../following-sibling::td/span"
+  },
+  {
+    "name": "rolesLabel",
+    "type": "xpath",
+    "value": "//span[.='Role']"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[.='Description']"
+  },
+  {
+    "name": "permissionLabel",
+    "type": "xpath",
+    "value": "//span[.='Permissions']"
+  }
+]

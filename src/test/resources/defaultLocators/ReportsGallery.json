@@ -1,0 +1,57 @@
+[
+  {
+    "name": "programDropdown",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl03_ddValue"
+  },
+  {
+    "name": "forecastTypeDropdown",
+    "type": "xpath",
+    "value": "//td/span[contains(text(),'Forecast Type')]//parent::td//following-sibling::td//div//select"
+  },
+  {
+    "name": "reportTypeDropdown",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl07_ddValue"
+  },
+  {
+    "name": "tableId",
+    "type": "id",
+    "value": "ctl00_C1_MWGrid_ctl00"
+  },
+  {
+    "name": "forecastTextBox",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl05_txtValue"
+  },
+  {
+    "name": "forecastDropdwonButton",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl05_ddDropDownButton"
+  },
+  {
+    "name": "getForecastOptions",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_rptvwrReport_ctl04_ctl05_divDropDown']//tr"
+  },
+  {
+    "name": "selectForecast",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_rptvwrReport_ctl04_ctl05_divDropDown']//tr//span//label"
+  },
+  {
+    "name": "reportGrid",
+    "type": "id",
+    "value": "ctl00_C1_MWGrid"
+  },
+  {
+    "name": "enterpriseDashBoard",
+    "type": "xpath",
+    "value": "//a[text()='Enterprise Dashboard']"
+  },
+  {
+    "name": "reportGalleryHeader",
+    "type": "xpath",
+    "value": "//div[@id='centerContent']/descendant::a[text()='Report Gallery']"
+  }
+]

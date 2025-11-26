@@ -1,0 +1,7 @@
+[
+  {
+    "name": "libraryDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Library')]"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "budgetTemplateNameTextBox",
+    "type": "id",
+    "value": "BDGTEMP_BudgetTemplateName_Id"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "BDGTEMP_Description_Id"
+  },
+  {
+    "name": "measurementSystemDropBox",
+    "type": "id",
+    "value": "BDGTEMP_MSystem_Id"
+  },
+  {
+    "name": "budgetEstimateItemsLandingPage",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Budget Estimate Items')]"
+  },
+  {
+    "name": "budgetTemplateTab",
+    "type": "xpath",
+    "value": "//ul[@id='PageTabs_tabBar']/li/a[contains(text(),'Budget Template')]"
+  },
+  {
+    "name": "budgetTemplateNameLabel",
+    "type": "xpath",
+    "value": "//span[text()='Name']"
+  },
+  {
+    "name": "budgetTemplateMeasurementLabel",
+    "type": "xpath",
+    "value": "//span[text()='Measurement System']"
+  },
+  {
+    "name": "payItemNum",
+    "type": "xpath",
+    "value": "//td[contains(@id,'standardItemPickerValueContainer')]//input[contains(@id,'txtStandardItemNo')]"
+  },
+  {
+    "name": "payItemDescription",
+    "type": "xpath",
+    "value": "//*[@id='C1_txtItemDesc']"
+  },
+  {
+    "name": "unitSelect",
+    "type": "xpath",
+    "value": "//*[@id='C1_ddlUnit']"
+  },
+  {
+    "name": "budgetTempleteItemContainerName",
+    "type": "id",
+    "value": "C1_txtName"
+  },
+  {
+    "name": "budgetTempleteItemContainerDescription",
+    "type": "xpath",
+    "value": "//*[@id='C1_txtDescription']"
+  },
+  {
+    "name": "budgetTempleteItemContainerNotes",
+    "type": "xpath",
+    "value": "//*[@id='C1_txtNotes']"
+  }
+]

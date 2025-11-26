@@ -1,0 +1,67 @@
+[
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "C1_txtQtyPlanDescription"
+  },
+  {
+    "name": "projectStartDateForecastsViewMode",
+    "type": "id",
+    "value": "C1_lblStartDate"
+  },
+  {
+    "name": "projectEndDateForecastsViewMode",
+    "type": "id",
+    "value": "C1_lblEndDate"
+  },
+  {
+    "name": "descriptionTextBoxViewMode",
+    "type": "id",
+    "value": "C1_lblQtyPlanDescription"
+  },
+  {
+    "name": "newButtonForecasts",
+    "type": "xpath",
+    "value": "//a[@aria-label='New' and not(@id)]"
+  },
+  {
+    "name": "copyButtonForecasts",
+    "type": "xpath",
+    "value": "//a[@aria-label='CopyfromExisting' and not(@id)]"
+  },
+  {
+    "name": "columnDataForecast",
+    "type": "xpath",
+    "value": "//div[contains(@id,'MWGrid_GridHeader')]//th[not(contains(@style,'display:none')) and (contains(@class,'rgHeader'))]//a"
+  },
+  {
+    "name": "startDateLabelInScheduleGanttView",
+    "type": "xpath",
+    "value": "//th[contains(@id,'StartDate')]"
+  },
+  {
+    "name": "dateSelectionPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ui-datepicker-div')]"
+  },
+  {
+    "name": "monthSelection",
+    "type": "xpath",
+    "value": "//select[contains(@data-handler,'selectMonth')]"
+  },
+  {
+    "name": "yearSelection",
+    "type": "xpath",
+    "value": "//select[contains(@data-handler,'selectYear')]"
+  },
+  {
+    "name": "selectForecasts",
+    "type": "id",
+    "value": "ctl00_C1_rcbPlanningID_Input"
+  },
+  {
+    "name": "notesField",
+    "type": "id",
+    "value": "C1_txtQuantityPlanningNotes"
+  }
+]

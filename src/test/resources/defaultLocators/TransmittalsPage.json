@@ -1,0 +1,117 @@
+[
+  {
+    "name": "transmittalIdPath",
+    "type": "id",
+    "value": "TRSMITL_TransmittalID_Id"
+  },
+  {
+    "name": "transmittalSubject",
+    "type": "id",
+    "value": "TRSMITL_Subject_Id"
+  },
+  {
+    "name": "transmittalMailPath",
+    "type": "id",
+    "value": "TRSMITL_ToUsers_Id_Data"
+  },
+  {
+    "name": "subject",
+    "type": "id",
+    "value": "TRSMITL_Subject_Id"
+  },
+  {
+    "name": "subjectViewMode",
+    "type": "id",
+    "value": "TRSMITL_Subject_Id_Text"
+  },
+  {
+    "name": "projectCodePath",
+    "type": "id",
+    "value": "TRSMITL_ProjectCode_Id"
+  },
+  {
+    "name": "projectNamePath",
+    "type": "id",
+    "value": "TRSMITL_ProjectName_Id"
+  },
+  {
+    "name": "createdDate",
+    "type": "id",
+    "value": "TRSMITL_CreatedDate_Id_Text"
+  },
+  {
+    "name": "createdBy",
+    "type": "id",
+    "value": "TRSMITL_CreatedBy_Id"
+  },
+  {
+    "name": "subjectPath",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Subject')]"
+  },
+  {
+    "name": "contractNamePath",
+    "type": "id",
+    "value": "TRSMITL_ContractName_Id"
+  },
+  {
+    "name": "toPath",
+    "type": "xpath",
+    "value": "//span[contains(text(),'To')]"
+  },
+  {
+    "name": "ccPath",
+    "type": "xpath",
+    "value": "//span[contains(text(),'CC')]"
+  },
+  {
+    "name": "transmittalTemplatePath",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Transmittal Template')]"
+  },
+  {
+    "name": "issuePurposePath",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Issue Purpose')]"
+  },
+  {
+    "name": "inclusionsPath",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Inclusions')]"
+  },
+  {
+    "name": "approvalResponsePath",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Approval Response')]"
+  },
+  {
+    "name": "commentsPath",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Comments')]"
+  },
+  {
+    "name": "linkedItemsPath",
+    "type": "xpath",
+    "value": "//strong[contains(text(),'Linked Submittals/Submittal packages')]"
+  },
+  {
+    "name": "attachmentsPath",
+    "type": "xpath",
+    "value": "//td[contains(@id,'attachmentsTitleContainer')]/strong[contains(text(),'Attachments')]"
+  },
+  {
+    "name": "transmittalTemplate",
+    "type": "xpath",
+    "value": "//ul[@id='TRSMITL_TransmittalTemplate_Id_listbox']//span"
+  },
+  {
+    "name": "libraryManagementDashBoard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  },
+  {
+    "name": "transmittalTemplateField",
+    "type": "xpath",
+    "value": "//ul[@id='TRSMITL_TransmittalTemplate_Id_taglist']/../input"
+  }
+]

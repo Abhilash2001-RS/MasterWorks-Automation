@@ -1,0 +1,92 @@
+[
+  {
+    "name": "workFlowManagementTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Workflow Management')]"
+  },
+  {
+    "name": "generalDetailsTab",
+    "type": "xpath",
+    "value": "//input[@id='tabstriptab0']"
+  },
+  {
+    "name": "workFlowNameTextBox",
+    "type": "xpath",
+    "value": "//input[@id='workflow-name']"
+  },
+  {
+    "name": "applyBtn",
+    "type": "xpath",
+    "value": "//button[@id='processWorfklowScreen']"
+  },
+  {
+    "name": "configureViewPermissionCheckBox",
+    "type": "xpath",
+    "value": "//input[@id='view-permissions']"
+  },
+  {
+    "name": "actionStackHolder",
+    "type": "xpath",
+    "value": "//input[contains(@aria-owns,'action-stakeholders')]"
+  },
+  {
+    "name": "selectForm",
+    "type": "xpath",
+    "value": "//input[@class='k-input form-control']"
+  },
+  {
+    "name": "svgDraftAction",
+    "type": "xpath",
+    "value": "//*[local-name() = 'svg']/*/*[name()='tspan' and text()='Draft']"
+  },
+  {
+    "name": "svgSubmittedAction",
+    "type": "xpath",
+    "value": "//*[local-name() = 'svg']/*/*[name()='tspan' and text()='Submitted']"
+  },
+  {
+    "name": "stackHolderVerification",
+    "type": "xpath",
+    "value": "//*[@id='action-stakeholders_taglist']//li//span[contains(@aria-label,'delete')]"
+  },
+  {
+    "name": "svgSecondStageAction",
+    "type": "xpath",
+    "value": "//*[local-name() = 'svg']/*/*[name()='tspan' and text()='Approve']"
+  },
+  {
+    "name": "viewStakeHolderBox",
+    "type": "xpath",
+    "value": "//div[@id='div-view-stakeholders']"
+  },
+  {
+    "name": "deleteActionBtn",
+    "type": "xpath",
+    "value": "//button[@id='deleteElement-button']"
+  },
+  {
+    "name": "viewStackHolder",
+    "type": "xpath",
+    "value": "//input[contains(@aria-owns,'view-stakeholders')]"
+  },
+  {
+    "name": "viewStackHolderVerification",
+    "type": "xpath",
+    "value": "//*[@id='view-stakeholders_taglist']//li//span[contains(@aria-label,'delete')]"
+  },
+  {
+    "name": "allowEditingByNonActionStakeHoldersCheckBox",
+    "type": "id",
+    "value": "chkEnableEditByNonStakeHolder"
+  },
+  {
+    "name": "allowWorkFlowActionByAllStakeHoldersCheckBox",
+    "type": "id",
+    "value": "chkAllowActionByAllStakeHolders"
+  },
+  {
+    "name": "svgApproveAction",
+    "type": "xpath",
+    "value": "//*[local-name() = 'svg']/*/*[name()='tspan' and text()='Approved']"
+  }
+]

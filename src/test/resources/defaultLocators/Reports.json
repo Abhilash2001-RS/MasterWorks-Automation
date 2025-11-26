@@ -1,0 +1,22 @@
+[
+  {
+    "name": "detailsReportOption",
+    "type": "xpath",
+    "value": "//a[@id]//span[.='Details Report']"
+  },
+  {
+    "name": "listPageReportOption",
+    "type": "xpath",
+    "value": "//a[@id]//span[.='List Page Report']"
+  },
+  {
+    "name": "globalFundAvailabilityReport",
+    "type": "xpath",
+    "value": "//a[@id]//span[.='Global Fund Availability Report']"
+  },
+  {
+    "name": "lastPageButton",
+    "type": "xpath",
+    "value": "//div[contains(@id,'Last')]"
+  }
+]

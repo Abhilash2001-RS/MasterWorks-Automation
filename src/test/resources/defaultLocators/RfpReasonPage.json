@@ -1,0 +1,12 @@
+[
+  {
+    "name": "reasonLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Reason')]"
+  },
+  {
+    "name": "reasonTextBox",
+    "type": "id",
+    "value": "RFPRESN_Reason_Id"
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "name": "portfolioBudgetTextColour",
+    "type": "xpath",
+    "value": "//td[div/div/div/span[contains(text(),'Portfolio Budget in')]]/following-sibling::td/div[contains(@style,'RED')]"
+  },
+  {
+    "name": "fetchPortfolioBudgetValue",
+    "type": "xpath",
+    "value": "//td[div/div/div/span[contains(text(),'Portfolio Budget in')]]/following-sibling::td"
+  },
+  {
+    "name": "viewReport",
+    "type": "xpath",
+    "value": "//input[@value = 'View Report']"
+  },
+  {
+    "name": "resourceButton",
+    "type": "xpath",
+    "value": "//div[@onactivate = 'event.cancelBubble=true;']//input[contains(@id,'rptvwrReport_ctl04_ctl03_ddDropDownButton')]"
+  },
+  {
+    "name": "resourceTitleButton",
+    "type": "xpath",
+    "value": "//div[@onactivate = 'event.cancelBubble=true;']//input[contains(@id,'rptvwrReport_ctl04_ctl05_ddDropDownButton')]"
+  },
+  {
+    "name": "titleIDTitlePendingAssignmentReport",
+    "type": "xpath",
+    "value": "//span[text() = 'Title']"
+  },
+  {
+    "name": "resourceId",
+    "type": "xpath",
+    "value": "//span[text()='Resource']"
+  },
+  {
+    "name": "resourceCostSheetTitleID",
+    "type": "xpath",
+    "value": "//span[text() = 'Title ID']"
+  },
+  {
+    "name": "resourceDropDownSelect",
+    "type": "xpath",
+    "value": "//input[contains(@id,'ctl00_C1_rptvwrReport_ctl04_ctl05_divDropDown_ctl01') and @type = 'checkbox']"
+  },
+  {
+    "name": "selectCategoryOptionsInFundSummaryReport",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl03_ddValue"
+  },
+  {
+    "name": "selectNameOptionsInFundSummaryReport",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl05_ddValue"
+  },
+  {
+    "name": "reportGalleryTitle",
+    "type": "xpath",
+    "value": "//a[@title='Report Gallery']"
+  },
+  {
+    "name": "fundSummaryReportHeader",
+    "type": "xpath",
+    "value": "//div[text()='FUND SUMMARY REPORT BY PORTFOLIO']"
+  },
+  {
+    "name": "portfolioPageTitle",
+    "type": "xpath",
+    "value": "//a[@title='Portfolio']"
+  },
+  {
+    "name": "masterworksLogo",
+    "type": "xpath",
+    "value": "//td[contains(@id,'_oReportCell')]//div/img"
+  },
+  {
+    "name": "getPortfolioStartDateFromDetailsPage",
+    "type": "id",
+    "value": "PORTENT_StartDate_Id_Text"
+  },
+  {
+    "name": "getPortfolioEndDateFromDetailsPage",
+    "type": "id",
+    "value": "PORTENT_EndDate_Id_Text"
+  }
+]

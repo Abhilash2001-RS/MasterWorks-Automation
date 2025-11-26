@@ -1,0 +1,272 @@
+[
+  {
+    "name": "miscellaneousRadioBtn",
+    "type": "xpath",
+    "value": "//label[contains(text(),'Miscellaneous Expenses')]"
+  },
+  {
+    "name": "directExpenseRadioBtn",
+    "type": "xpath",
+    "value": "//label[contains(text(),'Direct Expenses')]"
+  },
+  {
+    "name": "pickerBtn",
+    "type": "xpath",
+    "value": "//*[@id='C1_BudgetItemIdTrigger_BudItemPicker_btnShowPicker']"
+  },
+  {
+    "name": "clearDisplay",
+    "type": "id",
+    "value": "EXPSFRM_UnlinkBudgetItem_Id"
+  },
+  {
+    "name": "externalRefNumber",
+    "type": "id",
+    "value": "EXPSFRM_ExternalRefNumber_Id"
+  },
+  {
+    "name": "expenseType",
+    "type": "id",
+    "value": "EXPSFRM_ExpensesType_Id"
+  },
+  {
+    "name": "purchaseOrderNum",
+    "type": "xpath",
+    "value": "//*[@id='EXPSFRM_PurchaseOrderNo_Id']"
+  },
+  {
+    "name": "expenseDateId",
+    "type": "id",
+    "value": "EXPSFRM_ExpensesDate_Id_input"
+  },
+  {
+    "name": "budgetPickerTable",
+    "type": "xpath",
+    "value": "//div[@id='C1_BudgetItemIdTrigger_BudItemPicker_pickerContainer']/.."
+  },
+  {
+    "name": "addMiscellBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItemsForMiscExpenses']//input[@value='Add']"
+  },
+  {
+    "name": "addDirectBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItemsForExpenses']//input[@value='Add']"
+  },
+  {
+    "name": "editMiscellBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItemsForMiscExpenses']//input[@value='Edit']"
+  },
+  {
+    "name": "editDirectBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItemsForExpenses']//input[@value='Edit']"
+  },
+  {
+    "name": "miscellPopUp",
+    "type": "xpath",
+    "value": "//div[@id='POItemsForMiscExpenses_EditTemplate']/.."
+  },
+  {
+    "name": "miscellName",
+    "type": "id",
+    "value": "POItemsForMiscExpenses_MItemName_Id"
+  },
+  {
+    "name": "miscellDiscrip",
+    "type": "id",
+    "value": "POItemsForMiscExpenses_MItemDescription_Id"
+  },
+  {
+    "name": "miscellSaveBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItemsForMiscExpenses_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "miscellCancelBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItemsForMiscExpenses_EditTemplate']/descendant::td[@popup-actionbtn-container='true']/input[@value='Cancel']"
+  },
+  {
+    "name": "directSaveBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItemsForExpenses_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "directCancelBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItemsForExpenses_EditTemplate']//input[@value='Cancel']"
+  },
+  {
+    "name": "budgetPickerCancelBtn",
+    "type": "id",
+    "value": "C1_BudgetItemIdTrigger_BudItemPicker_btnCancel"
+  },
+  {
+    "name": "payItemtable",
+    "type": "id",
+    "value": "POItemsForMiscExpenses"
+  },
+  {
+    "name": "directPicker",
+    "type": "xpath",
+    "value": "//div[@id='C1_POItemsForExpenses_PRItemsPicker_pickerContainer']"
+  },
+  {
+    "name": "directPayItemTable",
+    "type": "id",
+    "value": "ctl00_C1_EXPSFRM_POItemsForExpenses_id_ctl00"
+  },
+  {
+    "name": "miscellPayItemGridId",
+    "type": "id",
+    "value": "ctl00_C1_EXPSFRM_POItemsForMiscExpenses_id_GridData"
+  },
+  {
+    "name": "directPayItemGridId",
+    "type": "id",
+    "value": "ctl00_C1_EXPSFRM_POItemsForExpenses_id_GridData"
+  },
+  {
+    "name": "miscellPayItemTable",
+    "type": "id",
+    "value": "ctl00_C1_EXPSFRM_POItemsForMiscExpenses_id_ctl00"
+  },
+  {
+    "name": "miscellTableHeader",
+    "type": "id",
+    "value": "ctl00_C1_EXPSFRM_POItemsForMiscExpenses_id_GridHeader"
+  },
+  {
+    "name": "directPayItemHeader",
+    "type": "id",
+    "value": "ctl00_C1_EXPSFRM_POItemsForExpenses_id_GridHeader"
+  },
+  {
+    "name": "deleteMiscellBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItemsForMiscExpenses']//input[@value='Delete']"
+  },
+  {
+    "name": "deleteDirectBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItemsForExpenses']//input[@value='Delete']"
+  },
+  {
+    "name": "directPayItemAmount",
+    "type": "id",
+    "value": "igtxtPOItemsForExpenses_ItemPostingAmount_Id"
+  },
+  {
+    "name": "finalCostRowId",
+    "type": "id",
+    "value": "ctl00_C1_EXPSFRM_POItemsForMiscExpenses_id_GridFooter"
+  },
+  {
+    "name": "directFinalCostRowId",
+    "type": "id",
+    "value": "ctl00_C1_EXPSFRM_POItemsForExpenses_id_GridFooter"
+  },
+  {
+    "name": "helpPicker",
+    "type": "xpath",
+    "value": "//div[@id='workFlowHelpDescriptionContent']/.."
+  },
+  {
+    "name": "draftTextHelpPicker",
+    "type": "xpath",
+    "value": "//div[@id='workFlowHelpDescriptionContent']//td[contains(text(),'Draft')]"
+  },
+  {
+    "name": "submittedTextHelpPicker",
+    "type": "xpath",
+    "value": "//div[@id='workFlowHelpDescriptionContent']//td[contains(text(),'Submitted')]"
+  },
+  {
+    "name": "approvedTextHelpPicker",
+    "type": "xpath",
+    "value": "//div[@id='workFlowHelpDescriptionContent']//td[contains(text(),'Approved')]"
+  },
+  {
+    "name": "miscellAmount",
+    "type": "id",
+    "value": "igtxtPOItemsForMiscExpenses_MItemAmount_Id"
+  },
+  {
+    "name": "funRuleField",
+    "type": "id",
+    "value": "POItemsForMiscExpenses_RuleID_Id"
+  },
+  {
+    "name": "vendorNameField",
+    "type": "id",
+    "value": "EXPSFRM_VendorName_Id_Text"
+  },
+  {
+    "name": "approveInFormButton",
+    "type": "xpath",
+    "value": ".//span[contains(text(),'Approve')]"
+  },
+  {
+    "name": "directPayItemWholeIdGrid",
+    "type": "id",
+    "value": "ctl00_C1_EXPSFRM_POItemsForExpenses_id"
+  },
+  {
+    "name": "workFlowHistoryPopUp",
+    "type": "id",
+    "value": "appWorkflowHistory_aspPnlWF"
+  },
+  {
+    "name": "workFlowAssociationPopUp",
+    "type": "id",
+    "value": "C2_appWorkflowAssociation_aspPnlWF"
+  },
+  {
+    "name": "statusButtonId",
+    "type": "id",
+    "value": "lnkWorkFlowStatus"
+  },
+  {
+    "name": "statusPopUpId",
+    "type": "id",
+    "value": "divWorkflowStatus"
+  },
+  {
+    "name": "associationPopUpClose",
+    "type": "xpath",
+    "value": "//*[@id='C2_appWorkflowAssociation_aspPnlWF']/..//button[@title='Close']"
+  },
+  {
+    "name": "fundRuleDirectPI",
+    "type": "id",
+    "value": "POItemsForExpenses_RuleID_Id"
+  },
+  {
+    "name": "vendorIdText",
+    "type": "id",
+    "value": "EXPSFRM_VendorID_Id_Text"
+  },
+  {
+    "name": "vendorNameText",
+    "type": "id",
+    "value": "EXPSFRM_VendorName_Id_Text"
+  },
+  {
+    "name": "budgetItemTextField",
+    "type": "id",
+    "value": "EXPSFRM_BudgetItemName_Id"
+  },
+  {
+    "name": "miscPayItemHeaderTableId",
+    "type": "id",
+    "value": "ctl00_C1_EXPSFRM_POItemsForMiscExpenses_id_ctl00_Header"
+  },
+  {
+    "name": "directPayItemHeaderTableId",
+    "type": "id",
+    "value": "ctl00_C1_EXPSFRM_POItemsForExpenses_id_ctl00_Header"
+  }
+]

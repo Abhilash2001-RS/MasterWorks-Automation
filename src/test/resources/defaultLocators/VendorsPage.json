@@ -1,0 +1,202 @@
+[
+  {
+    "name": "nameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "contactLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contact')]"
+  },
+  {
+    "name": "vendorIdLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Vendor ID')]"
+  },
+  {
+    "name": "vendorCategoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Vendor Category')]"
+  },
+  {
+    "name": "vendorSubCategoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Vendor Sub-Category')]"
+  },
+  {
+    "name": "workSizeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Work Size')]"
+  },
+  {
+    "name": "nameTextBox",
+    "type": "id",
+    "value": "LIBCONT_Name_Id"
+  },
+  {
+    "name": "contactTextBox",
+    "type": "id",
+    "value": "LIBCONT_Contact_Id"
+  },
+  {
+    "name": "vendorIdTextBox",
+    "type": "id",
+    "value": "LIBCONT_ID_Id"
+  },
+  {
+    "name": "vendorCategoryComboBox",
+    "type": "id",
+    "value": "LIBCONT_Category_Id"
+  },
+  {
+    "name": "vendorSubCategoryComboBox",
+    "type": "id",
+    "value": "LIBCONT_SubCategory_Id"
+  },
+  {
+    "name": "workSizeComboBox",
+    "type": "id",
+    "value": "LIBCONT_WorkSize_Id"
+  },
+  {
+    "name": "address1Label",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Address1')]"
+  },
+  {
+    "name": "address2Label",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Address2')]"
+  },
+  {
+    "name": "address3Label",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Address3')]"
+  },
+  {
+    "name": "cityLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'City')]"
+  },
+  {
+    "name": "stateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'State')]"
+  },
+  {
+    "name": "zipCodeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Zip Code')]"
+  },
+  {
+    "name": "faxNumberLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Fax Number')]"
+  },
+  {
+    "name": "emailIDLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Email ID')]"
+  },
+  {
+    "name": "typeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Type')]"
+  },
+  {
+    "name": "phoneNumberLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Phone Number')]"
+  },
+  {
+    "name": "contractorLoginIDLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contractor Login ID')]"
+  },
+  {
+    "name": "isActiveLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Is Active')]"
+  },
+  {
+    "name": "cityTextBox",
+    "type": "id",
+    "value": "LIBCONT_City_Id"
+  },
+  {
+    "name": "isActiveCheckBox",
+    "type": "id",
+    "value": "LIBCONT_IsActive_Id"
+  },
+  {
+    "name": "address1TextBox",
+    "type": "id",
+    "value": "LIBCONT_Address1_Id"
+  },
+  {
+    "name": "address2TextBox",
+    "type": "id",
+    "value": "LIBCONT_Address2_Id"
+  },
+  {
+    "name": "address3TextBox",
+    "type": "id",
+    "value": "LIBCONT_Address3_Id"
+  },
+  {
+    "name": "stateTextBox",
+    "type": "id",
+    "value": "LIBCONT_State_Id"
+  },
+  {
+    "name": "zipCodeTextBox",
+    "type": "id",
+    "value": "LIBCONT_ZipCode_Id"
+  },
+  {
+    "name": "faxNumberTextBox",
+    "type": "id",
+    "value": "LIBCONT_FaxNo_Id"
+  },
+  {
+    "name": "phoneNumberTextBox",
+    "type": "id",
+    "value": "LIBCONT_PhoneNo_Id"
+  },
+  {
+    "name": "emailIDTextBox",
+    "type": "id",
+    "value": "LIBCONT_EmailID_Id"
+  },
+  {
+    "name": "contractorLoginComboBox",
+    "type": "id",
+    "value": "LIBCONT_ContractorLoginID_Id"
+  },
+  {
+    "name": "typeComboBox",
+    "type": "id",
+    "value": "LIBCONT_Type_Id"
+  },
+  {
+    "name": "typeViewTextBox",
+    "type": "id",
+    "value": "LIBCONT_Type_Id_Text"
+  },
+  {
+    "name": "vendorCategoryViewTextBox",
+    "type": "id",
+    "value": "LIBCONT_Category_Id_Text"
+  },
+  {
+    "name": "vendorSubCategoryViewTextBox",
+    "type": "id",
+    "value": "LIBCONT_SubCategory_Id_Text"
+  },
+  {
+    "name": "contractorLoginTextBox",
+    "type": "id",
+    "value": "LIBCONT_ContractorLoginID_Id_Text"
+  }
+]

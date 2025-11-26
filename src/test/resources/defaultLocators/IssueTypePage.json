@@ -1,0 +1,17 @@
+[
+  {
+    "name": "libraryManagementDashBoard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  },
+  {
+    "name": "typeTextBox",
+    "type": "id",
+    "value": "ISSTYPE_Type_Id"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "ISSTYPE_Description_Id"
+  }
+]

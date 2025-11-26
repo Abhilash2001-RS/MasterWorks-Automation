@@ -1,0 +1,127 @@
+[
+  {
+    "name": "mobileSettingsLink",
+    "type": "xpath",
+    "value": "//nobr[normalize-space()='Mobile Settings']"
+  },
+  {
+    "name": "serverAPIVersion",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Server API Version']"
+  },
+  {
+    "name": "itemsInSyncStatus",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='No. of visible Items in Sync status']"
+  },
+  {
+    "name": "apiRequestTimeout",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='API Request Timeout (in milliseconds)']"
+  },
+  {
+    "name": "autoSaveInternal",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Auto Save Interval (in seconds)']"
+  },
+  {
+    "name": "cachingProjectUserDetails",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Duration for Caching Project User details (in days)']"
+  },
+  {
+    "name": "syncEstimateDataTimeout",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Sync Estimate Data Timeout (in seconds)']"
+  },
+  {
+    "name": "projectsEstimatePerBatchDuringSync",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Sync Estimate Data Timeout (in seconds)']"
+  },
+  {
+    "name": "cacheRebuildInterval",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Cache Rebuild Interval (in hours)']"
+  },
+  {
+    "name": "noOfRecordsFetchDuringSync",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='No. of Records to fetch during Sync']"
+  },
+  {
+    "name": "noOfSyncEstimateRequest",
+    "type": "xpath",
+      "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='No. of Sync estimate request']"
+  },
+  {
+    "name": "maximumDownloadQueue",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Maximum Download Queue']"
+  },
+  {
+    "name": "maximumUploadQueue",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Maximum Upload Queue']"
+  },
+  {
+    "name": "maximumAPIQueue",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Maximum API Queue']"
+  },
+  {
+    "name": "maximumOfflineDuration",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Maximum Offline Duration (in days)']"
+  },
+  {
+    "name": "maximumGPSLocationCaptureRetry",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Maximum Offline Duration (in days)']"
+  },
+  {
+    "name": "maximumDocumentDownloadRetry",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettAppConfig') and @aria-label='Maximum Document Download Retry']"
+  },
+  {
+    "name": "apiLogConfigCacheTiemout",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettLogConfig') and @aria-label='API Log Config Cache Timeout (in mins)']"
+  },
+  {
+    "name": "domainName",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettLogConfig') and @aria-label='API Log Config Cache Timeout (in mins)']"
+  },
+  {
+    "name": "documentDownloadTiemout",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettDocConfig') and @aria-label='Document Download Timeout (in milliseconds)']"
+  },
+  {
+    "name": "documentUploadTiemout",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgMobSettDocConfig') and @aria-label='Document Upload Timeout (in milliseconds)']"
+  },
+  {
+    "name": "rebuildNowButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgRebuildCache') and @aria-label='Click here to rebuild cache now']"
+  },
+  {
+    "name": "enableStorageOfCachedTemplates",
+    "type": "xpath",
+    "value": "//input[@id='SgMobSettAppConfig_1_KeepCachedTemplatesInCache_Value_Id']"
+  },
+  {
+    "name": "enableEmbeddedDataInJSON",
+    "type": "xpath",
+    "value": "//input[@id='SgMobSettAppConfig_1_MobileEmbedDataInJson_Value_Id']"
+  },
+  {
+    "name": "enableFrameworkToFetchPickerData",
+    "type": "xpath",
+    "value": "//input[@id='SgMobSettAppConfig_1_MobileSyncPickerData_Value_Id']"
+  }
+]

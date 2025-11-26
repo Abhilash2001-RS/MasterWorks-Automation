@@ -1,0 +1,347 @@
+[
+  {
+    "name": "purchaseOrderType",
+    "type": "id",
+    "value": "PURCORD_PurchaseOrderType_Id"
+  },
+  {
+    "name": "vendorId",
+    "type": "id",
+    "value": "C1_VendorIdTrigger_VendorPicker_btnShowPicker"
+  },
+  {
+    "name": "vendorPickerXpath",
+    "type": "xpath",
+    "value": "//div[@id='C1_VendorIdTrigger_VendorPicker_pickerContainer']"
+  },
+  {
+    "name": "helpPicker",
+    "type": "xpath",
+    "value": "//div[@id='workFlowHelpDescriptionContent']/.."
+  },
+  {
+    "name": "purchaseNumber",
+    "type": "xpath",
+    "value": "//*[contains(@id,'PURCORD_PONo_Id')]"
+  },
+  {
+    "name": "createdTextHelpPicker",
+    "type": "xpath",
+    "value": "//div[@id='workFlowHelpDescriptionContent']//td[contains(text(),'Created')]"
+  },
+  {
+    "name": "committedTextHelpPicker",
+    "type": "xpath",
+    "value": "//div[@id='workFlowHelpDescriptionContent']//td[contains(text(),'Committed')]"
+  },
+  {
+    "name": "receivedTextHelpPicker",
+    "type": "xpath",
+    "value": "//div[@id='workFlowHelpDescriptionContent']//td[contains(text(),'Received')]"
+  },
+  {
+    "name": "deletePayItemRevisionBtn",
+    "type": "xpath",
+    "value": "//div[@id='PRItems']//input[@value='Delete']"
+  },
+  {
+    "name": "namePayItem",
+    "type": "id",
+    "value": "POItems_ItemName_Id"
+  },
+  {
+    "name": "descriptionPayItem",
+    "type": "id",
+    "value": "POItems_ItemDescription_Id"
+  },
+  {
+    "name": "measurementSys",
+    "type": "xpath",
+    "value": "//select[@id='POItems_MeasurementSystem_Id']"
+  },
+  {
+    "name": "popUpcloseBtn",
+    "type": "xpath",
+    "value": "//span[@id='ui-id-1']/..//button"
+  },
+  {
+    "name": "unit",
+    "type": "id",
+    "value": "POItems_UnitID_Id"
+  },
+  {
+    "name": "attachmentGrid",
+    "type": "xpath",
+    "value": "//*[contains(@id,'gridAttachment_GridData')]"
+  },
+  {
+    "name": "cancelInPopUp",
+    "type": "xpath",
+    "value": "//div[@id='POItems_EditTemplate']/descendant::td[@popup-actionbtn-container='true']/input[@value='Cancel']"
+  },
+  {
+    "name": "quantity",
+    "type": "id",
+    "value": "igtxtPOItems_ItemQty_Id"
+  },
+  {
+    "name": "filterGrid",
+    "type": "id",
+    "value": "divFilterManagerGrid"
+  },
+  {
+    "name": "rate",
+    "type": "id",
+    "value": "igtxtPOItems_ItemRate_Id"
+  },
+  {
+    "name": "attachmentTable",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and not(contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "attachmentTableHeader",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and (contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "attachmentTitle",
+    "type": "xpath",
+    "value": "//*[contains(@id,'gridAttachment')]//textarea"
+  },
+  {
+    "name": "leadTime",
+    "type": "id",
+    "value": "PURCORD_LeadTime_Id"
+  },
+  {
+    "name": "editTextFilter",
+    "type": "xpath",
+    "value": "//div[@id='divFilterManagerGrid']//input[(@type='text') and (@name='FilterName')]"
+  },
+  {
+    "name": "defaultCheck",
+    "type": "xpath",
+    "value": "//div[@id='divFilterManagerGrid']//input[@type='checkbox']"
+  },
+  {
+    "name": "projectNameId",
+    "type": "id",
+    "value": "PURCORD_ProjectName_Id_Text"
+  },
+  {
+    "name": "projectCodeId",
+    "type": "id",
+    "value": "PURCORD_ProjectCode_Id_Text"
+  },
+  {
+    "name": "startDateId",
+    "type": "id",
+    "value": "PURCORD_StartDate_Id_input"
+  },
+  {
+    "name": "endDateId",
+    "type": "id",
+    "value": "PURCORD_EndDate_Id_input"
+  },
+  {
+    "name": "updateFilterBtn",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Update')]"
+  },
+  {
+    "name": "uploadDocText",
+    "type": "xpath",
+    "value": "//input[contains(@id,'UploadFileControl') and not(contains(@name,'Attachments'))]/../span"
+  },
+  {
+    "name": "deleteAttachment",
+    "type": "xpath",
+    "value": "//*[contains(@id,'btnDelete') and not(contains(@id,'Attachment'))]"
+  },
+  {
+    "name": "helpCancel",
+    "type": "xpath",
+    "value": " //div[@aria-labelledby='ui-id-1']//a"
+  },
+  {
+    "name": "versionHistoryTable",
+    "type": "xpath",
+    "value": "//div[@name='ctl10xgrdVersionHistory_div']"
+  },
+  {
+    "name": "commitInFormBtn",
+    "type": "xpath",
+    "value": "//span[contains(@id,'Commit')]"
+  },
+  {
+    "name": "addPayItemBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItems']//input[@value='Add']"
+  },
+  {
+    "name": "deletePayItemBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItems']//input[@value='Delete']"
+  },
+  {
+    "name": "payItemtable",
+    "type": "id",
+    "value": "ctl00_C1_PURCORD_POItems_id_ctl00"
+  },
+  {
+    "name": "payItemGrid",
+    "type": "id",
+    "value": "ctl00_C1_PURCORD_POItems_id_GridData"
+  },
+  {
+    "name": "rateIn$Text",
+    "type": "xpath",
+    "value": "//span[text()='Rate in $']"
+  },
+  {
+    "name": "payItemHeader",
+    "type": "id",
+    "value": "ctl00_C1_PURCORD_POItems_id_GridHeader"
+  },
+  {
+    "name": "editPayItemBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItems']//input[@value='Edit']"
+  },
+  {
+    "name": "payItemPopUp",
+    "type": "xpath",
+    "value": "//div[@id='POItems_EditTemplate']/.."
+  },
+  {
+    "name": "funRuleField",
+    "type": "id",
+    "value": "POItems_RuleID_Id"
+  },
+  {
+    "name": "saveInPopUp",
+    "type": "xpath",
+    "value": "//div[@id='POItems_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "termsAndConditionTextArea",
+    "type": "xpath",
+    "value": "//*[@id='PURCORD_POTandC_Id']"
+  },
+  {
+    "name": "linkDocPopUp",
+    "type": "xpath",
+    "value": "//*[contains(@id,'C1') and contains(@id,'aspPnlDocumentPicker')]"
+  },
+  {
+    "name": "linkDocRadGridId",
+    "type": "xpath",
+    "value": "//*[contains(@id,'telerikgrdAllDocuments') and contains(@class,'RadGrid') and (not(contains(@id,'app')))]"
+  },
+  {
+    "name": "linkDocRadGridTableId",
+    "type": "xpath",
+    "value": "//table[contains(@id,'ctl00_C1') and contains(@id,'telerikgrdAllDocuments_ctl00') and not(contains(@id,'Header'))]"
+  },
+  {
+    "name": "linkDocOkButton",
+    "type": "xpath",
+    "value": "//*[contains(@id,'C1') and contains(@id,'aspPnlDocumentPicker')]"
+  },
+  {
+    "name": "linkDocCancelButton",
+    "type": "xpath",
+    "value": "//*[contains(@id,'C1') and contains(@id,'aspPnlDocumentPicker')]//input[@value='Cancel']"
+  },
+  {
+    "name": "attachmentsGridId",
+    "type": "xpath",
+    "value": "//div[contains(@id,'gridAttachment') and contains(@id,'C1') and contains(@class,'RadGrid')]"
+  },
+  {
+    "name": "workFlowHistoryPopUp",
+    "type": "id",
+    "value": "appWorkflowHistory_aspPnlWF"
+  },
+  {
+    "name": "workFlowAssociationPopUp",
+    "type": "id",
+    "value": "C2_appWorkflowAssociation_aspPnlWF"
+  },
+  {
+    "name": "associationPopUpClose",
+    "type": "xpath",
+    "value": "//*[@id='C2_appWorkflowAssociation_aspPnlWF']/..//button[@title='Close']"
+  },
+  {
+    "name": "statusButtonId",
+    "type": "id",
+    "value": "lnkWorkFlowStatus"
+  },
+  {
+    "name": "statusPopUpId",
+    "type": "id",
+    "value": "divWorkflowStatus"
+  },
+  {
+    "name": "filterNameHeader",
+    "type": "xpath",
+    "value": "//th[text()='Filter Name']"
+  },
+  {
+    "name": "vendorIDText",
+    "type": "xpath",
+    "value": "//input[@id='PURCORD_VendorId_Id']"
+  },
+  {
+    "name": "budgetPickerBtn",
+    "type": "xpath",
+    "value": "//*[@id='C1_BudgetItemIdTrigger_BudItemPicker_btnShowPicker']"
+  },
+  {
+    "name": "clearBudgetLink",
+    "type": "xpath",
+    "value": "//*[@id='PURCORD_UnlinkBudgetItem_Id']"
+  },
+  {
+    "name": "budgetPicker",
+    "type": "id",
+    "value": "C1_BudgetItemIdTrigger_BudItemPicker_pickerContainer"
+  },
+  {
+    "name": "linkDocument",
+    "type": "xpath",
+    "value": "//input[@value='Link Document']"
+  },
+  {
+    "name": "documentPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'AllDocuments_GridData') and not(contains(@id,'appWorkflow'))]"
+  },
+  {
+    "name": "okButtonPicker",
+    "type": "xpath",
+    "value": "//input[contains(@id,'btnOk') and not(contains(@id,'appWorkflow'))]"
+  },
+  {
+    "name": "clearBudget",
+    "type": "id",
+    "value": "PURCORD_UnlinkBudgetItem_Id"
+  },
+  {
+    "name": "budgetTextBox",
+    "type": "id",
+    "value": "PURCORD_BudgetItemName_Id"
+  },
+  {
+    "name": "payItemGridHeader",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PURCORD_POItems_id')]/descendant::div[contains(@id,'PURCORD_POItems_id_GridHeader')]/descendant::th"
+  },
+  {
+    "name": "payItemGridData",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PURCORD_POItems_id')]/descendant::div[contains(@id,'PURCORD_POItems_id_GridData')]/descendant::tr[not(contains(@style,'display:none'))]/descendant::td"
+  }
+]

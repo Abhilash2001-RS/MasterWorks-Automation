@@ -1,0 +1,27 @@
+[
+  {
+    "name": "fiscalYearStartMonth",
+    "type": "id",
+    "value": "RPTCONF_FiscalYearStartMonth_Id"
+  },
+  {
+    "name": "payEstimatesPendingApprovalDays",
+    "type": "id",
+    "value": "RPTCONF_PEPendingApprovalDays_Id"
+  },
+  {
+    "name": "dueDays",
+    "type": "id",
+    "value": "RPTCONF_DueDays_Id"
+  },
+  {
+    "name": "topHighPriorityIssues",
+    "type": "id",
+    "value": "RPTCONF_TopPriorityIssues_Id"
+  },
+  {
+    "name": "topHighPriorityRisks",
+    "type": "id",
+    "value": "RPTCONF_TopPriorityRisks_Id"
+  }
+]

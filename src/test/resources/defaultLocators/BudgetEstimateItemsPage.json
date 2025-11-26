@@ -1,0 +1,237 @@
+[
+  {
+    "name": "budgetEstimateItemsTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Budget Estimate Items')]"
+  },
+  {
+    "name": "budgetItemsTotal",
+    "type": "xpath",
+    "value": ".//*[@id = 'GridSummary']"
+  },
+  {
+    "name": "inflationRule",
+    "type": "xpath",
+    "value": ".//*[@id = 'C1_tblInflation']/tbody/tr/td/span[contains(text(),'Inflation Rule')]"
+  },
+  {
+    "name": "annualInflationRate",
+    "type": "xpath",
+    "value": ".//*[@id = 'C1_tblInflation']/tbody/tr/td/span[contains(text(),'Annual Inflation Rate (in %)')]"
+  },
+  {
+    "name": "effectiveFrom",
+    "type": "xpath",
+    "value": ".//*[@id = 'C1_tblInflation']/tbody/tr/td/span[contains(text(),'Effective from')]"
+  },
+  {
+    "name": "newButtonInBudgetItemsPage",
+    "type": "id",
+    "value": "MainToolBar_lnkAddNew"
+  },
+  {
+    "name": "newButtonFromDropdown",
+    "type": "xpath",
+    "value": ".//*[@class = 'rrbMenu']//a/span[@class='rrbText'][contains(text(),'New')]"
+  },
+  {
+    "name": "selectFirstBudgetItem",
+    "type": "xpath",
+    "value": ".//*[@id = 'dataTable']/tbody/tr"
+  },
+  {
+    "name": "inflationRulePicker",
+    "type": "xpath",
+    "value": ".//*[contains(@id,'_pickerInflationItem_btnShowPicker')]"
+  },
+  {
+    "name": "selectButton",
+    "type": "xpath",
+    "value": ".//*[contains(@id,'_pickerInflationItem_pickerContainer')]//input[contains(@id,'_pickerInflationItem_btnSelect')]"
+  },
+  {
+    "name": "annualInflationRateTextBox",
+    "type": "xpath",
+    "value": ".//*/input[@type = 'text'][contains(@id,'_wneAnnualInflationRate')][@disabled = 'true']"
+  },
+  {
+    "name": "budgetItemCheckbox",
+    "type": "xpath",
+    "value": ".//*[@id = 'dataTable']/tbody/tr/td/input[@type = 'checkbox']"
+  },
+  {
+    "name": "getPayItemNo",
+    "type": "xpath",
+    "value": "//*[contains(@id,'_txtStandardItemNo')]"
+  },
+  {
+    "name": "getPayItemAmount",
+    "type": "xpath",
+    "value": "//input[contains(@id,'igtxtC1_wneAmount')]"
+  },
+  {
+    "name": "containerNameTextBox",
+    "type": "id",
+    "value": "C1_txtName"
+  },
+  {
+    "name": "inputTextBoxFields",
+    "type": "xpath",
+    "value": "//input[@type='text']"
+  },
+  {
+    "name": "pickerPathForInflationRule",
+    "type": "xpath",
+    "value": ".//*[contains(@id,'_pickerInflationItem_pickerContainer')]"
+  },
+  {
+    "name": "itemDetailsTableDivID",
+    "type": "id",
+    "value": "headerTbl"
+  },
+  {
+    "name": "addWorkProjectsPicker",
+    "type": "xpath",
+    "value": "//div[@id='addBudgetWPItems_pickerContainer']"
+  },
+  {
+    "name": "excelImportErrorLogButton",
+    "type": "id",
+    "value": "lnkErrorLog"
+  },
+  {
+    "name": "excelUploadErrorMessage",
+    "type": "id",
+    "value": "C1_lblError"
+  },
+  {
+    "name": "subItemsLinkButton",
+    "type": "id",
+    "value": "C1_likSubItems"
+  },
+  {
+    "name": "subItemsPageTitle",
+    "type": "xpath",
+    "value": "//a[@title='Sub Items']"
+  },
+  {
+    "name": "selectContainerInNewItemsPage",
+    "type": "id",
+    "value": "C1_btnItemPathPicker"
+  },
+  {
+    "name": "getContainerFieldValue",
+    "type": "id",
+    "value": "C1_txtItemPath"
+  },
+  {
+    "name": "effectiveFromDateBEItem",
+    "type": "id",
+    "value": "C1_wdcInflationEffectiveFrom_input"
+  },
+  {
+    "name": "inflationRate",
+    "type": "id",
+    "value": "igtxtC1_wneAnnualInflationRate"
+  },
+  {
+    "name": "effectiveFromInformationIcon",
+    "type": "id",
+    "value": "tooltipInflationEffectiveFrom"
+  },
+  {
+    "name": "applyInflationRulePicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'aspPnlInflation')]"
+  },
+  {
+    "name": "applyInflationRuleButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'pickerInflationItem_btnShowPicker')]"
+  },
+  {
+    "name": "inflationPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'pickerInflationItem_pickerContainer')]"
+  },
+  {
+    "name": "saveInflation",
+    "type": "id",
+    "value": "ctl09_btnSave"
+  },
+  {
+    "name": "checkAllItems",
+    "type": "id",
+    "value": "chk_checkAllItem"
+  },
+  {
+    "name": "fundRuleField",
+    "type": "xpath",
+    "value": "//select[contains(@id,'FundRule')]"
+  },
+  {
+    "name": "selectFirstItem",
+    "type": "xpath",
+    "value": ".//*[@id = 'dataTable']/tbody/tr/td/input[@type = 'checkbox']"
+  },
+  {
+    "name": "payItemNumberTxtBox",
+    "type": "id",
+    "value": "C1_txtStandardItemNo"
+  },
+  {
+    "name": "itemDescriptionTextArea",
+    "type": "id",
+    "value": "C1_txtItemDesc"
+  },
+  {
+    "name": "itemUnitComboBox",
+    "type": "id",
+    "value": "C1_ddlUnit"
+  },
+  {
+    "name": "itemQuantityTextBox",
+    "type": "id",
+    "value": "igtxtC1_wneQuantity"
+  },
+  {
+    "name": "itemUnitCostTextBox",
+    "type": "id",
+    "value": "igtxtC1_wneUnitCost"
+  },
+  {
+    "name": "parentContainerLabel",
+    "type": "xpath",
+    "value": "//td[text()='Parent Container']"
+  },
+  {
+    "name": "selectResourceCategory",
+    "type": "id",
+    "value": "ddlRateAnalysisResource"
+  },
+  {
+    "name": "resourcePickerButton",
+    "type": "id",
+    "value": "btnResourcePicker"
+  },
+  {
+    "name": "resourcePicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'pickerContainer') and @style='display:block']"
+  },
+  {
+    "name": "resourcePickerId",
+    "type": "id",
+    "value": "pickerContainer"
+  },
+  {
+    "name": "inflationHighlightSubItemInListPage",
+    "type": "xpath",
+    "value": "//table[@id='dataTable']//td[contains(@style,'background-color: rgb(51, 153, 204)')]"
+  },
+  {
+    "name": "forecastHeader",
+    "type": "xpath",
+    "value": "//a[@title='Forecast']"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "submittalResponseLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Submittal Response')]"
+  },
+  {
+    "name": "submittalResponseTextBox",
+    "type": "id",
+    "value": "SBMLRSP_SubmittalResponse_Id"
+  },
+  {
+    "name": "revisionRequiredLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Revision Required?')]"
+  },
+  {
+    "name": "revisionRequiredSelectButton",
+    "type": "id",
+    "value": "SBMLRSP_RevisionRequired_Id"
+  },
+  {
+    "name": "revisionRequiredFor",
+    "type": "id",
+    "value": "SBMLRSP_RevisionRequired_Id"
+  }
+]

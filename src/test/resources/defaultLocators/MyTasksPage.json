@@ -1,0 +1,17 @@
+[
+  {
+    "name": "myTasksTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'My Tasks')]"
+  },
+  {
+    "name": "moduleName",
+    "type": "xpath",
+    "value": "//div[contains(text(),'Module Name: ')]"
+  },
+  {
+    "name": "moduleNameHeader",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_MWGrid_GridData']//strong"
+  }
+]

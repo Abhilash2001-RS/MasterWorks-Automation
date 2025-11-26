@@ -1,0 +1,22 @@
+[
+  {
+    "name": "programTitleText",
+    "type": "id",
+    "value": "MSTRPLN_Title_Id_Text"
+  },
+  {
+    "name": "programYearText",
+    "type": "id",
+    "value": "MSTRPLN_ProgramYear_Id_Text"
+  },
+  {
+    "name": "programFundText",
+    "type": "id",
+    "value": "MSTRPLN_PFundId_Id_Text"
+  },
+  {
+    "name": "programGridDiv",
+    "type": "id",
+    "value": "ctl00_C1_MSTRPLN_DynamicGrid0_id_GridData"
+  }
+]

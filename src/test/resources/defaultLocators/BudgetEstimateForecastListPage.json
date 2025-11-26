@@ -1,0 +1,67 @@
+[
+  {
+    "name": "budgetEstimateForecastListTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Forecast List')]"
+  },
+  {
+    "name": "forecastDescriptionTextArea",
+    "type": "id",
+    "value": "forecastNotes"
+  },
+  {
+    "name": "itemDetailsHeaderList",
+    "type": "xpath",
+    "value": "//div[@class='ui-widget-header ui-grid-head']//th/div"
+  },
+  {
+    "name": "itemDetailsTableDivID",
+    "type": "id",
+    "value": "headerTbl"
+  },
+  {
+    "name": "selectForecastArrowButton",
+    "type": "xpath",
+    "value": "//*[contains(@id,'_rcbPlanningID_Arrow')]"
+  },
+  {
+    "name": "firstAmountDistributionInputBox",
+    "type": "xpath",
+    "value": "//input[@type='number']"
+  },
+  {
+    "name": "getRemainingAmount",
+    "type": "xpath",
+    "value": "//tr[@class='hrRow itemRow']/td[@data-freezeqty='False']/following-sibling::td"
+  },
+  {
+    "name": "getAmountFromFirstInputBox",
+    "type": "xpath",
+    "value": "//tr[%d]//div[contains(@style,'right')]/ancestor::td[@canedit='true']"
+  },
+  {
+    "name": "ganttViewTab",
+    "type": "xpath",
+    "value": "//a[@title='Gantt View']"
+  },
+  {
+    "name": "forecastsDetailsTab",
+    "type": "xpath",
+    "value": "//a[@title='Forecast Details']"
+  },
+  {
+    "name": "forecastTab",
+    "type": "xpath",
+    "value": "//a[.='Forecast Details']"
+  },
+  {
+    "name": "headersInForcastDetailsPage",
+    "type": "xpath",
+    "value": "//div[@class='ui-head-div ui-widget-header']/descendant::th"
+  },
+  {
+    "name": "forecastSave",
+    "type": "id",
+    "value": "ctl09_btnCreate"
+  }
+]

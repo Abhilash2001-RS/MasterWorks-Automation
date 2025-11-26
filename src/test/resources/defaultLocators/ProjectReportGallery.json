@@ -1,0 +1,48 @@
+[
+  {
+    "name": "planningDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Planning Dashboard')]"
+  },
+  {
+    "name": "projectReportGalleryTab",
+    "type": "xpath",
+    "value": "//div[@id='centerContent']//a[contains(text(),'Project Report Gallery')]"
+  },
+  {
+    "name": "titleIDTitlePendingAssignmentReport",
+    "type": "xpath",
+    "value": "//div[contains(@id,'VisibleReportContentctl00_C1_rptvwrReport')]//div[@dir = 'LTR']//div[text()='Title ID']"
+  },
+  {
+    "name": "resourceId",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Resource')]"
+  },
+  {
+    "name": "viewReport",
+    "type": "xpath",
+    "value": "//input[@value = 'View Report']"
+  },
+  {
+    "name": "resourceButton",
+    "type": "xpath",
+    "value": "//div[@onactivate = 'event.cancelBubble=true;']//input[contains(@id,'rptvwrReport_ctl04_ctl03_ddDropDownButton')]"
+  },
+  {
+    "name": "resourceTitleButton",
+    "type": "xpath",
+    "value": "//div[@onactivate = 'event.cancelBubble=true;']//input[contains(@id,'rptvwrReport_ctl04_ctl05_ddDropDownButton')]"
+  },
+  {
+    "name": "resourceDropDownSelect",
+    "type": "xpath",
+    "value": "//input[contains(@id,'ctl00_C1_rptvwrReport_ctl04_ctl03_divDropDown_ctl01') and @type = 'checkbox']"
+  },
+  {
+    "name": "resourceCostSheetTitleID",
+    "type": "xpath",
+    "value": "//span[text() = 'Title ID']"
+  }
+
+]

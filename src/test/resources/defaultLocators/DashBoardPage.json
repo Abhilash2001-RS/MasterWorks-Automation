@@ -1,0 +1,187 @@
+[
+  {
+    "name": "selectDashboard",
+    "type": "xpath",
+    "value": "//td[contains(text(),'Select Dashboard')]"
+  },
+  {
+    "name": "selectDashboardDropDown",
+    "type": "id",
+    "value": "C1_DBControl_ddlDashBoards"
+  },
+  {
+    "name": "modeDashBoardDropDown",
+    "type": "id",
+    "value": "C1_DBControl_ddlModes"
+  },
+  {
+    "name": "mode",
+    "type": "xpath",
+    "value": "//td[contains(text(),'Mode')]"
+  },
+  {
+    "name": "newDashboard",
+    "type": "id",
+    "value": "C1_DBControl_lnkCreateDashboard"
+  },
+  {
+    "name": "editDashBoard",
+    "type": "id",
+    "value": "C1_DBControl_lnkEditDashboard"
+  },
+  {
+    "name": "deleteDashBoard",
+    "type": "id",
+    "value": "C1_DBControl_lnkDeleteDashboard"
+  },
+  {
+    "name": "setDefaultDashBoard",
+    "type": "id",
+    "value": "C1_DBControl_lnkMakeDefault"
+  },
+  {
+    "name": "modeDropDownOptions",
+    "type": "xpath",
+    "value": "//select[@id = 'C1_DBControl_ddlModes']/option"
+  },
+  {
+    "name": "nameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "visibleToLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Visible To')]"
+  },
+  {
+    "name": "rolesLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Roles')]"
+  },
+  {
+    "name": "layoutLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Layout')]"
+  },
+  {
+    "name": "saveButton",
+    "type": "id",
+    "value": "C1_DBControl_btnSaveDashboard"
+  },
+  {
+    "name": "saveAndDesignButton",
+    "type": "id",
+    "value": "C1_DBControl_btnSaveNDesignDashboard"
+  },
+  {
+    "name": "cancelButton",
+    "type": "id",
+    "value": "C1_DBControl_btnCancelNewDashboard"
+  },
+  {
+    "name": "visibleToMeButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'C1_DBControl_rblDashboardFor_0')]/.."
+  },
+  {
+    "name": "visibleToRolesButton",
+    "type": "id",
+    "value": "C1_DBControl_rblDashboardFor_1"
+  },
+  {
+    "name": "myDashBoardOptions",
+    "type": "xpath",
+    "value": "//select[@id = 'C1_DBControl_ddlDashBoards']/optgroup[@label = 'My Dashboards']/option"
+  },
+  {
+    "name": "roleBasedDashBoardOptions",
+    "type": "xpath",
+    "value": "//select[@id = 'C1_DBControl_ddlDashBoards']/optgroup[@label = 'Role Based Dashboards']/option"
+  },
+  {
+    "name": "newDashBoardNameTextField",
+    "type": "xpath",
+    "value": "//input[contains(@id,'C1_DBControl_txtDashboardName')]"
+  },
+  {
+    "name": "newDashBoardDescriptionTextField",
+    "type": "xpath",
+    "value": "//input[contains(@id,'C1_DBControl_txtDashboardDescription')]"
+  },
+  {
+    "name": "roleTextBox",
+    "type": "id",
+    "value": "ctl00_C1_DBControl_radAssignToRoles_Input"
+  },
+  {
+    "name": "selectRoleDropDown",
+    "type": "xpath",
+    "value": "//ul[@class='racList']"
+  },
+  {
+    "name": "loadingIcon",
+    "type": "xpath",
+    "value": "//span[@class = 'racLoadingIcon']"
+  },
+  {
+    "name": "widgets",
+    "type": "xpath",
+    "value": "C1_DBControl_DashboardDesignPanel"
+  },
+  {
+    "name": "reportViewerCheckBox",
+    "type": "xpath",
+    "value": "//label[text()='Report Viewer']"
+  },
+  {
+    "name": "addButtonWidgets",
+    "type": "xpath",
+    "value": "//input[contains(@type,'button') and contains(@value,'Add')]"
+  },
+  {
+    "name": "applyButtonWidgets",
+    "type": "xpath",
+    "value": "//input[contains(@type,'button') and contains(@value,'Apply')]"
+  },
+  {
+    "name": "okButtonWidgets",
+    "type": "xpath",
+    "value": "//input[contains(@type,'button') and contains(@value,'OK')]"
+  },
+  {
+    "name": "editButtonWidgets",
+    "type": "xpath",
+    "value": "//a[contains(@title,'Edits')]"
+  },
+  {
+    "name": "projectsDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Planning  Dashboard')]"
+  },
+  {
+  "name": "selectedReportViewer",
+  "type": "xpath",
+  "value": "//span[text()='Report Viewer']"
+  },
+  {
+    "name": "deleteSelectedReportViewer",
+    "type": "xpath",
+    "value": "//a[@class='webZoneTitlebarVerbStyle']/img[contains(@title,'Deletes')]"
+  },
+  {
+    "name": "editorZoneText",
+    "type": "xpath",
+    "value": "//td[text()='Editor Zone']"
+  },
+  {
+    "name": "webZoneDropDown",
+    "type": "xpath",
+    "value": "//select[contains(@id,'CatalogZone1__zones')]"
+  }
+]

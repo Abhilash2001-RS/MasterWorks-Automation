@@ -1,0 +1,119 @@
+[
+  {
+    "name": "minimumPasswordField",
+    "type": "id",
+    "value": "SgPWDConfig_NoDBTable_0_1"
+  },
+  {
+    "name": "enforcePasswordHistoryChkBoxField",
+    "type": "id",
+    "value": "SgPWDConfig_chkNotDefined_Id"
+  },
+  {
+    "name": "enforcePasswordHistoryTextBoxField",
+    "type": "xpath",
+    "value": "//input[@aria-label = 'Enforce Password History']"
+  },
+  {
+    "name": "maximumLoginAttempts",
+    "type": "id",
+    "value": "SgLoginAtmpts_0_2"
+  },
+  {
+    "name": "unsuccessfulLoginAttempts",
+    "type": "id",
+    "value": "SgLoginAtmpts_1_2"
+  },
+  {
+    "name": "pwdIncludeLowerCaseLetterChkBoxField",
+    "type": "id",
+    "value": "SgPWDConfig_NoDBTable_chkalpha_Id"
+  },
+  {
+    "name": "pwdIncludeUpperCaseLetterChkBoxField",
+    "type": "id",
+    "value": "SgPWDConfig_NoDBTable_chkCapitalAlpha_Id"
+  },
+  {
+    "name": "pwdIncludeNumberChkBoxField",
+    "type": "id",
+    "value": "SgPWDConfig_NoDBTable_chknumber_Id"
+  },
+  {
+    "name": "pwdIncludeSpecialCharsChkBoxField",
+    "type": "id",
+    "value": "SgPWDConfig_NoDBTable_chkSplChars_Id"
+  },
+  {
+    "name": "pwdPartOfUserIdChkBoxField",
+    "type": "id",
+    "value": "SgPWDConfig_ShouldNotBeSameAsOrPartOfUserID_Value_Id"
+  },
+  {
+    "name": "changePasswordAtFirstLogin",
+    "type": "id",
+    "value": "SgPWDConfig_MustChangePasswordOnFirstLogin_value_Id"
+  },
+  {
+    "name": "userIDMustNotBePartOfPasswordValidationMsg",
+    "type": "xpath",
+    "value": "//li[contains(text(),'User ID or part of User ID should not be the part ')]"
+  },
+  {
+    "name": "mustContainLowerCasePasswordValidationMsg",
+    "type": "xpath",
+    "value": "//li[normalize-space()='at least one lower case letter.']"
+  },
+  {
+    "name": "mustContainUpperCasePasswordValidationMsg",
+    "type": "xpath",
+    "value": "//li[normalize-space()='at least one upper case letter.']"
+  },
+  {
+    "name": "mustContainANumberPasswordValidationMsg",
+    "type": "xpath",
+    "value": "//li[normalize-space()='at least one number.']"
+  },
+  {
+    "name": "mustContainASpecialCharacterPasswordValidationMsg",
+    "type": "xpath",
+    "value": "//li[contains(text(),'at least one special character. Allowed special ch')]"
+  },
+  {
+    "name": "passwordMinLengthValidationMsg",
+    "type": "xpath",
+    "value": "//li[contains(text(),'Password must contain at least ')]"
+  },
+  {
+    "name": "resetPasswordTimeout",
+    "type": "xpath",
+    "value": "//input[contains(@id,'SgAppSettings') and @aria-label = 'Reset Password Timeout']"
+  },
+  {
+    "name": "sessionTimeOutNotification",
+    "type": "xpath",
+    "value": "//input[contains(@id, 'SgAppSettings') and @aria-label='Session Time Out notification prior (in seconds)']"
+  },
+  {
+    "name": "defaultPasswordExpirationChkBoxField",
+    "type": "id",
+    "value": "SgPWDConfig_chkNeverExpires_Id"
+  },
+  {
+    "name": "defaultPasswordExpirationTextBoxField",
+    "type": "id",
+    "value": "SgPWDConfig_1_2"
+  },
+
+  {
+    "name": "authenticationMethod",
+    "type": "id",
+    "value": "SgAppSettings_1_2"
+  },
+
+  {
+    "name": "loginMode",
+    "type": "id",
+    "value": "SgAppSettings_0_2"
+  }
+]

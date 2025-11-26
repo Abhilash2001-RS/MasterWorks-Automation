@@ -1,0 +1,147 @@
+[
+  {
+    "name": "packageTitlePath",
+    "type": "xpath",
+    "value": "//input[contains(@id,'PackageTitle_Id')]"
+  },
+  {
+    "name": "viewpackageId",
+    "type": "xpath",
+    "value": "//div[@id='SBMLPKG_SubmittalPackageID_Id']/span"
+  },
+  {
+    "name": "packageIdPath",
+    "type": "id",
+    "value": "SBMLPKG_SubmittalPackageID_Id"
+  },
+  {
+    "name": "contractName",
+    "type": "id",
+    "value": "SBMLPKG_ContractName_Id"
+  },
+  {
+    "name": "projectCodePath",
+    "type": "id",
+    "value": "SBMLPKG_ProjectCode_Id"
+  },
+  {
+    "name": "projectNamePath",
+    "type": "id",
+    "value": "SBMLPKG_ProjectName_Id"
+  },
+  {
+    "name": "packageOwner",
+    "type": "id",
+    "value": "SBMLPKG_PackageOwner_Id"
+  },
+  {
+    "name": "createdBy",
+    "type": "id",
+    "value": "SBMLPKG_CreatedBy_Id"
+  },
+  {
+    "name": "createdDate",
+    "type": "id",
+    "value": "SBMLPKG_CreatedDate_Id_Text"
+  },
+  {
+    "name": "subCont",
+    "type": "id",
+    "value": "C1_div_SBMLPKG_SubContractor_Id"
+  },
+  {
+    "name": "status",
+    "type": "id",
+    "value": "SBMLPKG_Status_Id"
+  },
+  {
+    "name": "specificationSection",
+    "type": "id",
+    "value": "SBMLPKG_SpecificationSection_Id"
+  },
+  {
+    "name": "transmittalsCreated",
+    "type": "id",
+    "value": "SBMLPKG_TransmittalsCreated_Id"
+  },
+  {
+    "name": "packageTitleLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Package Title')]"
+  },
+  {
+    "name": "packageTitle",
+    "type": "id",
+    "value": "SBMLPKG_PackageTitle_Id"
+  },
+  {
+    "name": "description",
+    "type": "id",
+    "value": "SBMLPKG_Description_Id"
+  },
+  {
+    "name": "submittalsGrid",
+    "type": "id",
+    "value": "ctl00_C1_SBMLPKG_SBMLPKGSubmittalsGrid_id"
+  },
+  {
+    "name": "transmittalSubject",
+    "type": "id",
+    "value": "TRSMITL_Subject_Id"
+  },
+  {
+    "name": "transmittalTo",
+    "type": "xpath",
+    "value": "//ul[@id='TRSMITL_ToUsers_Id_taglist']/../input"
+  },
+  {
+    "name": "transmittalTemplatePath",
+    "type": "xpath",
+    "value": "//ul[@id='TRSMITL_TransmittalTemplate_Id_taglist']/../input"
+  },
+  {
+    "name": "transmittalTemplate",
+    "type": "xpath",
+    "value": "//ul[@id='TRSMITL_TransmittalTemplate_Id_listbox']//span"
+  },
+  {
+    "name": "showPickerBtn",
+    "type": "id",
+    "value": "C1_SBMLPKGSubmittalsGrid_SubmittalsPicker_btnShowPicker"
+  },
+  {
+    "name": "submittalPickerPath",
+    "type": "xpath",
+    "value": "//div[@id='C1_SBMLPKGSubmittalsGrid_SubmittalsPicker_pickerContainer']"
+  },
+  {
+    "name": "submittalGrid",
+    "type": "id",
+    "value": "SBMLPKGSubmittalsGrid"
+  },
+  {
+    "name": "submittalsGridBody",
+    "type": "id",
+    "value": "ctl00_C1_SBMLPKG_SBMLPKGSubmittalsGrid_id_GridData"
+  },
+  {
+    "name": "submittalPickerButton",
+    "type": "id",
+    "value": "C1_SBMLPKGSubmittalsGrid_SubmittalsPicker_btnShowPicker"
+  },
+  {
+    "name": "submittalPickerDiv",
+    "type": "xpath",
+    "value": ".//div[@id='C1_SBMLPKGSubmittalsGrid_SubmittalsPicker_pickerContainer']"
+  },
+  {
+    "name": "submittalGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_SBMLPKG_SBMLPKGSubmittalsGrid_id_GridHeader"
+  },
+  {
+    "name": "submittalGridDeleteButton",
+    "type": "xpath",
+    "value": "//input[@value='Delete' and @type='submit']"
+  }
+]

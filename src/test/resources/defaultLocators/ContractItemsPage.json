@@ -1,0 +1,217 @@
+[
+  {
+    "name": "totalContractItemAmount",
+    "type": "id",
+    "value": "GridSummary"
+  },
+  {
+    "name": "forecastIcon",
+    "type": "xpath",
+    "value": "//span[@id='lnkForecast1']//img"
+  },
+  {
+    "name": "forecastPageDashBoard",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Forecast List')]"
+  },
+  {
+    "name": "completeItemCheckbox",
+    "type": "id",
+    "value": "C1_chkComplete"
+  },
+  {
+    "name": "checkedIsCompleteCheckboxInListPage",
+    "type": "xpath",
+    "value": "//td[input]/following-sibling::td[input[@type='checkbox']]//input[@checked]"
+  },
+  {
+    "name": "checkboxUnderIsCompleteColumn",
+    "type": "xpath",
+    "value": "//td[input]/following-sibling::td[input[@type='checkbox']]//input[@type='checkbox']"
+  },
+  {
+    "name": "itemNumberLabel",
+    "type": "xpath",
+    "value": "//span[@id='C1_lblStandardItemNo']"
+  },
+  {
+    "name": "itemDescriptionLabel",
+    "type": "xpath",
+    "value": "//span[@id='C1_lblDescription']"
+  },
+  {
+    "name": "itemUnitLabel",
+    "type": "xpath",
+    "value": "//td[@id='C1_tdUnit']/span[contains(text(),'Unit')]"
+  },
+  {
+    "name": "itemGroupLabel",
+    "type": "xpath",
+    "value": "//span[@id='C1_lblItemGroup']"
+  },
+  {
+    "name": "itemQuantityLabel",
+    "type": "xpath",
+    "value": "//span[@id='C1_td1']"
+  },
+  {
+    "name": "nonContractItemCheckbox",
+    "type": "id",
+    "value": "C1_chkNC"
+  },
+  {
+    "name": "nonContractItemImage",
+    "type": "xpath",
+    "value": "//img[@title='Non Contract Item']"
+  },
+  {
+    "name": "isCompleteFilterOption",
+    "type": "id",
+    "value": "IsComplete_FilterTextBox_Name"
+  },
+  {
+    "name": "addResourceButton",
+    "type": "id",
+    "value": "btnResourceAddMisc"
+  },
+  {
+    "name": "fixedPriceInResource",
+    "type": "xpath",
+    "value": "//tr[@id='ctl00_C1_ucRateAnalysis_gridRateAnalysis_ctl00__0']/td[@title='0.00']/div"
+  },
+  {
+    "name": "variablePriceFieldInResource",
+    "type": "id",
+    "value": "ctl00_C1_ucRateAnalysis_gridRateAnalysis_ctl00_C1_ucRateAnalysis_gridRateAnalysis_ctl00_VariablePrice_RNTB_VariablePrice"
+  },
+  {
+    "name": "fixedPriceFieldInResource",
+    "type": "id",
+    "value": "ctl00_C1_ucRateAnalysis_gridRateAnalysis_ctl00_C1_ucRateAnalysis_gridRateAnalysis_ctl00_Rate_RNTB_Rate"
+  },
+  {
+    "name": "unitFieldInResource",
+    "type": "xpath",
+    "value": "//tr[@id='ctl00_C1_ucRateAnalysis_gridRateAnalysis_ctl00__0']//div[.='NA']/../following-sibling::td[not(@style)]/div"
+  },
+  {
+    "name": "descriptionFieldInListPage",
+    "type": "xpath",
+    "value": "//table[@id='dataTable']//input[contains(@name,'Description') and @type ='text']"
+  },
+  {
+    "name": "quantityFieldInListPage",
+    "type": "xpath",
+    "value": "//table[@id='dataTable']//input[contains(@name,'Quantity') and @type ='text']"
+  },
+  {
+    "name": "unitPriceFieldInListPage",
+    "type": "xpath",
+    "value": "//table[@id='dataTable']//input[contains(@name,'BaseUnitCost') and @type ='text']"
+  },
+  {
+    "name": "unitFieldInListPage",
+    "type": "xpath",
+    "value": "//table[@id='dataTable']//select"
+  },
+  {
+    "name": "containerNameField",
+    "type": "id",
+    "value": "C1_txtName"
+  },
+  {
+    "name": "resourceAddedManuallyInContractItem",
+    "type": "xpath",
+    "value": "//td[contains(text(),'Manual')]"
+  },
+  {
+    "name": "selectAllResourcesInContractItem",
+    "type": "xpath",
+    "value": "//input[@id='ctl00_C1_ucRateAnalysis_gridRateAnalysis_ctl00_ctl02_ctl00_SelectResourcesSelectCheckBox']"
+  },
+  {
+    "name": "deleteResourcesButton",
+    "type": "id",
+    "value": "btnResourceDelete"
+  },
+  {
+    "name": "subItemTableXpath",
+    "type": "xpath",
+    "value": "//table[@id='G_C1xucSubItemxgridSubItem']"
+  },
+  {
+    "name": "subItemsLinkButton",
+    "type": "id",
+    "value": "C1_likSubItems"
+  },
+  {
+    "name": "itemDescriptionLabelInSubItem",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Item Description')]"
+  },
+  {
+    "name": "addBudgetEstimatePicker",
+    "type": "id",
+    "value": "C1_btnShowItemPicker"
+  },
+  {
+    "name": "budgetItemPicker",
+    "type": "xpath",
+    "value": "//div[@id='C1_associateBudgetItem_pickerContainer']"
+  },
+  {
+    "name": "fundRuleField",
+    "type": "id",
+    "value": "C1_ddlFundRule"
+  },
+  {
+    "name": "fundRuleAssociationHistoryLink",
+    "type": "xpath",
+    "value": "//td/a[@title='Fund Rule Association History']"
+  },
+  {
+    "name": "fundRuleAssociationHistoryPopUp",
+    "type": "xpath",
+    "value": "//span[.='Fund Rule Association History']"
+  },
+  {
+    "name": "fundRuleAssociationHistoryPopUpCancelButton",
+    "type": "id",
+    "value": "C2_fundRuleHistoryControl_btnFundHistoryCancel"
+  },
+  {
+    "name": "selectAllItemsCheckBox",
+    "type": "id",
+    "value": "chk_checkAllItem"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[@id='C1_lblDescription']"
+  },
+  {
+    "name": "accountingCode",
+    "type": "id",
+    "value": "C1_txtAccountingCode"
+  },
+  {
+    "name": "ignoreContainerStandardItemsCheckbox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'chkIgnoreContainer')]"
+  },
+  {
+    "name": "selectResourceDropDown",
+    "type": "id",
+    "value": "ddlRateAnalysisResource"
+  },
+  {
+    "name": "addFromLibraryButton",
+    "type": "id",
+    "value": "btnResourcePicker"
+  },
+  {
+    "name": "resourceTypePickerXpath",
+    "type": "xpath",
+    "value": "//div[@id='pickerContainer']"
+  }
+]

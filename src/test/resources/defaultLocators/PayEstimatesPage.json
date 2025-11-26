@@ -1,0 +1,337 @@
+[
+  {
+    "name": "generate",
+    "type": "id",
+    "value": "C1_btnGenerate"
+  },
+  {
+    "name": "toData",
+    "type": "id",
+    "value": "C1_dtEndDate_input"
+  },
+  {
+    "name": "contractor",
+    "type": "id",
+    "value": "C1_lblContractor"
+  },
+  {
+    "name": "payEstimateNumber",
+    "type": "id",
+    "value": "C1_lblPayEstimateNo"
+  },
+  {
+    "name": "workDoneTab",
+    "type": "id",
+    "value": "tabWD"
+  },
+  {
+    "name": "addBtnWorkDone",
+    "type": "id",
+    "value": "btnAddWorkDone"
+  },
+  {
+    "name": "deleteBtnWorkDone",
+    "type": "id",
+    "value": "btnDeleteWorkDone"
+  },
+  {
+    "name": "advancePaymentTab",
+    "type": "id",
+    "value": "tabAP"
+  },
+  {
+    "name": "advanceRecoveryTab",
+    "type": "id",
+    "value": "tabAR"
+  },
+  {
+    "name": "retainageDeduction",
+    "type": "id",
+    "value": "igtxtwneRetainagePercentage"
+  },
+  {
+    "name": "commitmentsAndExpensesLink",
+    "type": "xpath",
+    "value": ".//*[text()='Commitments & Expenses']"
+  },
+  {
+    "name": "retentionPercentage",
+    "type": "id",
+    "value": "numRetentionPercent"
+  },
+  {
+    "name": "docUpload",
+    "type": "xpath",
+    "value": "//input[contains(@id,'peAttachments_UploadFileControl')]"
+  },
+  {
+    "name": "fetchDefaultRetentionPercentage",
+    "type": "id",
+    "value": "igtxtCONTCNF_DefaultRetentionPercent_Id"
+  },
+  {
+    "name": "fetchRetentionFromPayEstimates",
+    "type": "id",
+    "value": "numRetentionPercent"
+  },
+  {
+    "name": "PayEstimatePageMultiSelectCheckBox",
+    "type": "xpath",
+    "value": ".//div[@id='ctl00_C1_MWGrid_GridHeader']//*[contains(@id,'_MultiSelectCheckBox')]"
+  },
+  {
+    "name": "uploadDocument",
+    "type": "xpath",
+    "value": "//input[contains(@id,'UploadFileControl')]"
+  },
+  {
+    "name": "downloadButton",
+    "type": "xpath",
+    "value": "//input[contains(@name,'Download')]"
+  },
+  {
+    "name": "attachmentGrid",
+    "type": "id",
+    "value": "ctl00_C1_peAttachments_gridAttachment_GridData"
+  },
+  {
+    "name": "attachmentTable",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and not(contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "attachmentTableHeader",
+    "type": "xpath",
+    "value": "//table[contains(@id,'gridAttachment') and (contains(@id,'Header')) and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "loadingBanner",
+    "type": "id",
+    "value": "dlgLoading_ProgressBar"
+  },
+  {
+    "name": "documentInDocumentViewer",
+    "type": "xpath",
+    "value": "//div[contains(@id,'imageViewerDiv')]"
+  },
+  {
+    "name": "annotation",
+    "type": "id",
+    "value": "annotationsMenuItem"
+  },
+  {
+    "name": "deleteAttachment",
+    "type": "xpath",
+    "value": "//*[contains(@id,'C1_peAttachments_btnDelete')]"
+  },
+  {
+    "name": "ribbonMenuAddBtn",
+    "type": "id",
+    "value": "lnkAddFilterTemplate"
+  },
+  {
+    "name": "listFilterName",
+    "type": "id",
+    "value": "txtListFilterName"
+  },
+  {
+    "name": "searchFilterText",
+    "type": "xpath",
+    "value": "//span[contains(text(),'%s')]"
+  },
+  {
+    "name": "filterDropDown",
+    "type": "xpath",
+    "value": "//*[@id='lnkFilterSplitButton_Main']//span[contains(@class,'rrbArrow t-ripple-effect')]/span"
+  },
+  {
+    "name": "addFilterBtn",
+    "type": "id",
+    "value": "btnAddSaveFilterManager"
+  },
+  {
+    "name": "payEstimatesFromDate",
+    "type": "id",
+    "value": "C1_dtFromDate_input"
+  },
+  {
+    "name": "contractDisplayedInPayEstimates",
+    "type": "id",
+    "value": "C1_lblContractor"
+  },
+  {
+    "name": "payEstimatesAdvanceRecoveriesGrid",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Advance Recoveries')]"
+  },
+  {
+    "name": "payEstimatesTotalAdvanceRecoveries",
+    "type": "id",
+    "value": "lblTotalRecovery"
+  },
+  {
+    "name": "TotalAdvanceRecovered",
+    "type": "id",
+    "value": "lblTotalRecoveryOverview_RetentionOnAdjustments"
+  },
+  {
+    "name": "AdvanceRecoveriesRemainingAmount",
+    "type": "id",
+    "value": "ctl00_C1_grdRecoveries"
+  },
+  {
+    "name": "payEstimatesWorkDonePickerGrid",
+    "type": "xpath",
+    "value": ".//*[@id = 'C1_pickerWorkDone_pickerContainer']"
+  },
+  {
+    "name": "payEstimatesWorkDoneAddBtn",
+    "type": "xpath",
+    "value": "//input[@name='ctl00$C1$btnAddWorkDone']"
+  },
+  {
+    "name": "payEstimatesWorkDoneSelectBtn",
+    "type": "xpath",
+    "value": "//input[@name='ctl00$C1$pickerWorkDone$btnSelect']"
+  },
+  {
+    "name": "payEstimatesAdvancePaymentGrid",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Advance Payments')]"
+  },
+  {
+    "name": "payEstimatesAdvancePaymentsGridTable",
+    "type": "id",
+    "value": "ctl00_C1_grdAdvances"
+  },
+  {
+    "name": "payEstimatesWorkDoneGridTable",
+    "type": "id",
+    "value": "ctl00_C1_grdWorkDone_ctl00"
+  },
+  {
+    "name": "payEstimatesWorkDoneDeleteBtn",
+    "type": "xpath",
+    "value": "//input[@name='ctl00$C1$btnDeleteWorkDone']"
+  },
+  {
+    "name": "payEstimatesWorkDoneCheckBox",
+    "type": "id",
+    "value": "ctl00_C1_grdWorkDone_ctl00_ctl04_multiSelectCheckBox"
+  },
+  {
+    "name": "payEstimatesToDate",
+    "type": "id",
+    "value": "C1_dtEndDate_input"
+  },
+  {
+    "name": "payEstimatesRandomClick",
+    "type": "id",
+    "value": "C1_lblRABHeader"
+  },
+  {
+    "name": "payEstimatesPercentAboveContract",
+    "type": "xpath",
+    "value": "//input[@id='numPercentageExceedPayAmountForPostedQty' and @type = 'text']"
+  },
+  {
+    "name": "payEstimatesQuantityCheckBox",
+    "type": "id",
+    "value": "chkValidateRABQtyPC"
+  },
+  {
+    "name": "payEstimatesAdjustmentsGrid",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Adjustments')]"
+  },
+  {
+    "name": "payEstimatesAdjustmentsAddBtn",
+    "type": "xpath",
+    "value": "//input[@name='ctl00$C1$btnAddAdjustment']"
+  },
+  {
+    "name": "payEstimatesAdjustmentsPickerGrid",
+    "type": "xpath",
+    "value": ".//*[@id = 'C1_pickerAdjustments_pickerContainer']"
+  },
+  {
+    "name": "payEstimatesAmountFieldUnderAdjustments",
+    "type": "id",
+    "value": "ctl00_C1_grdAdjustments_ctl00_C1_grdAdjustments_ctl00_Amount_RNTB_Amount_wrapper"
+  },
+  {
+    "name": "payEstimatesAdjustmentGrid",
+    "type": "id",
+    "value": "ctl00_C1_grdAdjustments"
+  },
+  {
+    "name": "payEstimatesTotalAdjustmentAmount",
+    "type": "id",
+    "value": "lblTotalAdjustments"
+  },
+  {
+    "name": "payEstimateAdvanceRecoveriesGridTable",
+    "type": "id",
+    "value": "ctl00_C1_grdRecoveries_ctl00"
+  },
+  {
+    "name": "payEstimateAdvancePaymentsGridTable",
+    "type": "id",
+    "value": "ctl00_C1_grdAdvances_ctl00"
+  },
+  {
+    "name": "netBillToBePaid",
+    "type": "id",
+    "value": "lblNetInThisBill_RetentionOnAdjustments"
+  },
+  {
+    "name": "adjustmentDescription",
+    "type": "id",
+    "value": "ctl00_C1_grdAdjustments_ctl00_C1_grdAdjustments_ctl00_AdjustmentNotes_TB_AdjustmentNotes"
+  },
+  {
+    "name": "btnDeleteAdjustment",
+    "type": "id",
+    "value": "C1_btnDeleteAdjustment"
+  },
+  {
+    "name": "notesTab",
+    "type": "xpath",
+    "value": "//a[text()='Notes']"
+  },
+  {
+    "name": "notesTextArea",
+    "type": "id",
+    "value": "C1_txtNotes"
+  },
+  {
+    "name": "totalNumberOfApprovedDPR",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_grdWorkDone']/descendant::tr[contains(@id,'ctl00_C1_grdWorkDone_ctl00')]"
+  },
+  {
+    "name": "workDoneGridTable",
+    "type": "id",
+    "value": "ctl00_C1_grdWorkDone"
+  },
+  {
+    "name": "advanceGridTable",
+    "type": "id",
+    "value": "ctl00_C1_grdAdvances"
+  },
+  {
+    "name": "adjustmentsGridTable",
+    "type": "id",
+    "value": "ctl00_C1_grdAdjustments"
+  },
+  {
+    "name": "adjustmentsGridTable",
+    "type": "id",
+    "value": "ctl00_C1_grdAdjustments"
+  },
+  {
+    "name": "advanceRecoveryGridTable",
+    "type": "id",
+    "value": "ctl00_C1_grdRecoveries"
+  }
+]

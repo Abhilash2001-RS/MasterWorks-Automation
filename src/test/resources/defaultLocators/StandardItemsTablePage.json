@@ -1,0 +1,127 @@
+[
+  {
+    "name": "tableNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Table Name')]"
+  },
+  {
+    "name": "tableNameLabelAsterisk",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Table Name')]/following-sibling::span[text()=' *']"
+  },
+  {
+    "name": "tableNameTextField",
+    "type": "id",
+    "value": "C1_txtStandardTable"
+  },
+  {
+    "name": "tableNameTextLabel",
+    "type": "id",
+    "value": "C1_lblStandardTableName"
+  },
+  {
+    "name": "measurementSystemTextLabel",
+    "type": "id",
+    "value": "C1_lblMeassys"
+  },
+  {
+    "name": "groupAddButton",
+    "type": "id",
+    "value": "C1_btnAddGrp"
+  },
+  {
+    "name": "groupEditButton",
+    "type": "id",
+    "value": "C1_btnEditGrp"
+  },
+  {
+    "name": "groupDeleteButton",
+    "type": "id",
+    "value": "C1_btnRemoveGrp"
+  },
+  {
+    "name": "groupName",
+    "type": "id",
+      "value": "C1_txtGroupName"
+  },
+  {
+    "name": "groupDescription",
+    "type": "id",
+    "value": "C1_txtGroupDescription"
+  },
+  {
+    "name": "groupSave",
+    "type": "id",
+    "value": "C1_btnSave"
+  },
+  {
+    "name": "groupUpdate",
+    "type": "id",
+    "value": "C1_btnSaveGrp"
+  },
+  {
+    "name": "newItem",
+    "type": "xpath",
+    "value": "//a[not(@id)]//span[(text()='New')]"
+  },
+  {
+    "name": "payItemNumberText",
+    "type": "xpath",
+    "value": "//input[contains(@id,'txtStandardItemNo')]"
+  },
+  {
+    "name": "payItemDescriptionText",
+    "type": "xpath",
+    "value": "//textarea[contains(@id,'txtItemDesc')]"
+  },
+  {
+    "name": "payItemUnitSelect",
+    "type": "id",
+    "value": "C1_ddlUnit"
+  },
+  {
+    "name": "containerPicker",
+    "type": "xpath",
+    "value": "//input[contains(@id,'btnItemPathPicker')]"
+  },
+  {
+    "name": "payItemUnitPrice",
+    "type": "id",
+    "value": "igtxtC1_wneUnitCost"
+  },
+  {
+    "name": "groupSelectBox",
+    "type": "id",
+    "value": "C1_ddlGroups"
+  },
+  {
+    "name": "standardItemsButton",
+    "type": "id",
+    "value": "lnkStandardItems"
+  },
+  {
+    "name": "selectResourceDropDown",
+    "type": "id",
+    "value": "ddlRateAnalysisResource"
+  },
+  {
+    "name": "addFromLibraryButton",
+    "type": "id",
+    "value": "btnResourcePicker"
+  },
+  {
+    "name": "resourcePicker",
+    "type": "xpath",
+    "value": "//div[@id='pickerContainer']"
+  },
+  {
+    "name": "cancelPickerBtn",
+    "type": "xpath",
+    "value": "//input[@id='btnCancel']"
+  },
+  {
+    "name": "meausrementSystem",
+    "type": "id",
+    "value": "C1_ddl_meassys"
+  }
+]

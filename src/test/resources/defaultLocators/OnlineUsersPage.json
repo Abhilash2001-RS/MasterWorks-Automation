@@ -1,0 +1,7 @@
+[
+  {
+    "name": "onlineUsersListTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Online Users List')]"
+  }
+]

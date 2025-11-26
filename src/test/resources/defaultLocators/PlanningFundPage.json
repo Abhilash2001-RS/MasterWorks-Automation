@@ -1,0 +1,97 @@
+[
+  {
+    "name": "titleLabel",
+    "type": "xpath",
+    "value": "//span[.='Title']"
+  },
+  {
+    "name": "programYearLabel",
+    "type": "xpath",
+    "value": "//span[.='Program Year']"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[.='Description']"
+  },
+  {
+    "name": "planningFundTitleTextBox",
+    "type": "id",
+    "value": "FUNDPLN_Title_Id"
+  },
+  {
+    "name": "programYearDropDown",
+    "type": "id",
+    "value": "FUNDPLN_ProgramYear_Id"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "FUNDPLN_Description_Id"
+  },
+  {
+    "name": "planningNameText",
+    "type": "id",
+    "value": "FUNDPLN_Title_Id_Text"
+  },
+  {
+    "name": "distributionDetailsTableRow",
+    "type": "xpath",
+    "value": "//tr[contains(@id,'FUNDPLN_DistributionDetails_id')]"
+  },
+  {
+    "name": "distributionTableGridCells",
+    "type": "xpath",
+    "value": "//tr[contains(@id,'FUNDPLN_DistributionDetails_id')]/td[not(contains(@style,'display:none'))]"
+  },
+  {
+    "name": "forecastTab",
+    "type": "xpath",
+    "value": "//a[.='Forecast']"
+  },
+  {
+    "name": "addButton",
+    "type": "id",
+    "value": "C1_DistributionDetails_FundPicker_btnShowPicker"
+  },
+  {
+    "name": "deleteButton",
+    "type": "xpath",
+    "value": "//*[@id = 'C1_DistributionDetails_FundPicker_btnShowPicker']/../following-sibling::td/input[@value = 'Delete']"
+  },
+  {
+    "name": "pickerGrid",
+    "type": "xpath",
+    "value": ".//*[@id = 'C1_DistributionDetails_FundPicker_pickerContainer']"
+  },
+  {
+    "name": "defaultFiscalYearLabel",
+    "type": "xpath",
+    "value": "//span[.='Default Fiscal Year']"
+  },
+  {
+    "name": "defaultFiscalYearSelectInPlanningFund",
+    "type": "id",
+    "value": "FUNDPLN_DefaultFiscalYear_Id"
+  },
+  {
+    "name": "fundGridTotal",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_PROGRAM_DGPlanningProjects_id_GridFooter']//tr[@class='rgFooter']//td[not (@style = 'display:none;')]"
+  },
+  {
+    "name": "elementToClick",
+    "type": "xpath",
+    "value": "//td[@title = '0.0000']"
+  },
+  {
+    "name": "enterTextElement",
+    "type": "xpath",
+    "value": "//input[@id='ctl00_C1_FUNDPLN_DistributionDetails_id_ctl00_C1_FUNDPLN_DistributionDetails_id_ctl00_Year1_RNTB_Year1']"
+  },
+  {
+    "name": "itemDetailsExpandIcon",
+    "type": "xpath",
+    "value": "//img[@class='expand-collapse-icon']"
+  }
+]

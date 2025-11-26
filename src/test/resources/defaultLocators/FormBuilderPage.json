@@ -1,0 +1,182 @@
+[
+  {
+    "name": "formBuilderLink",
+    "type": "xpath",
+    "value": "//nobr[normalize-space()='Form Builder']"
+  },
+  {
+    "name": "importButton",
+    "type": "id",
+    "value": "lnkUpload"
+  },
+  {
+    "name": "chooseFile",
+    "type": "id",
+    "value": "C1_fuXmlUpload"
+  },
+  {
+    "name": "formID",
+    "type": "xpath",
+    "value": "//input[@id='txtFormID']"
+  },
+  {
+    "name": "designTab",
+    "type": "xpath",
+    "value": "//a[normalize-space()='Design']"
+  },
+  {
+    "name": "xmlEditorTab",
+    "type": "xpath",
+    "value": "//a[normalize-space()='XML Editor']"
+  },
+  {
+    "name": "generalTab",
+    "type": "xpath",
+    "value": "//a[normalize-space()='General']"
+  },
+  {
+    "name": "generalTabFieldsLabel",
+    "type": "xpath",
+    "value": "//table//tbody//tr//td[@class='alnright']"
+  },
+  {
+    "name": "toolTipForFormID",
+    "type": "xpath",
+    "value": "//span[@class = 'help-imageOnHover' and contains(@data-help, 'Form ID should')]"
+  },
+  {
+    "name": "toolTipForHeader",
+    "type": "xpath",
+    "value": "//span[@class = 'help-imageOnHover' and contains(@data-help, 'Name of the form')]"
+  },
+  {
+    "name": "toolTipForParentModule",
+    "type": "xpath",
+    "value": "//span[@class = 'help-imageOnHover' and contains(@data-help, 'The Parent Module')]"
+  },
+  {
+    "name": "toolTipForFolder",
+    "type": "xpath",
+    "value": "//span[@class = 'help-imageOnHover' and contains(@data-help, 'The folder name')]"
+  },
+  {
+    "name": "parentModuleDropDownOptions",
+    "type": "xpath",
+    "value": "//select[@id='ddlParentModuleID']"
+  },
+  {
+    "name": "formIDEmptyErrorMsg",
+    "type": "xpath",
+    "value": "//li[contains(text(),'Please enter a Form ID that has 7 unique alphanume')]"
+  },
+  {
+    "name": "formHeaderEmptyErrorMsg",
+    "type": "xpath",
+    "value": "//li[contains(text(),'Please enter header')]"
+  },
+  {
+    "name": "formHeader",
+    "type": "xpath",
+    "value": "//input[@id='txtHeader']"
+  },
+  {
+    "name": "leftPaneOptionsInSimpleModeForExpandedTab",
+    "type": "xpath",
+    "value": "//li[@aria-expanded='true']//ul//li[@data-controlmode='simple']"
+  },
+  {
+    "name": "leftPaneOptionsInAdvancedModeForExpandedTab",
+    "type": "xpath",
+    "value": "//li[@aria-expanded='true']//ul//li[@data-controlmode='advanced']"
+  },
+  {
+    "name": "canvas",
+    "type": "xpath",
+    "value": "//div[@id='controlHolder']"
+  },
+  {
+    "name": "sectionControl",
+    "type": "xpath",
+    "value": "//span[@class = 'mw-icon mw-section']"
+  },
+  {
+    "name": "undoButton",
+    "type": "xpath",
+    "value": "//span[@id='lnkUndo']"
+  },
+  {
+    "name": "redoButton",
+    "type": "xpath",
+    "value": "//span[@id='lnkRedo']"
+  },
+  {
+    "name": "section001",
+    "type": "xpath",
+    "value": "//strong[contains(text(),'Section 001')]"
+  },
+  {
+    "name": "controlCaption",
+    "type": "xpath",
+    "value": "//input[@id='Caption_value']"
+  },
+  {
+    "name": "controlName",
+    "type": "xpath",
+    "value": "//input[@id='Name_value']"
+  },
+  {
+    "name": "deleteButton",
+    "type": "id",
+    "value": "delete-button"
+  },
+  {
+    "name": "helpToolTip",
+    "type": "id",
+    "value": "HelpToolTip_value"
+  },
+  {
+    "name": "tabsContainer",
+    "type": "xpath",
+    "value": "//span[@class = 'mw-icon mw-tabs-container']"
+  },
+  {
+    "name": "tab",
+    "type": "xpath",
+    "value": "//span[@class = 'mw-icon mw-tabs-btn']"
+  },
+  {
+    "name": "fileUpload",
+    "type": "xpath",
+    "value": "//label[contains(text(),'File Upload')]"
+  },
+  {
+    "name": "formImport",
+    "type": "xpath",
+    "value": "//label[contains(text(),'Form Import')]"
+  },
+  {
+    "name": "fileUploadError",
+    "type": "xpath",
+    "value": "//span[@id='C1_lblError']"
+  },
+  {
+    "name": "importFormTitle",
+    "type": "xpath",
+    "value": "//a[@title = 'Import Form']"
+  },
+  {
+    "name": "helpDescription",
+    "type": "id",
+    "value": "HelpDescription_value"
+  },
+  {
+  "name": "parentModule",
+  "type": "id",
+  "value": "ddlParentModuleID"
+  },
+  {
+    "name": "commonAttributes",
+    "type": "xpath",
+    "value": "//li[@class='k-state-active k-item k-first k-state-highlight']/div/div/span[@class='attribute-label']"
+  }
+]

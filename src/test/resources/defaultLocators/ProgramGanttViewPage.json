@@ -1,0 +1,142 @@
+[
+  {
+    "name": "programGanttViewTab",
+    "type": "xpath",
+    "value": "//a[@title = 'Schedule - Gantt View']"
+  },
+  {
+    "name": "ganttFilterPopUp",
+    "type": "xpath",
+    "value": ".//*[@id='ganttFilterPopupPanel' and not(contains(@style, 'display: none'))]"
+  },
+  {
+    "name": "idFromTextBoxGanttFilter",
+    "type": "id",
+    "value": "ID_from_filter"
+  },
+  {
+    "name": "idToTextBoxGanttFilter",
+    "type": "id",
+    "value": "ID_to_filter"
+  },
+  {
+    "name": "nameTextBoxGanttFilter",
+    "type": "id",
+    "value": "Name_filter"
+  },
+  {
+    "name": "projectStatusTextBoxGanttFilter",
+    "type": "id",
+    "value": "StatusName_filter"
+  },
+  {
+    "name": "startDateFromGanttFilter",
+    "type": "id",
+    "value": "StartDate_from_filter"
+  },
+  {
+    "name": "startDateToGanttFilter",
+    "type": "id",
+    "value": "StartDate_to_filter"
+  },
+  {
+    "name": "endDateFromGanttFilter",
+    "type": "id",
+    "value": "EndDate_from_filter"
+  },
+  {
+    "name": "endDateToGanttFilter",
+    "type": "id",
+    "value": "EndDate_to_filter"
+  },
+  {
+    "name": "amountTextBoxFromGanttFilter",
+    "type": "id",
+    "value": "Amount_from_filter"
+  },
+  {
+    "name": "amountTextBoxToGanttFilter",
+    "type": "id",
+    "value": "Amount_to_filter"
+  },
+  {
+    "name": "beforeTextBoxFromGanttFilter",
+    "type": "id",
+    "value": "Before_from_filter"
+  },
+  {
+    "name": "beforeTextBoxToGanttFilter",
+    "type": "id",
+    "value": "Before_to_filter"
+  },
+  {
+    "name": "afterTextBoxFromGanttFilter",
+    "type": "id",
+    "value": "After_from_filter"
+  },
+  {
+    "name": "afterTextBoxToGanttFilter",
+    "type": "id",
+    "value": "After_to_filter"
+  },
+  {
+    "name": "year1TextBoxGanttFilter",
+    "type": "id",
+    "value": "Year1_filter"
+  },
+  {
+    "name": "year2TextBoxGanttFilter",
+    "type": "id",
+    "value": "Year2_filter"
+  },
+  {
+    "name": "year3TextBoxGanttFilter",
+    "type": "id",
+    "value": "Year3_filter"
+  },
+  {
+    "name": "year4TextBoxFromGanttFilter",
+    "type": "id",
+    "value": "Year4_from_filter"
+  },
+  {
+    "name": "year4TextBoxToGanttFilter",
+    "type": "id",
+    "value": "Year4_to_filter"
+  },
+  {
+    "name": "year5TextBoxFromGanttFilter",
+    "type": "id",
+    "value": "Year5_from_filter"
+  },
+  {
+    "name": "year5TextBoxToGanttFilter",
+    "type": "id",
+    "value": "Year5_to_filter"
+  },
+  {
+    "name": "applyFilterButtonGanttFilter",
+    "type": "xpath",
+    "value": "//*[@id = 'ganttFilterPopupPanel']//button[.='Apply Filter']"
+  },
+  {
+    "name": "clearButtonGanttFilter",
+    "type": "xpath",
+    "value": "//*[@id = 'ganttFilterPopupPanel']//button[.='Clear']"
+  },
+  {
+    "name": "cancelButtonGanttFilter",
+    "type": "xpath",
+    "value": "//*[@id = 'ganttFilterPopupPanel']//button[.='Cancel']"
+  },
+  {
+  "name": "programForecastDetailsTab",
+  "type": "xpath",
+  "value": "//a[@title='Forecast Details']"
+  },
+  {
+    "name": "programForecastDetailsColumnHeaders",
+    "type": "xpath",
+    "value": "//div[@id='gantt_container_Table']/descendant::th[contains(@class,'ui-widget-header')]"
+  }
+]

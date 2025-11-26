@@ -1,0 +1,123 @@
+[
+  {
+    "name": "landBankTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Land Bank')]"
+  },
+  {
+    "name": "landName",
+    "type": "id",
+    "value": "LANDMGT_LandName_Id"
+  },
+  {
+    "name": "landDescription",
+    "type": "id",
+    "value": "LANDMGT_Description_Id"
+  },
+  {
+    "name": "landType",
+    "type": "id",
+    "value": "LANDMGT_LandType_Id"
+  },
+  {
+    "name": "landManagementDashboard",
+    "type": "xpath",
+    "value": "//a[@title='Land Management']"
+  },
+  {
+    "name": "landAddress",
+    "type": "id",
+    "value": "LANDMGT_Address_Id"
+  },
+  {
+    "name": "landArea",
+    "type": "id",
+    "value": "LANDMGT_Area_Id"
+  },
+  {
+    "name": "landLocality",
+    "type": "id",
+    "value": "LANDMGT_Locality_Id"
+  },
+  {
+    "name": "landOwnerType",
+    "type": "id",
+    "value": "LANDMGT_OwnerType_Id"
+  },
+  {
+    "name": "landAddButton",
+    "type": "id",
+    "value": "C1_DGProjects_ProjectPicker_btnShowPicker"
+  },
+  {
+    "name": "landPickerContainer",
+    "type": "xpath",
+    "value": "//div[@id='C1_DGProjects_ProjectPicker_pickerContainer']"
+  },
+  {
+    "name": "requiredMandatoryField",
+    "type": "xpath",
+    "value": "//span[contains(@style,'display: inline') and contains(text(),'Required')]"
+  },
+  {
+    "name": "listPageDataTable",
+    "type": "xpath",
+    "value": ".//div[@id='ctl00_C1_MWGrid_GridData']//table/tbody"
+  },
+  {
+    "name": "parcelName",
+    "type": "id",
+    "value": "PRCLDET_Name_Id"
+  },
+  {
+    "name": "uploadDocument",
+    "type": "xpath",
+    "value": "//input[contains(@id,'UploadFileControl')]"
+  },
+  {
+    "name": "forecastName",
+    "type": "id",
+    "value": "LANDFRC_Title_Id"
+  },
+  {
+    "name": "forecastDescription",
+    "type": "id",
+    "value": "LANDFRC_Description_Id"
+  },
+  {
+    "name": "itemDetailsTab",
+    "type": "xpath",
+    "value": ".//*[@id='PageTabs_tabBar']//li//a[text()='Items Details']"
+  },
+  {
+    "name": "landScoringDepartment",
+    "type": "id",
+    "value": "LNDSCNG_DeptId_Id"
+  },
+  {
+    "name": "landScoringDetails",
+    "type": "id",
+    "value": "ctl00_C1_LNDSCNG_LNDSCDetails_id_GridData"
+  },
+  {
+    "name": "landScoringDepartment",
+    "type": "id",
+    "value": "LNDSCNG_DeptId_Id"
+  },
+  {
+    "name": "landScoringValidation",
+    "type": "xpath",
+    "value": "//*[@id='ctl00_C1_LNDSCNG_LNDSCDetails_id_GridData']//td[contains(@title,'0.0000')]"
+  },
+  {
+    "name": "libraryPage",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  },
+
+  {
+    "name": "ownerTypeLabel",
+    "type": "id",
+    "value": "OWNTYPE_OwnerType_Id"
+  }
+]

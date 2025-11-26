@@ -1,0 +1,117 @@
+[
+  {
+    "name": "deliveryOption",
+    "type": "linkText",
+    "value": "Delivery Option"
+  },
+  {
+    "name": "scheduleDetails",
+    "type": "linkText",
+    "value": "Schedule Details"
+  },
+  {
+    "name": "toRecipient",
+    "type": "id",
+    "value": "txtEmailTo"
+  },
+  {
+    "name": "subject",
+    "type": "id",
+    "value": "txtSubject"
+  },
+  {
+    "name": "startDate",
+    "type": "id",
+    "value": "C1_rptSubscription_wdcStartDate_input"
+  },
+  {
+    "name": "stopScheduleCheckbox",
+    "type": "xpath",
+    "value": "//div[@role='dialog']//input[@id='C1_rptSubscription_cbSpecifyEndDate']"
+  },
+  {
+    "name": "endDate",
+    "type": "id",
+    "value": "C1_rptSubscription_wdcEndDate_input"
+  },
+  {
+    "name": "startTimeHours",
+    "type": "id",
+    "value": "txtStartHours"
+  },
+  {
+    "name": "startTimeMinutes",
+    "type": "id",
+    "value": "txtStartMins"
+  },
+  {
+    "name": "subscribeButton",
+    "type": "id",
+    "value": "C1_rptSubscription_btnSubscribe"
+  },
+  {
+    "name": "showWorkflowHistoryReportButton",
+    "type": "id",
+    "value": "appWorkflowHistory_btnShowHistoryPDF"
+  },
+  {
+    "name": "downloadReportButton",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl06_ctl04_ctl00_ButtonImgDown"
+  },
+  {
+    "name": "allTablesInReport",
+    "type": "xpath",
+    "value": ".//*[@id='VisibleReportContentctl00_C1_rptvwrReport_ctl10']//table"
+  },
+  {
+    "name": "firePrintEvent",
+    "type": "xpath",
+    "value": ".//span[@onclick = 'javascript:firePrintEvent();']/img[@title = 'Print Report']"
+  },
+  {
+    "name": "getInflationRuleIDsInListReport",
+    "type": "xpath",
+    "value": ".//tr[td/div[contains(text(),'Inflation Rule ID')]]//following-sibling::tr/td/div"
+  },
+  {
+    "name": "ribbonMenuReportsButton",
+    "type": "id",
+    "value": "MainToolBar_lnkReports"
+  },
+  {
+    "name": "searchTextBox",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl06_ctl03_ctl00"
+  },
+  {
+    "name": "findButton",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl06_ctl03_ctl01"
+  },
+  {
+    "name": "fromDateForecastDetailsComparisonReport",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl03_txtValueDisplay"
+  },
+  {
+    "name": "toDateForecastDetailsComparisonReport",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl05_txtValueDisplay"
+  },
+  {
+    "name": "forecastVersionDropdownForecastDetailsComparisonReport",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl07_ddDropDownButton"
+  },
+  {
+    "name": "forecastVersionDropdownFirstOptionForecastDetailsComparisonReport",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl07_divDropDown_ctl01"
+  },
+  {
+    "name": "viewReportButton",
+    "type": "id",
+    "value": "ctl00_C1_rptvwrReport_ctl04_ctl00"
+  }
+]

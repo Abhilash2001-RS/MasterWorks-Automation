@@ -1,0 +1,12 @@
+[
+  {
+    "name": "nameTextField",
+    "type": "id",
+    "value": "WORKCON_Name_Id"
+  },
+  {
+    "name": "nameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  }
+]

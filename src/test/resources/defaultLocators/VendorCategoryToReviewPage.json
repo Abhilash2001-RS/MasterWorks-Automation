@@ -1,0 +1,42 @@
+[
+  {
+    "name": "categoryDropDown",
+    "type": "id",
+    "value": "VNDCTRS_Category_Id"
+  },
+  {
+    "name": "subCategoryDropDown",
+    "type": "id",
+    "value": "VNDCTRS_SubCategory_Id"
+  },
+  {
+    "name": "reviewBox",
+    "type": "id",
+    "value": "C1_ReviewStages_lbleft"
+  },
+  {
+    "name": "addBtn",
+    "type": "xpath",
+    "value": "//*[@id='VNDCTRS_ReviewStages_Id']//input[@type='submit' and contains(@value,'Add')]"
+  },
+  {
+    "name": "removeBtn",
+    "type": "xpath",
+    "value": "//*[@id='VNDCTRS_ReviewStages_Id']//input[@type='submit' and contains(@value,'Remove')]"
+  },
+  {
+    "name": "vendorCategoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Vendor Category')]"
+  },
+  {
+    "name": "vendorSubCategoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Vendor Sub-Category')]"
+  },
+  {
+    "name": "reviewStagesLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Review Stages')]"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "xpath_forLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'For')]"
+  },
+  {
+    "name": "id_forTxtBox",
+    "type": "id",
+    "value": "SNDGFOR_SendingFor_Id"
+  }
+]

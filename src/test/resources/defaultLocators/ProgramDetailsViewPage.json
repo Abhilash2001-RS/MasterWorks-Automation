@@ -1,0 +1,37 @@
+[
+  {
+    "name": "programTitleText",
+    "type": "id",
+    "value": "PROGRAM_Title_Id_Text"
+  },
+  {
+    "name": "programYearText",
+    "type": "id",
+    "value": "PROGRAM_ProgramYear_Id_Text"
+  },
+  {
+    "name": "programCategoryText",
+    "type": "id",
+    "value": "PROGRAM_ProgramCategory_Id_Text"
+  },
+  {
+    "name": "projectGridDiv",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_DGPlanningProjects_id_GridData"
+  },
+  {
+    "name": "numberOfProjects",
+    "type": "id",
+    "value": "PROGRAM_ProjectCount_Id_Text"
+  },
+  {
+    "name": "projectForm",
+    "type": "id",
+    "value": "PROGRAM_ProjectCount_Id"
+  },
+  {
+    "name": "projectsTable",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_DGPlanningProjects_id"
+  }
+]

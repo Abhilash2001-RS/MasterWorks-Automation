@@ -1,0 +1,192 @@
+[
+  {
+    "name": "leadTimInRevision",
+    "type": "id",
+    "value": "POREVSN_LeadTime_Id"
+  },
+  {
+    "name": "receiveButton",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Receive')]"
+  },
+  {
+    "name": "revisionPayItemPicker",
+    "type": "xpath",
+    "value": "//div[@id = 'C1_PRItems_PRItemsPicker_pickerContainer']"
+  },
+  {
+    "name": "revisionModificationPayItemGrid",
+    "type": "id",
+    "value": "ctl00_C1_POREVSN_PRItems_id_GridData"
+  },
+  {
+    "name": "revisionModificationPayItemHeader",
+    "type": "id",
+    "value": "ctl00_C1_POREVSN_PRItems_id_GridHeader"
+  },
+  {
+    "name": "addModifyPayItemRevisionsBtn",
+    "type": "xpath",
+    "value": "//div[@id='PRItems']//input[@value='Add']"
+  },
+  {
+    "name": "editModifyPayItemRevisionsBtn",
+    "type": "xpath",
+    "value": "//div[@id='PRItems']//input[@value='Edit']"
+  },
+  {
+    "name": "addNewPayItemRevisionsBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItems']//input[@value='Add']"
+  },
+  {
+    "name": "editNewPayItemRevisionsBtn",
+    "type": "xpath",
+    "value": "//div[@id='POItems']//input[@value='Edit']"
+  },
+  {
+    "name": "payItemRevisionTable",
+    "type": "id",
+    "value": "ctl00_C1_POREVSN_POItems_id_ctl00"
+  },
+  {
+    "name": "payItemModifyRevisionTable",
+    "type": "id",
+    "value": "ctl00_C1_POREVSN_PRItems_id_ctl00"
+  },
+  {
+    "name": "payItemRevisionGrid",
+    "type": "id",
+    "value": "ctl00_C1_POREVSN_POItems_id_GridData"
+  },
+  {
+    "name": "payItemRevisionFooter",
+    "type": "id",
+    "value": "ctl00_C1_POREVSN_POItems_id_GridFooter"
+  },
+  {
+    "name": "payItemRevisionHeader",
+    "type": "id",
+    "value": "ctl00_C1_POREVSN_POItems_id_GridHeader"
+  },
+  {
+    "name": "payItemModifyRevisionHeader",
+    "type": "id",
+    "value": "ctl00_C1_POREVSN_PRItems_id_GridHeader"
+  },
+  {
+    "name": "payItemModifyRevisionFooter",
+    "type": "id",
+    "value": "ctl00_C1_POREVSN_PRItems_id_GridFooter"
+  },
+  {
+    "name": "fundRuleFieldInPRRevision",
+    "type": "id",
+    "value": "PRItems_RuleID_Id"
+  },
+  {
+    "name": "newQuantity",
+    "type": "id",
+    "value": "igtxtPRItems_NewQty_Id"
+  },
+  {
+    "name": "newRate",
+    "type": "id",
+    "value": "igtxtPRItems_NewRate_Id"
+  },
+  {
+    "name": "saveInPopUpModifyRevision",
+    "type": "xpath",
+    "value": "//div[@id='PRItems_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "saveInPopUpNewRevision",
+    "type": "xpath",
+    "value": "//div[@id='POItems_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "revisionModificationPayItemWholeGrid",
+    "type": "id",
+    "value": "ctl00_C1_POREVSN_PRItems_id"
+  },
+  {
+    "name": "revisionNewPayItemWholeGrid",
+    "type": "id",
+    "value": "ctl00_C1_POREVSN_POItems_id"
+  },
+  {
+    "name": "newRateIn$",
+    "type": "xpath",
+    "value": "//span[text()='New Rate in $']"
+  },
+  {
+    "name": "purchaseRevisionValueInsideEditForm",
+    "type": "xpath",
+    "value": "//*[@editid='POREVSN_PORevisionValue_Id']"
+  },
+  {
+    "name": "purchaseRevisionAmountInsideEditForm",
+    "type": "xpath",
+    "value": "//*[@editid='POREVSN_RevisedPOAmount_Id']"
+  },
+  {
+    "name": "deleteNewPayItemButton",
+    "type": "xpath",
+    "value": "//div[@id='POItems']//input[@value='Delete']"
+  },
+  {
+    "name": "poRevisionListPageGrid",
+    "type": "id",
+    "value": "ctl00_C1_MWGrid_GridData"
+  },
+  {
+    "name": "poRevisionGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_MWGrid_GridHeader"
+  },
+  {
+    "name": "poRevisionListPageHeaderTable",
+    "type": "id",
+    "value": "ctl00_C1_MWGrid_ctl00_Header"
+  },
+  {
+    "name": "poRevisionAmount",
+    "type": "id",
+    "value": "POItems_ItemAmount_Id"
+  },
+  {
+    "name": "prRevisionAmount",
+    "type": "id",
+    "value": "PRItems_NewAmount_Id"
+  },
+  {
+    "name": "prItemEditPopUp",
+    "type": "xpath",
+    "value": "//div[@id='PRItems_EditTemplate']/.."
+  },
+  {
+    "name": "cancelInModifyPopUp",
+    "type": "xpath",
+    "value": "//div[@id='PRItems_EditTemplate']/descendant::td[@popup-actionbtn-container='true']/input[@value='Cancel']"
+  },
+  {
+    "name": "payItemGridHeader",
+    "type": "xpath",
+    "value": "//div[contains(@id,'POREVSN_POItems_id')]/descendant::div[contains(@id,'POREVSN_POItems_id_GridHeader')]/descendant::th"
+  },
+  {
+    "name": "payItemGridData",
+    "type": "xpath",
+    "value": "//div[contains(@id,'POREVSN_POItems_id')]/descendant::div[contains(@id,'POREVSN_POItems_id_GridData')]/descendant::tr[not(contains(@style,'display:none'))]/descendant::td"
+  },
+  {
+    "name": "namePayItemTextBox",
+    "type": "id",
+    "value": "POItems_ItemName_Id"
+  },
+  {
+    "name": "accountingCodeTextBox",
+    "type": "id",
+    "value": "PRItems_AccountingCode_Id"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "payItemNumberTxtBox",
+    "type": "id",
+    "value": "C1_txtStandardItemNo"
+  },
+  {
+    "name": "itemDescriptionTextArea",
+    "type": "id",
+    "value": "C1_txtItemDesc"
+  },
+  {
+    "name": "itemUnitComboBox",
+    "type": "id",
+    "value": "C1_ddlUnit"
+  },
+  {
+    "name": "itemQuantityTextBox",
+    "type": "id",
+    "value": "igtxtC1_wneQuantity"
+  },
+  {
+    "name": "itemUnitCostTextBox",
+    "type": "id",
+    "value": "igtxtC1_wneUnitCost"
+  },
+  {
+    "name": "itemContainerPickerButton",
+    "type": "id",
+    "value": "C1_btnItemPathPicker"
+  },
+  {
+    "name": "forceUnitPrice",
+    "type": "xpath",
+    "value": "//input[contains(@id,'C1_chkMustBid')]"
+  },
+  {
+    "name": "uploadDocument",
+    "type": "xpath",
+    "value": "//input[contains(@id,'UploadFileControl')]"
+  },
+  {
+    "name": "unitPriceSearchLink",
+    "type": "partialLinkText",
+    "value": "Unit Price Search"
+  },
+  {
+    "name": "unitPriceSearchIn$",
+    "type": "id",
+    "value": "igtxtC1_wneUnitCost"
+  },
+  {
+    "name": "selectButtonStandardItems",
+    "type": "xpath",
+    "value": "//input[contains(@id,'stdItemNumber_btnShowPicker')]"
+  },
+  {
+    "name": "standardItemPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'stdItemNumber_pickerContainer')]"
+  },
+  {
+    "name": "groupSelectBox",
+    "type": "id",
+    "value": "C1_ddlGroups"
+  },
+  {
+    "name": "alternateSelectBox",
+    "type": "id",
+    "value": "C1_ddlAlternates"
+  },
+  {
+    "name": "componentCountField",
+    "type": "xpath",
+    "value": "//input[contains(@name,'txtComponents')]"
+  },
+  {
+    "name": "selectResourceCategory",
+    "type": "id",
+    "value": "ddlRateAnalysisResource"
+  },
+  {
+    "name": "resourcePickerButton",
+    "type": "id",
+    "value": "btnResourcePicker"
+  },
+  {
+    "name": "resourcePicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "resourcePickerId",
+    "type": "id",
+    "value": "pickerContainer"
+  },
+  {
+    "name": "budgetPickerButton",
+    "type": "id",
+    "value": "C1_btnShowItemPicker"
+  },
+  {
+    "name": "budgetPicker",
+    "type": "id",
+    "value": "C1_associateBudgetItem_pickerContainer"
+  }
+]

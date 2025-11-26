@@ -1,0 +1,17 @@
+[
+  {
+    "name": "expenseTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "expenseTypeField",
+    "type": "id",
+    "value": "EXPENST_Name_Id"
+  },
+  {
+    "name": "expenseTypeEntered",
+    "type": "id",
+    "value": "EXPENST_Name_Id_Text"
+  }
+]

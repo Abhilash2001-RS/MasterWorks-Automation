@@ -1,0 +1,182 @@
+[
+  {
+    "name": "capitalPlanningDashboard",
+    "type": "id",
+    "value": "anchPlanningDashboard"
+  },
+  {
+    "name": "aurigoLogo",
+    "type": "id",
+    "value": "aurigoLogo"
+  },
+  {
+    "name": "accessDeniedTitle",
+    "type": "xpath",
+    "value": "//*[@id='PageTabs_tabBar']/li/a"
+  },
+  {
+    "name": "planningDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Planning Dashboard')]"
+  },
+  {
+    "name": "newDashboard",
+    "type": "id",
+    "value": "C1_DBControl_lnkCreateDashboard"
+  },
+  {
+    "name": "cashFlowTitle",
+    "type": "xpath",
+    "value": "//span[@title='In Year Cashflow']"
+  },
+  {
+    "name": "budgetChangesTitle",
+    "type": "xpath",
+    "value": "//span[@title='In Year Budget Changes']"
+  },
+  {
+    "name": "programCostsChartTitle",
+    "type": "xpath",
+    "value": "//span[@title='Program Costs Chart']"
+  },
+  {
+    "name": "plannedProjectsDashboard",
+    "type": "id",
+    "value": "anchPlannedProjects"
+  },
+  {
+    "name": "administrationDashboard",
+    "type": "id",
+    "value": "anchAdministration"
+  },
+  {
+    "name": "executionProjectDashboard",
+    "type": "id",
+    "value": "anchProjectsList"
+  },
+  {
+    "name": "libraryDashboard",
+    "type": "id",
+    "value": "anchLibrary"
+  },
+  {
+    "name": "projectDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Project Dashboard')]"
+  },
+  {
+    "name": "leftPanelList",
+    "type": "xpath",
+    "value": "//*[@id='linearTreeContainer']//span[contains(@class,'menu-text')]"
+  },
+  {
+    "name": "expandAll",
+    "type": "xpath",
+    "value": "//*[@alt='+'and@aria-label='expand']"
+  },
+  {
+    "name": "collapseAll",
+    "type": "xpath",
+    "value": "//*[@alt='-'and@aria-label='collapse']"
+  },
+  {
+    "name": "libraryDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Library Management')]"
+  },
+  {
+    "name": "administrationTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Administration')]"
+  },
+  {
+    "name": "reportGalleryTab",
+    "type": "xpath",
+    "value": "//*[@id='PageTabs_tabBar']//li//a[contains(text(),'Report Gallery')]"
+  },
+  {
+    "name": "ReportGalleryReportList",
+    "type": "xpath",
+    "value": "//*[@class='rgMasterTable']//td"
+  },
+  {
+    "name": "revisionProgramTab",
+    "type": "xpath",
+    "value": "//*[@id='PageTabs_tabBar']//a[contains(text(),'Revise Program')]"
+  },
+  {
+    "name": "arrowButton",
+    "type": "xpath",
+    "value": "//span[@class='rrbArrow']"
+  },
+  {
+    "name": "kebabOption",
+    "type": "xpath",
+    "value": "//input[(@class='cntxtMenu')]"
+  },
+  {
+    "name": "getKebabButtonsList",
+    "type": "xpath",
+    "value": "//*[@class='rmText']"
+  },
+  {
+    "name": "selectedRecordsCount",
+    "type": "id",
+    "value": "SelectedRecordsCount"
+  },
+  {
+    "name": "logoutLink",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Logout')]"
+  },
+  {
+    "name": "listViewButtonOptions",
+    "type": "xpath",
+    "value": "//*[not(contains(@class,'hideMenuItem')) and not(boolean(@parentmenu)) and not (@data-menugroup='filters') and not (contains(@title,'No Filter'))]/span[@class='rrbText']"
+  },
+  {
+    "name": "listViewKebabButtonOptions",
+    "type": "xpath",
+    "value": "//div[contains(@id,'MainToolBar_RadContextMenuControl_detached')]/ul/li/a/span"
+  },
+  {
+    "name": "dropdownValues",
+    "type": "xpath",
+    "value": "//a[contains(@id,'MainToolBar_lnk') and not (contains(@class,'hideMenuItem'))]"
+  },
+  {
+    "name": "workFlowParentMenu",
+    "type": "id",
+    "value": "lnkWorkFlowMenu"
+  },
+  {
+    "name": "parentNewMenu",
+    "type": "id",
+    "value": "lnkAddNew"
+  },
+  {
+    "name": "parentImportExportMenu",
+    "type": "id",
+    "value": "lnkImportExport"
+  },
+  {
+    "name": "parentMoreMenu",
+    "type": "id",
+    "value": "lnkMoreOptions"
+  },
+  {
+    "name": "reportsParentMenu",
+    "type": "id",
+    "value": "lnkReports"
+  },
+  {
+    "name": "DoWorkFlowParentMenu",
+    "type": "id",
+    "value": "DoWorkflowAction"
+  },
+  {
+    "name": "activeInactiveParentMenu",
+    "type": "id",
+    "value": "lnkActiveInactive"
+  }
+]

@@ -1,0 +1,517 @@
+[
+  {
+    "name": "titleLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Title')]"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//td[@class='tdTextAlignRgt mandatory-field']/span[contains(text(),'Description')]"
+  },
+  {
+    "name": "categoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Category')]"
+  },
+  {
+    "name": "ownerLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Owner')]"
+  },
+  {
+    "name": "title",
+    "type": "id",
+    "value": "RISKREG_Title_Id"
+  },
+  {
+    "name": "titleEntered",
+    "type": "xpath",
+    "value": "//input[@id='RISKREG_Title_Id']/../span"
+  },
+  {
+    "name": "description",
+    "type": "id",
+    "value": "RISKREG_Description_Id"
+  },
+  {
+    "name": "category",
+    "type": "id",
+    "value": "RISKREG_CategoryId_Id"
+  },
+  {
+    "name": "owner",
+    "type": "id",
+    "value": "C1_div_RISKREG_Owner_Id"
+  },
+  {
+    "name": "riskLikelihood",
+    "type": "id",
+    "value": "RISKREG_InitialRiskLikelihood_Id"
+  },
+  {
+    "name": "selectRiskLikelihood",
+    "type": "xpath",
+    "value": "//select[@id='RISKREG_InitialRiskLikelihood_Id']/option[contains(text(),'Likely')]"
+  },
+  {
+    "name": "initialRiskSeverity",
+    "type": "id",
+    "value": "RISKREG_InitialRiskSeverity_Id"
+  },
+  {
+    "name": "selectInitialRiskSeverity",
+    "type": "xpath",
+    "value": "//option[contains(text(),'Minor')]"
+  },
+  {
+    "name": "riskRegisterId",
+    "type": "id",
+    "value": "RISKREG_RiskRegisterID_Id"
+  },
+  {
+    "name": "contract",
+    "type": "id",
+    "value": "C1_div_RISKREG_ContractCode_Id"
+  },
+  {
+    "name": "projCode",
+    "type": "id",
+    "value": "RISKREG_ProjectCode_Id"
+  },
+  {
+    "name": "projName",
+    "type": "id",
+    "value": "RISKREG_ProjectName_Id"
+  },
+  {
+    "name": "identifier",
+    "type": "id",
+    "value": "C1_div_RISKREG_Identifier_Id"
+  },
+  {
+    "name": "identifiedOn",
+    "type": "id",
+    "value": "RISKREG_IdentifiedOn_Id_input"
+  },
+  {
+    "name": "createdBy",
+    "type": "id",
+    "value": "RISKREG_CreatedBy_Id"
+  },
+  {
+    "name": "createdOn",
+    "type": "id",
+    "value": "RISKREG_CreatedOn_Id_Text"
+  },
+  {
+    "name": "idFormat",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RiskRegisterID_Id']/span"
+  },
+  {
+    "name": "initialRiskScore",
+    "type": "id",
+    "value": "RISKREG_InitialRiskScore_Id_Text"
+  },
+  {
+    "name": "initialRiskGrade",
+    "type": "id",
+    "value": "RISKREG_InitialRiskGrade_Id_Text"
+  },
+  {
+    "name": "initialRiskGradeValue",
+    "type": "xpath",
+    "value": "//input[@id='RISKREG_InitialRiskGrade_Id']/.."
+  },
+  {
+    "name": "addImpactAreas",
+    "type": "id",
+    "value": "C1_RISKREGRiskImpactAreas_ImpactAreaPicker_btnShowPicker"
+  },
+  {
+    "name": "impactAreasPickerXpath",
+    "type": "id",
+    "value": "C1_RISKREGRiskImpactAreas_ImpactAreaPicker_pickerContainer"
+  },
+  {
+    "name": "toSelectImpactArea",
+    "type": "xpath",
+    "value": "//div[@id='C1_RISKREGRiskImpactAreas_ImpactAreaPicker_pickerContainer']"
+  },
+  {
+    "name": "selectButtonInPicker",
+    "type": "id",
+    "value": "C1_RISKREGRiskImpactAreas_ImpactAreaPicker_btnSelect"
+  },
+  {
+    "name": "cancelButtonInPicker",
+    "type": "id",
+    "value": "C1_RISKREGRiskImpactAreas_ImpactAreaPicker_btnCancel"
+  },
+  {
+    "name": "impactAreaValue",
+    "type": "id",
+    "value": "ctl00_C1_RISKREG_RISKREGRiskImpactAreas_id_ctl00_C1_RISKREG_RISKREGRiskImpactAreas_id_ctl00_Value_TB_Value"
+  },
+  {
+    "name": "impactAreaDescription",
+    "type": "id",
+    "value": "ctl00_C1_RISKREG_RISKREGRiskImpactAreas_id_ctl00_C1_RISKREG_RISKREGRiskImpactAreas_id_ctl00_ImpactAreaDescription_TB_ImpactAreaDescription"
+  },
+  {
+    "name": "mitigationPlan",
+    "type": "id",
+    "value": "RISKREG_MitigationPlan_Id"
+  },
+  {
+    "name": "brTagInMitigationPlanEntered",
+    "type": "xpath",
+    "value": "//*[@id = 'RISKREG_MitigationPlan_Id_Text']/br"
+  },
+  {
+    "name": "assignResource",
+    "type": "xpath",
+    "value": "//div[@id='RISKREGTaskControl']//td/input[contains(@onclick,'SetSaveButtonId')]"
+  },
+  {
+    "name": "assignResourcePicker",
+    "type": "id",
+    "value": "RISKREGTaskControl_EditTemplate"
+  },
+  {
+    "name": "assignToInPicker",
+    "type": "xpath",
+    "value": "//ul[@id='RISKREGTaskControl_To_Id_taglist']/.."
+  },
+  {
+    "name": "saveActionItemsPicker",
+    "type": "xpath",
+    "value": "//div[@id='RISKREGTaskControl_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "resourceStatus",
+    "type": "xpath",
+    "value": "//td[contains(text(),'Open')]"
+  },
+  {
+    "name": "editActionItem",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']//td[contains(text(),'Open')]/preceding-sibling::td[normalize-space(@classrole='gridcell') and not(@class=' k-dirty-cell')]/span/.."
+  },
+  {
+    "name": "editActionItemField",
+    "type": "xpath",
+    "value": "//textarea[@id='txtAreaValue']"
+  },
+  {
+    "name": "editResponseField",
+    "type": "xpath",
+    "value": "//textarea[@id='txtAreaValue']"
+  },
+  {
+    "name": "editActionItemAfterRespond",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']//td[contains(text(),'Closed')]/preceding-sibling::td[normalize-space(@classrole='gridcell') and not(@class=' k-dirty-cell')]/span/.."
+  },
+  {
+    "name": "editResponseAfterRespond",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']//td[contains(text(),'Closed')]/following-sibling::td[normalize-space(@classrole='gridcell') and not(@class=' k-dirty-cell')]/span/.."
+  },
+  {
+    "name": "responseDate",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']//td[contains(text(),'Closed')]/following-sibling::td[normalize-space(@class=' k-dirty-cell') and not(@class='') and not(@style='display:none')]/span/.."
+  },
+  {
+    "name": "filterStatusInActionItemControlGrid",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']/descendant::span[text()='Status']/parent::a/following-sibling::a"
+  },
+  {
+    "name": "selectStatusAfterFilter",
+    "type": "xpath",
+    "value": "//span[@class='k-widget k-dropdown k-header']/select[@title='Value']/.."
+  },
+  {
+    "name": "selectStatusOpen",
+    "type": "xpath",
+    "value": "//div[@class='k-animation-container' and @aria-hidden='true']//ul/li[contains(text(),'Open')]"
+  },
+  {
+    "name": "selectStatusClosed",
+    "type": "xpath",
+    "value": "//div[@class='k-animation-container' and @aria-hidden='true']//ul/li[contains(text(),'Closed')]"
+  },
+  {
+    "name": "postAssignedResource",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']//td/a/span[@class='kGrid-actionbutton kGrid-actionPost ']/.."
+  },
+  {
+    "name": "respondAssignedResource",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']//td/a[@title='Respond']"
+  },
+  {
+    "name": "reOpenAssignedResource",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']//td/a[@title='Reopen']"
+  },
+  {
+    "name": "undoAction",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']//td/a[@title='Undo']"
+  },
+  {
+    "name": "deleteAssignedResource",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']//td/a/span[@class='kGrid-actionbutton kGrid-actionDelete']/.."
+  },
+  {
+    "name": "noRecordsFound",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']//div[contains(text(),'No records available.')]"
+  },
+  {
+    "name": "closedActionItem",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGTaskControl_id']//td[contains(text(),'Closed')]"
+  },
+  {
+    "name": "contractDropDown",
+    "type": "id",
+    "value": "C1_div_RISKREG_ContractCode_Id"
+  },
+  {
+    "name": "deleteContract",
+    "type": "xpath",
+    "value": "//ul[@id='RISKREG_ContractCode_Id_taglist']//span[@class='k-select']"
+  },
+  {
+    "name": "libraryManagementDashBoard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  },
+  {
+    "name": "linkedRecordSection",
+    "type": "xpath",
+    "value": "//div[@id='RiskMitigation']/div[@id='RISKREGLinkToGrid']"
+  },
+  {
+    "name": "riskImpactSection",
+    "type": "xpath",
+    "value": "//div[@id='RiskMitigation']/table[@formdesignername='RiskScoreAndImpactDetails']"
+  },
+  {
+    "name": "impactAreasSection",
+    "type": "id",
+    "value": "RISKREGRiskImpactAreas"
+  },
+  {
+    "name": "riskMitigationSection",
+    "type": "xpath",
+    "value": "//div[@id='RiskMitigation']/table[@formdesignername='RiskMitigationSection']"
+  },
+  {
+    "name": "actionItemsSection",
+    "type": "id",
+    "value": "RISKREGTaskControl"
+  },
+  {
+    "name": "formAttachmentControl",
+    "type": "xpath",
+    "value": "//table[@id=contains(text(),'tblAttachments')]//input[@value='Link Document']"
+  },
+  {
+    "name": "recordIdentifierLinkedRecord",
+    "type": "xpath",
+    "value": "//th[@data-title='Record Identifier']"
+  },
+  {
+    "name": "sourceFormLinkedRecord",
+    "type": "xpath",
+    "value": "//th[@data-title='Source Form']"
+  },
+  {
+    "name": "contractNameLinkedRecord",
+    "type": "xpath",
+    "value": "//th[@data-title='Contract Name']"
+  },
+  {
+    "name": "notesLinkedRecord",
+    "type": "xpath",
+    "value": "//th[@data-title='Notes']"
+  },
+  {
+    "name": "addLinkedRecord",
+    "type": "xpath",
+    "value": "//div[@id='RISKREGLinkToGrid']//input[@value='Add']"
+  },
+  {
+    "name": "deleteLinkedRecord",
+    "type": "xpath",
+    "value": "//div[@id='RISKREGLinkToGrid']//input[@value='Delete']"
+  },
+  {
+    "name": "selectSourceFormInLinkedRecords",
+    "type": "xpath",
+    "value": "//ul[@id='lstModules_taglist']/../input"
+  },
+  {
+    "name": "selectSourceFormXpath",
+    "type": "xpath",
+    "value": "//ul[@id='lstModules_listbox']//span[contains(text(),'Bid List')]"
+  },
+  {
+    "name": "searchSelectItems",
+    "type": "xpath",
+    "value": "//input[@id='C1_RISKREGLinkToGrid_RISKREGLinkToGrid_Picker_btnSearch']"
+  },
+  {
+    "name": "selectItemsPickerXpath",
+    "type": "xpath",
+    "value": "//div[@id='C1_RISKREGLinkToGrid_RISKREGLinkToGrid_Picker_linkToPickerParentContainer']"
+  },
+  {
+    "name": "clickOnSelect",
+    "type": "xpath",
+    "value": "//input[@id='C1_RISKREGLinkToGrid_RISKREGLinkToGrid_Picker_btnLinkToSelect']"
+  },
+  {
+    "name": "linkInDescription",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGLinkToGrid_id']/div[@class='k-grid-content k-auto-scrollable']//a"
+  },
+  {
+    "name": "selectLinkedRecord",
+    "type": "xpath",
+    "value": "//div[@id='RISKREG_RISKREGLinkToGrid_id']//thead/tr/th[@class='k-header']"
+  },
+  {
+    "name": "selectItemsFrame",
+    "type": "id",
+    "value": "C1_RISKREGLinkToGrid_RISKREGLinkToGrid_Picker_linkToPickerFilterSection"
+  },
+  {
+    "name": "currentRiskLikelihood",
+    "type": "id",
+    "value": "RISKREG_CurrentRiskLikelihood_Id"
+  },
+  {
+    "name": "currentRiskSeverity",
+    "type": "id",
+    "value": "RISKREG_CurrentRiskSeverity_Id"
+  },
+  {
+    "name": "currentRiskScore",
+    "type": "id",
+    "value": "RISKREG_CurrentRiskScore_Id_Text"
+  },
+  {
+    "name": "currentRiskGrade",
+    "type": "id",
+    "value": "RISKREG_CurrentRiskGrade_Id_Text"
+  },
+  {
+    "name": "selectCurrentRiskLikelihood",
+    "type": "xpath",
+    "value": "//select[@id='RISKREG_CurrentRiskLikelihood_Id']/option[contains(text(),'Likely')]"
+  },
+  {
+    "name": "selectCurrentRiskSeverity",
+    "type": "xpath",
+    "value": "//select[@id='RISKREG_CurrentRiskSeverity_Id']/option[contains(text(),'Minor')]"
+  },
+  {
+    "name": "linkDocument",
+    "type": "xpath",
+    "value": "//input[@value='Link Document']"
+  },
+  {
+    "name": "linkDocumentHeader",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_SessionNotification_popup']/following-sibling::div"
+  },
+  {
+    "name": "folderInLinkDocument",
+    "type": "xpath",
+    "value": "//span[contains(text(),'close')]/ancestor::div/ancestor::div//span[contains(text(),' Folder')]"
+  },
+  {
+    "name": "cancelInLinkDocument",
+    "type": "xpath",
+    "value": "//span[contains(text(),'close')]/ancestor::div//input[@value='Cancel']"
+  },
+  {
+    "name": "closeButtonInPopup",
+    "type": "xpath",
+    "value": "//img[@aria-label='close']/.."
+  },
+  {
+    "name": "titleFieldInEnterpriseSearchPage",
+    "type": "id",
+    "value": "C1_txtTitle"
+  },
+  {
+    "name": "detailsReportOptionInReports",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Details Report')]"
+  },
+  {
+    "name": "listPageOptionInReports",
+    "type": "xpath",
+    "value": "//span[contains(text(),'List Page Report')]"
+  },
+  {
+    "name": "topNRisksOptionInReports",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Top N Risks')]"
+  },
+  {
+    "name": "fromInActionItemsTemplate",
+    "type": "id",
+    "value": "RISKREGTaskControl_From_Disp_Id"
+  },
+  {
+    "name": "assignedToInActionItemsTemplate",
+    "type": "xpath",
+    "value": "//div[@id='C1_div_RISKREGTaskControl_To_Id']//span[@class='MultiSelectDropdown-selected-value']"
+  },
+  {
+    "name": "actionItemGrid",
+    "type": "id",
+    "value": "RISKREG_RISKREGTaskControl_id"
+  },
+  {
+    "name": "documentsPageFileNameFormat",
+    "type": "xpath",
+    "value": "//td[contains(text(),'%s')]"
+  },
+  {
+    "name": "searchWithinComboBox",
+    "type": "xpath",
+    "value": "//div[@role = 'listbox']"
+  },
+  {
+    "name": "linkedRecordFrame",
+    "type": "xpath",
+    "value": "//div[@id='overlayWindow']//iframe"
+  },
+  {
+    "name": "resultsGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_ctl00_Header"
+  },
+  {
+    "name": "searchResultGrid",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_GridData"
+  },
+  {
+    "name": "searchResultGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_GridHeader"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "budgetEstimateNameTxtBox",
+    "type": "id",
+    "value": "BDGTEST_BudgetEstimateName_Id"
+  },
+  {
+    "name": "budgetEstimateTypeComboBox",
+    "type": "id",
+    "value": "BDGTEST_BudgetEstimateType_Id"
+  },
+  {
+    "name": "measurementSystemComboBox",
+    "type": "id",
+    "value": "BDGTEST_MeasurementSystem_Id"
+  },
+  {
+    "name": "standardItemListComboBox",
+    "type": "id",
+    "value": "BDGTEST_StandardPayItem_Id"
+  },
+  {
+    "name": "projectCodeValueLabel",
+    "type": "id",
+    "value": "BDGTEST_ProjectCode_Id"
+  },
+  {
+    "name": "projectNameValueLabel",
+    "type": "id",
+    "value": "BDGTEST_ProjectName_Id"
+  },
+  {
+    "name": "budgetTemplatePickerBtn",
+    "type": "id",
+    "value": "C1_TemplateTrigger_TemplatePicker_btnShowPicker"
+  },
+  {
+    "name": "descriptionTxtBox",
+    "type": "id",
+    "value": "BDGTEST_Description_Id"
+  },
+  {
+    "name": "budgetEstimateIdValueLabel",
+    "type": "id",
+    "value": "BDGTEST_BudgetEstimateID_Id"
+  },
+  {
+    "name": "budgetEstimateDetailsTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Budget Estimate Details')]"
+  },
+  {
+    "name": "documentTitle",
+    "type": "xpath",
+    "value": "//*[@aria-label='Document Title']"
+  }
+]

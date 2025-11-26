@@ -1,0 +1,122 @@
+[
+  {
+    "name": "addToFavoritesSymbol",
+    "type": "id",
+    "value": "favoritesTrigger"
+  },
+  {
+    "name": "addToFavorites",
+    "type": "id",
+    "value": "addPageAsNewFavorite"
+  },
+  {
+    "name": "favoriteListOption",
+    "type": "id",
+    "value": "favoriteListBtn"
+  },
+  {
+    "name": "favoriteList",
+    "type": "xpath",
+    "value": "//div[@id='favTree']//li"
+  },
+  {
+    "name": "optionsContainer",
+    "type": "id",
+    "value": "userOptionsContainer"
+  },
+  {
+    "name": "addButton",
+    "type": "xpath",
+    "value": "//section[@id='addNewFavSection']//input[@value='Add']"
+  },
+  {
+    "name": "cancelButton",
+    "type": "xpath",
+    "value": "//section[@id='addNewFavSection']//input[@value='Cancel']"
+  },
+  {
+    "name": "deleteButton",
+    "type": "xpath",
+    "value": "//section[@id='addNewFavSection']//input[@value='Delete']"
+  },
+  {
+    "name": "favoriteTitle",
+    "type": "id",
+    "value": "tbPageTitle"
+  },
+  {
+    "name": "favoriteFolder",
+    "type": "id",
+    "value": "ddlFolderName"
+  },
+  {
+    "name": "favoriteFolderInput",
+    "type": "id",
+    "value": "tbFolderName"
+  },
+  {
+    "name": "newFolderCheckbox",
+    "type": "xpath",
+    "value": "//label[@for='cbNewFolder']"
+  },
+  {
+    "name": "folderManagement",
+    "type": "id",
+    "value": "lnkManage"
+  },
+  {
+    "name": "editButtonInFavoriteManagement",
+    "type": "xpath",
+    "value": "//input[@value='Edit' and @onclick]"
+  },
+  {
+    "name": "deleteButtonInFavoriteManagement",
+    "type": "xpath",
+    "value": "//input[@value='Delete']"
+  },
+  {
+    "name": "linkTitle",
+    "type": "id",
+    "value": "FavoriteLinks_LinkTitle_Id"
+  },
+  {
+    "name": "editLinkWindowSaveButton",
+    "type": "xpath",
+    "value": "//input[@value='Save']"
+  },
+  {
+    "name": "editLinkWindowCancelButton",
+    "type": "xpath",
+    "value": "//input[@value='Cancel']"
+  },
+  {
+    "name": "selectAllFavorites",
+    "type": "xpath",
+    "value": "//th/label[@class='radgrid-cb-label']/../input"
+  },
+  {
+    "name": "favoriteCategoryName",
+    "type": "id",
+    "value": "FAVMGMT_CategoryName_Id"
+  },
+  {
+    "name": "noRecordsDisplay",
+    "type": "xpath",
+    "value": "//div[contains(text(),'No records to display.')]"
+  },
+  {
+    "name": "deleteButtonInFavoriteManagementPage",
+    "type": "xpath",
+    "value": "//div[@id='FavoriteLinks']//input[@value='Delete']"
+  },
+  {
+    "name": "newFavoriteSymbol",
+    "type": "xpath",
+    "value": "//span[contains(@style,'Icn_Addfavorite16.png')]"
+  },
+  {
+    "name": "favoriteSearchbar",
+    "type": "id",
+    "value": "fav-search"
+  }
+]

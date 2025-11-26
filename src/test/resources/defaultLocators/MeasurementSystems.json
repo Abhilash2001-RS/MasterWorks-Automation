@@ -1,0 +1,27 @@
+[
+  {
+    "name": "measurementSysName",
+    "type": "id",
+    "value": "MEARSYS_SystemName_Id"
+  },
+  {
+    "name": "measurementSysDescription",
+    "type": "id",
+    "value": "MEARSYS_Description_Id"
+  },
+  {
+    "name": "measurementSysText",
+    "type": "id",
+    "value": "MEARSYS_SystemName_Id_Text"
+  },
+  {
+    "name": "dragItemSourceFrom",
+    "type": "id",
+    "value": "ctl00_C2_projectPhaseGrid_ctl00_ctl04_DragDropRowDragHandle"
+  },
+  {
+    "name": "dragItemDestinationTo",
+    "type": "id",
+    "value": "ctl00_C2_projectPhaseGrid_ctl00_ctl06_DragDropRowDragHandle"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "clientDynamicGridDiv",
+    "type": "id",
+    "value": "DYICNMM_Persons_id"
+  },
+  {
+    "name": "addButtonTestBoxGrid",
+    "type": "xpath",
+    "value": "//div[@id='DYICNMM_Persons_id']/following-sibling::table//input[@value='Add' and not(contains(@style,'display:none'))]"
+  },
+  {
+    "name": "cdgTextBox",
+    "type": "id",
+    "value": "Persons_Personnel_Id"
+  },
+  {
+    "name": "cdgTextArea",
+    "type": "xpath",
+    "value": "//textarea[contains(@id,'Persons_Description')]"
+  },
+  {
+    "name": "cdgMultiSelect",
+    "type": "id",
+    "value": "C1_div_Persons_MultiSelectProject_Id"
+  },
+  {
+    "name": "cdgMultiSelectdiv",
+    "type": "id",
+    "value": "Persons_MultiSelectProject_Id"
+  },
+  {
+    "name": "cdgDropDown",
+    "type": "id",
+    "value": "Persons_DDLMSDProject01_Id"
+  },
+  {
+    "name": "cdgNumeric",
+    "type": "id",
+    "value": "igtxtPersons_HoursEstimated_Id"
+  },
+  {
+    "name": "calculatedTextbox",
+    "type": "id",
+    "value": "igtxtPersons_TotalCost_Id"
+  },
+  {
+    "name": "saveCDG1",
+    "type": "xpath",
+    "value": "//div[@id='Persons_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "cdgConditionalNumeric",
+    "type": "id",
+    "value": "igtxtPersons_RatePerHour_Id"
+  },
+  {
+    "name": "addButtonDateGrid",
+    "type": "xpath",
+    "value": "//div[@id='DYICNMM_Persons1_id']/following-sibling::table//input[@value='Add' and not(contains(@style,'display:none'))]"
+  },
+  {
+    "name": "cdgDateTimeField",
+    "type": "id",
+    "value": "ctl00_C1_Persons1_Persons_AUR_ModifiedOn_ControlId_dateInput"
+  },
+  {
+    "name": "cdgStartTime",
+    "type": "id",
+    "value": "igtxtPersons1_StartTime_Id"
+  },
+  {
+    "name": "cdgResponseDate",
+    "type": "id",
+    "value": "Persons1_ResDate_Id_input"
+  },
+  {
+    "name": "cdgCheckBox",
+    "type": "id",
+    "value": "Persons1_CheckBox02_Id"
+  },
+  {
+    "name": "cdgDropDownTree",
+    "type": "id",
+    "value": "Persons1_DropDownTreeDataControl01_Id"
+  },
+  {
+    "name": "saveCDG2",
+    "type": "xpath",
+    "value": "//div[@id='Persons1_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "cdgInteger",
+    "type": "id",
+    "value": "Persons1_Integer17_Id"
+  },
+  {
+    "name": "dateTimeTableDiv",
+    "type": "id",
+    "value": "DYICNMM_Persons1_id"
+  },
+  {
+    "name": "cdgRadioButton",
+    "type": "id",
+    "value": "Persons1_RadioButtonList02_Id_1"
+  }
+]

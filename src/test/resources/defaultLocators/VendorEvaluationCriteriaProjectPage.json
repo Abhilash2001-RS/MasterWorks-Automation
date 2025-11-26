@@ -1,0 +1,62 @@
+[
+  {
+    "name": "vendorCategoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Vendor Category')]"
+  },
+  {
+    "name": "vendorSubCategoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Vendor Sub-Category')]"
+  },
+  {
+    "name": "evaluationCategoryLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Evaluation Category')]"
+  },
+  {
+    "name": "maximumScore",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Maximum Score')]"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "isActiveLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Is Active')]"
+  },
+  {
+    "name": "vendorCategoryDropDown",
+    "type": "id",
+    "value": "VNDSCRP_Category_Id"
+  },
+  {
+    "name": "vendorSubCategoryDropDown",
+    "type": "id",
+    "value": "VNDSCRP_SubCategory_Id"
+  },
+  {
+    "name": "evaluationCategoryTextBox",
+    "type": "id",
+    "value": "VNDSCRP_CriteriaCategory_Id"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "VNDSCRP_Description_Id"
+  },
+  {
+    "name": "myScoreTextBox",
+    "type": "id",
+    "value": "igtxtVNDSCRP_MaxScore_Id"
+  },
+  {
+    "name": "maximumScoreErrorMessage",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Must be between 1.0000 and 100.0000')]"
+  }
+]

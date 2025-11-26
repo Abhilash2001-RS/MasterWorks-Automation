@@ -1,0 +1,57 @@
+[
+  {
+    "name": "lastNameTextBox",
+    "type": "id",
+    "value": "KEYCONT_LastName_Id"
+  },
+  {
+    "name": "firstNameTextBox",
+    "type": "id",
+    "value": "KEYCONT_FirstName_Id"
+  },
+  {
+    "name": "keyContactsTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Key Contacts')]"
+  },
+  {
+    "name": "firstNameRequiredAsterisk",
+    "type": "xpath",
+    "value": ".//span[.='First Name']/..//span[contains(@class,'mandatory-indicator')]"
+  },
+  {
+    "name": "lastNameRequiredAsterisk",
+    "type": "xpath",
+    "value": ".//span[.='Last Name']/..//span[contains(@class,'mandatory-indicator')]"
+  },
+  {
+    "name": "titleTextBox",
+    "type": "id",
+    "value": "KEYCONT_Title_Id"
+  },
+  {
+    "name": "emailTextBox",
+    "type": "id",
+    "value": "KEYCONT_EmailID_Id"
+  },
+  {
+    "name": "addressTextBox",
+    "type": "id",
+    "value": "KEYCONT_Address1_Id"
+  },
+  {
+    "name": "cityTextBox",
+    "type": "id",
+    "value": "KEYCONT_City_Id"
+  },
+  {
+    "name": "stateTextBox",
+    "type": "id",
+    "value": "KEYCONT_State_Id"
+  },
+  {
+    "name": "zipcodeTextBox",
+    "type": "id",
+    "value": "KEYCONT_ZipCode_Id"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "mailMergeConfigurationName",
+    "type": "id",
+    "value": "txtSaveMapping"
+  },
+  {
+    "name": "formSelect",
+    "type": "id",
+    "value": "ddlForm"
+  },
+  {
+    "name": "documentPicker",
+    "type": "id",
+    "value": "btnDocTemplate"
+  },
+  {
+    "name": "documentTable",
+    "type": "id",
+    "value": "G_C2xgrdAllDocuments"
+  },
+  {
+    "name": "documentTableOkButton",
+    "type": "id",
+    "value": "btnMMOk"
+  },
+  {
+    "name": "templateField",
+    "type": "id",
+    "value": "txtTemplate"
+  },
+  {
+    "name": "sourceForm",
+    "type": "xpath",
+    "value": "//label[@for='rdForm']"
+  },
+  {
+    "name": "sourceView",
+    "type": "xpath",
+    "value": "//label[@for='rdView']"
+  },
+  {
+    "name": "viewDropDown",
+    "type": "id",
+    "value": "ddlView"
+  },
+  {
+    "name": "viewConfigurationRadGridTable",
+    "type": "id",
+    "value": "ctl00_C2_radGrdMapping"
+  },
+  {
+    "name": "configurationSelectFieldButton",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C2_radGrdMapping']/descendant::span[@class='rddtFakeInput' and text()='Select']/parent::span/span[@class='rddtIcon']"
+  },
+  {
+    "name": "allFormFieldNames",
+    "type": "xpath",
+    "value": "//div[@class='rddtSlide' and contains(@style,'visible')]/descendant::div[@class='RadTreeView RadTreeView_Default']/descendant::div[@class='rtOut']/descendant::span[@class='rtText']"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "projectListTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Projects')]"
+  },
+  {
+    "name": "projectDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Project Dashboard')]"
+  },
+  {
+    "name": "projectDetailsTab",
+    "type": "xpath",
+    "value": "//a[.='Project Details']"
+  },
+  {
+  "name": "unifierSyncButton",
+  "type": "id",
+  "value": "lnkUpdateUnifierData"
+}
+]

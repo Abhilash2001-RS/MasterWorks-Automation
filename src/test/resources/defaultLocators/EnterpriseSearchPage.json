@@ -1,0 +1,297 @@
+[
+  {
+    "name": "searchWithinComboBox",
+    "type": "xpath",
+    "value": "//input[@aria-haspopup = 'listbox']"
+  },
+  {
+    "name": "attributeSection",
+    "type": "xpath",
+    "value": ".//div[contains(@class,'searchDynamicContainerheader') and contains(text(),'Attributes')]"
+  },
+  {
+    "name": "searchResultGrid",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_GridData"
+  },
+  {
+    "name": "documentSearchGrid",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_ctl00"
+  },
+  {
+    "name": "gflFundSourceName",
+    "type": "id",
+    "value": "C1_txtFundName"
+  },
+  {
+    "name": "beBudgetEstimateName",
+    "type": "id",
+    "value": "C1_txtBudgetEstimateName"
+  },
+  {
+    "name": "portfolioCode",
+    "type": "id",
+    "value": "C1_txtPortfolioCode"
+  },
+  {
+    "name": "plProjectCode",
+    "type": "id",
+    "value": "C1_txtProjectCode"
+  },
+  {
+    "name": "punchListTextView",
+    "type": "id",
+    "value": "PUNCLST_PunchItem_Id_Text"
+  },
+  {
+    "name": "punchListUnderConstructionContract",
+    "type": "xpath",
+    "value": "//option[@value='PUNCLST']"
+  },
+  {
+    "name": "itemFieldInEnterpriseSearchPage",
+    "type": "id",
+    "value": "C1_txtPunchItem"
+  },
+  {
+    "name": "dateSelect",
+    "type": "id",
+    "value": "C1_PurchaseOrderDate_Filter"
+  },
+  {
+    "name": "dateSettingField",
+    "type": "xpath",
+    "value": "//td[not(@style='display: none;')]/table[contains(@id,'dcPurchaseOrderDate')]//input[@value='None']"
+  },
+  {
+    "name": "selectFormSection",
+    "type": "id",
+    "value": "divFilterSec"
+  },
+  {
+    "name": "costIn$SettingField",
+    "type": "xpath",
+    "value": "//td[not(@style='display: none;')]/input[(contains(@id,'realRevisedPOvalue')) and not(@type='hidden')]"
+  },
+  {
+    "name": "costIn$Select",
+    "type": "id",
+    "value": "C1_RevisedPOvalue_Filter"
+  },
+  {
+    "name": "resultsGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_ctl00_Header"
+  },
+  {
+    "name": "resultColumnFilterMenu",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_rfltMenu_detached"
+  },
+  {
+    "name": "resultDatePicker",
+    "type": "xpath",
+    "value": "//a[contains(@id,'RDIPFPurchaseOrderDate_popupButton')]"
+  },
+  {
+    "name": "projectInformation",
+    "type": "xpath",
+    "value": "//div[contains(text(),'Project Information')]"
+  },
+  {
+    "name": "projectTypeInEnterPriseSearchPage",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Type')]"
+  },
+  {
+    "name": "showButtonInEnterpriseSearch",
+    "type": "xpath",
+    "value": ".//span[.='Search Form']/..//span[.='Show' and contains(@class,'show')]"
+  },
+  {
+    "name": "searchSectionExpandCollapseToggle",
+    "type": "xpath",
+    "value": ".//span[.='Search Form']/../input[@class='collapse-control-toggler']"
+  },
+  {
+    "name": "scheduleTab",
+    "type": "partialLinkText",
+    "value": "Schedule"
+  },
+  {
+    "name": "enterpriseScheduleGanttTitle",
+    "type": "xpath",
+    "value": "//*[@id='PageTabs_tabBar']/li/a[contains(@title,'Enterprise Resource Gantt')]"
+  },
+  {
+    "name": "filterButton",
+    "type": "xpath",
+    "value": "//*[@id='lnkShowGanttFilter']//span"
+  },
+  {
+    "name": "keyContactsSection",
+    "type": "xpath",
+    "value": "//table[@formdesignername='KeyContactsSec']"
+  },
+  {
+    "name": "originalPOValueIn$Text",
+    "type": "xpath",
+    "value": "//span[text()='Original PO Value in $']"
+  },
+  {
+    "name": "projectAttributesSection",
+    "type": "xpath",
+    "value": "//div[contains(text(),'Attributes:')]"
+  },
+  {
+    "name": "projectInformation",
+    "type": "xpath",
+    "value": "//div[contains(text(),'Project Information')]"
+  },
+  {
+    "name": "scheduleTab",
+    "type": "partialLinkText",
+    "value": "Schedule"
+  },
+  {
+    "name": "filterButton",
+    "type": "xpath",
+    "value": "//*[@id='lnkShowGanttFilter']//span"
+  },
+  {
+    "name": "enterpriseScheduleGanttTitle",
+    "type": "xpath",
+    "value": "//*[@id='PageTabs_tabBar']/li/a[contains(@title,'Enterprise Resource Gantt')]"
+  },
+  {
+    "name": "projectNameFilterButton",
+    "type": "xpath",
+    "value": "//button[contains(@id,'Filter_Project Name')]"
+  },
+  {
+    "name": "showSearchCheckbox",
+    "type": "id",
+    "value": "chkSearch"
+  },
+  {
+    "name": "portfolioDetailsContainer",
+    "type": "xpath",
+    "value": ".//div[contains(@class,'searchDynamicContainerheader ') and .='Details']"
+  },
+  {
+    "name": "gflIsActiveDropdown",
+    "type": "id",
+    "value": "C1_ddlIsActive"
+  },
+  {
+    "name": "formHide",
+    "type": "xpath",
+    "value": "//*[@id='coreMainControlDiv']//span[contains(text(),'Search Form')]/..//span[contains(@class,'section-title hide')]"
+  },
+  {
+    "name": "formShow",
+    "type": "xpath",
+    "value": "//*[@id='coreMainControlDiv']//span[contains(text(),'Search Results')]/..//span[contains(@class,'section-title show')]"
+  },
+  {
+    "name": "noRecordsDisplayed",
+    "type": "xpath",
+    "value": "//div[contains(text(),'No Records to Display.')]"
+  },
+  {
+    "name": "tableGrid",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_gridResults_GridHeader']/descendant::th[not(contains(@style,'display:none;'))]/a"
+  },
+  {
+    "name": "searchFormTemplateName",
+    "type": "xpath",
+    "value": "//*[@myclass='TableSection']//td//span"
+  },
+  {
+    "name": "enterpriseSearchResultsGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_GridHeader"
+  },
+  {
+    "name": "searchFormNoData",
+    "type": "xpath",
+    "value": "//*[@id='ctl00_C1_cboModules-list']//div[contains(text(),'There is no data.')]"
+  },
+  {
+    "name": "selectForm",
+    "type": "xpath",
+    "value": "//*[@id='divSelectFormList']//input[@aria-owns='lstSelectForm_taglist lstSelectForm_listbox']"
+  },
+  {
+    "name": "searchFormNoDataDocument",
+    "type": "xpath",
+    "value": "//*[@id='lstSelectForm-list']//div[contains(text(),'No data found.')]"
+  },
+  {
+    "name": "filterByAttachment",
+    "type": "xpath",
+    "value": "//*[@id='C1_SearchPanel']//td//div[contains(text(),'Filter By Attachment')]"
+  },
+  {
+    "name": "attachmentTitle",
+    "type": "id",
+    "value": "C1_attachForm_Attachment"
+  },
+  {
+    "name": "checkResults",
+    "type": "xpath",
+    "value": "//div[@id='coreMainControlDiv']//span[text()='Form']"
+  },
+  {
+    "name": "enterpriseProjectCode",
+    "type": "xpath",
+    "value": "//*[@id='ctl00_C1_gridResults_ctl00_Header']//a[contains(text(),'Project Code')]"
+  },
+  {
+    "name": "parentTableHeader",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_MWGrid_GridHeader']/descendant::tr[@role='row']/th"
+  },
+  {
+    "name": "noResultFound",
+    "type": "xpath",
+    "value": "//div[contains(text(),'No Results Found.')]"
+  },
+  {
+    "name": "expandMainSection",
+    "type": "xpath",
+    "value": "//div[@class='searchDynamicContainerheader collapse' and contains(text(),'Main')]"
+  },
+  {
+    "name": "closePopUpButton",
+    "type": "xpath",
+    "value": "//button[@title='Close']"
+  },
+  {
+    "name": "searchPopUpFrame",
+    "type": "id",
+    "value": "C1_IframeSearchPopup"
+  },
+  {
+    "name": "downloadAttachmentInViewMode",
+    "type": "xpath",
+    "value": "//input[contains(@id,'btnDownload')]"
+  },
+  {
+    "name": "downloadAttachmentInEditMode",
+    "type": "xpath",
+    "value": "//input[contains(@id,'btnDownload')]"
+  },
+  {
+    "name": "expandAttachmentsButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'imgAttach') and @onClick]"
+  },
+  {
+    "name": "openInNewTabButton",
+    "type": "id",
+    "value": "C1_btnOpenInNewTab"
+  }
+]

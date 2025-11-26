@@ -1,0 +1,52 @@
+[
+  {
+    "name": "workSizeName",
+    "type": "id",
+    "value": "VNDRWSZ_Name_Id"
+  },
+  {
+    "name": "workSizeDescription",
+    "type": "id",
+    "value": "VNDRWSZ_Description_Id"
+  },
+  {
+    "name": "minWorkValue",
+    "type": "xpath",
+    "value": "//input[contains(@id,'VNDRWSZ_MinWorkValue_Id') and @type='text']"
+  },
+  {
+    "name": "maxWorkValue",
+    "type": "xpath",
+    "value": "//input[contains(@id,'VNDRWSZ_MaxWorkValue_Id') and @type='text']"
+  },
+  {
+  "name": "nameLabel",
+  "type": "xpath",
+  "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "isActiveLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Is Active')]"
+  },
+  {
+    "name": "minimumWorkValueLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Minimum Work Value ($)')]"
+  },
+  {
+    "name": "maximumWorkValueLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Maximum Work Value ($)')]"
+  },
+  {
+    "name": "isActiveCheckbox",
+    "type": "id",
+    "value": "VNDRWSZ_IsActive_Id"
+  }
+]

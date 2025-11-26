@@ -1,0 +1,12 @@
+[
+  {
+    "name": "chartRowLocator",
+    "type": "xpath",
+    "value": ".//*[@id='ChartRow']/div[1]"
+  },
+  {
+    "name": "ganttViewListRows",
+    "type": "xpath",
+    "value": ".//*[@class='ui-selectable ui-grid-body-table']/tbody/tr"
+  }
+]

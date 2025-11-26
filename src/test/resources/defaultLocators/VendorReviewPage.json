@@ -1,0 +1,28 @@
+[
+  {
+    "name": "reviewNameTextBox",
+    "type": "id",
+    "value": "VNDRRVS_Name_Id"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "VNDRRVS_Description_Id"
+  },
+  {
+    "name": "reviewNameTextBoxView",
+    "type": "id",
+    "value": "VNDRRVS_Name_Id_Text"
+  },
+  {
+    "name": "descriptionTextBoxView",
+    "type": "id",
+    "value": "VNDRRVS_Description_Id_Text"
+  },
+  {
+    "name": "isActiveCheckBox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'VNDRRVS_IsActive_Id')]"
+  }
+
+]

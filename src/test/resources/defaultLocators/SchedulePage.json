@@ -1,0 +1,382 @@
+[
+  {
+    "name": "scheduleTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Schedule')]"
+  },
+  {
+    "name": "addTitlesBtn",
+    "type": "id",
+    "value": "btnPersonnelResourcePicker"
+  },
+  {
+    "name": "addResourcesBtn",
+    "type": "id",
+    "value": "btnContactPersonPicker"
+  },
+  {
+    "name": "arrowExpand",
+    "type": "id",
+    "value": "arrow"
+  },
+  {
+    "name": "addTitlesPicker",
+    "type": "xpath",
+    "value": "//div[@id='pickerContainer']"
+  },
+  {
+    "name": "actualStartDateTxtBox",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'dtActualStartDate_input')]"
+  },
+  {
+    "name": "actualFinishDateTxtBox",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'dtActualEndDate_input')]"
+  },
+  {
+    "name": "startDateTxtBox",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'dtStartDate_input')]"
+  },
+  {
+    "name": "finishDateTxtBox",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'dtEndDate_input')]"
+  },
+  {
+    "name": "taskNameTxtBox",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'txtStandardItemNo')]"
+  },
+  {
+    "name": "textContentCell",
+    "type": "xpath",
+    "value": ".//div[text() and not(contains(@class,'arrowContainer'))]"
+  },
+  {
+    "name": "taskNameCell",
+    "type": "xpath",
+    "value": ".//td/div[contains(@class,'rq-grid-expander-text')]"
+  },
+  {
+    "name": "headerCellsXpath",
+    "type": "xpath",
+    "value": ".//table[contains(@class,'ui-grid-head-table')]//th[contains(@class,'ui-widget-header')]"
+  },
+  {
+    "name": "contentRowsXpath",
+    "type": "xpath",
+    "value": ".//table[@class='ui-selectable ui-grid-body-table']//tr[contains(@class,'rq-grid-row')]"
+  },
+  {
+    "name": "resourceTitleAllocationGrid",
+    "type": "id",
+    "value": "ctl00_C1_ucResourceWithPerson_radGridResourceDetails"
+  },
+  {
+    "name": "resourceDetailGrid",
+    "type": "id",
+    "value": "divResourceDetails"
+  },
+  {
+    "name": "taskList",
+    "type": "xpath",
+    "value": ".//*[@id='gantt_container_Table']//div//table//tbody//tr"
+  },
+  {
+    "name": "pickerGrid",
+    "type": "xpath",
+    "value": ".//*[@id='addStdItems_pickerContainer']"
+  },
+  {
+    "name": "firstTask",
+    "type": "xpath",
+    "value": ".//div[contains(@class,'ui-widget-content ui-grid-body')]/table//tr/td//div[@class='rq-grid-expander-text' and contains(text(),'')]"
+  },
+  {
+    "name": "completeCheckBox",
+    "type": "id",
+    "value": "C1_chkComplete"
+  },
+  {
+    "name": "completeTextBox",
+    "type": "id",
+    "value": "igtxtC1_wnePerComplete"
+  },
+  {
+    "name": "startField",
+    "type": "id",
+    "value": "C1_td6"
+  },
+  {
+    "name": "finishField",
+    "type": "id",
+    "value": "C1_td7"
+  },
+  {
+    "name": "firstSnapshot",
+    "type": "id",
+    "value": "ctl00_C1_MWGrid_ctl00__0"
+  },
+  {
+    "name": "durationTextBox",
+    "type": "id",
+    "value": "igtxtC1_wneDuration"
+  },
+  {
+    "name": "deleteBtn",
+    "type": "id",
+    "value": "btnResourceDelete"
+  },
+  {
+    "name": "resourceTableId",
+    "type": "id",
+    "value": "ctl00_C1_ucResourceWithPerson_radGridResourceDetails_ctl00"
+  },
+  {
+    "name": "allClearBtn",
+    "type": "id",
+    "value": "C1_lnkClear"
+  },
+  {
+    "name": "taskNameAstrix",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Task Name')]/following-sibling::*[contains(text(),'*')]"
+  },
+  {
+    "name": "descriptionAstrix",
+    "type": "xpath",
+    "value": "//span[@id='C1_DescriptionMandatorySign']/font[contains(text(),'*')]"
+  },
+  {
+    "name": "filterPopUp",
+    "type": "id",
+    "value": "ganttFilterPopupPanel"
+  },
+  {
+    "name": "taskNameFilterBox",
+    "type": "id",
+    "value": "Task_Name_filter"
+  },
+  {
+    "name": "applyFilterBtn",
+    "type": "xpath",
+    "value": "//button[contains(text(),'Apply Filter')]"
+  },
+  {
+    "name": "descriptionTxtBox",
+    "type": "id",
+    "value": "C1_txtItemDesc"
+  },
+  {
+    "name": "expandAll",
+    "type": "xpath",
+    "value": "//li[@keyname='Expand']"
+  },
+  {
+    "name": "collapseAll",
+    "type": "xpath",
+    "value": "//li[@keyname='Collapse']"
+  },
+  {
+    "name": "delayedTaskReport",
+    "type": "xpath",
+    "value": "//a[@title='Delayed Task Report']"
+  },
+  {
+    "name": "lookAheadReport",
+    "type": "xpath",
+    "value": "//a[@title='Look Ahead Report']"
+  },
+  {
+    "name": "detailsTable",
+    "type": "xpath",
+    "value": "//table[contains(@class,'rgDetailTable')]"
+  },
+  {
+    "name": "taskFilterBox",
+    "type": "id",
+    "value": "Tasks_filter"
+  },
+  {
+    "name": "startDateDropDown",
+    "type": "xpath",
+    "value": "//table[contains(@id,'C1_dtStartDate') and (contains(@ig_drp,'C1_dtStartDate'))]"
+  },
+  {
+    "name": "startDateCalendar",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_dtStartDate_container')]"
+  },
+  {
+    "name": "finishDateDropDown",
+    "type": "xpath",
+    "value": "//table[contains(@id,'C1_dtEndDate') and (contains(@ig_drp,'C1_dtEndDate'))]"
+  },
+  {
+    "name": "finishDateCalendar",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_dtEndDate_container')]"
+  },
+  {
+    "name": "actualStartDateDropDown",
+    "type": "xpath",
+    "value": "//table[contains(@id,'C1_dtActualStartDate') and (contains(@ig_drp,'C1_dtActualStartDate'))]"
+  },
+  {
+    "name": "actualStartDateCalendar",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_dtActualStartDate_container')]"
+  },
+  {
+    "name": "actualFinishDateDropDown",
+    "type": "xpath",
+    "value": "//table[contains(@id,'C1_dtActualEndDate') and (contains(@ig_drp,'C1_dtActualEndDate'))]"
+  },
+  {
+    "name": "actualFinishDateCalendar",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_dtActualEndDate_container')]"
+  },
+  {
+    "name": "startDateLabel",
+    "type": "xpath",
+    "value": "//span[text()='Start']"
+  },
+  {
+    "name": "finishDateLabel",
+    "type": "xpath",
+    "value": "//span[text()='Finish']"
+  },
+  {
+    "name": "actualStartDateLabel",
+    "type": "xpath",
+    "value": "//span[text()='Actual Start']"
+  },
+  {
+    "name": "actualFinishDateLabel",
+    "type": "xpath",
+    "value": "//span[text()='Actual Finish']"
+  },
+  {
+    "name": "scheduleTemplateDropdown",
+    "type": "xpath",
+    "value": "//*[@aria-owns='taskcomboctrl_listbox']"
+  },
+  {
+    "name": "standardItemsTablePicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_pnlTaskPicker')]"
+  },
+  {
+    "name": "headerNonYearCellsXpath",
+    "type": "xpath",
+    "value": ".//table[contains(@class,'ui-grid-head-table')]//th[not (contains(@id,'Year'))]"
+  },
+  {
+    "name": "ribbonMenuImportBudgetEstimateItemsSchedule",
+    "type": "xpath",
+    "value": "//a[@title ='Add Budget Estimates']"
+  },
+  {
+    "name": "budgetEstimateItemsTablePicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'addBdgItems_pickerContainer')]"
+  },
+  {
+    "name": "ribbonMenuRemoveTasksAtIndentLevel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Remove tasks at Indent level')]"
+  },
+  {
+    "name": "ribbonMenuFilterGanttButton",
+    "type": "id",
+    "value": "lnkShowGanttFilter"
+  },
+  {
+    "name": "predecessor",
+    "type": "xpath",
+    "value": "//input[@data-bind='PredecessorBinder:PredecessorIndexString']"
+  },
+  {
+    "name": "weightage",
+    "type": "xpath",
+    "value": "//input[@id='igtxtC1_WneWeightage']"
+  },
+  {
+    "name": "snapshotDesc",
+    "type": "xpath",
+    "value": "//input[@id='WBSSNAP_Description_Id']"
+  },
+  {
+    "name": "selectAllOption",
+    "type": "id",
+    "value": "C1_btnSelAll"
+  },
+  {
+    "name": "ganttArrowExpanderName",
+    "type": "xpath",
+    "value": "//div[@class='rq-grid-expander-text']"
+  },
+  {
+    "name": "addStandardItemDropDown",
+    "type": "xpath",
+    "value": "//label[contains(text(),'Task Template')]/following-sibling::div[@class='combo_container']/span[@aria-owns='taskcomboctrl_listbox']"
+  },
+  {
+    "name": "standardItemList",
+    "type": "xpath",
+    "value": "//ul[@id='taskcomboctrl_listbox']/li[@role='option']"
+  },
+  {
+    "name": "selectAllTaskButton",
+    "type": "id",
+    "value": "C1_btnSelAll"
+  },
+  {
+    "name": "taskListTableRecord",
+    "type": "xpath",
+    "value": "//div[@id='treeListDiv']/descendant::tbody/tr[@role='row']"
+  },
+  {
+    "name": "addStandardTaskName",
+    "type": "xpath",
+    "value": "//div[@class='rq-grid-expander-text']"
+  },
+  {
+    "name": "resourceTitleAllocationExpander",
+    "type": "xpath",
+    "value": "//button[contains(@id,'ResourceWithPerson_radGridResourceDetails') and contains(@id,'GECAllBtnExpandColumn')]"
+  },
+  {
+    "name": "selectLookAHeadReportBasedOn",
+    "type": "xpath",
+    "value": "//select[contains(@id,'rptvwrReport_ctl')]"
+  },
+  {
+    "name": "viewReportButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'rptvwrReport_ctl') and @value='View Report']"
+  },
+  {
+    "name": "addTaskPickerSelectButton",
+    "type": "id",
+    "value": "C1_btnSelect"
+  },
+  {
+    "name": "addTaskPickerCancelButton",
+    "type": "id",
+    "value": "C1_btnCancel"
+  },
+  {
+    "name": "scheduleTaskAttachmentGridID",
+    "type": "id",
+    "value": "ctl00_C1_itemAttachments_gridAttachment"
+  },
+  {
+    "name": "scheduleTaskAttachmentGridHeaderID",
+    "type": "id",
+    "value": "ctl00_C1_itemAttachments_gridAttachment_GridHeader"
+  }
+]

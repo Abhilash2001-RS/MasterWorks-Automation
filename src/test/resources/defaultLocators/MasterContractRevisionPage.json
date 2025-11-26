@@ -1,0 +1,237 @@
+[
+  {
+    "name": "masterContractRevisionID",
+    "type": "id",
+    "value": "MCNTREV_RevisionID_Id"
+  },
+  {
+    "name": "masterContractName",
+    "type": "id",
+    "value": "MCNTREV_ContractName_Id"
+  },
+  {
+    "name": "awardedConsultant",
+    "type": "id",
+    "value": "MCNTREV_AwardedConsultant_Id"
+  },
+  {
+    "name": "revisedStartDate",
+    "type": "id",
+    "value": "MCNTREV_RevisedStartDate_Id_input"
+  },
+  {
+    "name": "revisedEndDate",
+    "type": "id",
+    "value": "MCNTREV_RevisedEndDate_Id_input"
+  },
+  {
+    "name": "masterContractRevisionDescription",
+    "type": "id",
+    "value": "MCNTREV_Description_Id"
+  },
+  {
+    "name": "revisedCeilingValueOfMasterContract",
+    "type": "id",
+    "value": "igtxtMCNTREV_RevisedCeilingVal_Id"
+  },
+  {
+    "name": "revisionNotes",
+    "type": "id",
+    "value": "MCNTREV_RevisionNotes_Id"
+  },
+  {
+    "name": "revisedBy",
+    "type": "id",
+    "value": "MCNTREV_RevisedByUser_Id"
+  },
+  {
+    "name": "revisedDate",
+    "type": "id",
+    "value": "MCNTREV_RevisedDate_Id"
+  },
+  {
+    "name": "masterContractCode",
+    "type": "id",
+    "value": "MCNTREV_ContractCode_Id"
+  },
+  {
+    "name": "shortDescription",
+    "type": "id",
+    "value": "MCNTREV_ShortDescription_Id"
+  },
+  {
+    "name": "revisedCeilingValueText",
+    "type": "id",
+    "value": "igtxtMCNTREV_RevisedCeilingVal_Id"
+  },
+  {
+    "name": "addNewContainer",
+    "type": "xpath",
+    "value": "//span[contains(text(),'New Container')]"
+  },
+  {
+    "name": "nameOfContainerText",
+    "type": "xpath",
+    "value": "//input[contains(@id,'txtName')]"
+  },
+  {
+    "name": "newItem",
+    "type": "xpath",
+    "value": "//a[not(@id)]//span[(text()='New')]"
+  },
+  {
+    "name": "payItemNumberText",
+    "type": "id",
+    "value": "C1_txtStandardItemNo"
+  },
+  {
+    "name": "payItemDescriptionText",
+    "type": "xpath",
+    "value": "//textarea[contains(@id,'txtItemDesc')]"
+  },
+  {
+    "name": "payItemUnitSelect",
+    "type": "id",
+    "value": "C1_ddlUnit"
+  },
+  {
+    "name": "containerPicker",
+    "type": "xpath",
+    "value": "//input[contains(@id,'btnItemPathPicker')]"
+  },
+  {
+    "name": "payItemUnitPrice",
+    "type": "id",
+    "value": "igtxtC1_wneUnitCost"
+  },
+  {
+    "name": "revisionIdLabel",
+    "type": "xpath",
+    "value": "//span[.='Revision ID']"
+  },
+  {
+    "name": "originalCeilingValueLabel",
+    "type": "xpath",
+    "value": "//span[.='Original Ceiling Value in $']"
+  },
+  {
+    "name": "revisedStartDateLabel",
+    "type": "xpath",
+    "value": "//span[.='Revised Start Date']"
+  },
+  {
+    "name": "measurementSystemLabel",
+    "type": "xpath",
+    "value": "//span[.='Measurement System']"
+  },
+  {
+    "name": "shortDescriptionLabel",
+    "type": "xpath",
+    "value": "//span[.='Short Description']"
+  },
+  {
+    "name": "revisedEndDateLabel",
+    "type": "xpath",
+    "value": "//span[.='Revised End Date']"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[.='Description']"
+  },
+  {
+    "name": "createdByLabel",
+    "type": "xpath",
+    "value": "//table[@data-display-table='true']//span[.='Created By']"
+  },
+  {
+    "name": "createdOnLabel",
+    "type": "xpath",
+    "value": "//span[.='Created On']"
+  },
+  {
+    "name": "currentStartDateLabel",
+    "type": "xpath",
+    "value": "//span[.='Current Start Date']"
+  },
+  {
+    "name": "currentEndDateLabel",
+    "type": "xpath",
+    "value": "//span[.='Current End Date']"
+  },
+  {
+    "name": "currentCeilingValueLabel",
+    "type": "xpath",
+    "value": "//span[.='Current Ceiling Value in $']"
+  },
+  {
+    "name": "revisedCeilingValueLabel",
+    "type": "xpath",
+    "value": "//span[.='Revised Ceiling Value in $']"
+  },
+  {
+    "name": "createdByField",
+    "type": "id",
+    "value": "MCNTREV_RevisedByUser_Id"
+  },
+  {
+    "name": "createdOnField",
+    "type": "id",
+    "value": "MCNTREV_RevisedDate_Id"
+  },
+  {
+    "name": "associateWorkFlowCloseBtn",
+    "type": "xpath",
+    "value": "//button[@title='Close']"
+  },
+  {
+    "name": "associateWorkFlowApplyBtn",
+    "type": "xpath",
+    "value": "//input[contains(@id,'btnApply')]"
+  },
+  {
+    "name": "associateWorkFlowDropDown",
+    "type": "xpath",
+    "value": "//select[contains(@id,'appWorkflowAssociation')]"
+  },
+  {
+    "name": "associateWorkFlowText",
+    "type": "xpath",
+    "value": "//span[text()='Workflow Association']"
+  },
+  {
+    "name": "documentInDocumentViewer",
+    "type": "xpath",
+    "value": "//div[contains(@id,'imageViewerDiv')]"
+  },
+  {
+    "name": "annotation",
+    "type": "id",
+    "value": "annotationsMenuItem"
+  },
+  {
+    "name": "loadingBanner",
+    "type": "id",
+    "value": "dlgLoading_ProgressBar"
+  },
+  {
+    "name": "originalCeilingValueField",
+    "type": "id",
+    "value": "igtxtMCNTREV_OriginalCeilingVal_Id"
+  },
+  {
+    "name": "currentCeilingValueField",
+    "type": "id",
+    "value": "igtxtMCNTREV_CurrentCeilingVal_Id"
+  },
+  {
+    "name": "originalDateField",
+    "type": "id",
+    "value": "MSTRCNT_OriginalStartDate_Id_Text"
+  },
+  {
+    "name": "originalEndDateField",
+    "type": "id",
+    "value": "MSTRCNT_OriginalEndDate_Id_Text"
+  }
+]

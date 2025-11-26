@@ -1,0 +1,22 @@
+[
+  {
+    "name": "budgetEstimateType",
+    "type": "id",
+    "value": "BDGTTYP_BudgetEstimateTypeName_Id"
+  },
+  {
+    "name": "description",
+    "type": "id",
+    "value": "BDGTTYP_Description_Id"
+  },
+  {
+    "name": "budgetEstimateTypeTab",
+    "type": "xpath",
+    "value": "//ul[@id='PageTabs_tabBar']/li/a[contains(text(),'Budget Estimate Type')]"
+  },
+  {
+  "name": "budgetEstimateTypeLabel",
+  "type": "xpath",
+  "value": "//span[contains(text(),'Budget Estimate Type')]"
+}
+]

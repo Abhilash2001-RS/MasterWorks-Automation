@@ -1,0 +1,32 @@
+[
+  {
+    "name": "portfolioCode",
+    "type": "id",
+    "value": "PORTENT_PortfolioCode_Id"
+  },
+  {
+    "name": "portfolioManager_Browse",
+    "type": "id",
+    "value": "C1_ctl24_PortfolioManagerTrigger_PortfolioManagerPicker_btnShowPicker"
+  },
+  {
+    "name": "portfolioManager_Picker",
+    "type": "id",
+    "value": "C1_ctl24_PortfolioManagerTrigger_PortfolioManagerPicker_pickerContainer"
+  },
+  {
+    "name": "addProjectButton",
+    "type": "id",
+    "value": "C1_ctl24_PortfolioManagementProjects_ProjectsPicker_btnShowPicker"
+  },
+  {
+    "name": "portfolioBudgetTextBox",
+    "type": "id",
+    "value": "igtxtPORTENT_Budget_Id"
+  },
+  {
+    "name": "projectPickerContainer",
+    "type": "xpath",
+    "value": ".//*[@id='C1_ctl24_PortfolioManagementProjects_ProjectsPicker_pickerContainer']"
+  }
+]

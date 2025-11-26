@@ -1,0 +1,242 @@
+[
+  {
+    "name": "revisedEndDate",
+    "type": "id",
+    "value": "MCNWREV_RevisedEndDate_Id_input"
+  },
+  {
+    "name": "shortDescription",
+    "type": "xpath",
+    "value": "//*[@id='MCNWREV_ShortDescription_Id']"
+  },
+  {
+    "name": "revisedEndDateText",
+    "type": "id",
+    "value": "MCNWREV_RevisedEndDate_Id_Text"
+  },
+  {
+    "name": "addNewItemInRevision",
+    "type": "xpath",
+    "value": "//span[text()='New Price List Item']"
+  },
+  {
+    "name": "workOrderRevisionItemTab",
+    "type": "xpath",
+    "value": "//a[text()='Work Order Revision Items']"
+  },
+  {
+    "name": "workOrderRevisionDetailsTab",
+    "type": "xpath",
+    "value": "//a[text()='Work Order Revision Details']"
+  },
+  {
+    "name": "createdByWorkOrderRevision",
+    "type": "id",
+    "value": "MCNWREV_RevisedByUser_Id"
+  },
+  {
+    "name": "createdOnWorkOrderRevision",
+    "type": "id",
+    "value": "MCNWREV_RevisedDate_Id"
+  },
+  {
+    "name": "revisedWorkOrderValueIn$InView",
+    "type": "id",
+    "value": "MCNWREV_RevisedWOVal_Id"
+  },
+  {
+    "name": "changeOrderGrid",
+    "type": "xpath",
+    "value": "//div[contains(@id,'MCNWREV_grdChangeOrders_id')]"
+  },
+  {
+    "name": "changeOrderAddButton",
+    "type": "id",
+    "value": "C1_grdChangeOrders_ChangeOrderPicker_btnShowPicker"
+  },
+  {
+    "name": "changeOrderPicker",
+    "type": "xpath",
+    "value": "//*[contains(@id,'C1_grdChangeOrders_ChangeOrderPicker_pickerContainer')]"
+  },
+  {
+    "name": "changeOrderDeleteButton",
+    "type": "xpath",
+    "value": "//*[@id='ctl00_C1_MCNWREV_grdChangeOrders_id']/..//input[@value='Delete']"
+  },
+  {
+    "name": "changeOrderGridTableId",
+    "type": "id",
+    "value": "ctl00_C1_MCNWREV_grdChangeOrders_id_ctl00"
+  },
+  {
+    "name": "changeOrderGridHeaderId",
+    "type": "id",
+    "value": "ctl00_C1_MCNWREV_grdChangeOrders_id_GridHeader"
+  },
+  {
+    "name": "quantityTextField",
+    "type": "xpath",
+    "value": "//*[@id='igtxtC1_wneQuantity']"
+  },
+  {
+    "name": "projectSelect",
+    "type": "xpath",
+    "value": "//*[@id='C1_ddlProject']"
+  },
+  {
+    "name": "payItemNumPickerPopUp",
+    "type": "xpath",
+    "value": "//*[contains(@id,'stdItemNumber_pickerContainer')]"
+  },
+  {
+    "name": "payItemNumPicker",
+    "type": "xpath",
+    "value": "//*[contains(@id,'stdItemNumber_btnShowPicker')]"
+  },
+  {
+    "name": "newPriceList",
+    "type": "xpath",
+    "value": "//span[contains(text(),'New Price List Item')]"
+  },
+  {
+    "name": "modifyExistingItem",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Modify Existing Item')]"
+  },
+  {
+    "name": "addMultiple",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Add Multiple')]"
+  },
+  {
+    "name": "addNewContainer",
+    "type": "xpath",
+    "value": "//span[contains(text(),'New Container')]"
+  },
+  {
+    "name": "addMultiplePicker",
+    "type": "xpath",
+    "value": "//div[@id='addMultiple_pickerContainer']"
+  },
+  {
+    "name": "expandDefaultItems",
+    "type": "xpath",
+    "value": "//a[text()='Default']/../..//img[contains(@id,'image')]"
+  },
+  {
+    "name": "nameOfContainerText",
+    "type": "xpath",
+    "value": "//input[contains(@id,'txtName')]"
+  },
+  {
+    "name": "containerPicker",
+    "type": "xpath",
+    "value": "//input[contains(@id,'btnItemPathPicker')]"
+  },
+  {
+    "name": "revisionId",
+    "type": "xpath",
+    "value": "//span[text()='Revision ID']"
+  },
+  {
+    "name": "masterContractCodeText",
+    "type": "xpath",
+    "value": "//span[text()='Master Contract Code']"
+  },
+  {
+    "name": "masterContractNameText",
+    "type": "xpath",
+    "value": "//span[text()='Master Contract Name']"
+  },
+  {
+    "name": "originalWorkOrderValueIn$Text",
+    "type": "xpath",
+    "value": "//span[text()='Original Work Order Value in $']"
+  },
+  {
+    "name": "currentWorkOrderValueIn$Text",
+    "type": "xpath",
+    "value": "//span[text()='Current Work Order Value in $']"
+  },
+  {
+    "name": "currentStartDateText",
+    "type": "xpath",
+    "value": "//span[text()='Current Start Date']"
+  },
+  {
+    "name": "currentEndDateText",
+    "type": "xpath",
+    "value": "//span[text()='Current End Date']"
+  },
+  {
+    "name": "awardConsultantText",
+    "type": "xpath",
+    "value": "//span[text()='Awarded Consultant']"
+  },
+  {
+    "name": "workOrderManagerText",
+    "type": "xpath",
+    "value": "//span[text()='Work Order Manager']"
+  },
+  {
+    "name": "measurementSystemText",
+    "type": "xpath",
+    "value": "//span[text()='Measurement System']"
+  },
+  {
+    "name": "shortDescriptionText",
+    "type": "xpath",
+    "value": "//span[text()='Short Description']"
+  },
+  {
+    "name": "revisedStartDateText",
+    "type": "xpath",
+    "value": "//span[text()='Revised Start Date']"
+  },
+  {
+    "name": "revisedEndDateTextXpath",
+    "type": "xpath",
+    "value": "//span[text()='Revised End Date']"
+  },
+  {
+    "name": "revisedWorkOrderValueIn$Text",
+    "type": "xpath",
+    "value": "//span[text()='Revised Work Order Value in $']"
+  },
+  {
+    "name": "projectGrid",
+    "type": "xpath",
+    "value": "//span[text()='Revised Work Order Value in $']"
+  },
+  {
+    "name": "shortDescriptionLabel",
+    "type": "xpath",
+    "value": "//span[text()='Short Description']"
+  },
+  {
+    "name": "payItemDescription",
+    "type": "xpath",
+    "value": "//*[@id='C1_txtItemDesc']"
+  },
+  {
+    "name": "unitSelect",
+    "type": "xpath",
+    "value": "//*[@id='C1_ddlUnit']"
+  },
+  {
+    "name": "changeOrderGridDataId",
+    "type": "id",
+    "value": "ctl00_C1_MCNWREV_grdChangeOrders_id_GridData"
+  },
+  {
+    "name": "changeOrderWholeGridId",
+    "type": "id",
+    "value": "ctl00_C1_MCNWREV_grdChangeOrders_id"
+  },
+  {
+    "name": "payItemNumberText",
+    "type": "xpath",
+    "value": "//*[contains(@id,'selectedText')]"
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "name": "durationLabel",
+    "type": "xpath",
+    "value": "//tr[@id = 'durationRow']//span[contains(text(),'Duration')]"
+  },
+  {
+    "name": "fromDateLabel",
+    "type": "xpath",
+    "value": "//tr[@id = 'dateRow']//span[contains(text(),'From Date')]"
+  },
+  {
+    "name": "actionLabel",
+    "type": "xpath",
+    "value": "//tr[@id = 'actionsRow']//span[contains(text(),'Action')]"
+  },
+  {
+    "name": "formFieldsLabel",
+    "type": "xpath",
+    "value": "//td//b[contains(text(),'Form Fields')]"
+  },
+  {
+    "name": "toDateLabel",
+    "type": "xpath",
+    "value": "//tr[@id = 'dateRow']//span[contains(text(),'To Date')]"
+  },
+  {
+    "name": "actionByLabel",
+    "type": "xpath",
+    "value": "//tr[@id = 'actionsRow']//span[contains(text(),'Action By')]"
+  },
+  {
+    "name": "durationDropDown",
+    "type": "id",
+    "value": "ctl00_C1_durationRadComboBox"
+  },
+  {
+    "name": "fromDatePicker",
+    "type": "xpath",
+    "value": "//input[contains(@id,'ctl00_C1_fromDatePicker_dateInput') and @type='text']"
+  },
+  {
+    "name": "actionDropDowm",
+    "type": "id",
+    "value": "ctl00_C1_actionRadComboBox_ClientState"
+  },
+  {
+    "name": "formFieldsDropDown",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ctl00_C1_fieldRadDropDownTree') and @aria-label='Form Fields']"
+  },
+  {
+    "name": "formFieldsText",
+    "type": "xpath",
+    "value": "//span[.='Form Fields ']"
+  },
+  {
+    "name": "toDatePicker",
+    "type": "xpath",
+    "value": "//input[contains(@id,'ctl00_C1_toDatePicker_dateInput') and @type='text']"
+  },
+  {
+    "name": "actionByDropDown",
+    "type": "id",
+    "value": "ctl00_C1_actionByRadComboBox"
+  },
+  {
+    "name": "viewButton",
+    "type": "id",
+    "value": "ctl00_C1_generateButton_input"
+  },
+  {
+    "name": "excelExportButton",
+    "type": "id",
+    "value": "ctl00_C1_btnExport_input"
+  },
+  {
+    "name": "auditLogGrid",
+    "type": "id",
+    "value": "auditData"
+  },
+  {
+    "name": "auditLogGridHeaders",
+    "type": "id",
+    "value": "ctl00_C1_AuditLogRadGrid_GridHeader"
+  },
+  {
+    "name": "auditLogGridData",
+    "type": "id",
+    "value": "ctl00_C1_AuditLogRadGrid_GridData"
+  },
+  {
+    "name": "formFieldsPlus",
+    "type": "xpath",
+    "value": "//span[@class='rtPlus']"
+  },
+  {
+    "name": "actionDropDownSelect",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ctl00_C1_actionRadComboBox') and (not(contains(@style,'display')))]"
+  },
+  {
+    "name": "actionDropDownOptions",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ctl00_C1_actionRadComboBox') and (contains(@style,'display'))]"
+  },
+  {
+    "name": "auditLogHeaders",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ctl00_C1_AuditLogRadGrid_GridHeader')]//th[not(contains(@style,'display:none'))]"
+  },
+  {
+    "name": "actionByDropDownSelect",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ctl00_C1_actionByRadComboBox') and @style]"
+  },
+  {
+    "name": "auditDataGrid",
+    "type": "xpath",
+    "value": "//div[contains(@id,'auditData')]"
+  },
+  {
+    "name": "actionByDropDownField",
+    "type": "xpath",
+    "value": "//input[contains(@id,'ctl00_C1_actionByRadComboBox_Input')]"
+  },
+  {
+    "name": "actionByLabelInDetailsPage",
+    "type": "xpath",
+    "value": "//span[.='Action By ']"
+  },
+  {
+    "name": "noRecordsFoundDisplayed",
+    "type": "xpath",
+    "value": "//div[contains(@id,'AuditLogRadGrid_GridData')]//td//div[text()='No records to display.']"
+  },
+  {
+    "name": "checkAllFormFields",
+    "type": "xpath",
+    "value": "//label[text()='Check All']/../..//input[contains(@class,'CheckAll')]"
+  },
+  {
+    "name": "byDurationComboBox",
+    "type": "xpath",
+    "value": "//span[contains(@id,'ctl00_C1_durationRadComboBox_Arrow')]"
+  },
+  {
+    "name": "byDurationComboBoxDropDown",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ctl00_C1_durationRadComboBox_DropDown')]"
+  },
+  {
+    "name": "monthComboBox",
+    "type": "xpath",
+    "value": "//span[contains(@id,'ctl00_C1_monthRadComboBox_Arrow')]"
+  },
+  {
+    "name": "monthComboBoxDropDown",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ctl00_C1_monthRadComboBox_DropDown')]"
+  },
+  {
+    "name": "yearComboBox",
+    "type": "xpath",
+    "value": "//span[contains(@id,'ctl00_C1_byMonthYearRadComboBox_Arrow')]"
+  },
+  {
+    "name": "yearComboBoxDropDown",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ctl00_C1_byMonthYearRadComboBox_DropDown')]"
+  },
+  {
+    "name": "quarterComboBox",
+    "type": "xpath",
+    "value": "//span[contains(@id,'ctl00_C1_quarterRadComboBox_Arrow')]"
+  },
+  {
+    "name": "quarterComboBoxDropDown",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ctl00_C1_quarterRadComboBox_DropDown')]"
+  },
+  {
+    "name": "quarterYearComboBox",
+    "type": "xpath",
+    "value": "//span[contains(@id,'ctl00_C1_byQuarterYearRadComboBox_Arrow')]"
+  },
+  {
+    "name": "quarterYearComboBoxDropDown",
+    "type": "xpath",
+    "value": "//div[contains(@id,'ctl00_C1_byQuarterYearRadComboBox_DropDown')]"
+  },
+  {
+    "name": "actionDropDownArrow",
+    "type": "id",
+    "value": "ctl00_C1_actionRadComboBox_Arrow"
+  },
+  {
+    "name": "auditLogTabName",
+    "type": "xpath",
+    "value": "//a[text()='Audit Log']"
+  },
+  {
+    "name": "generateReportButton",
+    "type": "id",
+    "value": "ctl00_C1_generateButton_input"
+  },
+  {
+    "name": "auditLogHeaderName",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_AuditLogRadGrid_GridHeader']//thead//th"
+  },
+  {
+    "name": "auditLogDataValue",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_AuditLogRadGrid_GridData']//tbody//td"
+  }
+  ]

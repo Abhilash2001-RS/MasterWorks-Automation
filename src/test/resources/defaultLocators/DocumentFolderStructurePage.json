@@ -1,0 +1,133 @@
+[
+  {
+    "name": "structureName",
+    "type": "id",
+    "value": "C1_txtName"
+  },
+  {
+    "name": "structureDescription",
+    "type": "id",
+    "value": "C1_txtDesc"
+  },
+  {
+    "name": "inheritParentFolderPermissionCheckBox",
+    "type": "id",
+    "value": "ctl00_C1_DocumentControl_WebSplitter1_tmpl1_chkInheritParent"
+  },
+  {
+    "name": "rolesTextBoxInDocumentFolders",
+    "type": "id",
+    "value": "gs_Roles"
+  },
+  {
+    "name": "newFolderOption",
+    "type": "xpath",
+    "value": "//span[@igtinitclass and (contains(text(),'New Folder'))]"
+  },
+  {
+    "name": "newFolderName",
+    "type": "xpath",
+    "value": "//input[contains(@id,'DocumentControlWebSplitter1tmpl0FileTree_tb') and @type='text']"
+  },
+  {
+    "name": "documentFolderLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Document Folders')]"
+  },
+  {
+    "name": "inheritParentPermission",
+    "type": "xpath",
+    "value": "//input[contains(@id,'chkInheritParent')]/..//label"
+  },
+  {
+    "name": "parentFolderImage",
+    "type": "xpath",
+    "value": "//div[@id='ctl00C1DocumentControlWebSplitter1tmpl0FileTree_1']//img[@igimg='1']"
+  },
+  {
+    "name": "childFolderImage",
+    "type": "xpath",
+    "value": "//div[@id='ctl00C1DocumentControlWebSplitter1tmpl0FileTree_1_1']//img[@igimg='1']"
+  },
+  {
+    "name": "childFolder",
+    "type": "xpath",
+    "value": "//div[@id='ctl00C1DocumentControlWebSplitter1tmpl0FileTree_1_1']//span[@igtxt='1']"
+  },
+  {
+    "name": "newChildFolder",
+    "type": "xpath",
+    "value": "//input[@id=ctl00C1DocumentControlWebSplitter1tmpl0FileTree_tb.ig_e238f27b_r8]"
+  },
+  {
+    "name": "documentsTag",
+    "type": "xpath",
+    "value": "//span[@id='ctl00_C1_DocumentControl_WebSplitter1_tmpl1_Label2']"
+  },
+  {
+    "name": "ribbonMenuFolder",
+    "type": "xpath",
+    "value": "//a[@id='MainToolBar_lnkFolder']"
+  },
+  {
+    "name": "ribbonMenuEditFolder",
+    "type": "xpath",
+    "value": "//a[@id='lnkEditFolder']"
+  },
+  {
+    "name": "ribbonMenuPermissions",
+    "type": "xpath",
+    "value": "//a[@id='lnkPermissions']"
+  },
+  {
+    "name": "rolesSearchBox",
+    "type": "xpath",
+    "value": "//input[@id='gs_Roles']"
+  },
+  {
+    "name": "docPermissionsCreateCheckbox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'Create_DocPermissions')]"
+  },
+  {
+    "name": "ribbonMenuNewFolder",
+    "type": "xpath",
+    "value": "//a[@id='lnkNewSubfolder']"
+  },
+  {
+    "name": "inheritPermissionsCheckbox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'DocumentControl_WebSplitter1_tmpl1_chkInheritParent')]"
+  },
+  {
+    "name": "chooseFiles",
+    "type": "id",
+    "value": "C1_DocumentControl_uploaddoc"
+  },
+  {
+    "name": "titleTextBox",
+    "type": "id",
+    "value": "C1_DocumentControl_txtdesc"
+  },
+  {
+    "name": "saveButton",
+    "type": "id",
+    "value": "C1_DocumentControl_btnDocOk"
+  },
+  {
+    "name": "newFolder",
+    "type": "xpath",
+    "value": "//span[contains(@class, 'treeNode') and contains(text(), 'New Folder')]"
+  },
+  {
+    "name": "docCheckIn",
+    "type": "id",
+    "value": "C1_DocumentControl_btnCheckIn"
+  },
+  {
+    "name": "childFolderCheckBox",
+    "type": "xpath",
+    "value": "//input[@type='checkbox' and @class='igt_align']"
+  }
+]
+

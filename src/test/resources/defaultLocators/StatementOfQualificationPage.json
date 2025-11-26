@@ -1,0 +1,142 @@
+[
+  {
+    "name": "vendorNamePickerButton",
+    "type": "id",
+    "value": "C1_VendorSOQGrid_VendorPicker_btnShowPicker"
+  },
+  {
+    "name": "vendorNamePicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'VendorSOQGrid_VendorPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "createdByLabel",
+    "type": "xpath",
+    "value": "//span[.='Created By']"
+  },
+  {
+    "name": "createdOnLabel",
+    "type": "xpath",
+    "value": "//span[.='Created On']"
+  },
+  {
+    "name": "sOQCycle",
+    "type": "xpath",
+    "value": "//span[.='SOQ Cycle']"
+  },
+  {
+    "name": "remarksLabel",
+    "type": "xpath",
+    "value": "//span[.='Remarks']"
+  },
+  {
+    "name": "remarksTextBox",
+    "type": "id",
+    "value": "VNDSOQF_Remarks_Id"
+  },
+  {
+    "name": "remarksTextInView",
+    "type": "id",
+    "value": "VNDSOQF_Remarks_Id_Text"
+  },
+  {
+    "name": "associatedChecklists",
+    "type": "id",
+    "value": "ctl00_appFormCheckLists_rdlAssociatedCheckLists"
+  },
+  {
+    "name": "checklistToSelect",
+    "type": "xpath",
+    "value": "//li[contains(text(),'Statement Of Qualification')]"
+  },
+  {
+    "name": "associateWorkflow",
+    "type": "id",
+    "value": "lnkWorkFlowAssociation"
+  },
+  {
+    "name": "workflowStatus",
+    "type": "id",
+    "value": "C2_appWorkflowAssociation__lblWFName"
+  },
+  {
+    "name": "selectWorkflow",
+    "type": "id",
+    "value": "C2_appWorkflowAssociation_ddlViewWF"
+  },
+  {
+    "name": "applyWorkflow",
+    "type": "id",
+    "value": "C2_appWorkflowAssociation_btnApply"
+  },
+  {
+    "name": "removeWorkflow",
+    "type": "id",
+    "value": "C2_appWorkflowAssociation_btnRemove"
+  },
+  {
+    "name": "closeAssociateWorkflow",
+    "type": "xpath",
+    "value": "//div[@role='dialog']/descendant::button[text()='Close']"
+  },
+  {
+    "name": "closeAssociateChecklist",
+    "type": "xpath",
+    "value": "//button[@title='Close']"
+  },
+  {
+    "name": "remarkField",
+    "type": "id",
+    "value": "VNDSOQF_Remarks_Id"
+  },
+  {
+    "name": "saveAssociatingChecklist",
+    "type": "id",
+    "value": "appFormCheckLists_btnSaveCheckListCompletion"
+  },
+  {
+    "name": "stageInChecklistWindow",
+    "type": "xpath",
+    "value": "//td[contains(text(),'Stage - ')]"
+  },
+  {
+    "name": "activityInChecklistWindow",
+    "type": "xpath",
+    "value": "//th[contains(text(),'Activity Name')]"
+  },
+  {
+    "name": "isMandatoryColumn",
+    "type": "xpath",
+    "value": "//th[contains(text(),'Is Mandatory?')]"
+  },
+  {
+    "name": "requiresEscalationColumn",
+    "type": "xpath",
+    "value": "//th[contains(text(),'Requires Escalation')]"
+  },
+  {
+    "name": "completedColumn",
+    "type": "xpath",
+    "value": "//th[contains(text(),'Completed')]"
+  },
+  {
+    "name": "checklistNameAssociated",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Statement Of Qualification')]"
+  },
+  {
+    "name": "escalationCheckbox",
+    "type": "xpath",
+    "value": "//input[@id='ctl00_appFormCheckLists_mwgChecklistDetails_ctl00_ctl05_chkRequiresEscalation_ClientState']/../span"
+  },
+  {
+    "name": "completeActivity",
+    "type": "xpath",
+    "value": "//button[@id='ctl00_appFormCheckLists_mwgChecklistDetails_ctl00_ctl05_chkCompleted']/span"
+  },
+  {
+    "name": "notesField",
+    "type": "id",
+    "value": "ctl00_appFormCheckLists_mwgChecklistDetails_ctl00_ctl05_textNotes"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "name": "defaultContainerInSelectContainer",
+    "type": "xpath",
+    "value": ".//div[@id='C1_ucContainerControl_TreeContainer']//a[text()='Default']"
+  },
+  {
+    "name": "addNewButton",
+    "type": "id",
+    "value": "MainToolBar_lnkAddNew"
+  },
+  {
+    "name": "showPayItemPickerBtn",
+    "type": "xpath",
+    "value": ".//input[contains(@id,'stdItemNumber_btnShowPicker')]"
+  },
+  {
+    "name": "addNewButtonWithModifyOption",
+    "type": "id",
+    "value": "MainToolBar_lnkNewCO"
+  },
+  {
+    "name": "itemContainerPickerButton",
+    "type": "id",
+    "value": "C1_btnItemPathPicker"
+  },
+  {
+    "name": "payItemNumberTxtBox",
+    "type": "id",
+    "value": "C1_txtStandardItemNo"
+  },
+  {
+    "name": "itemDescriptionTextArea",
+    "type": "id",
+    "value": "C1_txtItemDesc"
+  },
+  {
+    "name": "itemUnitComboBox",
+    "type": "id",
+    "value": "C1_ddlUnit"
+  },
+  {
+    "name": "itemQuantityTextBox",
+    "type": "id",
+    "value": "igtxtC1_wneQuantity"
+  },
+  {
+    "name": "itemUnitCostTextBox",
+    "type": "id",
+    "value": "igtxtC1_wneUnitCost"
+  },
+  {
+    "name": "selectContainerTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Select Container')]"
+  },
+  {
+    "name": "dataTable",
+    "type": "id",
+    "value": "dataTable"
+  },
+  {
+    "name": "itemTable",
+    "type": "xpath",
+    "value": "//table[@id='dataTable']"
+  },
+  {
+    "name": "headerTable",
+    "type": "id",
+    "value": "HeaderTableID"
+  },
+  {
+    "name": "tableHeaderText",
+    "type": "xpath",
+    "value": "//table[@id = 'HeaderTableID']//td[@class = 'hgHeader']//div"
+  },
+  {
+    "name": "expandAllButton",
+    "type": "xpath",
+    "value": ".//*[@id='CMenu_serverdiv']//*[text()='Expand All']"
+  },
+  {
+    "name": "selectFirstItem",
+    "type": "xpath",
+    "value": ".//*[@id = 'dataTable']/tbody/tr/td/input[@type = 'checkbox']"
+  },
+  {
+    "name": "standardItemsPicker",
+    "type": "xpath",
+    "value": ".//div[contains(@id,'stdItemNumber_pickerContainer')]"
+  },
+  {
+    "name": "bidderItemHeaders",
+    "type": "xpath",
+    "value": "//table[contains(@id,'_gridBidItems_')]//th"
+  },
+  {
+    "name": "totalAmount",
+    "type": "xpath",
+    "value": "//div[@id='GridSummary']/span[contains(text(),'Total')and not (contains (text(),'Inflated'))]"
+  },
+  {
+    "name": "displayedElementsList",
+    "type": "xpath",
+    "value": ".//*[@id='C1_tblOuterForm']//tr[contains(@style,'display:table-row;')]"
+  },
+  {
+    "name": "accountingCodeTextBox",
+    "type": "id",
+    "value": "C1_txtAccountingCode"
+  },
+  {
+    "name": "clearButtonInNewItemPage",
+    "type": "id",
+    "value": "C1_lnkClear"
+  },
+  {
+    "name": "subItemsLinkButton",
+    "type": "id",
+    "value": "C1_likSubItems"
+  },
+  {
+    "name": "subItemTableXpath",
+    "type": "xpath",
+    "value": "//table[@id='G_C1xucSubItemxgridSubItem']"
+  },
+  {
+    "name": "newContainerNameTextbox",
+    "type": "id",
+    "value": "C1_txtName"
+  },
+  {
+    "name": "chooseFile",
+    "type": "id",
+    "value": "C1_FileUpload1"
+  },
+  {
+    "name": "uploadButton",
+    "type": "id",
+    "value": "C1_btnUpload"
+  },
+  {
+    "name": "saveButtonInImport",
+    "type": "id",
+    "value": "C1_btnSave1"
+  },
+  {
+    "name": "addItem",
+    "type": "xpath",
+    "value": "//*[text()='Add Item']"
+  },
+  {
+    "name": "fundRuleField",
+    "type": "xpath",
+    "value": "//select[contains(@id,'FundRule')]"
+  },
+  {
+    "name": "fundRuleAssociationHistoryCancelButton",
+    "type": "id",
+    "value": "C2_fundRuleHistoryControl_btnFundHistoryCancel"
+  },
+  {
+    "name": "fundRuleAssociationHistory",
+    "type": "id",
+    "value": "C2_pnlFundHistory"
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "name": "blockedFieldsText",
+    "type": "id",
+    "value": "SgAppSettings_6_2"
+  },
+  {
+    "name": "serverPassword",
+    "type": "xpath",
+    "value": "//input[contains(@id,'MailConfig') and @type='password']"
+  },
+  {
+    "name": "serverPort",
+    "type": "xpath",
+    "value": "//input[contains(@aria-label,'Server Port')]"
+  },
+  {
+    "name": "timeZone",
+    "type": "xpath",
+    "value": "//select[contains(@aria-label,'Time Zone')]"
+  },
+  {
+    "name": "amountFormat",
+    "type": "xpath",
+    "value": "//select[contains(@aria-label,'Amount Format')]"
+  },
+  {
+    "name": "quantityFormat",
+    "type": "xpath",
+    "value": "//select[contains(@aria-label,'Quantity Format')]"
+  },
+  {
+    "name": "unitPriceFormat",
+    "type": "xpath",
+    "value": "//select[contains(@aria-label,'Unit Price')]"
+  },
+  {
+    "name": "dateFormat",
+    "type": "xpath",
+    "value": "//select[contains(@aria-label,'Date Format')]"
+  },
+  {
+    "name": "dateSeparator",
+    "type": "xpath",
+    "value": "//select[contains(@aria-label,'Date Separator')]"
+  },
+  {
+    "name": "timeFieldFormat",
+    "type": "xpath",
+    "value": "//select[contains(@aria-label,'Time Field Format')]"
+  },
+  {
+    "name": "blockedEmailIDDomain",
+    "type": "xpath",
+    "value": "//textarea[contains(@id,'SgMailConfig')]"
+  },
+  {
+    "name": "serverName",
+    "type": "xpath",
+    "value": "//input[contains(@id,'MailConfig') and @aria-label='Server Name']"
+  },
+  {
+    "name": "serverUserName",
+    "type": "xpath",
+    "value": "//input[contains(@id,'MailConfig') and @aria-label='Server User Name']"
+  },
+  {
+    "name": "sendTestEmail",
+    "type": "id",
+    "value": "SgMailConfig_0_3"
+  },
+  {
+    "name": "maxAllowableCharacter",
+    "type": "id",
+    "value": "SgAppSettings_7_2"
+  },
+  {
+    "name": "emailValidationErrorMessage",
+    "type": "xpath",
+    "value": "//td[@formdesignername='AppEmailId_Value']//span[@class='regex-validator required']"
+  },
+  {
+    "name": "senderEmailID",
+    "type": "xpath",
+    "value": "//input[contains(@id,'MailConfig') and @aria-label='Sender Email ID']"
+  },
+  {
+    "name": "awsAccessKey",
+    "type": "xpath",
+    "value": "//input[contains(@id,'AWSConfig') and @aria-label='Access Key']"
+  },
+  {
+    "name": "awsSecretKey",
+    "type": "xpath",
+    "value": "//input[contains(@id,'AWSConfig') and @aria-label='Secret Key']"
+  },
+  {
+    "name": "bucketName",
+    "type": "xpath",
+    "value": "//input[contains(@id, 'SgAWSConfig') and @aria-label = 'Bucket Name'] "
+  },
+  {
+    "name": "culture",
+    "type": "xpath",
+    "value": "//select[contains(@id, 'SgRegionalConfig') and @aria-label = 'Culture']"
+  },
+  {
+    "name": "enableApplicationLog",
+    "type": "xpath",
+    "value": "//input[@id='SgAppLogSettings_AppLevelLog_Value_Id']"
+  },
+  {
+    "name": "logPath",
+    "type": "xpath",
+    "value": "//input[contains(@id, 'AppLogSettings') and @aria-label = 'Log Path']"
+  },
+  {
+    "name": "jobTriggerPath",
+    "type": "xpath",
+    "value": "//input[contains(@id, 'PlatformConfig') and @aria-label = 'Job Trigger Path']"
+  },
+  {
+    "name": "structureMapPath",
+    "type": "xpath",
+    "value": "//input[contains(@id, 'PlatformConfig') and @aria-label = 'Structure Map Path']"
+  },
+  {
+    "name": "applicationLogoToolTip",
+    "type": "xpath",
+    "value": "//img[@title='Logo Size should be 285 x 147px or greater']"
+  },
+  {
+    "name": "homePageLogoToolTip",
+    "type": "xpath",
+    "value": "//img[@title='Logo Size should be 64 x 34px or greater']"
+  },
+  {
+    "name": "favIconLogoToolTip",
+    "type": "xpath",
+    "value": "//img[@title='Size should be 16 x 16px or greater']"
+  },
+  {
+    "name": "applicationID",
+    "type": "xpath",
+    "value": "//span[@id='SgAppSettings_1_2_Text']"
+  },
+  {
+    "name": "applicationIDType",
+    "type": "xpath",
+    "value": "//span[@id='SgAppSettings_1_2_Text']//following-sibling::input[@aria-label = \"Application ID\"]"
+  },
+  {
+    "name": "favIconLogo",
+    "type": "xpath",
+    "value": "//img[@title='Size should be 16 x 16px or greater']"
+  },
+  {
+    "name": "senderName",
+    "type": "xpath",
+    "value": "//input[contains(@id, 'SgMailConfig') and @aria-label = 'Sender Name']"
+  },
+  {
+    "name": "eventsRecipientEmailID",
+    "type": "xpath",
+    "value": "//input[contains(@id, 'SgMailConfig') and @aria-label = 'Events Recipient Email ID']"
+  },
+  {
+    "name": "applicationName",
+    "type": "xpath",
+    "value": "//input[contains(@aria-label,'Application Name')]"
+  },
+  {
+    "name": "enableAuditLogGloballyCheckBox",
+    "type": "xpath",
+    "value": "//input[@id='SgAuditLogConfig_EnableAuditLogGlobally_Value_Id']"
+  },
+  {
+    "name": "notificationConfigSection",
+    "type": "xpath",
+    "value": "//div[@id='SgNotificationConfig']"
+  },
+  {
+    "name": "durationField",
+    "type": "xpath",
+    "value": "//input[@aria-label='Duration (in mins)']"
+  },
+  {
+    "name": "amountFormatDropDown",
+    "type": "id",
+    "value": "SgRegionalConfig_2_2"
+  }
+]

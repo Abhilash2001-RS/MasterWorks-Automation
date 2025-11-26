@@ -1,0 +1,402 @@
+[
+  {
+    "name": "meetingIDLabel",
+    "type": "xpath",
+    "value": "//span[.='Meeting ID']"
+  },
+  {
+    "name": "contractLabel",
+    "type": "xpath",
+    "value": "//span[.='Contract']"
+  },
+  {
+    "name": "projectNameLabel",
+    "type": "xpath",
+    "value": "//span[.='Project Name']"
+  },
+  {
+    "name": "projectCodeLabel",
+    "type": "xpath",
+    "value": "//span[.='Project Code']"
+  },
+  {
+    "name": "createdByLabel",
+    "type": "xpath",
+    "value": "//span[.='Created By']"
+  },
+  {
+    "name": "meetingTypeLabel",
+    "type": "xpath",
+    "value": "//span[.='Meeting Type']"
+  },
+  {
+    "name": "seriesLabel",
+    "type": "xpath",
+    "value": "//span[.='Series']"
+  },
+  {
+    "name": "seriesText",
+    "type": "xpath",
+    "value": "//div[@id='C1_div_MOMNFRM_Series_Id']/div//input"
+  },
+  {
+    "name": "meetingDateLabel",
+    "type": "xpath",
+    "value": "//span[.='Meeting Date']"
+  },
+  {
+    "name": "organizerLabel",
+    "type": "xpath",
+    "value": "//span[.='Organizer']"
+  },
+  {
+    "name": "meetingStartTimeLabel",
+    "type": "xpath",
+    "value": "//span[.='Meeting Start Time']"
+  },
+  {
+    "name": "meetingEndTimeLabel",
+    "type": "xpath",
+    "value": "//span[.='Meeting End Time']"
+  },
+  {
+    "name": "selectVenueLabel",
+    "type": "xpath",
+    "value": "//span[.='Venue']"
+  },
+  {
+    "name": "subjectLabel",
+    "type": "xpath",
+    "value": "//span[.='Subject']"
+  },
+  {
+    "name": "organizerText",
+    "type": "xpath",
+    "value": "//div[@id='C1_div_MOMNFRM_Organizer_Id']//span"
+  },
+  {
+    "name": "organizerTextBox",
+    "type": "xpath",
+    "value": "//div[@id='C1_div_MOMNFRM_Organizer_Id']/div//input"
+  },
+  {
+    "name": "organizerDeleteSymbol",
+    "type": "xpath",
+    "value": "//div[@id='C1_div_MOMNFRM_Organizer_Id']//span[@aria-label='delete']"
+  },
+  {
+    "name": "addNewTaskBtn",
+    "type": "xpath",
+    "value": "//input[(@value='Add New Tasks') and not(contains(@style,'display:none'))]"
+  },
+  {
+    "name": "assignedToField",
+    "type": "xpath",
+    "value": "//ul[@id='MOMNFRMActionItems_To_Id_taglist']/following-sibling::input"
+  },
+  {
+    "name": "saveBtnInPopUp",
+    "type": "xpath",
+    "value": "//div[@id='MOMNFRMActionItems_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "addLinkBtn",
+    "type": "xpath",
+    "value": "//div[@id='MOMLinkToGrid']//input[@value='Add']"
+  },
+  {
+    "name": "searchInLinkPopUPBtn",
+    "type": "xpath",
+    "value": "//div[contains(@id,'linkToPickerParentContainer')]//input[@value='Search']"
+  },
+  {
+    "name": "moduleTextBoxField",
+    "type": "xpath",
+    "value": "//div[contains(@id,'linkToPickerParentContainer')]//input[contains(@aria-owns,'lstModules')]"
+  },
+  {
+    "name": "deleteLinkBtn",
+    "type": "xpath",
+    "value": "//div[@id='MOMLinkToGrid']//input[@value='Delete']"
+  },
+  {
+    "name": "linkObjectPicker",
+    "type": "xpath",
+    "value": "//div[@id='C1_MOMLinkToGrid_MOMLinkToGrid_Picker_linkToPickerContainer']"
+  },
+  {
+    "name": "addPendingButton",
+    "type": "xpath",
+    "value": "//input[@value='Add Pending Tasks']"
+  },
+  {
+    "name": "pendingTaskPicker",
+    "type": "xpath",
+    "value": "//div[@id='C1_MOMNFRMActionItems_PickerPendingActionItem_pickerContainer']"
+  },
+  {
+    "name": "nextMeetingDate",
+    "type": "xpath",
+    "value": "//input[contains(@id,'MOMNFRM_NextMeetingDateTime_ControlId_dateInput') and (@type='text')]"
+  },
+  {
+    "name": "detailsReportTitle",
+    "type": "xpath",
+    "value": "//div[text()='MINUTES OF MEETING - DETAILS REPORT']"
+  },
+  {
+    "name": "listPageReportTitle",
+    "type": "xpath",
+    "value": "//div[text()='MINUTES OF MEETING - LIST REPORT']"
+  },
+  {
+    "name": "meetingTypeSelect",
+    "type": "id",
+    "value": "MOMNFRM_MeetingTypeId_Id"
+  },
+  {
+    "name": "meetingNotesGrid",
+    "type": "id",
+    "value": "MOMNFRM_MeetingNotes_Id"
+  },
+  {
+    "name": "meetingNotesText",
+    "type": "id",
+    "value": "MOMNFRM_MeetingNotes_IdCenter"
+  },
+  {
+    "name": "addLinkPopUP",
+    "type": "id",
+    "value": "C1_MOMLinkToGrid_MOMLinkToGrid_Picker_linkToPickerParentContainer"
+  },
+  {
+    "name": "meetingStartTime",
+    "type": "id",
+    "value": "igtxtMOMNFRM_MeetingStartTime_Id"
+  },
+  {
+    "name": "linkObjectGrid",
+    "type": "id",
+    "value": "MOMLinkToGrid"
+  },
+  {
+    "name": "meetingEndTime",
+    "type": "id",
+    "value": "igtxtMOMNFRM_MeetingEndTime_Id"
+  },
+  {
+    "name": "selectVenueSelect",
+    "type": "id",
+    "value": "MOMNFRM_VenueId_Id"
+  },
+  {
+    "name": "subjectTextBox",
+    "type": "id",
+    "value": "MOMNFRM_Subject_Id"
+  },
+  {
+    "name": "extendAgendaCheckBox",
+    "type": "id",
+    "value": "MOMNFRM_ExtendAgenda_Id"
+  },
+  {
+    "name": "agendaGrid",
+    "type": "id",
+    "value": "MOMNFRM_CDGMeetingAgenda_id"
+  },
+  {
+    "name": "meetingIdText",
+    "type": "id",
+    "value": "MOMNFRM_MeetingID_Id"
+  },
+  {
+    "name": "projNameText",
+    "type": "id",
+    "value": "MOMNFRM_ProjectName_Id"
+  },
+  {
+    "name": "projCodeText",
+    "type": "id",
+    "value": "MOMNFRM_ProjectCode_Id"
+  },
+  {
+    "name": "createdByText",
+    "type": "id",
+    "value": "MOMNFRM_CreatedBy_Id"
+  },
+  {
+    "name": "fetchButton",
+    "type": "id",
+    "value": "MOMNFRM_FetchAgenda_Id"
+  },
+  {
+    "name": "resetButton",
+    "type": "id",
+    "value": "MOMNFRM_ResetAgenda_Id"
+  },
+  {
+    "name": "taskPopUp",
+    "type": "id",
+    "value": "MOMNFRMActionItems_EditTemplate"
+  },
+  {
+    "name": "actionItemField",
+    "type": "id",
+    "value": "MOMNFRMActionItems_ActionItem_Id"
+  },
+  {
+    "name": "statusField",
+    "type": "id",
+    "value": "MOMNFRMActionItems_Status_Id_Text"
+  },
+  {
+    "name": "dueDateField",
+    "type": "id",
+    "value": "MOMNFRMActionItems_DueDate_Id_input"
+  },
+  {
+    "name": "actionsGridId",
+    "type": "id",
+    "value": "MOMNFRM_MOMNFRMActionItems_id"
+  },
+  {
+    "name": "meetingAgendaGrid",
+    "type": "id",
+    "value": "CDGMeetingAgenda"
+  },
+  {
+    "name": "meetingAgendaGridId",
+    "type": "id",
+    "value": "MOMNFRM_CDGMeetingAgenda_id"
+  },
+  {
+    "name": "meetingAgendaNoRecordsText",
+    "type": "xpath",
+    "value": "//*[@id = 'CDGMeetingAgenda']//*[@class = 'k-grid-norecords-template' and .= 'No records available.']"
+  },
+  {
+    "name": "meetingInviteesGrid",
+    "type": "id",
+    "value": "CDGMeetingInvitees"
+  },
+  {
+    "name": "meetingInviteesGridId",
+    "type": "id",
+    "value": "MOMNFRM_CDGMeetingInvitees_id"
+  },
+  {
+    "name": "addMeetingInviteesPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_CDGMeetingInvitees_PickerUsers_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "meetingInviteeNoRecordsText",
+    "type": "xpath",
+    "value": "//*[@id = 'CDGMeetingInvitees']//*[@class = 'k-grid-norecords-template' and .= 'No records available.']"
+  },
+  {
+    "name": "ownerSelect",
+    "type": "id",
+    "value": "OwnerId"
+  },
+  {
+    "name": "linkedObjectDeleteBtn",
+    "type": "xpath",
+    "value": "//div[@id='MOMLinkToGrid']//input[@value='Delete']"
+  },
+  {
+    "name": "linkedObjectSelect",
+    "type": "xpath",
+    "value": "//div[@id='MOMLinkToGrid']//input[@aria-label='Select row']"
+  },
+  {
+    "name": "ownerListRow",
+    "type": "xpath",
+    "value": "//div[@id = 'OwnerId-list']//li"
+  },
+  {
+    "name": "nextMeetingVenueSelect",
+    "type": "id",
+    "value": "MOMNFRM_NextMeetingVenueId_Id"
+  },
+  {
+    "name": "seriesFieldText",
+    "type": "xpath",
+    "value": "//ul[@id='MOMNFRM_Series_Id_taglist']//span[@class = 'MultiSelectDropdown-selected-value']"
+  },
+  {
+    "name": "seriesFieldDelete",
+    "type": "xpath",
+    "value": "//div[@id='C1_div_MOMNFRM_Series_Id']//span[@aria-label='delete']"
+  },
+  {
+    "name": "meetingDateMOM",
+    "type": "id",
+    "value": "MOMNFRM_MeetingDate_Id_input"
+  },
+  {
+    "name": "meetingStartTimeReport",
+    "type": "xpath",
+    "value": "//span[text()='Meeting Start Time:']/../../../../following-sibling::td[1]//span"
+  },
+  {
+    "name": "meetingEndTimeReport",
+    "type": "xpath",
+    "value": "//span[text()='Meeting End Time:']/../../../../following-sibling::td[1]//span"
+  },
+  {
+    "name": "meetingDateReport",
+    "type": "xpath",
+    "value": "//span[text()='Meeting Date:']/../../../../following-sibling::td[1]//span"
+  },
+  {
+    "name": "moduleSelectTextBox",
+    "type": "xpath",
+    "value": "//div[contains(@id,'linkToPickerParentContainer')]//div[contains(@aria-owns,'lstModules')]/input"
+  },
+  {
+    "name": "mandatoryFieldInPopup",
+    "type": "id",
+    "value": "C1_div_MOMNFRMActionItems_To_Id"
+  },
+  {
+    "name": "detailsField",
+    "type": "xpath",
+    "value": "//strong[text()='Details']"
+  },
+  {
+    "name": "pendingTaskButton",
+    "type": "id",
+    "value": "C1_MOMNFRMActionItems_PickerPendingActionItem_btnShowPicker"
+  },
+  {
+    "name": "pendingTaskContainer",
+    "type": "id",
+    "value": "C1_MOMNFRMActionItems_PickerPendingActionItem_pickerContainer"
+  },
+  {
+    "name": "pendingTaskContainerGid",
+    "type": "id",
+    "value": "C1_MOMNFRMActionItems_PickerPendingActionItem_pickerGrid"
+  },
+  {
+    "name": "pendingTaskContainerGidSelectButton",
+    "type": "id",
+    "value": "C1_MOMNFRMActionItems_PickerPendingActionItem_btnSelect"
+  },
+  {
+    "name": "meetingVenueDropDown",
+    "type": "id",
+    "value": "MOMNFRM_VenueOthers_Id"
+  },
+  {
+    "name": "downloadDocument",
+    "type": "xpath",
+    "value": "//*[contains(@id,'btnDownload')]"
+  },
+  {
+    "name": "deleteDocument",
+    "type": "xpath",
+    "value": "//*[contains(@id,'btnDelete')]"
+  }
+]

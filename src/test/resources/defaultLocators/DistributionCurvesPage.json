@@ -1,0 +1,57 @@
+[
+  {
+    "name": "curveNameField",
+    "type": "id",
+    "value": "LIBCRVE_CurveName_Id"
+  },
+  {
+    "name": "descriptionField",
+    "type": "id",
+    "value": "LIBCRVE_CurveDescription_Id"
+  },
+  {
+    "name": "isDefaultButton",
+    "type": "id",
+    "value": "LIBCRVE_IsDefault_Id"
+  },
+  {
+    "name": "detailsPageCurveName",
+    "type": "id",
+    "value": "LIBCRVE_CurveName_Id_Text"
+  },
+  {
+    "name": "distributionCurveTab",
+    "type": "xpath",
+    "value": "//ul[@id='PageTabs_tabBar']/descendant::a[text()= 'Distribution Curves']"
+  },
+  {
+    "name": "totalPercentage",
+    "type": "id",
+    "value": "LIBCRVE_Total_Id_Text"
+  },
+  {
+    "name": "distributionCurveGridTable",
+    "type": "xpath",
+    "value": "//div[contains(@id,'LIBCRVE_CurveTypeDistribution_id') and @class='RadGrid RadGrid_Material']"
+  },
+  {
+    "name": "distributionCurveGridHeader",
+    "type": "xpath",
+    "value": "//div[contains(@id,'LIBCRVE_CurveTypeDistribution_id_GridHeader')]/descendant::th[not(contains(@style,'display:none;'))]"
+  },
+  {
+    "name": "distributionGridRowIdentifier",
+    "type": "xpath",
+    "value": "//tr[contains(@id,'LIBCRVE_CurveTypeDistribution_id') and (contains(@class,'rgRow') or contains(@class,'rgAltRow'))]"
+  },
+  {
+    "name": "rowEditIdentifier",
+    "type": "xpath",
+    "value": "//td[@class='gridInlineEditing rgBatchCurrent']/descendant::input[@type='text']"
+  },
+  {
+    "name": "totalPercentageNonEditable",
+    "type": "id",
+    "value": "LIBCRVE_Total_Id"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "riskSeverityLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Risk Severity')]"
+  },
+  {
+    "name": "riskSeverityTextBox",
+    "type": "id",
+    "value": "RISKSEV_RiskSeverity_Id"
+  },
+  {
+    "name": "severityRatingLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Severity Rating')]"
+  },
+  {
+    "name": "severityRatingDropDown",
+    "type": "id",
+    "value": "RISKSEV_SeverityRating_Id"
+  },
+  {
+    "name": "libraryManagementDashBoard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  }
+]

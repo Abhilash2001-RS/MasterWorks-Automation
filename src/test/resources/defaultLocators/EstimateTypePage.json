@@ -1,0 +1,17 @@
+[
+  {
+    "name": "estimateTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Estimate Type')]"
+  },
+  {
+    "name": "estimateTypeField",
+    "type": "id",
+    "value": "ESTTYPE_EstimateType_Id"
+  },
+  {
+    "name": "estimateTypeEntered",
+    "type": "id",
+    "value": "ESTTYPE_EstimateType_Id_Text"
+  }
+]

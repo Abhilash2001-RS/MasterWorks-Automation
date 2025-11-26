@@ -1,0 +1,57 @@
+[
+  {
+    "name": "associatedProjectTxt",
+    "type": "xpath",
+    "value": ".//a[@id='ENTPNDS_ProjectName_Id']"
+  },
+  {
+    "name": "titleFieldLbl",
+    "type": "id",
+    "value": "ENTPNDS_Name_Id_Text"
+  },
+  {
+    "name": "businessUnitLbl",
+    "type": "id",
+    "value": "ENTPNDS_BusinessUnit_Id_Text"
+  },
+  {
+    "name": "problemStatementLbl",
+    "type": "id",
+    "value": "ENTPNDS_AreaProblemStatement_Id_Text"
+  },
+  {
+    "name": "addressLbl",
+    "type": "id",
+    "value": "ENTPNDS_Address_Id_Text"
+  },
+  {
+    "name": "expectedCompletionMonthLbl",
+    "type": "id",
+    "value": "ENTPNDS_ExpectedCompletionMonth_Id_Text"
+  },
+  {
+    "name": "expectedCompletionYearLbl",
+    "type": "id",
+    "value": "ENTPNDS_ExpectedCompletionYear_Id_Text"
+  },
+  {
+    "name": "commentsLbl",
+    "type": "id",
+    "value": "ENTPNDS_Comments_Id_Text"
+  },
+  {
+    "name": "programYearLbl",
+    "type": "id",
+    "value": "ENTPNDS_ProgramYear_Id_Text"
+  },
+  {
+    "name": "estimatedCostLbl",
+    "type": "id",
+    "value": "igtxtENTPNDS_EstimatedCost_Id_Text"
+  },
+  {
+    "name": "strategicGoalsLbl",
+    "type": "id",
+    "value": "lbl_ENTPNDS_StrategicGoals_Id_Text"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "name": "searchInAllProjectsRadioButton",
+    "type": "xpath",
+    "value": "//input[@id='C1_rdProjectAll']/.."
+  },
+  {
+    "name": "searchInSpecificProjectRadioButton",
+    "type": "xpath",
+    "value": "//input[@id='C1_rdProject']/.."
+  },
+  {
+    "name": "contractorMultiComboBox",
+    "type": "xpath",
+    "value": "//input[contains(@aria-owns,'lstContractor_taglist')]"
+  },
+  {
+    "name": "projectNameMultiComboBox",
+    "type": "xpath",
+    "value": "//input[contains(@aria-owns,'lstProject_taglist')]"
+  },
+  {
+    "name": "contaractList",
+    "type": "id",
+    "value": "lstContractor-list"
+  },
+  {
+    "name": "projectList",
+    "type": "id",
+    "value": "lstProject-list"
+  },
+  {
+    "name": "bidList",
+    "type": "id",
+    "value": "ctl00_C1_radddlStatus_EmbeddedTree"
+  },
+  {
+    "name": "bidStatusMultiComboBox",
+    "type": "id",
+    "value": "ctl00_C1_radddlStatus"
+  },
+  {
+    "name": "inflationPercentageTextBox",
+    "type": "id",
+    "value": "C1_inflationPercentage"
+  },
+  {
+    "name": "quantityMinValueTextBox",
+    "type": "id",
+    "value": "igtxtC1_wneQuantityMin"
+  },
+  {
+    "name": "quantityMaxValueTextBox",
+    "type": "id",
+    "value": "igtxtC1_wneQuantityMax"
+  },
+  {
+    "name": "addPayItemButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'btnAddPayItem')]"
+  },
+  {
+    "name": "deletePayItemButton",
+    "type": "id",
+    "value": "C1_btnRemovePayItem"
+  },
+  {
+    "name": "fromBidDate",
+    "type": "id",
+    "value": "C1_wdtmin_input"
+  },
+  {
+    "name": "toBidDate",
+    "type": "id",
+    "value": "C1_wdtmax_input"
+  },
+  {
+    "name": "resultsGrid",
+    "type": "id",
+    "value": "ctl00_C1_gridResultsMultiItems"
+  },
+  {
+    "name": "resultsGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_gridResultsMultiItems_GridHeader"
+  },
+  {
+    "name": "resultsGridTable",
+    "type": "id",
+    "value": "ctl00_C1_gridResultsMultiItems_ctl00"
+  },
+  {
+    "name": "resultsGridData",
+    "type": "id",
+    "value": "ctl00_C1_gridResultsMultiItems_GridData"
+  },
+  {
+    "name": "searchInAllProjectsLabel",
+    "type": "xpath",
+    "value": "//label[contains(text(),'Search In Specific Project')]"
+  },
+  {
+    "name": "searchInSpecificProjectsLabel",
+    "type": "xpath",
+    "value": "//label[contains(text(),'Search In All Projects')]"
+  },
+  {
+    "name": "contractorLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contractor')]"
+  },
+  {
+    "name": "bidStatusLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Bid Status')]"
+  },
+  {
+    "name": "quantityBetweenLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Quantity between')]"
+  },
+  {
+    "name": "inflationLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Inflation %')]"
+  },
+  {
+    "name": "bidDate",
+    "type": "id",
+    "value": "C1_bidDateHeader"
+  },
+  {
+    "name": "payItemGrid",
+    "type": "xpath",
+    "value": "//div[contains(@id,'radGridPayItemNo')]"
+  },
+  {
+    "name": "payItemsGridPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'payItemPicker_pickerContainer')]"
+  },
+  {
+    "name": "payItemPicker",
+    "type": "xpath",
+    "value": "C1_payItemPicker_pickerContainer"
+  },
+  {
+    "name": "unitPrice$",
+    "type": "id",
+    "value": "C1_txtFinalAvg"
+  },
+  {
+    "name": "addItemToUnitPriceButton",
+    "type": "id",
+    "value": "C1_btnAddtoUnitPrice"
+  },
+  {
+    "name": "generateSuggestedUnitPrice",
+    "type": "id",
+    "value": "C1_btnGenerateSuggestedPrice"
+  },
+  {
+    "name": "suggestedUnitPrice",
+    "type": "id",
+    "value": "C1_lblWA"
+  },
+  {
+    "name": "lowUnitPrice",
+    "type": "id",
+    "value": "C1_lblLow"
+  },
+  {
+    "name": "highUnitPrice",
+    "type": "id",
+    "value": "C1_lblHigh"
+  },
+  {
+    "name": "averageUnitPrice",
+    "type": "id",
+    "value": "C1_lblAverage"
+  },
+  {
+    "name": "unitPriceSearchResultsGrid",
+    "type": "id",
+    "value": "ctl00_C1_gridResults"
+  },
+  {
+    "name": "unitPriceSearchResultsGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_GridHeader"
+  },
+  {
+    "name": "unitPriceSearchResultsGridTable",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_ctl00"
+  },
+  {
+    "name": "unitPriceSearchResultsGridData",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_GridData"
+  },
+  {
+    "name": "payItemHeader",
+    "type": "xpath",
+    "value": "//*[contains(@id,'radGridPayItemNo_ctl00__StandardItemNo__SortAsc')]/.."
+  },
+  {
+    "name": "descriptionHeader",
+    "type": "xpath",
+    "value": "//*[contains(@id,'radGridPayItemNo_ctl00__Description__SortAsc')]/.."
+  },
+  {
+    "name": "contractor",
+    "type": "xpath",
+    "value": "//ul[@id='lstContractor_taglist']//span[contains(@class,'MultiSelectDropdown-selected-value')]"
+  },
+  {
+    "name": "projectName",
+    "type": "xpath",
+    "value": "//ul[@id='lstProject_taglist']//span[contains(@class,'MultiSelectDropdown-selected-value')]"
+  },
+  {
+    "name": "payItemRadGrid",
+    "type": "id",
+    "value": "ctl00_C1_radGridPayItemNo"
+  },
+  {
+    "name": "payItemRadGridData",
+    "type": "id",
+    "value": "ctl00_C1_radGridPayItemNo_GridData"
+  },
+  {
+    "name": "selectButtonPayItemPicker",
+    "type": "id",
+    "value": "C1_payItemPicker_btnSelect"
+  },
+  {
+    "name": "cancelButtonPayItemPicker",
+    "type": "id",
+    "value": "C1_payItemPicker_btnCancel"
+  },
+  {
+    "name": "standardItemsTitlePicker",
+    "type": "xpath",
+    "value": "//span[@aria-label='Standard Items']"
+  },
+  {
+    "name": "payItemGridRow",
+    "type": "xpath",
+    "value": "//tr[contains(@id,'C1_radGridPayItemNo')]"
+  },
+  {
+    "name": "bidStatusStages",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_radddlStatus_EmbeddedTree')]//input[@type = 'checkbox']/..//span"
+  },
+  {
+    "name": "lowUnitPriceLabel",
+    "type": "id",
+    "value": "C1_tdLow"
+  },
+  {
+    "name": "highUnitPriceLabel",
+    "type": "id",
+    "value": "C1_tdHigh"
+  },
+  {
+    "name": "suggestedUnitPriceLabel",
+    "type": "id",
+    "value": "C1_tdWAAvg"
+  },
+  {
+    "name": "averagePriceLabel",
+    "type": "id",
+    "value": "C1_tdAvgUP"
+  },
+  {
+    "name": "unitPriceLabel",
+    "type": "id",
+    "value": "C1_tdFinalAvg"
+  },
+  {
+    "name": "noRecordsDisplay",
+    "type": "xpath",
+    "value": "//table[contains(@id,'C1_gridResults_')]//div"
+  },
+  {
+    "name": "selectAllCheckBoxResultsGridItemListPage",
+    "type": "xpath",
+    "value": "//table[contains(@id,'C1_gridResultsMultiItems_ctl00_Header')]//input[contains(@id,'multiSelectCheckBox')]"
+  },
+  {
+    "name": "selectAllCheckBoxResultsGridNewBidItem",
+    "type": "xpath",
+    "value": "//table[contains(@id,'C1_gridResults_ctl00_Header')]//input[contains(@id,'multiSelectCheckBox')]"
+  },
+  {
+    "name": "payItemTable",
+    "type": "id",
+    "value": "ctl00_C1_radGridPayItemNo_ctl00"
+  },
+  {
+    "name": "payItemGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_radGridPayItemNo_GridHeader"
+  },
+  {
+    "name": "selectAllRecordsPayItemPicker",
+    "type": "xpath",
+    "value": "//input[contains(@id,'payItemPicker_btnSelAll')]"
+  },
+  {
+    "name": "containerPathColumn",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Container Path')]"
+  },
+  {
+    "name": "lineNoColumn",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Line No')]"
+  },
+  {
+    "name": "payItemColumn",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Pay Item No.')]"
+  },
+  {
+    "name": "unitColumn",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Unit')]"
+  },
+  {
+    "name": "quantityColumn",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Quantity')]"
+  },
+  {
+    "name": "unitPriceColumn",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Unit Price in $')]"
+  },
+  {
+    "name": "suggestedUnitPriceColumn",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Suggested Unit Price ($)')]"
+  },
+  {
+    "name": "unitPriceSearchHeaders",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_gridResults_GridHeader']//a[not(contains(text(),'Row Num'))][(not(contains(text(),'Item ID')))][(not(contains(@title,'Open the calendar popup.')))]"
+  }
+]

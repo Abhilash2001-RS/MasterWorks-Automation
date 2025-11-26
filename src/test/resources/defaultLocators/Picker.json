@@ -1,0 +1,52 @@
+[
+  {
+    "name": "scrollBarHandle",
+    "type": "xpath",
+    "value": ".//*[@class='k-scrollbar k-scrollbar-vertical']"
+  },
+  {
+    "name": "filterDropDownList",
+    "type": "xpath",
+    "value": ".//*[@class='k-animation-container' and @aria-hidden='false']"
+  },
+  {
+    "name": "filterOperatorSpan",
+    "type": "xpath",
+    "value": ".//span[@title='Operator']"
+  },
+  {
+    "name": "filterOperatorList",
+    "type": "xpath",
+    "value": ".//ul[contains(@class,'k-list')]"
+  },
+  {
+    "name": "cancelPicker",
+    "type": "xpath",
+    "value": "//input[contains(@type,'submit') and contains(@name,'$btnCancel') and @value='Cancel']"
+  },
+  {
+    "name": "filterButton",
+    "type": "xpath",
+    "value": ".//*[@class='k-animation-container' and @aria-hidden='false']//button[contains(text(),'Filter')]"
+  },
+  {
+    "name": "pickerClearFilterButton",
+    "type": "xpath",
+    "value": ".//*[@class='k-animation-container' and @aria-hidden='false']//button[contains(text(),'Clear')]"
+  },
+  {
+    "name": "multiSelectCheckboxInPicker",
+    "type": "xpath",
+    "value": "//input[@aria-label='Select All']"
+  },
+  {
+    "name": "standardItemsDropDownSave",
+    "type": "xpath",
+    "value": "//input[@id='C1_multipleItemPicker_btnSelect']"
+  },
+  {
+    "name": "standardItemsDropDownSelect",
+    "type": "xpath",
+    "value": "//input[@id='C1_itemPicker_btnSelect']"
+  }
+]

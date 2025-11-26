@@ -1,0 +1,97 @@
+[
+  {
+    "name": "vendorNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Vendor Name')]"
+  },
+  {
+    "name": "projectNumberTextBox",
+    "type": "id",
+    "value": "CONTVDC_ProjectNo_Id_Text"
+  },
+  {
+    "name": "projectNameTextBox",
+    "type": "id",
+    "value": "CONTVDC_ProjectName_Id_Text"
+  },
+  {
+    "name": "createdByTextBox",
+    "type": "id",
+    "value": "CONTVDC_Evaluator_Id_Text"
+  },
+  {
+    "name": "createdOnTextBox",
+    "type": "id",
+    "value": "CONTVDC_ScoredOn_Id_Text"
+  },
+  {
+    "name": "showVendorsBtn",
+    "type": "id",
+    "value": "C1_VendorIdTrigger_VendorPicker_btnShowPicker"
+  },
+  {
+    "name": "vendorsPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_VendorIdTrigger_VendorPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "cancelBtn",
+    "type": "id",
+    "value": "C1_VendorIdTrigger_VendorPicker_btnCancel"
+  },
+  {
+    "name": "reviewStageTextBox",
+    "type": "id",
+    "value": "CONTVDC_ReviewStage_Id"
+  },
+  {
+    "name": "scoringGrid",
+    "type": "id",
+    "value": "ctl00_C1_CONTVDC_VendorScoringCriteriaGrid_id"
+  },
+  {
+    "name": "scoringGridData",
+    "type": "id",
+    "value": "ctl00_C1_CONTVDC_VendorScoringCriteriaGrid_id_GridData"
+  },
+  {
+    "name": "scoringTableId",
+    "type": "id",
+    "value": "ctl00_C1_CONTVDC_VendorScoringCriteriaGrid_id_ctl00_Header"
+  },
+  {
+    "name": "totalScoreBox",
+    "type": "id",
+    "value": "igtxtCONTVDC_EvaluatorScore_Id"
+  },
+  {
+    "name": "vendorId",
+    "type": "xpath",
+    "value": "//span[text()='Vendor ID']"
+  },
+  {
+    "name": "vendorName",
+    "type": "xpath",
+    "value": "//a/span[text()='Vendor Name']"
+  },
+  {
+    "name": "vendorCat",
+    "type": "xpath",
+    "value": "//a/span[text()='Vendor Category']"
+  },
+  {
+    "name": "vendorSubCat",
+    "type": "xpath",
+    "value": "//a/span[text()='Vendor Sub-Category']"
+  },
+  {
+    "name": "workSize",
+    "type": "xpath",
+    "value": "//a/span[text()='Work Size']"
+  },
+  {
+    "name": "scoringGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_CONTVDC_VendorScoringCriteriaGrid_id_GridHeader"
+  }
+]

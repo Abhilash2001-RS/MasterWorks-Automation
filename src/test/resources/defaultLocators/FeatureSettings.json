@@ -1,0 +1,13 @@
+[
+  {
+    "name": "featureSettingsLink",
+    "type": "xpath",
+    "value": "//nobr[normalize-space()='Feature Settings']"
+  },
+  {
+    "name": "checkBoxSelection",
+    "type": "xpath",
+    "value": "//input[@id='ctl00_C1_MWGrid_ctl00_ctl05_MultiSelectCheckBox']"
+  }
+
+]

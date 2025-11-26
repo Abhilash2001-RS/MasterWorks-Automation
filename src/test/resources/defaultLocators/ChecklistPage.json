@@ -1,0 +1,122 @@
+[
+  {
+    "name": "checklistName",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "mandatoryNameField",
+    "type": "id",
+    "value": "C1_reqName"
+  },
+  {
+    "name": "description",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "associateForm",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Associate Form')]"
+  },
+  {
+    "name": "nameField",
+    "type": "id",
+    "value": "C1_txtName"
+  },
+  {
+    "name": "descriptionField",
+    "type": "id",
+    "value": "C1_txtDesc"
+  },
+  {
+    "name": "associateFormDropDown",
+    "type": "id",
+    "value": "C1_ddlXMLForms"
+  },
+  {
+    "name": "stageAndActivities",
+    "type": "id",
+    "value": "C1_lblResTitle"
+  },
+  {
+    "name": "addStages",
+    "type": "id",
+    "value": "C1_btnAddStages"
+  },
+  {
+    "name": "deleteStages",
+    "type": "id",
+    "value": "C1_btnDeleteStages"
+  },
+  {
+    "name": "stagesDropDown",
+    "type": "id",
+    "value": "C2_ddlStages"
+  },
+  {
+    "name": "selectedStage",
+    "type": "xpath",
+    "value": "//select[@id='C2_ddlStages']/option[@value='1']"
+  },
+  {
+    "name": "editedStage",
+    "type": "xpath",
+    "value": "//select[@id='C2_ddlStages']/option[@value='2']"
+  },
+  {
+    "name": "checkActivities",
+    "type": "xpath",
+    "value": "//input[@id='chkStdItems']"
+  },
+  {
+    "name": "checkActivitiesLabel",
+    "type": "xpath",
+    "value": "//input[@id='chkStdItems']/following-sibling::label"
+  },
+  {
+    "name": "selectFirstActivity",
+    "type": "xpath",
+    "value": "//tr[@id='C2xgrdActivitiesList_r_0']//input[not(@disabled)]"
+  },
+  {
+    "name": "selectSecondActivity",
+    "type": "xpath",
+    "value": "//tr[@id='C2xgrdActivitiesList_r_1']//input[not(@disabled)]"
+  },
+  {
+    "name": "activitiesOption",
+    "type": "xpath",
+    "value": "//td[@id='C2xgrdActivitiesList_rc_0_3']//nobr"
+  },
+  {
+    "name": "sortActivities",
+    "type": "xpath",
+    "value": "//th[@id='C2xgrdActivitiesList_c_0_2']/nobr"
+  },
+  {
+    "name": "addButtonInFrame",
+    "type": "id",
+    "value": "C2_btnGhost1"
+  },
+  {
+    "name": "cancelButtonInFrame",
+    "type": "id",
+    "value": "C2_btnCncl"
+  },
+  {
+    "name": "stagesCheckBox",
+    "type": "xpath",
+    "value": "//td[@id='C1xuwgResource_rc_0_14']//nobr"
+  },
+  {
+    "name": "stagesEditCheckbox",
+    "type": "xpath",
+    "value": "//td[@id='C1xuwgResource_rc_1_14']//input"
+  },
+  {
+    "name": "editedStageRow",
+    "type": "xpath",
+    "value": "//td[@id='C1xuwgResource_rc_1_14']"
+  }
+]

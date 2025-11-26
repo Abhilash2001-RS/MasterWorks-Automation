@@ -1,0 +1,22 @@
+[
+  {
+    "name": "needsTypeNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "needsTypeNameTextBox",
+    "type": "id",
+    "value": "NEEDTYP_Name_Id"
+  },
+  {
+    "name": "needsTypeDescriptionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "needsTypeDescriptionTextBox",
+    "type": "id",
+    "value": "NEEDTYP_Description_Id"
+  }
+]

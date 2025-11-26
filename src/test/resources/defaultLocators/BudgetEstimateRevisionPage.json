@@ -1,0 +1,27 @@
+[
+  {
+    "name": "budgetEstimateRevisionTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Budget Estimate Revision')]"
+  },
+  {
+    "name": "budgetEstimateRevForecastListTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Forecast List')]"
+  },
+  {
+    "name": "forecastDescriptionTxtArea",
+    "type": "id",
+    "value": "C1_txtQtyPlanDescription"
+  },
+  {
+    "name": "inflationHighlight",
+    "type": "xpath",
+    "value": "//td/input[contains(@style,'#3399CC')]"
+  },
+  {
+    "name": "forecastHeader",
+    "type": "xpath",
+    "value": "//a[@title='Forecast']"
+  }
+]

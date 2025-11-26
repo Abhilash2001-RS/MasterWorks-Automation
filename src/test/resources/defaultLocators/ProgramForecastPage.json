@@ -1,0 +1,67 @@
+[
+  {
+    "name": "programForecastDetailsTab",
+    "type": "xpath",
+    "value": "//a[@title='Forecast Details']"
+  },
+  {
+    "name": "programForecastTableId",
+    "type": "id",
+    "value": "gantt_container_Table"
+  },
+  {
+    "name": "programGanttTable",
+    "type": "xpath",
+    "value": "//div[@id='gantt_container']"
+  },
+  {
+    "name": "forecastDataTable",
+    "type": "xpath",
+    "value": "//div[@class='ui-widget-content ui-grid-body']"
+  },
+  {
+    "name": "contentRowsXpath",
+    "type": "xpath",
+    "value": ".//table[@class='ui-selectable ui-grid-body-table']//tr[contains(@class,'rq-grid-row')]"
+  },
+  {
+    "name": "taskNameCell",
+    "type": "xpath",
+    "value": ".//td/div[contains(@class,'rq-grid-expander-text')]"
+  },
+  {
+    "name": "calendarPickerXpath",
+    "type": "xpath",
+    "value": "//table[@class='ui-datepicker-calendar']"
+  },
+  {
+    "name": "textContentCell",
+    "type": "xpath",
+    "value": ".//div[text() and not(contains(@class,'arrowContainer'))]"
+  },
+  {
+    "name": "gantTableRows",
+    "type": "xpath",
+    "value": "//div[@id='gantt_container_GanttChart_rq-gc-chartArea-div']//tr"
+  },
+  {
+    "name": "gantTableSection",
+    "type": "xpath",
+    "value": "//div[@id='gantt_container_GanttChart']"
+  },
+  {
+    "name": "frozenDataTableProgramForecast",
+    "type": "xpath",
+    "value": "//div[@class='ui-widget-content ui-body-frozen-div']"
+  },
+  {
+    "name": "displayedTextXpath",
+    "type": "xpath",
+    "value": "./span[@class='rrbText']"
+  },
+  {
+    "name": "includedNameColumn",
+    "type": "xpath",
+    "value": "//th[@id='Included']"
+  }
+]

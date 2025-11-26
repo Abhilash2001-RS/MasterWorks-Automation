@@ -1,0 +1,12 @@
+[
+  {
+    "name": "meetingVenueLabel",
+    "type": "xpath",
+    "value": "//span[.='Venue']"
+  },
+  {
+    "name": "meetingVenueTextBox",
+    "type": "id",
+    "value": "MOMMVNU_MeetingVenue_Id"
+  }
+]

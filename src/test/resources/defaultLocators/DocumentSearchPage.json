@@ -1,0 +1,232 @@
+[
+  {
+    "name": "attachmentSearchTab",
+    "type": "id",
+    "value": "tabAttachments"
+  },
+  {
+    "name": "documentSearchTab",
+    "type": "id",
+    "value": "tabDocuments"
+  },
+  {
+    "name": "attachmentSearchLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Search Attachments')]"
+  },
+  {
+    "name": "documentSearchLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Search Documents')]"
+  },
+  {
+    "name": "attachmentDocumentTitle",
+    "type": "xpath",
+    "value": "//div[@id='Attachments']//span[contains(text(),'Document Title')]"
+  },
+  {
+    "name": "attachmentDocumentName",
+    "type": "xpath",
+    "value": "//div[@id='Attachments']//span[contains(text(),'Document Name')]"
+  },
+  {
+    "name": "attachmentCreatedBy",
+    "type": "xpath",
+    "value": "//div[@id='Attachments']//span[contains(text(),'Created By')]"
+  },
+  {
+    "name": "attachmentProjects",
+    "type": "xpath",
+    "value": "//div[@id='Attachments']//span[contains(text(),'Projects')]"
+  },
+  {
+    "name": "attachmentSelectedForm",
+    "type": "xpath",
+    "value": "//div[@id='Attachments']//span[contains(text(),'Select Form')]"
+  },
+  {
+    "name": "attachmentSearchDocumentTitle",
+    "type": "id",
+    "value": "C1_txtDesc1"
+  },
+  {
+    "name": "documentSearchDocumentTitle",
+    "type": "id",
+    "value": "C1_txtDesc"
+  },
+  {
+    "name": "documentSearchExpandCollapseToggle",
+    "type": "xpath",
+    "value": ".//span[.='Search Documents']/../input[@class='collapse-control-toggler']"
+  },
+  {
+    "name": "attachmentSearchExpandCollapseToggle",
+    "type": "xpath",
+    "value": ".//span[.='Search Attachments']/../input[@class='collapse-control-toggler']"
+  },
+  {
+    "name": "attachmentSearchResultsExpandCollapseToggle",
+    "type": "xpath",
+    "value": ".//div[@id='Attachments']//span[.='Search Results']/../input[@class='collapse-control-toggler']"
+  },
+  {
+    "name": "documentSearchResultsExpandCollapseToggle",
+    "type": "xpath",
+    "value": ".//div[@id='Documents']//span[.='Search Results']/../input[@class='collapse-control-toggler']"
+  },
+  {
+    "name": "documentSearchResultsGrid",
+    "type": "xpath",
+    "value": ".//div[@id='ctl00_C1_gridResults']/table[contains(@class,'rgMasterTable')]"
+  },
+  {
+    "name": "attachmentsSearchResultsGrid",
+    "type": "xpath",
+    "value": ".//div[@id='ctl00_C1_gridResults1']/table[contains(@class,'rgMasterTable')]"
+  },
+  {
+    "name": "attachmentsSelectFormDropdown",
+    "type": "id",
+    "value": "divSelectFormList"
+  },
+  {
+    "name": "attachmentsSelectFormDropdownContent",
+    "type": "id",
+    "value": "lstSelectForm_listbox"
+  },
+  {
+    "name": "projectPickerButton",
+    "type": "id",
+    "value": "C1_btnProjects1"
+  },
+  {
+    "name": "projectPickerContainer",
+    "type": "xpath",
+    "value": "//div[@id='C1_pickerProjects1_pickerContainer']"
+  },
+  {
+    "name": "attachmentSearchDocumentName",
+    "type": "id",
+    "value": "C1_txtFileName1"
+  },
+  {
+    "name": "documentSearchDocumentName",
+    "type": "id",
+    "value": "C1_txtFileName"
+  },
+  {
+    "name": "attachmentSearchCreatedBy",
+    "type": "xpath",
+    "value": ".//select[@id='C1_ddlCreatedBy1']"
+  },
+  {
+    "name": "attachmentsSelectFormLoadingSpinnerHidden",
+    "type": "xpath",
+    "value": ".//*[@id='divSelectFormList']//span[contains(@class,'k-hidden')]"
+  },
+  {
+    "name": "ribbonBarControl",
+    "type": "id",
+    "value": "ctl00_MainToolBar_RadRibbonBarControl"
+  },
+  {
+    "name": "viewMultipleDocument",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_ctl00_ctl02_ctl01_multiSelectCheckBox"
+  },
+  {
+    "name": "documentSearchGrid",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_ctl00"
+  },
+  {
+    "name": "documentSearchGridFirst",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_ctl00_ctl04_multiSelectCheckBox"
+  },
+  {
+    "name": "documentAttachSearchGridFirst",
+    "type": "id",
+    "value": "ctl00_C1_gridResults1_ctl00_ctl04_multiSelectCheckBox"
+  },
+  {
+    "name": "documentSearchBreadCrumb",
+    "type": "id",
+    "value": "breadCrumbDisplayLi"
+  },
+  {
+    "name": "attachmentSearchGrid",
+    "type": "id",
+    "value": "ctl00_C1_gridResults1_ctl00__0"
+  },
+  {
+    "name": "paginationHighlightedPage",
+    "type": "xpath",
+    "value": "//*[@id='ctl00_C1_gridResults1_ctl00']//a[@class='rgCurrentPage']"
+  },
+  {
+    "name": "nextPageButton",
+    "type": "xpath",
+    "value": "//*[@id='ctl00_C1_gridResults1_ctl00']//button[@title='Next Page']"
+  },
+  {
+    "name": "previousPageButton",
+    "type": "xpath",
+    "value": "//*[@id='ctl00_C1_gridResults1_ctl00']//button[@title='Previous Page']"
+  },
+  {
+    "name": "paginationPages",
+    "type": "xpath",
+    "value": "//*[@id='ctl00_C1_gridResults1_ctl00']//div[@class='rgWrap rgNumPart']/a"
+  },
+  {
+    "name": "selectForm",
+    "type": "xpath",
+    "value": "//*[@id='divSelectFormList']//input[@aria-owns='lstSelectForm_taglist lstSelectForm_listbox']"
+  },
+  {
+    "name": "formHide",
+    "type": "xpath",
+    "value": "//input[@id='chkDocument']/following-sibling::span[text()='Hide']"
+  },
+  {
+    "name": "formShow",
+    "type": "xpath",
+    "value": "//*[@id='coreMainControlDiv']//span[contains(text(),'Search Results')]/..//span[contains(@class,'section-title show')]"
+  },
+  {
+    "name": "searchFormTemplateName",
+    "type": "xpath",
+    "value": "//*[@id='C1_upError']//td//span"
+  },
+  {
+    "name": "documentValueSearchGrid",
+    "type": "id",
+    "value": "ctl00_C1_gridResults_ctl00__0"
+  },
+  {
+    "name": "attachmentProjectsField",
+    "type": "id",
+    "value": "C1_txtProjects1"
+  },
+  {
+    "name": "documentSearchPage",
+    "type": "xpath",
+    "value": ".//*[@id='PageTabs_tabBar']//a[text()='Search Documents']"
+  },
+  {
+    "name": "enterpriseSearchPage",
+    "type": "xpath",
+    "value": ".//*[@id='PageTabs_tabBar']//a[text()='Enterprise Search']"
+  },
+  {
+    "name": "searchedDocumentTable",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_gridResults']/table"
+  },
+  {
+    "name": "searchResultHideButton",
+    "type": "xpath",
+    "value": "//input[@id='chkDocumentResult']/following-sibling::span[text()='Hide']"
+  }
+]

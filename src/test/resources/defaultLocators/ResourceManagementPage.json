@@ -1,0 +1,17 @@
+[
+  {
+    "name": "overUtilization",
+    "type": "id",
+    "value": "RESMCNF_OverUtilization_Id"
+  },
+  {
+    "name": "underUtilization",
+    "type": "id",
+    "value": "RESMCNF_UnderUtilization_Id"
+  },
+  {
+    "name": "optimalUtilization",
+    "type": "id",
+    "value": "RESMCNF_OptimalUtilization_Id"
+  }
+]

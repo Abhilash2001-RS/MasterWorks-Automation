@@ -1,0 +1,313 @@
+[
+  {
+    "name": "programTitleTxtBox",
+    "type": "id",
+    "value": "PROGRAM_Title_Id"
+  },
+  {
+    "name": "programYearDropDown",
+    "type": "id",
+    "value": "PROGRAM_ProgramYear_Id"
+  },
+  {
+    "name": "programCategoryDropDown",
+    "type": "id",
+    "value": "PROGRAM_ProgramCategory_Id"
+  },
+  {
+    "name": "programDescriptionTxtArea",
+    "type": "id",
+    "value": "PROGRAM_Description_Id"
+  },
+  {
+    "name": "programBudgetTxtBox",
+    "type": "id",
+    "value": "igtxtPROGRAM_SelectionProgramBudget_Id"
+  },
+  {
+    "name": "addPlannedProjectsBtn",
+    "type": "id",
+    "value": "C1_DGPlanningProjects_ProjectPicker_btnShowPicker"
+  },
+  {
+    "name": "deletePlannedProjectsBtn",
+    "type": "xpath",
+    "value": "//div[@id='DGPlanningProjects']//input[(@type='submit') and (@value='Delete')]"
+  },
+
+  {
+    "name": "deleteProgramsBtn",
+    "type": "xpath",
+    "value": "//div[@id='DGPlanningPrograms']//input[(@type='submit') and (@value='Delete')]"
+  },
+  {
+    "name": "plannedProjectPicker",
+    "type": "xpath",
+    "value": ".//div[@id='C1_DGPlanningProjects_ProjectPicker_pickerContainer']"
+  },
+  {
+    "name": "projectCostField",
+    "type": "id",
+    "value": "igtxtPROGRAM_ProjectCost_Id"
+  },
+  {
+    "name": "projectsGrid",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_DGPlanningProjects_id"
+  },
+  {
+    "name": "projectsGridData",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_DGPlanningProjects_id_GridData"
+  },
+  {
+    "name": "programsGrid",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_DGPlanningPrograms_id"
+  },
+  {
+    "name": "programsGridData",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_DGPlanningPrograms_id_GridData"
+  },
+  {
+    "name": "programBudgetGridData",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_ProgramBudgetDistributionDetails_id_GridData"
+  },
+  {
+    "name": "projectInflatedCostField",
+    "type": "id",
+    "value": "igtxtPROGRAM_InflatedCost_Id"
+  },
+  {
+    "name": "plannedProjectPickerId",
+    "type": "id",
+    "value": "C1_DGPlanningProjects_ProjectPicker_pickerContainer"
+  },
+  {
+    "name": "projectDynamicGridIdInProgram",
+    "type": "id",
+    "value": "DGPlanningProjects"
+  },
+  {
+    "name": "projectGridTableId",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_DGPlanningProjects_id_ctl00"
+  },
+  {
+    "name": "projectGridHeaderId",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_DGPlanningProjects_id_GridHeader"
+  },
+  {
+    "name": "fundSourceProgramSelectButton",
+    "type": "id",
+    "value": "PROGRAM_btnProgramBudgetPicker_Id"
+  },
+  {
+    "name": "fundPicker",
+    "type": "xpath",
+    "value": "//div[@id='pickerContainer']"
+  },
+  {
+    "name": "fundPickerId",
+    "type": "id",
+    "value": "pickerContainer"
+  },
+  {
+    "name": "totalProgramCost",
+    "type": "id",
+    "value": "PROGRAM_ProjectCost_Id"
+  },
+  {
+    "name": "programForecastDetailsTab",
+    "type": "xpath",
+    "value": "//a[@title = 'Forecast Details']"
+  },
+  {
+    "name": "forecastCPHeader",
+    "type": "xpath",
+    "value": "//div[@class='ui-widget-header ui-grid-head']"
+  },
+  {
+    "name": "dataTableProgramForecast",
+    "type": "xpath",
+    "value": "//div[@class='ui-widget-content ui-grid-body']"
+  },
+  {
+    "name": "frozenDataTableProgramForecast",
+    "type": "xpath",
+    "value": "//div[@class='ui-widget-content ui-body-frozen-div']"
+  },
+  {
+    "name": "contingencyProgramTypeLabel",
+    "type": "xpath",
+    "value": "//label[contains(text(),'Contingency')]/../input[contains(@id,'PROGRAM_ProgramType')]/../label"
+  },
+  {
+    "name": "programDetailsShowSummaryButton",
+    "type": "xpath",
+    "value": "//input[@value='Show Summary']"
+  },
+  {
+    "name": "addProgramsButton",
+    "type": "id",
+    "value": "C1_DGPlanningPrograms_ProgramPicker_btnShowPicker"
+  },
+  {
+    "name": "programPicker",
+    "type": "xpath",
+    "value": ".//div[@id='C1_DGPlanningPrograms_ProgramPicker_pickerContainer']"
+  },
+  {
+    "name": "programPickerId",
+    "type": "id",
+    "value": "C1_DGPlanningPrograms_ProgramPicker_pickerContainer"
+  },
+  {
+    "name": "minCostField",
+    "type": "id",
+    "value": "igtxtPROGRAM_SelectionMinCost_Id"
+  },
+  {
+    "name": "maxCostField",
+    "type": "id",
+    "value": "igtxtPROGRAM_SelectionMaxCost_Id"
+  },
+  {
+    "name": "retrieveProjectsButton",
+    "type": "id",
+    "value": "PROGRAM_btnRetrieveProjects_Id"
+  },
+  {
+    "name": "programNameLabel",
+    "type": "xpath",
+    "value": "//table[@formdesignername='Title']//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "programYearLabel",
+    "type": "xpath",
+    "value": "//select[@id='PROGRAM_ProgramYear_Id']/ancestor::tr//span[contains(text(),'Program Year')]"
+  },
+  {
+    "name": "minCostEnteredValue",
+    "type": "id",
+    "value": "PROGRAM_SelectionMinCost_Id"
+  },
+  {
+    "name": "maxCostEnteredValue",
+    "type": "id",
+    "value": "PROGRAM_SelectionMaxCost_Id"
+  },
+  {
+    "name": "regularProgramTypeLabel",
+    "type": "xpath",
+    "value": "//label[contains(text(),'Regular')]/../input[contains(@id,'PROGRAM_ProgramType')]/../label"
+  },
+  {
+    "name": "totalProgramCostViewMode",
+    "type": "id",
+    "value": "igtxtPROGRAM_ProjectCost_Id"
+  },
+  {
+    "name": "programGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_DGPlanningPrograms_id_GridHeader"
+  },
+  {
+    "name": "programBudgetGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_ProgramBudgetDistributionDetails_id_GridHeader"
+  },
+  {
+    "name": "programBudgetGrid",
+    "type": "id",
+    "value": "ctl00_C1_PROGRAM_ProgramBudgetDistributionDetails_id"
+  },
+  {
+    "name": "pickerHeader",
+    "type": "xpath",
+    "value": "//div[@class = 'k-grid-header-wrap k-auto-scrollable']//table/thead//tr"
+  },
+  {
+    "name": "programCode",
+    "type":"id",
+    "value": "PROGRAM_ProgramCode_Id"
+  },
+  {
+    "name": "programType",
+    "type": "id",
+    "value": "PROGRAM_ProgramType_Id_Text"
+  },
+  {
+    "name": "programTypes",
+    "type": "id",
+    "value": "PROGRAM_ProgramType_Id"
+  },
+  {
+    "name": "downloadAttachment",
+    "type": "xpath",
+    "value": "//input[contains(@id,'btnDownload')]"
+  },
+  {
+    "name": "uploadDocument",
+    "type": "xpath",
+    "value": "//div[@class='k-dropzone' and not(contains(@style,'display: none;'))]/descendant::input[contains(@id,'UploadFileControl')]"
+  },
+  {
+    "name": "attachmentsGrid",
+    "type": "xpath",
+    "value": "//div[contains(@id,'_gridAttachment') and not(contains(@class,'rgDataDiv')) and not(contains(@class,'rgHeaderDiv'))]"
+  },
+  {
+    "name": "attachmentsGridHeader",
+    "type": "xpath",
+    "value": "//div[contains(@id,'gridAttachment_GridHeader') and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "attachmentsGridData",
+    "type": "xpath",
+    "value": "//div[contains(@id,'_gridAttachment_GridData') and contains(@class,'rgDataDiv') and not(contains(@id,'WF'))]"
+  },
+  {
+    "name": "defaultFiscalYearLabel",
+    "type": "xpath",
+    "value": "//span[.='Default Fiscal Year']"
+  },
+  {
+    "name": "defaultFiscalYearSelectInProgram",
+    "type": "id",
+    "value": "PROGRAM_DefaultFiscalYear_Id"
+  },
+  {
+    "name": "remainingBudget",
+    "type": "id",
+    "value": "igtxtPROGRAM_Remaining_Id"
+  },
+  {
+    "name": "clearProgramBudgetGrid",
+    "type": "id",
+    "value": "PROGRAM_btnClearProgramBudget_Id"
+  },
+  {
+    "name": "attachmentGridHeaderDetails",
+    "type": "id",
+    "value": "gridAttachment_GridHeader"
+  },
+  {
+    "name": "plannedProjectGirdTotal",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_PROGRAM_DGPlanningProjects_id_GridFooter']//tr[@class='rgFooter']//td[not (@style = 'display:none;')]"
+  },
+  {
+    "name": "programDetailsTab",
+    "type": "xpath",
+    "value": "//a[@title = 'Program Details']"
+  },
+  {
+    "name": "fiscalYearSelected",
+    "type": "xpath",
+    "value": "//select[@id='PROGRAM_DefaultFiscalYear_Id']//option[@selected]"
+  }
+]

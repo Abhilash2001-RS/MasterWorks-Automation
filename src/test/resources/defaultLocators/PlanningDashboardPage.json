@@ -1,0 +1,92 @@
+[
+  {
+    "name": "planningDashboardTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Planning Dashboard')]"
+  },
+  {
+    "name": "reportViewerCheckBox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'C1_DBControl_CatalogZone1')]"
+  },
+  {
+    "name": "catalogZone",
+    "type": "xpath",
+    "value": "//table[contains(@id,'C1_DBControl_CatalogZone1')]"
+  },
+  {
+    "name": "addButton",
+    "type": "xpath",
+    "value": "//input[@type='button' and @value ='Add']"
+  },
+  {
+    "name": "webCatalog",
+    "type": "id",
+    "value": "C1_DBControl_ZoneTable"
+  },
+  {
+    "name": "editWidget",
+    "type": "xpath",
+    "value": "//a[contains(@title,\"Edits 'Report Viewer'\" )]"
+  },
+  {
+    "name": "editorZoneWidget",
+    "type": "xpath",
+    "value": "//table[contains(@id,'C1_DBControl_EditorZone1')]"
+  },
+  {
+    "name": "applyButtonWidgets",
+    "type": "xpath",
+    "value": "//input[contains(@type,'button') and contains(@value,'Apply')]"
+  },
+  {
+    "name": "masterProgramPlanSummaryByProgramCategoryDashboardDropDown",
+    "type": "xpath",
+    "value": "//select[contains(@id,'ddValue')]"
+  },
+  {
+    "name": "viewReportPlanSummaryByProgramCategoryDashboard",
+    "type": "xpath",
+    "value": "//input[@value = 'View Report']/.."
+  },
+  {
+    "name": "programYearProjectApprovalFundDashboardDropDown",
+    "type": "xpath",
+    "value": "//input[contains(@id,'txtValue')]"
+  },
+  {
+    "name": "programYearProjectApprovalFundDashboardDropDownButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'DropDownButton')]"
+  },
+  {
+    "name": "programYearSelectionProjectApprovalFundDashboardDropDown",
+    "type": "xpath",
+    "value": "//div[contains(@id,'divDropDown')]//table"
+  },
+  {
+    "name": "programCategoryInPlanSummaryByProgramCategoryDashboardDataChart",
+    "type": "xpath",
+    "value": "//div[contains(text(),'Program Category')]"
+  },
+  {
+    "name": "estimatedValueInPlanSummaryByProgramCategoryDashboardDataChart",
+    "type": "xpath",
+    "value": "//div[contains(text(),'Estimated Value(in $)')]"
+  },
+  {
+    "name": "numberOfProjectsInPlanSummaryByProgramCategoryDashboardDataChart",
+    "type": "xpath",
+    "value": "//div[contains(text(),'No Of Projects')]"
+  },
+  {
+    "name": "dashboardWidgetEditorTextBox",
+    "type": "xpath",
+    "value": "//input[contains(@id,'ReportSelector_SelectedReport')]"
+  },
+  {
+    "name": "reportViewerTitle",
+    "type": "id",
+    "value": "C1_DBControl_imgUserBasedDashboard"
+  }
+]

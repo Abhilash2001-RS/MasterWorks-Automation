@@ -1,0 +1,42 @@
+[
+  {
+    "name": "budgetEstimateRevisionItems",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Budget Estimate Revision Items')]"
+  },
+  {
+    "name": "containerNameTextBox",
+    "type": "id",
+    "value": "C1_txtName"
+  },
+  {
+    "name": "applyInflationRulePicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'aspPnlInflation')]"
+  },
+  {
+    "name": "applyInflationRuleButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'pickerInflationItem_btnShowPicker')]"
+  },
+  {
+    "name": "inflationPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'pickerInflationItem_pickerContainer')]"
+  },
+  {
+    "name": "saveInflation",
+    "type": "id",
+    "value": "ctl09_btnSave"
+  },
+  {
+    "name": "checkAllItems",
+    "type": "id",
+    "value": "chk_checkAllItem"
+  },
+  {
+    "name": "ChangeInQuantityNonEditable",
+    "type": "xpath",
+    "value": "//input[@id='igtxtC1_wneQuantity'][@readonly='true']"
+  }
+]

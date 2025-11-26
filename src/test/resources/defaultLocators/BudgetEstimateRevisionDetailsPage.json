@@ -1,0 +1,12 @@
+[
+  {
+    "name": "budgetEstimateRevNameTxtBox",
+    "type": "id",
+    "value": "BDGTREV_BudgetEstimateRevName_Id"
+  },
+  {
+    "name": "standardItemListDropDown",
+    "type": "id",
+    "value": "BDGTREV_StandardItemList_Id"
+  }
+]

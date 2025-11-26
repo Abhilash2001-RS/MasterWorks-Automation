@@ -1,0 +1,87 @@
+[
+  {
+    "name": "fromLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'From')]"
+  },
+  {
+    "name": "toLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'To')]"
+  },
+  {
+    "name": "startMonthLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Start Month')]"
+  },
+  {
+    "name": "endMonthLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'End Month')]"
+  },
+  {
+    "name": "durationInYearsLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Duration (in years)')]"
+  },
+  {
+    "name": "enterpriseScoreWeightageLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Enterprise Score Weightage')]"
+  },
+  {
+    "name": "minimumQualifyPercentageLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Minimum Qualify Percentage')]"
+  },
+  {
+    "name": "projectScoreWeightageLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Score Weightage')]"
+  },
+  {
+    "name": "unifiedSOQConfigurationLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Unified SOQ Configuration')]"
+  },
+  {
+    "name": "fromTextBox",
+    "type": "id",
+    "value": "igtxtVNDSOQC_From_Id"
+  },
+  {
+    "name": "toTextBox",
+    "type": "id",
+    "value": "igtxtVNDSOQC_To_Id"
+  },
+  {
+    "name": "startMonthDropDown",
+    "type": "id",
+    "value": "VNDSOQC_StartMonth_Id"
+  },
+  {
+    "name": "durationInYearsTextBox",
+    "type": "id",
+    "value": "igtxtVNDSOQC_Duration_Id"
+  },
+  {
+    "name": "enterpriseScoreWeightageTextBox",
+    "type": "id",
+    "value": "igtxtVNDSOQC_EnterpriseScore_Id"
+  },
+  {
+    "name": "minimumQualifyPercentageTextBox",
+    "type": "id",
+    "value": "igtxtVNDSOQC_MinQualifyPercent_Id"
+  },
+  {
+    "name": "projectScoreWeightageTextBox",
+    "type": "id",
+    "value": "igtxtVNDSOQC_ProjectScore_Id"
+  },
+  {
+    "name": "unifiedSOQConfigurationCheckBox",
+    "type": "id",
+    "value": "VNDSOQC_UnifiedSOQ_Id"
+  }
+]

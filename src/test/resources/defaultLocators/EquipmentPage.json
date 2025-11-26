@@ -1,0 +1,48 @@
+[
+  {
+    "name": "titleLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Title')]"
+  },
+  {
+    "name": "unitLabel",
+    "type": "xpath",
+    "value": "//table[@formdesignername='SetUnit']//span[contains(text(),'Unit')]"
+  },
+  {
+    "name": "resourceIDField",
+    "type": "id",
+    "value": "LIBEQMT_ResItemID_Id"
+  },
+  {
+    "name": "titleField",
+    "type": "id",
+    "value": "LIBEQMT_Description_Id"
+  },
+  {
+    "name": "unitPicker",
+    "type": "id",
+    "value": "LIBEQMT_Unit_Id"
+  },
+  {
+    "name": "fixedPriceField",
+    "type": "id",
+    "value": "igtxtLIBEQMT_Rate_Id"
+  },
+  {
+    "name": "variablePriceField",
+    "type": "id",
+    "value": "igtxtLIBEQMT_VariablePrice_Id"
+  },
+  {
+    "name": "unitPickerGrid",
+    "type": "xpath",
+    "value": "//div[@id='C1_UnitTrigger_UnitPicker_pickerContainer']"
+  },
+  {
+    "name": "unitPickerButton",
+    "type": "id",
+    "value": "C1_UnitTrigger_UnitPicker_btnShowPicker"
+  }
+]
+

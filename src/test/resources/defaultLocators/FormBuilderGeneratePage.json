@@ -1,0 +1,7 @@
+[
+  {
+    "name": "dropDownData",
+    "type": "xpath",
+    "value": "//span[@class='rtIn']"
+  }
+]

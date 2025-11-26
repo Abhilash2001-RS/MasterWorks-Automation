@@ -1,0 +1,123 @@
+[
+  {
+    "name": "projectNeedsTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Needs')]"
+  },
+  {
+    "name": "titleTxtBox",
+    "type": "id",
+    "value": "PRJNEDS_Name_Id"
+  },
+  {
+    "name": "title",
+    "type": "xpath",
+    "value": "//input[contains(@name,'PRJNEDS_Name_Id') and contains(@type,'text')]"
+  },
+  {
+    "name": "typeDropDown",
+    "type": "xpath",
+    "value": "//select[contains(@name ,'PRJNEDS_Type_Id')] /option[@selected ='selected']"
+  },
+  {
+    "name": "typeComboBox",
+    "type": "id",
+    "value": "PRJNEDS_Type_Id"
+  },
+  {
+    "name": "businessUnit",
+    "type": "id",
+    "value": "PRJNEDS_BusinessUnit_Id_Text"
+  },
+  {
+    "name": "strategicGoals",
+    "type": "xpath",
+    "value": "//*[@id='PRJNEDS_StrategicGoals_Id_taglist']/li/span[@deselectable='on']/span"
+  },
+  {
+    "name": "expectedMonthOfCompletion",
+    "type": "xpath",
+    "value": "//select[contains(@name ,'$PRJNEDS_ExpectedCompletionMonth_Id')] /option[@selected ='selected']"
+  },
+  {
+    "name": "expectedYearOfCompletion",
+    "type": "xpath",
+    "value": "//select[contains(@name ,'$PRJNEDS_ExpectedCompletionYear_Id')] /option[@selected ='selected']"
+  },
+  {
+    "name": "estimatedCost",
+    "type": "id",
+    "value": "igtxtPRJNEDS_EstimatedCost_Id"
+  },
+  {
+    "name": "problemStatementAndJustificationTxtArea",
+    "type": "id",
+    "value": "PRJNEDS_AreaProblemStatement_Id"
+  },
+  {
+    "name": "selectNeedsPicker",
+    "type": "xpath",
+    "value": ".//div[@id='addNeeds_pickerContainer']"
+  },
+  {
+    "name": "idLabel",
+    "type": "xpath",
+    "value": "//table[@formdesignername='AutoIncrementID']//span[contains(text(),'ID')]"
+  },
+  {
+    "name": "titleLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Title')]"
+  },
+  {
+    "name": "typeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Type')]"
+  },
+  {
+    "name": "businessUnitLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Business Unit')]"
+  },
+  {
+    "name": "problemStatementAndJustificationLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Problem Statement and Justification')]"
+  },
+  {
+    "name": "addressLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Address')]"
+  },
+  {
+    "name": "expectedMonthOfCompletionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Expected Completion Month and Year')]"
+  },
+  {
+    "name": "programYearLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Program Year')]"
+  },
+  {
+    "name": "strategicGoalsLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Strategic Goals')]"
+  },
+  {
+    "name": "estimatedCostLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Estimated Cost')]"
+  },
+  {
+    "name": "idLink",
+    "type": "xpath",
+    "value": "//span[contains(text(),'ID')]/.."
+  },
+  {
+    "name": "addNeedsCancelButton",
+    "type": "id",
+    "value": "addNeeds_btnCancel"
+  }
+
+]

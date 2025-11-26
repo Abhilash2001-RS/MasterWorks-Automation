@@ -1,0 +1,57 @@
+[
+  {
+    "name": "areaLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Area')]"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "measurementSystemLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Measurement System')]"
+  },
+  {
+    "name": "unitLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Unit')]"
+  },
+  {
+    "name": "fieldTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Field Type')]"
+  },
+  {
+    "name": "libraryManagementDashBoard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  },
+  {
+    "name": "areaTextBox",
+    "type": "id",
+    "value": "IMPCTAR_Area_Id"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "IMPCTAR_Description_Id"
+  },
+  {
+    "name": "measurementSystemDropDown",
+    "type": "id",
+    "value": "IMPCTAR_MeasurementSystem_Id"
+  },
+  {
+    "name": "unitDropDown",
+    "type": "id",
+    "value": "IMPCTAR_Unit_Id"
+  },
+  {
+    "name": "fieldTypeDropDown",
+    "type": "id",
+    "value": "IMPCTAR_FieldType_Id"
+  }
+]

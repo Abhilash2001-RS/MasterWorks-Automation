@@ -1,0 +1,87 @@
+[
+  {
+    "name": "listPageDataTablePosting",
+    "type": "id",
+    "value": "C1xucItemPostingxgridPostings_div"
+  },
+  {
+    "name": "listPageDataTablePostingGrid",
+    "type": "xpath",
+    "value": ".//table[@id='ctl00_C1_ucItemPosting_MWDataGrid_ctl00']"
+  },
+  {
+    "name": "itemPostingGrid",
+    "type": "xpath",
+    "value": ".//table[@id='ctl00_C1_ucItemPosting_MWDataGrid_ctl00']//tbody//tr"
+  },
+  {
+    "name": "postedQuantity",
+    "type": "id",
+    "value": "ctl00_C1_ucItemPosting_MWDataGrid_ctl00_C1_ucItemPosting_MWDataGrid_ctl00_PostedQty_RNTB_PostedQty"
+  },
+  {
+    "name": "itemPostingDashBoard",
+    "type": "partialLinkText",
+    "value": "Item Posting"
+  },
+  {
+    "name": "addContractItems",
+    "type": "id",
+    "value": "C1_ItemGrid_ItemPicker_btnShowPicker"
+  },
+  {
+    "name": "selectAllContractItems",
+    "type": "xpath",
+    "value": "//div[@id='C1_ItemGrid_ItemPicker_pickerGrid']//th/input"
+  },
+  {
+    "name": "selectButtonInAddContractItemsPicker",
+    "type": "id",
+    "value": "C1_ItemGrid_ItemPicker_btnSelect"
+  },
+  {
+    "name": "isCompleteCheckbox",
+    "type": "xpath",
+    "value": "//div[not(@style)]/span[@data-control-name='IsCompleteCheck']/input"
+  },
+  {
+    "name": "inspectorDropdown",
+    "type": "id",
+    "value": "ITMPOST_SiteSupervisorID_Id"
+  },
+  {
+    "name": "inspectorText",
+    "type": "id",
+    "value": "ITMPOST_SiteSupervisorID_Id_Text"
+  },
+  {
+    "name": "reportTitle",
+    "type": "xpath",
+    "value": "//tr/td//div[contains(text(),'Item Posting')]"
+  },
+  {
+    "name": "itemPostingIdView",
+    "type": "xpath",
+    "value": "//div[@id='ITMPOST_ItemPostID_Id']/span"
+  },
+  {
+    "name": "itemPostedRadGridId",
+    "type": "id",
+    "value": "ctl00_C1_ITMPOST_ItemGrid_id"
+  },
+  {
+    "name": "itemPostedRadGridDataId",
+    "type": "id",
+    "value": "ctl00_C1_ITMPOST_ItemGrid_id_GridData"
+  },
+  {
+    "name": "itemPostedGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_ITMPOST_ItemGrid_id_GridHeader"
+  },
+  {
+    "name": "itemPostingTab",
+    "type": "xpath",
+    "value": ".//*[@id='PageTabs_tabBar']//a[text()='Item Posting']"
+  }
+]

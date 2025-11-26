@@ -1,0 +1,107 @@
+[
+  {
+    "name": "contractorPicker",
+    "type": "xpath",
+    "value": "//div[@id='contractorPickerGrid_pickerContainer']"
+  },
+  {
+    "name": "uneditableUnitPrice",
+    "type": "xpath",
+    "value": "//td[@style='background-color:White;']"
+  },
+  {
+    "name": "bidItemTab",
+    "type": "xpath",
+    "value": "//a[text()='Bid Items']"
+  },
+  {
+    "name": "bidInformationTab",
+    "type": "xpath",
+    "value": "//a[text()='Bid Information']"
+  },
+  {
+    "name": "bidderInformationTab",
+    "type": "xpath",
+    "value": "//a[text()='Bidder Information']"
+  },
+  {
+    "name": "bidItemsTabRadGrid",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_gridBidItems')]"
+  },
+  {
+    "name": "bidInformationTabProjectCode",
+    "type": "id",
+    "value": "C1_lblProjectCode"
+  },
+  {
+    "name": "bidInformationTabProjectName",
+    "type": "id",
+    "value": "C1_lblProjectName"
+  },
+  {
+    "name": "bidInformationTabBidLettingID",
+    "type": "id",
+    "value": "C1_lblBidLettingID"
+  },
+  {
+    "name": "bidInformationTabBidDescription",
+    "type": "id",
+    "value": "C1_lblBidDescription"
+  },
+  {
+    "name": "bidInformationTabBidIssueDate",
+    "type": "id",
+    "value": "C1_lblBidIssueDate"
+  },
+  {
+    "name": "bidInformationTabPreBidMeetingDate",
+    "type": "id",
+    "value": "C1_lblPreBidMeetingDate"
+  },
+  {
+    "name": "bidInformationTabOpenDate",
+    "type": "id",
+    "value": "C1_lblBidOpeningDateTime"
+  },
+  {
+    "name": "bidInformationTabBidDueTime",
+    "type": "id",
+    "value": "C1_lblBidDueTime"
+  },
+  {
+    "name": "bidInformationTabAdvertisementDate",
+    "type": "id",
+    "value": "C1_lblAdvertisementDate"
+  },
+  {
+    "name": "cancelPicker",
+    "type": "id",
+    "value": "contractorPickerGrid_btnCancel"
+  },
+  {
+    "name": "contractorNameBidderInformation",
+    "type": "id",
+    "value": "C1_txtContName"
+  },
+  {
+    "name": "remarksBidderInformation",
+    "type": "id",
+    "value": "C1_txtRemarks"
+  },
+  {
+    "name": "grandTotal",
+    "type": "id",
+    "value": "C1_lblGrandTotal"
+  },
+  {
+    "name": "itemsGrid",
+    "type": "id",
+    "value": "ctl00_C1_gridBidItems"
+  },
+  {
+    "name": "chooseFile",
+    "type": "id",
+    "value": "C1_fluUpload"
+  }
+]

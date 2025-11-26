@@ -1,0 +1,177 @@
+[
+  {
+    "name": "idLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'RFI ID')]"
+  },
+  {
+    "name": "createdByLabel",
+    "type": "xpath",
+    "value": "//tr[not(@style = 'display:none;')]/td/table//span[contains(text(),'Created By')]"
+  },
+  {
+    "name": "identifiedDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Identified Date')]"
+  },
+  {
+    "name": "contractLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contract')]"
+  },
+  {
+    "name": "projectCodeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Code')]"
+  },
+  {
+    "name": "projectNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Name')]"
+  },
+  {
+    "name": "respondByLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Respond By')]"
+  },
+  {
+    "name": "reasonLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Reason')]"
+  },
+  {
+    "name": "requestForInformationLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Request for Information')]"
+  },
+  {
+    "name": "subjectLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Subject')]"
+  },
+  {
+    "name": "priorityLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Priority')]"
+  },
+  {
+    "name": "questionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Question/Clarifications Required')]"
+  },
+  {
+    "name": "impactToScopeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Impact to Scope')]"
+  },
+  {
+    "name": "impactToCostLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Impact to Cost')]"
+  },
+  {
+    "name": "impactToScheduleLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Impact to Schedule')]"
+  },
+  {
+    "name": "rfiTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Request for Information')]"
+  },
+  {
+    "name": "subjectTextBox",
+    "type": "id",
+    "value": "RFINFRM_Subject_Id"
+  },
+  {
+    "name": "questionTextBox",
+    "type": "id",
+    "value": "RFINFRM_Question_Id"
+  },
+  {
+    "name": "contractDropdown",
+    "type": "id",
+    "value": "C1_div_RFINFRM_Contract_Id"
+  },
+  {
+    "name": "contractListRow",
+    "type": "xpath",
+    "value": ".//div[contains(@id,'RFINFRM_Contract_Id-list') and contains(@style,'block')]//li"
+  },
+  {
+    "name": "contractListTable",
+    "type": "xpath",
+    "value": ".//*[@id = 'RFINFRM_Contract_Id_listbox']//table"
+  },
+  {
+    "name": "contractMultiLineDropdownSelect",
+    "type": "id",
+    "value": "RFINFRM_Contract_Id"
+  },
+  {
+    "name": "contractSelectedTag",
+    "type": "xpath",
+    "value": "//*[@id = 'RFINFRM_Contract_Id_taglist']//*[@class = 'MultiSelectDropdown-selected-value']"
+  },
+  {
+    "name": "reasonDropdown",
+    "type": "id",
+    "value": "RFINFRM_RFIReason_Id"
+  },
+  {
+    "name": "priorityDropdown",
+    "type": "id",
+    "value": "RFINFRM_Priority_Id"
+  },
+  {
+    "name": "impactToScopeDropdown",
+    "type": "id",
+    "value": "RFINFRM_ImpactToScope_Id"
+  },
+  {
+    "name": "impactToCostDropdown",
+    "type": "id",
+    "value": "RFINFRM_ImpactToCost_Id"
+  },
+  {
+    "name": "impactToScheduleDropdown",
+    "type": "id",
+    "value": "RFINFRM_ImpactToSchedule_Id"
+  },
+  {
+    "name": "estimatedImpact",
+    "type": "id",
+    "value": "igtxtRFINFRM_EstimatedImpactOnCost_Id"
+  },
+  {
+    "name": "estimatedImpactOnSchedule",
+    "type": "id",
+    "value": "RFINFRM_EstimatedImpactOnSchedule_Id"
+  },
+  {
+    "name": "contractPickerLoader",
+    "type": "xpath",
+    "value": ".//*[@id='C1_div_RFINFRM_Contract_Id']//span[contains(@class,'k-i-loading')]"
+  },
+  {
+    "name": "rfiIdTextBox",
+    "type": "id",
+    "value": "RFIFORM_RFIID_Id"
+  },
+  {
+    "name": "rfiTitleTxtBox",
+    "type": "id",
+    "value": "RFIFORM_Title_Id"
+  },
+  {
+    "name": "rfiItemDropdown",
+    "type": "id",
+    "value": "RFIFORM_Item_Id"
+  },
+  {
+    "name": "rfiIdText",
+    "type": "id",
+    "value": "RFIFORM_RFIID_Id_Text"
+  }
+]

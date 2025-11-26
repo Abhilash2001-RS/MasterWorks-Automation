@@ -1,0 +1,77 @@
+[
+  {
+    "name": "masterProgramUpdateProjectDatesRadioButton",
+    "type": "xpath",
+    "value": "//label[@for='PGMCYCL_UpdateProjectDate_Id_0']"
+  },
+  {
+    "name": "programLevelText",
+    "type": "xpath",
+    "value": "//span[text()='Program Level']"
+  },
+  {
+    "name": "programLevelDropDownId",
+    "type": "id",
+    "value": "PGMCYCL_ProgramLevel_Id"
+  },
+  {
+    "name": "forecastDistribution",
+    "type": "xpath",
+    "value": "//select[@id='PGMCYCL_DistributionType_Id']"
+  },
+  {
+    "name": "updateProjectDates",
+    "type": "xpath",
+    "value": "//tr[@data-radiobuttonlist-container='true']//td[@data-mw-redesign='true']"
+  },
+  {
+    "name": "fiscalStart",
+    "type": "xpath",
+    "value": "//th[@data-column-control-type='DDLDisplayControl']//a[@title='Click here to sort by Fiscal Start']"
+  },
+  {
+    "name": "fiscalEnd",
+    "type": "xpath",
+    "value": "//th[@data-column-control-type='Display']//a[@title='Click here to sort by Fiscal End']"
+  },
+  {
+    "name": "programDuration",
+    "type": "xpath",
+    "value": "//th[@data-column-control-type='DDLDisplayControl']//a[@title='Click here to sort by Program Duration (Yearly)']"
+  },
+  {
+    "name": "programCycleConfigurationsGrid",
+    "type": "id",
+    "value": "ctl00_C1_PGMCYCL_ProgramFiscalConfigurations_id"
+  },
+  {
+    "name": "programCycleConfigurationsGridData",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_PGMCYCL_ProgramFiscalConfigurations_id_GridData']//tbody/tr[not(contains(@style, 'display:none;'))]"
+  },
+  {
+    "name": "addFiscalYearButton",
+    "type": "xpath",
+    "value": "//div[@id='ProgramFiscalConfigurations_EditTemplate']/following-sibling::table//input[@value='Add']"
+  },
+  {
+    "name": "fiscalYearName",
+    "type": "id",
+    "value": "ProgramFiscalConfigurations_FYProgramCycleName_Id"
+  },
+  {
+    "name": "fiscalYearStartMonthField",
+    "type": "id",
+    "value": "ProgramFiscalConfigurations_FYStartMonth_Id"
+  },
+  {
+    "name": "programYearDuration",
+    "type": "id",
+    "value": "ProgramFiscalConfigurations_FYProgramDuration_Id"
+  },
+  {
+    "name": "saveButtonInPopUp",
+    "type": "xpath",
+    "value": "//input[@value='Save']"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "userAccountsTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'User Accounts')]"
+  },
+  {
+    "name": "administrationTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Administration')]"
+  },
+  {
+    "name": "selectUserListBox",
+    "type": "id",
+    "value": "C1_leftlist"
+  },
+  {
+    "name": "addARoleButton",
+    "type": "id",
+    "value": "C1_Addbutton"
+  },
+  {
+    "name": "removeARole",
+    "type": "id",
+    "value": "C1_Removebutton"
+  },
+  {
+    "name": "associatedRolesTable",
+    "type": "id",
+    "value": "C1_rightlist"
+  },
+  {
+    "name": "saveButtonInImport",
+    "type": "id",
+    "value": "C1_btnSave1"
+  },
+  {
+    "name": "changePasswordLink",
+    "type": "id",
+    "value": "C1_lnkChangePassword"
+  },
+  {
+    "name": "currentPasswordTextBox",
+    "type": "id",
+    "value": "C1_txtCurrentPwd"
+  },
+  {
+    "name": "newPasswordTextBox",
+    "type": "id",
+    "value": "C1_txtNewPwd"
+  },
+  {
+    "name": "confirmNewPasswordTextBox",
+    "type": "id",
+    "value": "C1_txtConfNewPwd"
+  },
+  {
+    "name": "changePasswordError",
+    "type": "id",
+    "value": "C1_msg"
+  },
+  {
+    "name": "userEmailId",
+    "type": "id",
+    "value": "C1_dlblEmailID"
+  },
+  {
+    "name": "userDetailsReport",
+    "type": "xpath",
+    "value": "//span[normalize-space()='User Details Report']"
+  },
+  {
+    "name": "userAccessDetailsReport",
+    "type": "xpath",
+    "value": "//span[normalize-space()='User Access Details Report']"
+  },
+  {
+    "name": "weeklyAccessSummary",
+    "type": "xpath",
+    "value": "//span[normalize-space()='Weekly Access Summary']"
+  },
+  {
+    "name": "loginLogs",
+    "type": "xpath",
+    "value": "//a[@id='lnkUSRLOG']"
+  },
+  {
+    "name": "userAccountLogs",
+    "type": "xpath",
+    "value": "//span[contains(text(),'User Account – Logs')]"
+  },
+  {
+    "name": "userDetailsReportHeader",
+    "type": "xpath",
+    "value": "//div[contains(text(),'USER DETAILS')]"
+  },
+  {
+    "name": "weeklyAccessSummaryHeader",
+    "type": "xpath",
+    "value": "//div[contains(text(),'WEEKLY ACCESS SUMMARY REPORT')]"
+  },
+  {
+    "name": "loginLogsHeader",
+    "type": "xpath",
+    "value": "//div[contains(text(),'LOGIN - LOGS')]"
+  },
+  {
+    "name": "userAccountLogsHeader",
+    "type": "xpath",
+    "value": "//div[contains(text(),'USER ACCOUNT LOGS')]"
+  },
+  {
+    "name": "userAccountLogsActionOption",
+    "type": "xpath",
+    "value": "//input[@id='ctl00_C1_rptvwrReport_ctl04_ctl07_ddDropDownButton']"
+  },
+  {
+    "name": "userAccountLogsSelectOption",
+    "type": "xpath",
+    "value": "//label[normalize-space()='(Select All)']"
+  },
+  {
+    "name": "viewProfileFrame",
+    "type": "id",
+    "value": "viewProfile"
+  },
+  {
+    "name": "userDetailsCloseButton",
+    "type": "id",
+    "value": "close-icon"
+  }
+]

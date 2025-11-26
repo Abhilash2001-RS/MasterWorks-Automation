@@ -1,0 +1,17 @@
+[
+  {
+    "name": "contractTypeField",
+    "type": "id",
+    "value": "CONTYPE_TypeOfContract_Id"
+  },
+  {
+    "name": "contractTypeView",
+    "type": "id",
+    "value": "CONTYPE_TypeOfContract_Id_Text"
+  },
+  {
+    "name": "contractTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contract Type')]"
+  }
+]

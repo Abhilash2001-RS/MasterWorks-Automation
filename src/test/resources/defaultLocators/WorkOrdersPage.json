@@ -1,0 +1,357 @@
+[
+  {
+    "name": "libraryDashboardTab",
+    "type": "partialLinkText",
+    "value": "Work Orders and Contracts"
+  },
+  {
+    "name": "startDateTextBox",
+    "type": "id",
+    "value": "MCNWORD_StartDate_Id_input"
+  },
+  {
+    "name": "startDateTextInView",
+    "type": "id",
+    "value": "MCNWORD_StartDate_Id_Text"
+  },
+  {
+    "name": "endDateTextBox",
+    "type": "id",
+    "value": "MCNWORD_EndDate_Id_input"
+  },
+  {
+    "name": "titleTextBox",
+    "type": "id",
+    "value": "MCNWORD_WorkOrderName_Id"
+  },
+  {
+    "name": "workOrderItemsTab",
+    "type": "xpath",
+    "value": ".//*[@id='PageTabs_tabBar']//a[text()='Work Order Items']"
+  },
+  {
+    "name": "workOrderDetailsTab",
+    "type": "xpath",
+    "value": ".//*[@id='PageTabs_tabBar']//a[text()='Work Order Details']"
+  },
+  {
+    "name": "masterContractManagerPickerButton",
+    "type": "id",
+    "value": "C1_ManagerTrigger_ManagerPicker_btnShowPicker"
+  },
+  {
+    "name": "masterContractManagerPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_ManagerTrigger_ManagerPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "masterContractCodePickerButton",
+    "type": "id",
+    "value": "C1_MasterContractTrigger_MasterContractPicker_btnShowPicker"
+  },
+  {
+    "name": "masterContractCodePicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_MasterContractTrigger_MasterContractPicker_pickerContainer')]"
+  },
+  {
+    "name": "projectAddPickerButton",
+    "type": "id",
+    "value": "C1_grdProjects_ProjectPicker_btnShowPicker"
+  },
+  {
+    "name": "selectProjectPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'C1_grdProjects_ProjectPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "selectUserItemPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'addMultiple_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "tableHeaders",
+    "type": "xpath",
+    "value": ".//div[@class='headerDiv']"
+  },
+  {
+    "name": "itemRow",
+    "type": "xpath",
+    "value": "//*[@id = 'dataTable']//tr[contains(@id,'ITR')]"
+  },
+  {
+    "name": "expandDefaultItems",
+    "type": "xpath",
+    "value": "//*[@id = 'dataTable']//img[contains(@id,'image')]"
+  },
+  {
+    "name": "newPriceList",
+    "type": "xpath",
+    "value": "//span[contains(text(),'New Price List Item')]"
+  },
+  {
+    "name": "projectDropDown",
+    "type": "id",
+    "value": "C1_ddlProject"
+  },
+  {
+    "name": "quantityText",
+    "type": "id",
+    "value": "igtxtC1_wneQuantity"
+  },
+  {
+    "name": "projectsDataGrid",
+    "type": "id",
+    "value": "ctl00_C1_MCNWORD_grdProjects_id_GridData"
+  },
+  {
+    "name": "payItemNumPicker",
+    "type": "xpath",
+    "value": "//*[contains(@id,'stdItemNumber_btnShowPicker')]"
+  },
+  {
+    "name": "payItemNumPickerPopUp",
+    "type": "xpath",
+    "value": "//*[contains(@id,'stdItemNumber_pickerContainer') and not(contains(@style,'none'))]"
+  },
+  {
+    "name": "payItemDescription",
+    "type": "xpath",
+    "value": "//*[@id='C1_txtItemDesc']"
+  },
+  {
+    "name": "unitSelect",
+    "type": "xpath",
+    "value": "//*[@id='C1_ddlUnit']"
+  },
+  {
+    "name": "projectSelect",
+    "type": "xpath",
+    "value": "//*[@id='C1_ddlProject']"
+  },
+  {
+    "name": "quantityTextField",
+    "type": "xpath",
+    "value": "//*[@id='igtxtC1_wneQuantity']"
+  },
+  {
+    "name": "unitCostField",
+    "type": "id",
+    "value": "igtxtC1_wneUnitCost"
+  },
+  {
+    "name": "workOrderValueIn$",
+    "type": "id",
+    "value": "MCNWORD_WorkOrderValue_Id_Text"
+  },
+  {
+    "name": "endDateInView",
+    "type": "id",
+    "value": "MCNWORD_EndDate_Id_Text"
+  },
+  {
+    "name": "workOrderValueIn$InView",
+    "type": "xpath",
+    "value": "//*[@id='igtxtMCNWORD_WorkOrderValue_Id']"
+  },
+  {
+    "name": "payItemNumberTextField",
+    "type": "xpath",
+    "value": "//input[contains(@id,'selectedText')]"
+  },
+  {
+    "name": "totalAmountField",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Total Amount')]"
+  },
+  {
+    "name": "workFlowAssociationPopUp",
+    "type": "id",
+    "value": "C2_appWorkflowAssociation_aspPnlWF"
+  },
+  {
+    "name": "forecastWorkFlowXpath",
+    "type": "xpath",
+    "value": ".//span[text()='Forecast Workflow']"
+  },
+  {
+    "name": "addMultiple",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Add Multiple')]"
+  },
+  {
+    "name": "addMultiplePicker",
+    "type": "xpath",
+    "value": "//div[@id='addMultiple_pickerContainer']"
+  },
+  {
+    "name": "measurementSystemTextField",
+    "type": "id",
+    "value": "MCNWORD_MeasurementSystemName_Id"
+  },
+  {
+    "name": "masterContractNameField",
+    "type": "id",
+    "value": "MCNWORD_MasterContractName_Id"
+  },
+  {
+    "name": "awardConsultantField",
+    "type": "id",
+    "value": "MCNWORD_AwardedConsultant_Id"
+  },
+  {
+    "name": "workOrderNumberField",
+    "type": "id",
+    "value": "MCNWORD_WorkOrderNo_Id"
+  },
+  {
+    "name": "workOrderRequestField",
+    "type": "id",
+    "value": "MCNWORD_WorkOrderRequisitionRef_Id"
+  },
+  {
+    "name": "workOrderDescriptionField",
+    "type": "id",
+    "value": "MCNWORD_Description_Id"
+  },
+  {
+    "name": "workOrderCreatedByField",
+    "type": "id",
+    "value": "MCNWORD_CreatedBy_Id"
+  },
+  {
+    "name": "workOrderCreatedOnField",
+    "type": "id",
+    "value": "MCNWORD_CreatedOn_Id"
+  },
+  {
+    "name": "workOrderAttachmentGrid",
+    "type": "xpath",
+    "value": "//table[contains(@id,'tblAttachments')]"
+  },
+  {
+    "name": "workOrderBudgetItemField",
+    "type": "id",
+    "value": "C1_txtBudgetItem"
+  },
+  {
+    "name": "workOrderFundRuleField",
+    "type": "id",
+    "value": "C1_ddlFundRule"
+  },
+  {
+    "name": "masterContractCodeLabel",
+    "type": "xpath",
+    "value": "//span[.='Master Contract Code']"
+  },
+  {
+    "name": "workOrderManagerLabel",
+    "type": "xpath",
+    "value": "//span[.='Work Order Manager']"
+  },
+  {
+    "name": "startDateLabel",
+    "type": "xpath",
+    "value": "//span[.='Start Date']"
+  },
+  {
+    "name": "titleLabel",
+    "type": "xpath",
+    "value": "//span[.='Title']"
+  },
+  {
+    "name": "endDateLabel",
+    "type": "xpath",
+    "value": "//span[.='End Date']"
+  },
+  {
+    "name": "totalAmountXpath",
+    "type": "xpath",
+    "value": "//div[@id='GridSummary']//span"
+  },
+  {
+    "name": "detailsReportTitle",
+    "type": "xpath",
+    "value": "//div[text()='WORK ORDERS - DETAILS REPORT']"
+  },
+  {
+    "name": "listPageReportTitle",
+    "type": "xpath",
+    "value": "//div[text()='WORK ORDERS - LIST REPORT']"
+  },
+  {
+    "name": "detailsReportRevisionTitle",
+    "type": "xpath",
+    "value": "//div[text()='WORK ORDER REVISION - DETAILS REPORT']"
+  },
+  {
+    "name": "listPageReportRevisionTitle",
+    "type": "xpath",
+    "value": "//div[text()='WORK ORDER REVISION - LIST REPORT']"
+  },
+  {
+    "name": "reportPagePrintButton",
+    "type": "xpath",
+    "value": "//img[@title='Print Report']"
+  },
+  {
+    "name": "selectContainerInNewItemsPage",
+    "type": "id",
+    "value": "C1_btnItemPathPicker"
+  },
+  {
+    "name": "selectWorkOrderTypeID",
+    "type": "id",
+    "value": "MCNWORD_WorkOrderType_Id"
+  },
+  {
+    "name": "purchaseOrderNameLabel",
+    "type": "xpath",
+    "value": "//span[text()='Purchase Order Type']"
+  },
+  {
+    "name": "selectPurchaseOrderType",
+    "type": "id",
+    "value": "MCNWORD_PurchaseOrderType_Id"
+  },
+  {
+    "name": "payItemValue",
+    "type": "xpath",
+    "value": "//td[starts-with(@id,'C') and contains(@id,'standardItemPickerValueContainer')]/descendant::input[not(contains(@style,'display:none')) and contains(@id,'selectedText')]"
+  },
+  {
+    "name": "unitPriceValue",
+    "type": "xpath",
+    "value": "//tr[starts-with(@id,'C') and contains(@id,'trBaseUnitCost')]/descendant::input[@brixtype='UnitPrice']"
+  },
+  {
+    "name": "workOrderUnitType",
+    "type": "xpath",
+    "value": "//tr[starts-with(@id,'C') and contains(@id,'trUnit')]/descendant::select[contains(@id,'ddlUnit')]"
+  },
+  {
+    "name": "descriptionValue",
+    "type": "xpath",
+    "value": "//tr[starts-with(@id,'C') and contains(@id,'trItemDescription')]/descendant::textarea[contains(@id,'txtItemDesc')]"
+  },
+  {
+    "name": "standardItemSelectionForSingleItem",
+    "type": "xpath",
+    "value": "//select[contains(@id,'ddlStdItmTbl')]"
+  },
+  {
+    "name": "libraryItemSelectButton",
+    "type": "xpath",
+    "value": "//input[contains(@id,'stdItemNumber_btnShowPicker') and contains(@value,'Select')]"
+  },
+  {
+    "name": "standardItemPickerGrid",
+    "type": "xpath",
+    "value": "//div[contains(@id,'itemPicker_pickerContainer')]"
+  },
+  {
+    "name": "standardItemListDropDownUnderAddMultipleOption",
+    "type": "id",
+    "value": "C1_ddlStdTables"
+  }
+]

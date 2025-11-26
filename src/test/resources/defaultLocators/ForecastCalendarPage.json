@@ -1,0 +1,97 @@
+[
+  {
+    "name": "nameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "nameTextBox",
+    "type": "id",
+    "value": "LIBCLDR_Name_Id"
+  },
+  {
+    "name": "descriptionLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description')]"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "LIBCLDR_Description_Id"
+  },
+  {
+    "name": "isActiveLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Is Active')]"
+  },
+  {
+    "name": "nonWorkingDaysLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Non-Working Days')]"
+  },
+  {
+    "name": "isActiveCheckbox",
+    "type": "id",
+    "value": "LIBCLDR_IsActive_Id"
+  },
+  {
+    "name": "addBtnHolidayList",
+    "type": "xpath",
+    "value": "//div[@id='Holidays']//input[contains(@value,'Add')]"
+  },
+  {
+    "name": "deleteBtnHolidayList",
+    "type": "xpath",
+    "value": "//div[@id='Holidays']//input[contains(@value,'Delete')]"
+  },
+  {
+    "name": "holidaysContainer",
+    "type": "id",
+    "value": "Holidays_EditTemplate"
+  },
+  {
+    "name": "holidaysDateField",
+    "type": "id",
+    "value": "Holidays_Date_Id_input"
+  },
+  {
+    "name": "holidaysType",
+    "type": "id",
+    "value": "Holidays_Type_Id"
+  },
+  {
+    "name": "holidaysNotes",
+    "type": "id",
+    "value": "Holidays_Notes_Id"
+  },
+  {
+    "name": "recurringAnuallyCheckBox",
+    "type": "id",
+    "value": "Holidays_IsRecurring_Id"
+  },
+  {
+    "name": "btnSaveHolidayContainer",
+    "type": "xpath",
+    "value": "//input[contains(@value,'Save')]"
+  },
+  {
+    "name": "btnCloseHolidayContainer",
+    "type": "xpath",
+    "value": "//span[@class='ui-icon ui-icon-closethick']"
+  },
+  {
+    "name": "holidayListGrid",
+    "type": "id",
+    "value": "ctl00_C1_LIBCLDR_Holidays_id_GridData"
+  },
+  {
+    "name": "holidayListTableId",
+    "type": "id",
+    "value": "ctl00_C1_LIBCLDR_Holidays_id_ctl00"
+  },
+  {
+    "name": "holidayListGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_LIBCLDR_Holidays_id_GridHeader"
+  }
+]

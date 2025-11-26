@@ -1,0 +1,42 @@
+[
+  {
+    "name": "scheduleGanttViewTab",
+    "type": "xpath",
+    "value": ".//a[.='Schedule - Gantt View']/.."
+  },
+  {
+    "name": "headerCellsXpath",
+    "type": "xpath",
+    "value": ".//table[contains(@class,'ui-grid-head-table')]//th[contains(@class,'ui-widget-header')]"
+  },
+  {
+    "name": "contentRowsXpath",
+    "type": "xpath",
+    "value": ".//table[@class='ui-selectable ui-grid-body-table']//tr[contains(@class,'rq-grid-row')]"
+  },
+  {
+    "name": "taskNameCell",
+    "type": "xpath",
+    "value": ".//td/div[contains(@class,'rq-grid-expander-text')]"
+  },
+  {
+    "name": "textContentCell",
+    "type": "xpath",
+    "value": ".//div[text() and not(contains(@class,'arrowContainer'))]"
+  },
+  {
+    "name": "getTotalCost",
+    "type": "id",
+    "value": "igtxtMSTRPLN_TotalCost_Id"
+  },
+  {
+    "name": "masterProgramForecastDetailsTab",
+    "type": "xpath",
+    "value": "//a[@title = 'Forecast Details']"
+  },
+  {
+    "name": "excelExportForecastDetails",
+    "type": "xpath",
+    "value": "//span[@id='lnkExcelExport']"
+  }
+]

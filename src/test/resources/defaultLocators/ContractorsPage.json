@@ -1,0 +1,83 @@
+[
+  {
+    "name": "contractorPickerButton",
+    "type": "id",
+    "value": "C1_PrimaryContratorTrigger_PrimeContractorsPicker_btnShowPicker"
+  },
+  {
+    "name": "subContractorPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'SubContractorsPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "fromDateInContractSetUp",
+    "type": "id",
+    "value": "CONTMGT_Begin_Id_input"
+
+  },
+  {
+    "name": "subContractorPickerButton",
+    "type": "id",
+    "value": "C1_SubContractors_SubContractorsPicker_btnShowPicker"
+  },
+  {
+    "name": "addContractorPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PrimeContractorsPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "contractorName",
+    "type": "id",
+    "value": "CONTCON_Contact_Id"
+  },
+  {
+    "name": "contractorIdInput",
+    "type": "id",
+    "value": "CONTCON_Code_Id"
+  },
+  {
+    "name": "cancelBtn",
+    "type": "id",
+    "value": "C1_SubContractors_SubContractorsPicker_btnCancel"
+  },
+  {
+    "name": "subContractorGridId",
+    "type": "id",
+    "value": "ctl00_C1_CONTCON_SubContractors_id_GridData"
+  },
+  {
+    "name": "subContractorTableHeader",
+    "type": "id",
+    "value": "ctl00_C1_CONTCON_SubContractors_id_GridHeader"
+  },
+  {
+    "name": "deleteSubContractor",
+    "type": "xpath",
+    "value": "//input[@onclick=\"return DeleteRow('ctl00_C1_CONTCON_SubContractors_id','CONTCON_SubContractors_id_data','','','SubContractors_EditTemplate');\"]"
+  },
+  {
+    "name": "modulesTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Modules')]"
+  },
+  {
+    "name": "selectVendorEvaluationModule",
+    "type": "xpath",
+    "value": "//td[text()='Vendor Evaluation']/preceding-sibling::td[not(contains(@style,'display:none;')) and @class='gridInlineEditing']/div/span/input[contains(@id,'CONTMGT_ContractModules')]"
+  },
+  {
+    "name": "selectChangeOrderModule",
+    "type": "xpath",
+    "value": ".//td[text()='Contract Change Order']/preceding-sibling::td[@align]//span/input"
+  },
+  {
+    "name": "cancelBtnPickerPrimeContractors",
+    "type": "xpath",
+    "value": "//input[contains(@id,'PrimeContractorsPicker_btnCancel')]"
+  },
+  {
+    "name": "contractorIdLabel",
+    "type": "xpath",
+    "value": "//span[@id='CONTCON_Code_Id_Text']"
+  }
+]

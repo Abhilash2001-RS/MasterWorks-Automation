@@ -1,0 +1,387 @@
+[
+  {
+    "name": "idLabel",
+    "type": "xpath",
+    "value": "//span[text()='Record ID']"
+  },
+  {
+    "name": "createdByLabel",
+    "type": "xpath",
+    "value": "//span[text()='Created By']"
+  },
+  {
+    "name": "createdDateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Created Date')]"
+  },
+  {
+    "name": "submittedOnLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Submitted On')]"
+  },
+  {
+    "name": "requestTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Request Type')]"
+  },
+  {
+    "name": "toLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'To')]"
+  },
+  {
+    "name": "projectCodeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Code')]"
+  },
+  {
+    "name": "projectNameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Project Name')]"
+  },
+  {
+    "name": "respondByLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Respond By')]"
+  },
+  {
+    "name": "selectContractorLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Contractor')]"
+  },
+  {
+    "name": "reasonLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Reason')]"
+  },
+  {
+    "name": "subjectLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Subject')]"
+  },
+  {
+    "name": "priorityLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Priority')]"
+  },
+  {
+    "name": "descriptionOfChangeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Description of Change in Scope/Work')]"
+  },
+  {
+    "name": "impactToScopeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Impact to Scope')]"
+  },
+  {
+    "name": "impactToCostLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Impact to Cost')]"
+  },
+  {
+    "name": "impactToScheduleLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Impact to Schedule')]"
+  },
+  {
+    "name": "approverNotesLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Notes/Response')]"
+  },
+  {
+    "name": "highLevelCostEstimateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'High Level Cost Estimate ($)')]"
+  },
+  {
+    "name": "highLevelTimeEstimateLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'High Level Time Estimate (Days)')]"
+  },
+  {
+    "name": "totalCostOfProposalLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Total Cost of Proposal')]"
+  },
+  {
+    "name": "responseNotesLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Response/Notes')]"
+  },
+  {
+    "name": "internalDiscussionsFromLabel",
+    "type": "xpath",
+    "value": "//div[@id = 'RFPDiscussionControl_EditTemplate']//table[@data-display-table = 'true']//span[contains(text(),'From')]"
+  },
+  {
+    "name": "internalDiscussionsToLabel",
+    "type": "xpath",
+    "value": "//div[@id = 'RFPDiscussionControl_EditTemplate']//span[contains(text(),'To')]"
+  },
+  {
+    "name": "internalDiscussionsMessageLabel",
+    "type": "xpath",
+    "value": "//div[@id = 'RFPDiscussionControl_EditTemplate']//span[contains(text(),'Message')]"
+  },
+  {
+    "name": "internalDiscussionsDueDateLabel",
+    "type": "xpath",
+    "value": "//div[@id = 'RFPDiscussionControl_EditTemplate']//span[contains(text(),'Due Date')]"
+  },
+  {
+    "name": "internalDiscussionsStatusLabel",
+    "type": "xpath",
+    "value": "//div[@id = 'RFPDiscussionControl_EditTemplate']//span[contains(text(),'Status')]"
+  },
+  {
+    "name": "rfpIDLocator",
+    "type": "xpath",
+    "value": ".//*[@id='ctl00_C1_MWGrid_ctl00__0']//td[contains(text(),'RFP-')]"
+  },
+  {
+    "name": "idAutoTextBox",
+    "type": "id",
+    "value": "REQPROP_RFPAutoIncrementID_Id"
+  },
+  {
+    "name": "createdByAutoTextBox",
+    "type": "id",
+    "value": "REQPROP_CreatedBy_Id_Text"
+  },
+  {
+    "name": "createdDateAutoTextBox",
+    "type": "id",
+    "value": "REQPROP_CreatedDate_Id_Text"
+  },
+  {
+    "name": "submittedOnDatePicker",
+    "type": "id",
+    "value": "REQPROP_SubmittedOn_Id_input"
+  },
+  {
+    "name": "requestTypeSelect",
+    "type": "id",
+    "value": "REQPROP_RequestType_Id"
+  },
+  {
+    "name": "toSelectList",
+    "type": "id",
+    "value": "REQPROP_To_Id_taglist"
+  },
+  {
+    "name": "toListRow",
+    "type": "xpath",
+    "value": "//*[@id = 'REQPROP_To_Id-list']//*[@id = 'REQPROP_To_Id_listbox']"
+  },
+  {
+    "name": "toSelectedTag",
+    "type": "xpath",
+    "value": "//*[@id = 'REQPROP_To_Id_taglist']//*[@class = 'MultiSelectDropdown-selected-value']"
+  },
+  {
+    "name": "projectCodeAutoTextBox",
+    "type": "id",
+    "value": "REQPROP_ProjectCode_Id"
+  },
+  {
+    "name": "projectNameAutoTextBox",
+    "type": "id",
+    "value": "REQPROP_ProjectName_Id"
+  },
+  {
+    "name": "respondByDatePicker",
+    "type": "id",
+    "value": "REQPROP_RespondBy_Id_input"
+  },
+  {
+    "name": "selectContractorSelect",
+    "type": "id",
+    "value": "REQPROP_Contractor_Id"
+  },
+  {
+    "name": "reasonSelect",
+    "type": "id",
+    "value": "REQPROP_RFPReasonId_Id"
+  },
+  {
+    "name": "subjectTextBox",
+    "type": "id",
+    "value": "REQPROP_Subject_Id"
+  },
+  {
+    "name": "prioritySelect",
+    "type": "id",
+    "value": "REQPROP_Priority_Id"
+  },
+  {
+    "name": "descriptionOfChangeTextBox",
+    "type": "id",
+    "value": "REQPROP_ChangeDescription_Id"
+  },
+  {
+    "name": "impactToScopeSelect",
+    "type": "id",
+    "value": "REQPROP_Scope_Id"
+  },
+  {
+    "name": "impactToCostSelect",
+    "type": "id",
+    "value": "REQPROP_Cost_Id"
+  },
+  {
+    "name": "impactToScheduleSelect",
+    "type": "id",
+    "value": "REQPROP_Schedule_Id"
+  },
+  {
+    "name": "approversNotesTextBox",
+    "type": "id",
+    "value": "REQPROP_ApproverNotes_Id_Text"
+  },
+  {
+    "name": "highLevelCostEstimateTextBox",
+    "type": "id",
+    "value": "igtxtREQPROP_CostEstimate_Id"
+  },
+  {
+    "name": "highLevelTimeEstimateTextBox",
+    "type": "id",
+    "value": "REQPROP_TimeEstimate_Id"
+  },
+  {
+    "name": "totalCostOfProposalTextBox",
+    "type": "id",
+    "value": "REQPROP_TotalProposalCost_Id"
+  },
+  {
+    "name": "responseNotesTextBox",
+    "type": "id",
+    "value": "REQPROP_Response_Id"
+  },
+  {
+    "name": "resourceTitlePicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'PersonnelPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "equipmentPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'EquipmentPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "materialsPicker",
+    "type": "xpath",
+    "value": "//div[contains(@id,'MaterialsPicker_pickerContainer') and (contains(@style ,'display:block') or contains(@style ,'display: block'))]"
+  },
+  {
+    "name": "proposalDetailsTab",
+    "type": "id",
+    "value": "Id_Proposal_Details"
+  },
+  {
+    "name": "internalDiscussionForumTab",
+    "type": "id",
+    "value": "Id_Internal_Discussion_Forum"
+  },
+  {
+    "name": "requestAndResponseTab",
+    "type": "id",
+    "value": "Id_Request_and_Response"
+  },
+  {
+    "name": "linkedRecordsGrid",
+    "type": "id",
+    "value": "RFPLinkToGrid"
+  },
+  {
+    "name": "rfiGrid",
+    "type": "xpath",
+    "value": ".//*[@id = 'RFPLinkToGrid']//td[@role = 'gridcell'][contains(text(),'Request for Information')]"
+  },
+  {
+    "name": "resourceTitlesGrid",
+    "type": "id",
+    "value": "Personnel"
+  },
+  {
+    "name": "equipmentGrid",
+    "type": "id",
+    "value": "Equipment"
+  },
+  {
+    "name": "materialsGrid",
+    "type": "id",
+    "value": "Materials"
+  },
+  {
+    "name": "internalDiscussionGrid",
+    "type": "id",
+    "value": "RFPDiscussionControl"
+  },
+  {
+    "name": "internalDiscussionToTagList",
+    "type": "id",
+    "value": "RFPDiscussionControl_Responder_Id_taglist"
+  },
+  {
+    "name": "internalDiscussionToRow",
+    "type": "id",
+    "value": "RFPDiscussionControl_Responder_Id_listbox"
+  },
+  {
+    "name": "internalDiscussionToSelectedValue",
+    "type": "className",
+    "value": "MultiSelectDropdown-selected-value"
+  },
+  {
+    "name": "internalDiscussionMessageTextBox",
+    "type": "id",
+    "value": "RFPDiscussionControl_Notes_Id"
+  },
+  {
+    "name": "internalDiscussionDueDateBox",
+    "type": "id",
+    "value": "RFPDiscussionControl_DueDate_Id_input"
+  },
+  {
+    "name": "internalDiscussionPopUpSaveButton",
+    "type": "xpath",
+    "value": "//*[@id = 'RFPDiscussionControl_EditTemplate']//input[@value = 'Save']"
+  },
+  {
+    "name": "internalDiscussionPopUpCancelButton",
+    "type": "xpath",
+    "value": "//*[@id = 'RFPDiscussionControl_EditTemplate']//input[@value = 'Cancel']"
+  },
+  {
+    "name": "libraryManagementDashboard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  },
+  {
+    "name": "requestTypeTextBox",
+    "type": "id",
+    "value": "RFPREQT_RequestType_Id"
+  },
+  {
+    "name": "reasonTextBox",
+    "type": "id",
+    "value": "RFPRESN_Reason_Id"
+  },
+  {
+    "name": "resourceTitleDG",
+    "type": "id",
+    "value": "REQPROP_Personnel_id"
+  },
+  {
+    "name": "equipmentDG",
+    "type": "id",
+    "value": "REQPROP_Equipment_id"
+  },
+  {
+    "name": "materialDG",
+    "type": "id",
+    "value": "REQPROP_Materials_id"
+  }
+]

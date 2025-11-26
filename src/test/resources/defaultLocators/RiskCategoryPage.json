@@ -1,0 +1,17 @@
+[
+  {
+    "name": "libraryManagementDashBoard",
+    "type": "xpath",
+    "value": "//a[@title='Library Management']"
+  },
+  {
+    "name": "riskCategoryTextBox",
+    "type": "id",
+    "value": "RISKCAT_Category_Id"
+  },
+  {
+    "name": "riskCategoryDescriptionTextBox",
+    "type": "id",
+    "value": "RISKCAT_Description_Id"
+  }
+]

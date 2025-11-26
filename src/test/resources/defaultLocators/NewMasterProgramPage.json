@@ -1,0 +1,32 @@
+[
+  {
+    "name": "masterProgramTitleTxtBox",
+    "type": "id",
+    "value": "MSTRPLN_Title_Id"
+  },
+  {
+    "name": "programYearDropDown",
+    "type": "id",
+    "value": "MSTRPLN_ProgramYear_Id"
+  },
+  {
+    "name": "fundsDropDown",
+    "type": "id",
+    "value": "MSTRPLN_PFundId_Id"
+  },
+  {
+    "name": "masterProgramDescriptionTxtArea",
+    "type": "id",
+    "value": "MSTRPLN_Description_Id"
+  },
+  {
+    "name": "addProgramsBtn",
+    "type": "id",
+    "value": "C1_DynamicGrid0_PlanPicker_btnShowPicker"
+  },
+  {
+    "name": "programPicker",
+    "type": "xpath",
+    "value": ".//div[contains(@id,'PlanPicker_pickerContainer')]"
+  }
+]

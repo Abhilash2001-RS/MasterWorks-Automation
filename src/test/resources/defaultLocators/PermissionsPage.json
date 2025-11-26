@@ -1,0 +1,192 @@
+[
+  {
+    "name": "roles",
+    "type": "xpath",
+    "value": "//input[@type='text' and @class='k-input clsRoles']"
+  },
+  {
+    "name": "copyRoles",
+    "type": "xpath",
+    "value": "//input[@type='text' and @class='k-input copyRoles']"
+  },
+  {
+    "name": "moduleFilter",
+    "type": "id",
+    "value": "gs_Module"
+  },
+  {
+    "name": "createAllCheckbox",
+    "type": "id",
+    "value": "CreateChkAll"
+  },
+  {
+    "name": "editAllCheckBox",
+    "type": "id",
+    "value": "EditChkAll"
+  },
+  {
+    "name": "viewAllCheckBox",
+    "type": "id",
+    "value": "ViewChkAll"
+  },
+  {
+    "name": "deleteAllCheckBox",
+    "type": "id",
+    "value": "DeleteChkAll"
+  },
+  {
+    "name": "byFormsTab",
+    "type": "xpath",
+    "value": "//a[@title='By Forms']"
+  },
+  {
+    "name": "byRolesTab",
+    "type": "xpath",
+    "value": "//a[@title='By Roles']"
+  },
+  {
+    "name": "selectForm",
+    "type": "xpath",
+    "value": "//div[contains(@id,'RadDropDownTree') and not(contains(@id,'EmbeddedTree'))]"
+  },
+  {
+    "name": "filterFormName",
+    "type": "xpath",
+    "value": "//label//input"
+  },
+  {
+    "name": "rolesFilter",
+    "type": "id",
+    "value": "gs_Roles"
+  },
+  {
+    "name": "reportPermissionsTab",
+    "type": "xpath",
+    "value": "//a[@title='Report Permissions']"
+  },
+  {
+    "name": "formPermissionsTab",
+    "type": "xpath",
+    "value": "//a[@title='Form Permissions']"
+  },
+  {
+    "name": "createAllCheckBoxRoles",
+    "type": "xpath",
+    "value": "//th[@id='gsh_tree_Tab_ByForms_RolePermissions_Create']//input[@id = 'CreateChkAll']"
+  },
+  {
+    "name": "rolesTextBoxInDocumentFolders",
+    "type": "id",
+    "value": "gs_Roles"
+  },
+  {
+    "name": "byRolesFormPermissionsTab",
+    "type": "id",
+    "value": "Id_Tab_ByRoles_FormPermissions"
+  },
+  {
+    "name": "byRolesReportPermissionsTab",
+    "type": "id",
+    "value": "Id_Tab_ByRoles_ReportPermissions"
+  },
+  {
+    "name": "byFormsRolePermissionsTab",
+    "type": "id",
+    "value": "Id_Tab_ByForms_RolePermissions"
+  },
+  {
+    "name": "byFormsReportPermissionsTab",
+    "type": "id",
+    "value": "Id_Tab_ByForms_ReportPermissions"
+  },
+  {
+    "name": "permissionsCopy",
+    "type": "id",
+    "value": "btnCopyRoles"
+  },
+  {
+    "name": "permissionsVisibility",
+    "type": "xpath",
+    "value": "//div[text()='Visibility']"
+  },
+  {
+    "name": "createAll",
+    "type": "xpath",
+    "value": "//th[not(contains(@id,'FeatureId'))]//label[@for='CreateChkAll']"
+  },
+  {
+    "name": "editAll",
+    "type": "xpath",
+    "value": "//th[not(contains(@id,'FeatureId'))]//label[@for='EditChkAll']"
+  },
+  {
+    "name": "viewAll",
+    "type": "xpath",
+    "value": "//th[not(contains(@id,'FeatureId'))]//label[@for='ViewChkAll']"
+  },
+  {
+    "name": "deleteAll",
+    "type": "xpath",
+    "value": "//th[not(contains(@id,'FeatureId'))]//label[@for='DeleteChkAll']"
+  },
+  {
+    "name": "byFormsList",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_RadDropDownTree1_EmbeddedTree']"
+  },
+  {
+    "name": "listOfByForms",
+    "type": "xpath",
+    "value": "//span[@class = 'rtText']"
+  },
+  {
+    "name": "byFormsSelectionBox",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_RadDropDownTree1']"
+  },
+  {
+    "name": "byFormsFilter",
+    "type": "xpath",
+    "value": "//input[@type = 'text' and @value = 'Type here to filter']"
+  },
+  {
+    "name": "reportPermissionsTabByForms",
+    "type": "xpath",
+    "value": "//div[@id='C1_FormsInnerTabs_PageTabs']//a[@title='Report Permissions']"
+  },
+  {
+    "name": "settingsCheckbox",
+    "type": "xpath",
+    "value": "//input[@title='Settings']"
+  },
+  {
+    "name": "morePermission",
+    "type": "xpath",
+    "value": "//input[@class='morePermBtn']"
+  },
+  {
+    "name": "reportPermissionsByForm",
+    "type": "xpath",
+    "value": "//a[contains(@id,'Id_Tab_ByRoles_ReportPermissions')]"
+  },
+  {
+    "name": "reportPermissionsByFormTextBox",
+    "type": "xpath",
+    "value": "//th[contains(@id,'gsh_tree_Tab_ByRoles_ReportPermissions_Module')]//input[contains(@id,'gs_Module')]"
+  },
+  {
+    "name": "sendForSignatureCheckbox",
+    "type": "xpath",
+    "value": "//label[normalize-space()='Send for Signature']"
+  },
+  {
+    "name": "sendForSigDocument",
+    "type": "xpath",
+    "value": "//label[normalize-space()='Sign Document']"
+  },
+  {
+    "name": "permissionsCreateCheckbox",
+    "type": "xpath",
+    "value": "//input[@id='CreateChkAll']"
+  }
+]

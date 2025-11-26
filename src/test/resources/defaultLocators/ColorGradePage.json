@@ -1,0 +1,42 @@
+[
+  {
+    "name": "colorGradeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Color')]"
+  },
+  {
+    "name": "redProportionLabel",
+    "type": "xpath",
+    "value": "//span[.='R']"
+  },
+  {
+    "name": "redProportionTxtBox",
+    "type": "id",
+    "value": "COLRGRD_RedProportion_Id"
+  },
+  {
+    "name": "greenProportionLabel",
+    "type": "xpath",
+    "value": "//span[.='G']"
+  },
+  {
+    "name": "greenProportionTxtBox",
+    "type": "id",
+    "value": "COLRGRD_GreenProportion_Id"
+  },
+  {
+    "name": "blueProportionLabel",
+    "type": "xpath",
+    "value": "//span[.='B']"
+  },
+  {
+    "name": "blueProportionTxtBox",
+    "type": "id",
+    "value": "COLRGRD_BlueProportion_Id"
+  },
+  {
+    "name": "colorTxtBox",
+    "type": "id",
+    "value": "COLRGRD_Color_Id"
+  }
+]

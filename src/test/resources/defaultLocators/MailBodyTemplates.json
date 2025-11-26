@@ -1,0 +1,47 @@
+[
+  {
+    "name": "mailBodyTemplateName",
+    "type": "id",
+    "value": "MLBDYTM_Name_Id"
+  },
+  {
+    "name": "formPickerXpath",
+    "type": "xpath",
+    "value": "//*[@id='C1_FormTrigger_GetFormsTrigger_btnShowPicker']"
+  },
+  {
+    "name": "subjectPickerXpath",
+    "type": "xpath",
+    "value": "//*[@id='C1_SubjectTrigger_GetFormControlsTrigger_btnShowPicker']"
+  },
+  {
+    "name": "subjectPickerContainerID",
+    "type": "xpath",
+    "value": "//*[@id='C1_SubjectTrigger_GetFormControlsTrigger_pickerContainer']"
+  },
+  {
+    "name": "documentTable",
+    "type": "id",
+    "value": "G_C2xgrdAllDocuments"
+  },
+  {
+    "name": "documentTableOkButton",
+    "type": "id",
+    "value": "btnMMOk"
+  },
+  {
+    "name": "messagePickerId",
+    "type": "id",
+    "value": "C1_MessageTrigger_GetFormControlsTrigger_btnShowPicker"
+  },
+  {
+    "name": "messagePickerContainerId",
+    "type": "xpath",
+    "value": "//div[@id='C1_MessageTrigger_GetFormControlsTrigger_pickerContainer']"
+  },
+  {
+    "name": "formPickerId",
+    "type": "xpath",
+    "value": "//*[@id='C1_FormTrigger_GetFormsTrigger_pickerContainer']"
+  }
+]

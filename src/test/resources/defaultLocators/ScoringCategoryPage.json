@@ -1,0 +1,47 @@
+[
+  {
+    "name": "nameTextBox",
+    "type": "id",
+    "value": "SCORCAT_CatName_Id"
+  },
+  {
+    "name": "descriptionTextBox",
+    "type": "id",
+    "value": "SCORCAT_CatDescription_Id"
+  },
+  {
+    "name": "departmentDropDown",
+    "type": "id",
+    "value": "SCORCAT_DeptId_Id"
+  },
+  {
+    "name": "weightageTextBox",
+    "type": "id",
+    "value": "SCORCAT_CatWeightage_Id"
+  },
+  {
+    "name": "nameLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Name')]"
+  },
+  {
+    "name": "nameTextLabel",
+    "type": "id",
+    "value": "SCORCAT_CatName_Id_Text"
+  },
+  {
+    "name": "descriptionTextLabel",
+    "type": "id",
+    "value": "SCORCAT_CatDescription_Id_Text"
+  },
+  {
+    "name": "departmentTextLabel",
+    "type": "id",
+    "value": "SCORCAT_DeptId_Id_Text"
+  },
+  {
+    "name": "weightageTextLabel",
+    "type": "id",
+    "value": "SCORCAT_CatWeightage_Id_Text"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "meetingTypeLabel",
+    "type": "xpath",
+    "value": "//span[contains(text(),'Meeting Type')]"
+  },
+  {
+    "name": "meetingTypeTextBox",
+    "type": "id",
+    "value": "MOMMTYP_MeetingType_Id"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "fundRuleNameTextBox",
+    "type": "id",
+    "value": "FNDRULE_RuleName_Id"
+  },
+  {
+    "name": "addFundSourceName",
+    "type": "id",
+    "value": "C1_DistributionDetails_FundPicker_btnShowPicker"
+  },
+  {
+    "name": "editFundSourceName",
+    "type": "xpath",
+    "value": "//div[@id='DistributionDetails']//input[@value= 'Edit']"
+  },
+  {
+    "name": "deleteFundSourceName",
+    "type": "xpath",
+    "value": "//div[@id='DistributionDetails']//input[@value= 'Delete']"
+  },
+  {
+    "name": "pickerGrid",
+    "type": "xpath",
+    "value": ".//*[@id = 'C1_DistributionDetails_FundPicker_pickerContainer']"
+  },
+  {
+    "name": "selectGlobalFund",
+    "type": "id",
+    "value": "ctl00_C1_FNDRULE_DistributionDetails_id_ctl00"
+  },
+  {
+    "name": "percentageTextBox",
+    "type": "xpath",
+    "value": "//table[@id='ctl00_C1_FNDRULE_DistributionDetails_id_ctl00']/tbody/tr/td[9]"
+  },
+  {
+    "name": "gridClick",
+    "type": "id",
+    "value": "ctl00_C1_FNDRULE_DistributionDetails_id_GridData"
+  },
+  {
+    "name": "saveDistributionDetails",
+    "type": "xpath",
+    "value": "//div[@id='DistributionDetails_EditTemplate']//input[@value='Save']"
+  },
+  {
+    "name": "viewRuleNameValue",
+    "type": "id",
+    "value": "FNDRULE_RuleName_Id_Text"
+  },
+  {
+    "name": "isActiveCheckbox",
+    "type": "id",
+    "value": "FNDRULE_IsActive_Id"
+  },
+  {
+    "name": "markActiveOrInactiveBtn",
+    "type": "xpath",
+    "value": "//*[@id='lnkChangeStatus']"
+  },
+  {
+    "name": "fundRuleNotesTextBox",
+    "type": "id",
+    "value": "FNDRULE_Notes_Id"
+  },
+  {
+    "name": "distributionGrid",
+    "type": "id",
+    "value": "ctl00_C1_FNDRULE_DistributionDetails_id_GridData"
+  },
+  {
+    "name": "addDistributionDetails",
+    "type": "xpath",
+    "value": "//div[@id='DistributionDetails']//input[@value='Add']"
+  },
+  {
+    "name": "deleteDistributionDetails",
+    "type": "xpath",
+    "value": "//div[@id='DistributionDetails']//input[@value='Delete']"
+  },
+  {
+    "name": "editDistributionDetails",
+    "type": "xpath",
+    "value": "//div[@id='DistributionDetails']//input[@value='Edit']"
+  },
+  {
+    "name": "ruleRevisionID",
+    "type": "id",
+    "value": "FNDRULE_RuleID_Id"
+  },
+  {
+    "name": "fundRuleTextNotes",
+    "type": "id",
+    "value": "FNDRULE_Notes_Id_Text"
+  },
+  {
+    "name": "distributionGridHeader",
+    "type": "id",
+    "value": "ctl00_C1_FNDRULE_DistributionDetails_id_GridHeader"
+  }
+]

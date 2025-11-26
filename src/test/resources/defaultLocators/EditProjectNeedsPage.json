@@ -1,0 +1,62 @@
+[
+  {
+    "name": "titleTxtBox",
+    "type": "id",
+    "value": "PRJNEDS_Name_Id"
+  },
+  {
+    "name": "typeComboBox",
+    "type": "id",
+    "value": "PRJNEDS_Type_Id"
+  },
+  {
+    "name": "expectedCompletionMonthComboBox",
+    "type": "id",
+    "value": "PRJNEDS_ExpectedCompletionMonth_Id"
+  },
+  {
+    "name": "expectedCompletionYearComboBox",
+    "type": "id",
+    "value": "PRJNEDS_ExpectedCompletionYear_Id"
+  },
+  {
+    "name": "addressTxtArea",
+    "type": "id",
+    "value": "PRJNEDS_Address_Id"
+  },
+  {
+    "name": "strategicGoalsTxtBox",
+    "type": "id",
+    "value": "C1_div_PRJNEDS_StrategicGoals_Id"
+  },
+  {
+    "name": "strategicGoalsListItem",
+    "type": "xpath",
+    "value": ".//ul[@id='PRJNEDS_StrategicGoals_Id_listbox']/li/span"
+  },
+  {
+    "name": "commentsTxtBox",
+    "type": "id",
+    "value": "PRJNEDS_Comments_Id"
+  },
+  {
+    "name": "estimatesCostTxtBox",
+    "type": "id",
+    "value": "igtxtPRJNEDS_EstimatedCost_Id"
+  },
+  {
+    "name": "problemStatementTxtBox",
+    "type": "id",
+    "value": "PRJNEDS_AreaProblemStatement_Id"
+  },
+  {
+    "name": "projectNeedsTab",
+    "type": "xpath",
+    "value": "//a[contains(text(),'Project Needs')]"
+  },
+  {
+    "name": "programYearComboBox",
+    "type": "id",
+    "value": "PRJNEDS_ProgramYear_Id"
+  }
+]
