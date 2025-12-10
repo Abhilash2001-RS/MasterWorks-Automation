@@ -1,0 +1,27 @@
+[
+  {
+    "name": "spendForecastHeader",
+    "type": "xpath",
+    "value": "//a[@title= 'Spend Forecast']"
+  },
+  {
+    "name": "spendForecastGridHeader",
+    "type": "id",
+    "value": "//div[@id='ctl00_C1_SPENDFC_SpendDistributionDetails_id_GridHeader']//thead/tr/th[not(contains(@style,'display:none')) and not(contains(@style,'display: none;'))]"
+  },
+  {
+  "name": "fiscalYearLabel",
+  "type": "xpath",
+  "value": "//span[normalize-space()= 'Fiscal Year']"
+  },
+  {
+    "name": "itemRows",
+    "type": "xpath",
+    "value": "//table[@id='ctl00_C1_SPENDFC_SpendDistributionDetails_id_ctl00']//tbody//tr[not(contains(@style,'display:none'))]"
+  },
+  {
+    "name": "saveSpendForecast",
+    "type": "id",
+    "value": "lnkSave"
+  }
+]

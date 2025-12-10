@@ -188,7 +188,6 @@ public class BaseTest extends BaseFramework {
             } else {
                 pathToDownloadedFile = fileDownloadPath;
             }
-
            // driver = webDriverUtil.getChromeDriver();
             if (driver != null) {
                 DriverManager.setDriver(driver);

@@ -731,9 +731,10 @@ public class ItemListPage extends RibbonMenu {
         waitHelper.waitForPageTabHeaderToBeClickable();
         List<WebElement> tableDatas = elementHelper.getElement(headerTable).findElements(By.xpath("//td[@class = 'hgHeader']"));
         //Starting i from 1 since 0th index is checkbox which doesn't contains text.
-        for (int i = 1; i < tableDatas.size(); i++) {
-            WebElement headerTextElement = tableDatas.get(i).findElement(By.xpath(".//div"));
-            String headerText = elementHelper.doGetText(headerTextElement);
+        for(int i = 1; i < tableDatas.size(); i++) {
+            String headerText =  elementHelper.doGetText(tableDatas.get(i));
+            //WebElement headerTextElement = tableDatas.get(i).findElement(By.xpath(".//div/a"));
+            //String headerText = elementHelper.doGetText(headerTextElement);
             if (headerText.equals(headerName)) {
                 return i;
             }
@@ -789,6 +790,8 @@ public class ItemListPage extends RibbonMenu {
         }
         return found;
     }
+
+
 
     /**
      * Function to get the column data of all rows

@@ -386,6 +386,12 @@ public class ElementHelper extends  WaitHelper{
         element.sendKeys(value);
     }
 
+    public void doSendKeys(WebElement element, Double value) {
+        scrollToView(element);
+        element.clear();
+        element.sendKeys(value.toString());
+    }
+
     /**
      * Send Keys on the WebElement using locator.
      *
@@ -398,6 +404,8 @@ public class ElementHelper extends  WaitHelper{
         element.clear();
         element.sendKeys(value);
     }
+
+
 
     /**
      * Send Keys on the WebElement using actions.

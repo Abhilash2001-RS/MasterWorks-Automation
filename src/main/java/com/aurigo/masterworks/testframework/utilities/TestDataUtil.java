@@ -130,10 +130,11 @@ public class TestDataUtil {
         program.title = "AutoPGM" + generateUniqueAlphanumericCode();
         program.description = program.title + " Description";
         program.year = Integer.toString(today.getYear());
-        program.category = "Central";
         program.budget = "99999.99";
         return program;
     }
+
+
 
     /**
      * Method to generate RFI data

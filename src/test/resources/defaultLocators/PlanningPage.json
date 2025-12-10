@@ -25,6 +25,11 @@
     "value": "lnkUpdateUnifierData"
   },
   {
+    "name": "projectFolder",
+    "type": "xpath",
+    "value": "//a[contains(@aria-owns,'ultreeitem-1')][1]"
+  },
+  {
     "name": "projectDashboardTab",
     "type": "xpath",
     "value": "//a[contains(text(),'Project Dashboard')]"

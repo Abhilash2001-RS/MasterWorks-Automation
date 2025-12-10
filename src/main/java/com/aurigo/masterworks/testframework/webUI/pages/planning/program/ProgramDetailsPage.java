@@ -12,6 +12,7 @@ import com.aurigo.masterworks.testframework.webUI.constants.Constants;
 import com.aurigo.masterworks.testframework.webUI.constants.enums.*;
 import com.aurigo.masterworks.testframework.webUI.constants.enums.autodesk.listPageFields.WorkflowOptions;
 import com.aurigo.masterworks.testframework.webUI.generic.*;
+import com.aurigo.masterworks.testframework.webUI.pages.planning.ProjectDetailsPage;
 import com.aurigo.masterworks.testframework.webUI.testData.Program;
 import com.aurigo.masterworks.testframework.webUI.testData.Project;
 import org.apache.commons.lang3.StringUtils;
@@ -89,6 +90,7 @@ public class ProgramDetailsPage extends RibbonMenu {
     private final By attachmentGridHeaderDetails;
     private final By plannedProjectGirdTotal;
     private final By fiscalYearSelected;
+
 
     private String programCategoryDataFieldValue = "ProgramCategory";
     private String name = "Name";
@@ -329,6 +331,7 @@ public class ProgramDetailsPage extends RibbonMenu {
      * @param isContingencyProgram true if it is a Contingency Program
      */
     public void addProgramData(Program program, boolean isContingencyProgram) {
+        String projectName = getPage(ProjectDetailsPage.class).getProjectName();
         waitHelper.waitForPageToLoad(RibbonIcons.Save);
         if (isContingencyProgram) {
             navigation.switchFrameToContent();
@@ -338,6 +341,7 @@ public class ProgramDetailsPage extends RibbonMenu {
         logger().info("Program Title : " + program.title);
         waitHelper.waitForElementClickable(programTitleTxtBox);
         elementHelper.doSendKeys(programTitleTxtBox, program.title);
+        elementHelper.selectComboBoxItemByText(defaultFiscalYearSelect, "State");
         logger().info("Program Year : " + program.year);
         waitHelper.waitForElementClickable(programYearDropDown);
         elementHelper.selectComboBoxItemByText(programYearDropDown, program.year);
@@ -950,7 +954,7 @@ public class ProgramDetailsPage extends RibbonMenu {
      * @param numberOfPrograms number of programs
      * @return Program details
      */
-    public Program addPrograms(int numberOfPrograms) {
+    public Program addPrograms(int numberOfPrograms, String projectName) {
         Program programDetails = addProgramData(false);
         if (numberOfPrograms > 0) {
             elementHelper.doClick(addProgramsButton);

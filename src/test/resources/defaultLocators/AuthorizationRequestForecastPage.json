@@ -1,0 +1,42 @@
+[
+  {
+    "name": "authorizationReqForecastHeader",
+    "type": "xpath",
+    "value": "//a[@title= 'Authorization Request Forecast']"
+  },
+  {
+    "name": "fiscalYearLabel",
+    "type": "xpath",
+    "value": "//span[normalize-space()= 'Fiscal Year']"
+  },
+  {
+    "name": "fiscalYearDropdown",
+    "type": "xpath",
+    "value": "//select[@aria-label= 'Fiscal Year']"
+  },
+  {
+    "name": "gridLocator",
+    "type": "css",
+    "value": "#ctl00_C1_AUTHRFC_AuthReqDistributionDetails_id"
+  },
+  {
+    "name": "gridHeader",
+    "type": "xpath",
+    "value": "//table[@id='ctl00_C1_AUTHRFC_AuthReqDistributionDetails_id_ctl00_Header']//th[@class='rgHeader' and not(contains(@style,'display:none'))]"
+  },
+  {
+    "name": "itemRows",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_AUTHRFC_AuthReqDistributionDetails_id']//div[@id='ctl00_C1_AUTHRFC_AuthReqDistributionDetails_id_GridData']//table[@class='rgMasterTable rgClipCells']//tbody//tr[not(contains(@style,'display:none'))]"
+  },
+  {
+    "name": "remainingAmount",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_AUTHRFC_AuthReqDistributionDetails_id']//div[@id='ctl00_C1_AUTHRFC_AuthReqDistributionDetails_id_GridData']//table[@class='rgMasterTable rgClipCells']//tbody//tr[not(contains(@style,'display:none'))]"
+  },
+  {
+    "name": "saveAuthRequestForecast",
+    "type": "id",
+    "value": "lnkSave"
+  }
+]

@@ -79,16 +79,29 @@ public class ProjectsPage extends ListPage {
         waitHelper.waitForPageTabHeaderToBeClickable();
     }
 
+//    /**
+//     * Method to get the project code from given project name
+//     *
+//     * @param projectName Name of the project to select
+//     * @return String value of the project code
+//     */
+//    public String getProjectCode(String projectName) {
+//        filterListPage(PlannedProjectListPageHeader.ProjectName.getValue(), projectName, ListPageFilterOptions.Contains);
+//        return getCellData(0, PlannedProjectListPageHeader.ProjectCode.getValue());
+//    }
+
     /**
      * Method to get the project code from given project name
      *
      * @param projectName Name of the project to select
      * @return String value of the project code
      */
-    public String getProjectCode(String projectName) {
+    public String getProgramFamilyCategory(String projectName) {
         filterListPage(PlannedProjectListPageHeader.ProjectName.getValue(), projectName, ListPageFilterOptions.Contains);
-        return getCellData(0, PlannedProjectListPageHeader.ProjectCode.getValue());
+        return getCellData(0, PlannedProjectListPageHeader.ProgramFamilyCategory.getValue());
     }
+
+
 
     /**
      * Method to Verify Status and Attributes Button in Project Page

@@ -92,7 +92,7 @@ public class WorkFlowHandler extends ListPage {
      * @return True if workflow status as expected else false.
      */
     public boolean workFlowActionProgression(String rowString, String columnNameToSearchIn, WorkFlowActions actionName, WorkFlowStatus expectedStatus) {
-        return workFlowActionProgression(true, true, rowString, columnNameToSearchIn, actionName, expectedStatus);
+        return workFlowActionProgression(false, false, rowString, columnNameToSearchIn, actionName, expectedStatus);
     }
 
     /**
@@ -107,7 +107,7 @@ public class WorkFlowHandler extends ListPage {
      * @return True if workflow status as expected else false.
      */
     public boolean workFlowActionProgression(boolean isClearFilterRequired, boolean isFilteringRequired, String rowString, String columnNameToSearchIn, WorkFlowActions actionName, WorkFlowStatus expectedStatus) {
-        return workFlowActionProgression(isClearFilterRequired, isFilteringRequired, rowString, columnNameToSearchIn, actionName, expectedStatus, true);
+        return workFlowActionProgression(isClearFilterRequired, isFilteringRequired, rowString, columnNameToSearchIn, actionName, expectedStatus, false);
     }
 
 

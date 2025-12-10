@@ -10,6 +10,16 @@
     "value": "//a[contains(text(),'Budget Estimates')]"
   },
   {
+    "name": "associateFundRule",
+    "type": "xpath",
+    "value": "//span[normalize-space()='Associate Fund']"
+  },
+  {
+    "name": "itemsListPageCheckBox",
+    "type": "css",
+    "value": "#chk_checkAllItem"
+  },
+  {
     "name": "budgetEstimateTotal",
     "type": "xpath",
     "value": ".//*[@id = 'BDGTEST_EstimateTotal_Id']"

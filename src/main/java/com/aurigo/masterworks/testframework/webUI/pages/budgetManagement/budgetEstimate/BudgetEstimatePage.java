@@ -4,10 +4,21 @@ import com.aurigo.masterworks.testframework.utilities.ExcelUtil;
 import com.aurigo.masterworks.testframework.utilities.LocatorUtil;
 import com.aurigo.masterworks.testframework.utilities.models.grid.Host;
 import com.aurigo.masterworks.testframework.webUI.common.*;
-import com.aurigo.masterworks.testframework.webUI.constants.enums.*;
-import com.aurigo.masterworks.testframework.webUI.generic.*;
+import com.aurigo.masterworks.testframework.webUI.constants.enums.BudgetEstimateColumnsList;
+import com.aurigo.masterworks.testframework.webUI.constants.enums.ForecastListPageColumns;
+import com.aurigo.masterworks.testframework.webUI.constants.enums.ForecastListPageColumnsOld;
+import com.aurigo.masterworks.testframework.webUI.constants.enums.ListPageFilterOptions;
+import com.aurigo.masterworks.testframework.webUI.constants.enums.PickerFilterOptions;
+import com.aurigo.masterworks.testframework.webUI.constants.enums.RegexStrings;
+import com.aurigo.masterworks.testframework.webUI.constants.enums.RibbonIcons;
+import com.aurigo.masterworks.testframework.webUI.constants.enums.WorkFlowActions;
+import com.aurigo.masterworks.testframework.webUI.constants.enums.WorkFlowStatus;
+import com.aurigo.masterworks.testframework.webUI.generic.Attachments;
+import com.aurigo.masterworks.testframework.webUI.generic.GenericForm;
+import com.aurigo.masterworks.testframework.webUI.generic.ItemListPage;
+import com.aurigo.masterworks.testframework.webUI.generic.ListPage;
+import com.aurigo.masterworks.testframework.webUI.generic.Picker;
 import com.aurigo.masterworks.testframework.webUI.pages.planning.PlanningPage;
-import com.aurigo.masterworks.testframework.webUI.pages.projects.ProjectsPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +27,11 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.asserts.SoftAssert;
 
 import java.io.File;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 public class BudgetEstimatePage extends ListPage {
 
@@ -116,6 +131,25 @@ public class BudgetEstimatePage extends ListPage {
     }
 
     /**
+     * This method creates a new Budget Estimate
+     */
+    public void createBudgetNEstimate(String fundRuleName) {
+        if(getPage(Validations.class).isNoRecordsFoundDivDisplayed()){
+            getPage(PlanningPage.class).clickUnifierSync();
+            navigateTo();
+        }
+        editBudgetEstimate();
+        getPage(BudgetEstimateItemsPage.class).associateFundRuleToBudgetEstimateItem(fundRuleName);
+    }
+
+
+    public void editBudgetEstimate(){
+        singleClickOnRowListPage(0);
+        clickRibbonIcon(RibbonIcons.Edit);
+        waitHelper.waitForPageToLoad();
+    }
+
+    /**
      * Method for creating new Budget Estimate Items from standard items
      *
      * @param budgetEstimateName - Name of the new Budget Estimate for which budget items will be created
@@ -172,7 +206,7 @@ public class BudgetEstimatePage extends ListPage {
      * @return true if the status is changed for the selected forecast
      */
     public boolean changeBudgetEstimateForecastStatus(String budgetEstimateName, WorkFlowActions workFlowAction, WorkFlowStatus expectedStateAfterWFAction) {
-        return getPage(WorkFlowHandler.class).workFlowActionProgression(budgetEstimateName, BudgetEstimateColumnsList.BudgetEstimateName.getValue(), workFlowAction, expectedStateAfterWFAction);
+        return getPage(WorkFlowHandler.class).workFlowActionProgression(budgetEstimateName, BudgetEstimateColumnsList.BudgetEstimateID.getValue(), workFlowAction, expectedStateAfterWFAction);
     }
 
     /**
@@ -226,7 +260,7 @@ public class BudgetEstimatePage extends ListPage {
      * This method creates a new Budget Estimate
      */
     public void createBudgetAndEstimate(String budgetEstimateName) {
-        //clickRibbonIcon(RibbonIcons.New); - New button is not available in the Ribbon
+        clickRibbonIcon(RibbonIcons.New);
         getPage(BudgetEstimateDetailsPage.class).createBudgetEstimate(budgetEstimateName);
         saveAndEstimate();
         navigation.switchFrameToContent();
@@ -672,4 +706,12 @@ public class BudgetEstimatePage extends ListPage {
         var rowNum = getRowNumberFromListPage(ForecastListPageColumns.ForecastName.getValue(), budgetEstimateName);
         return rowNum > -1;
     }
+
+    /**
+     * Method to Distribute the amounts to the FY and perform Save
+     */
+
+    public void authorizationRequestForecast(){}
+
+
 }

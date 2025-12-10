@@ -7,6 +7,7 @@ public enum PlannedProjectListPageHeader {
 
     ProjectName("Project Name"),
     ProjectCode("Project Code"),
+    ProgramFamilyCategory("Program Family Category"),
     Owner("Owner"),
     ProjectType("Project Type"),
     IsActive("IsActive"),

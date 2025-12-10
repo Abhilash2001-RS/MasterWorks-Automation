@@ -117,12 +117,22 @@ public class ProgramPage extends ListPage {
      *
      * @param programTitle title of the program to be viewed
      */
-    public void filterProgramInListPage(String programTitle) {
+//    public void filterProgramInListPage(String programTitle) {
+//        clearAllFilters();
+//        filterListPage(ProgramListPageHeader.Name.getValue(), programTitle, ListPageFilterOptions.Contains);
+//        waitHelper.waitForPageToLoad(RibbonIcons.New);
+//    }
+
+    /**
+     * Method to filter a program in list page
+     *
+     * @param programCategory title of the program to be viewed
+     */
+    public void filterProgramInListPage(String programCategory) {
         clearAllFilters();
-        filterListPage(ProgramListPageHeader.Name.getValue(), programTitle, ListPageFilterOptions.Contains);
+        filterListPage(ProgramListPageHeader.Name.getValue(), programCategory, ListPageFilterOptions.Contains);
         waitHelper.waitForPageToLoad(RibbonIcons.New);
     }
-
 
     /**
      * Method to create a new program

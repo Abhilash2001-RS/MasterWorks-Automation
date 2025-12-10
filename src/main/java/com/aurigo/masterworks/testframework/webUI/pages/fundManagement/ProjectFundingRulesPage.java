@@ -111,7 +111,6 @@ public class ProjectFundingRulesPage extends WorkFlowHandler {
         getPage(Picker.class).singleSelectByText("Fund Source Name", globalFundName, pickerGrid);
         waitHelper.waitForPageToLoad();
         waitHelper.waitForElementToBePresentAndClickable(percentageTextBox);
-        //elementHelper.moveToElement(elementHelper.getElement(percentageTextBox));
         elementHelper.doSendKeysUsingAction(percentageTextBox, "100");
         elementHelper.doClick(gridClick);
         clickRibbonIcon(RibbonIcons.Save);

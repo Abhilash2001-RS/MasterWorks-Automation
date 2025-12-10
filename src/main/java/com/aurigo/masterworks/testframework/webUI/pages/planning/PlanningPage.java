@@ -48,6 +48,7 @@ public class PlanningPage extends ListPage {
     private By newFolderName;
     private By newFolderSave;
     private By clickUnifierSyncButton;
+    private By projectFolder;
 
     private By projectValue;
     private By projectListTab;
@@ -83,6 +84,7 @@ public class PlanningPage extends ListPage {
         projectListTab=locators.get("projectListTab");
         planningModule = locators.get("planningModule");
         clickUnifierSyncButton = locators.get("clickUnifierSyncButton");
+        projectFolder = locators.get("projectFolder");
     }
 
     /**
@@ -138,11 +140,13 @@ public class PlanningPage extends ListPage {
             waitHelper.waitForPageTabHeaderToBeClickable();
         }
     }
-    /**
-     * Clicks Unifier Sync present in the Project details page when there is No BE available in the details page
-     **/
-    public void clickUnifierSync(String projectName){
-        openPlannedProject(projectName);
+
+    public void clickUnifierSync(){
+        navigation.switchFrameToDefault();
+        elementHelper.doClick(projectFolder);
+        waitHelper.waitForPageToLoad();
+        navigation.switchFrameToContent();
+        clickRibbonIcon(RibbonIcons.Edit);
         elementHelper.doClick(clickUnifierSyncButton);
         waitHelper.waitForPageToLoad();
     }
@@ -240,7 +244,7 @@ public class PlanningPage extends ListPage {
     public boolean publishProject(String projectName) {
         logger().info("Publishing the project");
         openPlannedProjectsPage();
-        return getPage(WorkFlowHandler.class).workFlowActionProgression(projectName, "Project Name", WorkFlowActions.Publish, WorkFlowStatus.Published);
+        return getPage(WorkFlowHandler.class).workFlowActionProgression(projectName, "Project Name", WorkFlowActions.Approve, WorkFlowStatus.Published);
     }
 
     /**
@@ -364,6 +368,8 @@ public class PlanningPage extends ListPage {
         waitHelper.waitForPageToLoad();
         waitHelper.waitForElementClickable(getRibbonIcon(RibbonIcons.Edit));
     }
+
+
 
     /**
      * Click on edit button in projects Page

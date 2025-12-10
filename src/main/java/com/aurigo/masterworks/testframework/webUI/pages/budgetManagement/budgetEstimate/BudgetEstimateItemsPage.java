@@ -5,6 +5,7 @@ import com.aurigo.masterworks.testframework.utilities.LocatorUtil;
 import com.aurigo.masterworks.testframework.utilities.TestDataUtil;
 import com.aurigo.masterworks.testframework.utilities.models.grid.Host;
 import com.aurigo.masterworks.testframework.webUI.common.AlertHandler;
+import com.aurigo.masterworks.testframework.webUI.common.RibbonMenu;
 import com.aurigo.masterworks.testframework.webUI.common.ToastUtil;
 import com.aurigo.masterworks.testframework.webUI.constants.Constants;
 import com.aurigo.masterworks.testframework.webUI.constants.enums.BudgetEstimateItemColumnsList;
@@ -83,6 +84,7 @@ public class BudgetEstimateItemsPage extends ItemListPage {
     private By inflationHighlightSubItemInListPage;
     private By forecastHeader;
 
+    private WebDriver driver;
 
     private String displayedLabels = ".//span[contains(text(),'%s')]";
     private String displayedLabels1 = ".//td[contains(text(),'%s')]";
@@ -91,7 +93,7 @@ public class BudgetEstimateItemsPage extends ItemListPage {
 
     public BudgetEstimateItemsPage(WebDriver driver) {
         super(driver);
-
+        this.driver = driver;
         var locators = LocatorUtil.getLocators("BudgetEstimateItemsPage.json");
         budgetEstimateItemsTab = locators.get("budgetEstimateItemsTab");
         budgetItemsTotal = locators.get("budgetItemsTotal");
@@ -642,6 +644,18 @@ public class BudgetEstimateItemsPage extends ItemListPage {
         return isItemPresentInList(fundRuleToBeAssociated, "Fund Rule");
     }
 
+    public boolean associateFundRuleToBudgetEstimateItem(String fundRuleToBeAssociated) {
+        elementHelper.doClick(elementHelper.getElement(By.cssSelector("#chk_checkAllItem")));
+        waitHelper.waitForPageTabHeaderToBeClickable();
+        if (fundRuleToBeAssociated != null) {
+            clickRibbonIcon(RibbonIcons.FundRuleAssociationInListPage);
+            var fundRuleXpath = By.xpath(String.format("//li[@class='rrbItem']//a[@title='%s' and not(contains(@title,'None'))]", fundRuleToBeAssociated));
+            elementHelper.doClickUsingActions(fundRuleXpath);
+            waitHelper.waitForAjaxToComplete();
+        }
+        waitHelper.waitForPageToLoad();
+        return isItemPresentInList(fundRuleToBeAssociated, "Fund Rule");
+    }
     /**
      * Get Pay Item Number and Total Amount
      *
