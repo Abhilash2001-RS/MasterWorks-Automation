@@ -1786,5 +1786,11 @@
     "type": "id",
     "parent": null,
     "value": "lnkNewForecast"
+  },
+  {
+    "name": "allRevisions",
+    "type": "id",
+    "parent": null,
+    "value": "lnkAllRevisions"
   }
 ]

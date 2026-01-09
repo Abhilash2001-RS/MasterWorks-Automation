@@ -4,6 +4,7 @@ import com.aurigo.masterworks.testframework.webUI.constants.enums.ExternalIDP;
 import com.aurigo.masterworks.testframework.webUI.constants.enums.RegexStrings;
 import com.aurigo.masterworks.testframework.webUI.constants.enums.Role;
 import com.aurigo.masterworks.testframework.webUI.constants.enums.TimeZoneList;
+import com.aurigo.masterworks.testframework.webUI.pages.planning.ProjectDetailsPage;
 import com.aurigo.masterworks.testframework.webUI.testData.*;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.util.Strings;
@@ -134,6 +135,11 @@ public class TestDataUtil {
         return program;
     }
 
+
+    public static void generateProgramRevisionData(){
+        var reviseProgram = new ProgramRevision();
+        reviseProgram.revisionName = "Rev" + getRandomNumber(1,10);
+    }
 
 
     /**

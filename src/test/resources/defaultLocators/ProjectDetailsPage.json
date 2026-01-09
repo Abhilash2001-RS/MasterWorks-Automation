@@ -10,6 +10,16 @@
     "value": "PROJECT_ProjectCode_Id_Text"
   },
   {
+    "name": "clickUnifierSyncButton",
+    "type": "id",
+    "value": "lnkUpdateUnifierData"
+  },
+  {
+    "name": "projectFolder",
+    "type": "xpath",
+    "value": "//a[contains(@aria-owns,'ultreeitem-1')][1]"
+  },
+  {
     "name": "businessUnitInProjectDetails",
     "type": "id",
     "value": "PROJECT_BusinessUnitID_Id_Text"
@@ -338,5 +348,10 @@
     "name": "documentPropertiesText",
     "type": "id",
     "value": "PROJECT_DocMetadataID_Id_Text"
+  },
+  {
+    "name": "clearButtonProgramBudget",
+    "type": "id",
+    "value": "REVPRGM_btnClearProgramBudget_Id"
   }
 ]

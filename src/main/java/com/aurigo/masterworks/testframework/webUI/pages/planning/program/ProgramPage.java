@@ -2,6 +2,7 @@ package com.aurigo.masterworks.testframework.webUI.pages.planning.program;
 
 import com.aurigo.masterworks.testframework.utilities.ExcelUtil;
 import com.aurigo.masterworks.testframework.utilities.LocatorUtil;
+import com.aurigo.masterworks.testframework.utilities.TestDataUtil;
 import com.aurigo.masterworks.testframework.utilities.helper.CustomFieldsHelper;
 import com.aurigo.masterworks.testframework.utilities.models.grid.Host;
 import com.aurigo.masterworks.testframework.webUI.common.*;
@@ -11,9 +12,11 @@ import com.aurigo.masterworks.testframework.webUI.generic.GenericForm;
 import com.aurigo.masterworks.testframework.webUI.generic.GenericFormProposed;
 import com.aurigo.masterworks.testframework.webUI.generic.ItemListPage;
 import com.aurigo.masterworks.testframework.webUI.generic.ListPage;
+import com.aurigo.masterworks.testframework.webUI.pages.enterpriseWideFeatures.fundManagement.PlanningFundPage;
 import com.aurigo.masterworks.testframework.webUI.pages.planning.PlanningPage;
 import com.aurigo.masterworks.testframework.webUI.testData.Program;
 import com.aurigo.masterworks.testframework.webUI.testData.Project;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -47,6 +50,13 @@ public class ProgramPage extends ListPage {
     private By attachmentTable;
     private By attachmentTableHeader;
     private By deleteAttachment;
+    private By reviseButton;
+    private By revisionName;
+    private By revisionType;
+    private By revisionNotes;
+    private By saveRevision;
+    private By revisionHistory;
+    private By programHeader;
 
     private String programForecastItemExpandButtonTemplate;
     private String projectTemplateInForecastDetailsPageTemplate;
@@ -60,6 +70,7 @@ public class ProgramPage extends ListPage {
         listPageProgamCategoryTemplate = "//div[contains(text(),'Program Category : ')]//strong[text()='%s']";
 
         var locators = LocatorUtil.getLocators("ProgramPage.json");
+        reviseButton = locators.get("reviseButton");
         programForecastDetailsTab = locators.get("programForecastDetailsTab");
         scheduleGanttViewTab = locators.get("scheduleGanttViewTab");
         headerCellsXpath = locators.get("headerCellsXpath");
@@ -79,6 +90,12 @@ public class ProgramPage extends ListPage {
         attachmentTable = locators.get("attachmentTable");
         attachmentTableHeader = locators.get("attachmentTableHeader");
         deleteAttachment = locators.get("deleteAttachment");
+        revisionName = locators.get("revisionName");
+        revisionType = locators.get("revisionType");
+        revisionNotes = locators.get("revisionNotes");
+        saveRevision = locators.get("saveRevision");
+        revisionHistory = locators.get("revisionHistory");
+        programHeader = locators.get("programHeader");
     }
 
     /**
@@ -115,24 +132,120 @@ public class ProgramPage extends ListPage {
     /**
      * Method to filter a program in list page
      *
-     * @param programTitle title of the program to be viewed
-     */
-//    public void filterProgramInListPage(String programTitle) {
-//        clearAllFilters();
-//        filterListPage(ProgramListPageHeader.Name.getValue(), programTitle, ListPageFilterOptions.Contains);
-//        waitHelper.waitForPageToLoad(RibbonIcons.New);
-//    }
-
-    /**
-     * Method to filter a program in list page
-     *
-     * @param programCategory title of the program to be viewed
+     * @param programCategory of the program to be viewed
      */
     public void filterProgramInListPage(String programCategory) {
         clearAllFilters();
         filterListPage(ProgramListPageHeader.Name.getValue(), programCategory, ListPageFilterOptions.Contains);
         waitHelper.waitForPageToLoad(RibbonIcons.New);
     }
+
+    public void createProgram(String programCategory, List<String> projects) {
+        filterAndCreateProgramIfRequired(programCategory, projects);
+
+        String workflowStatus = getWorkflowStatusFromList();
+        int row = getProgramRow(programCategory);
+        singleClickOnRowListPage(row);
+        handleWorkflowStatus(workflowStatus, projects);
+    }
+
+    private void filterAndCreateProgramIfRequired(String programCategory, List<String> projects) {
+        filterProgramInListPage(programCategory);
+
+        if (isProgramNotFound(programCategory)) {
+            createNewProgram(projects);
+        }
+    }
+
+    private String getWorkflowStatusFromList() {
+        return getCellData(0, ProgramListPageHeader.WorkflowStatus.getValue());
+    }
+
+    private boolean isProgramNotFound(String programCategory) {
+        return getPage(Validations.class).isNoRecordsFoundDivDisplayed()
+                || ProgramListPageHeader.Name.equals(programCategory);
+    }
+
+    private int getProgramRow(String programCategory) {
+        return getRowNumberFromListPage(
+                ProgramListPageHeader.ProgramFamilyCategory.getValue(),
+                programCategory
+        );
+    }
+
+    private void handleWorkflowStatus(String workflowStatus, List<String> projects) {
+        switch (workflowStatus) {
+            case "Draft":
+               // handleDraft();
+                break;
+
+            case "Submitted":
+                //handleSubmitted();
+                break;
+
+            case "Approved":
+                handleApproved(projects);
+                break;
+        }
+    }
+
+    private void handleApproved(List<String> projects) {
+
+        if (isRevisionHistoryDisplayed()) {
+            handleRevisionHistory(projects);
+        } else {
+            enterRevisionDetails(projects);
+            getPage(ProgramDetailsPage.class).addPlannedProjects(projects);
+
+        }
+    }
+
+    private boolean isRevisionHistoryDisplayed() {
+        return elementHelper.getElement(revisionHistory).isDisplayed();
+    }
+
+    private void handleRevisionHistory(List<String> projects) {
+        clickRibbonIcon(RibbonIcons.AllRevisions);
+        waitHelper.waitForPageTabHeaderToBeClickable();
+
+        String revisionWorkflowStatus =
+                getCellData(0, ProgramRevisionPageColumns.WorkflowStatus.getValue());
+
+        if (revisionWorkflowStatus.equals("Draft")) {
+            handleDraftRevision(projects);
+        } else {
+          singleClickOnRowListPage(0);
+        }
+    }
+
+    private void handleDraftRevision(List<String> projects) {
+        System.out.println("Draft stage");
+
+        singleClickOnRowListPage(0);
+        clickRibbonIcon(RibbonIcons.Edit);
+        waitHelper.waitForPageTabHeaderToBeClickable();
+
+        getPage(ProgramDetailsPage.class).addPlannedProjects(projects);
+        clickRibbonIcon(RibbonIcons.Save);
+        if (getPage(AlertHandler.class).isAlertPresent(true)) {
+            getPage(AlertHandler.class).acceptAlert(true);
+            waitHelper.waitForPageToLoad();
+            getPage(PlanningFundPage.class).navigateTo();
+        }
+
+    }
+
+    public void enterRevisionDetails(List<String> projects){
+        clickRibbonIcon(RibbonIcons.Revision);
+        elementHelper.doClick(reviseButton);
+        elementHelper.doSendKeys(revisionName, "Rev" + TestDataUtil.getRandomNumber(1,10));
+        elementHelper.selectComboBoxItemByText(revisionType, "Amendment");
+        elementHelper.doSendKeys(revisionNotes, "Revision Notes");
+        elementHelper.doClick(saveRevision);
+        waitHelper.waitForPageTabHeaderToBeClickable();
+
+    }
+
 
     /**
      * Method to create a new program
@@ -145,6 +258,13 @@ public class ProgramPage extends ListPage {
         navigateTo();
         clickRibbonIcon(RibbonIcons.New);
         return getPage(ProgramDetailsPage.class).createNewProgram(publishedProjectsToAdd, false);
+    }
+
+    public Program createNewProgram(Program program, List<String> publishedProjectsToAdd) {
+        logger().info("Creating new Program");
+        navigateTo();
+        clickRibbonIcon(RibbonIcons.New);
+        return getPage(ProgramDetailsPage.class).createNewProgram(program, publishedProjectsToAdd, false);
     }
 
     /**
@@ -246,7 +366,7 @@ public class ProgramPage extends ListPage {
      * @return true if the wf action is performed successfully
      */
     public boolean changeProgramWorkFlowStatus(String programTitle, WorkFlowActions workflowAction, WorkFlowStatus expectedStatus) {
-        navigateTo();
+        //navigateTo();
         logger().info("Changing the WF status of program '" + programTitle + "' to " + workflowAction);
         return getPage(WorkFlowHandler.class).workFlowActionProgression(true, true, programTitle, ProgramListPageHeader.Name.getValue(), workflowAction, expectedStatus);
     }

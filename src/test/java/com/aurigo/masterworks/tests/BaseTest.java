@@ -16,12 +16,14 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import j2html.TagCreator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
@@ -155,6 +157,8 @@ public class BaseTest extends BaseFramework {
         String browser = EnvironmentHelper.getPropertyValue("browser");
         if(browser.equalsIgnoreCase("chrome"))
         {
+            System.setProperty("webdriver.chrome.driver",
+                    "C:\\Users\\abhilash.salimath\\Drivers\\chromedriver.exe");
             driver = new ChromeDriver();
             driver.get(EnvironmentHelper.getPropertyValue("url"));
             driver.manage().window().maximize();

@@ -115,7 +115,7 @@ public class ProgramRevisionPage extends ListPage {
      * @param revisionId program name
      */
     public void openProgramRevisionInEditState(int revisionId){
-        singleClickOnRowListPage(ProgramRevisionPageColumns.RevisionID.getValue(),String.valueOf(revisionId));
+        singleClickOnRowListPage(ProgramRevisionPageColumns.RevisionNo.getValue(),String.valueOf(revisionId));
         getPage(GenericForm.class).clickEdit();
         waitHelper.waitForPageToLoad(getRibbonIcon(RibbonIcons.Cancel));
     }
@@ -200,9 +200,9 @@ public class ProgramRevisionPage extends ListPage {
      */
     public boolean changeProgramWorkFlowStatus(int revisionId, WorkFlowActions workflowAction, WorkFlowStatus expectedStatus) {
         logger().info("Changing the WF status of program Revision'" + revisionId + "' to " + workflowAction);
-        filterListPage(ProgramRevisionPageColumns.RevisionID.getValue(),String.valueOf(revisionId),ListPageFilterOptions.EqualTo);
+        filterListPage(ProgramRevisionPageColumns.RevisionNo.getValue(),String.valueOf(revisionId),ListPageFilterOptions.EqualTo);
         return getPage(WorkFlowHandler.class).workFlowActionProgression(false, false, String.valueOf(revisionId),
-                ProgramRevisionPageColumns.RevisionID.getValue(), workflowAction, expectedStatus);
+                ProgramRevisionPageColumns.RevisionNo.getValue(), workflowAction, expectedStatus);
     }
 
     /**
@@ -306,7 +306,7 @@ public class ProgramRevisionPage extends ListPage {
         waitHelper.waitForPageToLoad(getRibbonIcon(RibbonIcons.New));
         clearAllFilters();
         filterListPage(ProgramRevisionPageColumns.ProgramName.getValue(),programName,ListPageFilterOptions.Contains);
-        return Integer.parseInt(getColumnData(ProgramRevisionPageColumns.RevisionID.getValue()).get(0));
+        return Integer.parseInt(getColumnData(ProgramRevisionPageColumns.RevisionNo.getValue()).get(0));
     }
 
     /**

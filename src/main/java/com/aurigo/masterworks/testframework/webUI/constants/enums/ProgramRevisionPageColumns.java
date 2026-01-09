@@ -5,10 +5,10 @@ import java.util.List;
 
 public enum ProgramRevisionPageColumns {
 
-    RevisionID("Revision Id"),
     ProgramName("Program Name"),
-    RevisionDate("Revision Date"),
-    Status("Status"),
+    RevisionNo("Revision No"),
+    RevisionName("Revision Name"),
+    RevisionType("Revision Type"),
     WorkflowStatus("Workflow Status"),
     Title("Title"),
     PendingOnRole("Pending On Role(s)");

@@ -47,8 +47,7 @@ public class PlanningPage extends ListPage {
     private By addOfflineProjectContainer;
     private By newFolderName;
     private By newFolderSave;
-    private By clickUnifierSyncButton;
-    private By projectFolder;
+
 
     private By projectValue;
     private By projectListTab;
@@ -83,8 +82,7 @@ public class PlanningPage extends ListPage {
         projectValue = locators.get("projectValue");
         projectListTab=locators.get("projectListTab");
         planningModule = locators.get("planningModule");
-        clickUnifierSyncButton = locators.get("clickUnifierSyncButton");
-        projectFolder = locators.get("projectFolder");
+
     }
 
     /**
@@ -141,15 +139,7 @@ public class PlanningPage extends ListPage {
         }
     }
 
-    public void clickUnifierSync(){
-        navigation.switchFrameToDefault();
-        elementHelper.doClick(projectFolder);
-        waitHelper.waitForPageToLoad();
-        navigation.switchFrameToContent();
-        clickRibbonIcon(RibbonIcons.Edit);
-        elementHelper.doClick(clickUnifierSyncButton);
-        waitHelper.waitForPageToLoad();
-    }
+
 
 
     /**

@@ -79,8 +79,8 @@
         private final By downloadAttachmentInEditMode;
         private final By expandAttachmentsButton;
         private final By calendarDaysValue;
-    
-        String programFamilyCategory = getPage(ProjectDetailsPage.class).getProgramFamilyCategory(getProjectName());
+        private By projectFolder;
+        private By clickUnifierSyncButton;
 
         private String valueAttribute = "value";
         private String strategicGoalHeader = "Strategic Goal";
@@ -90,7 +90,8 @@
         private String strategicRecordPercentage = "//td[@title='%s']/..//input[@type='text']";
         private String selectRowInStrategicObjectives = "//div[contains(@id,'ctl00_ctl00_C1_ERP_CC_BODY_radgdStrategicObjectives')]//tr/td[contains(text(),'%s')]/../td[not(@style)][%s]";
         private String attachmentGridSelector = "//div[contains(@id,'_gridAttachment') ]//td[text()='%s' and not (contains(@style,'display:none;'))]";
-    
+
+
         public ProjectDetailsPage(WebDriver driver) {
             super(driver);
             this.driver = driver;
@@ -151,6 +152,8 @@
             documentFolderStructureDropdownText = locators.get("documentFolderStructureDropdownText");
             documentPropertiesText = locators.get("documentPropertiesText");
             calendarDaysValue = locators.get("calendarDaysValue");
+            projectFolder = locators.get("projectFolder");
+            clickUnifierSyncButton = locators.get("clickUnifierSyncButton");
         }
     
         /**
@@ -709,6 +712,11 @@
             return getCellData(0, PlannedProjectListPageHeader.ProgramFamilyCategory.getValue());
         }
 
+        public String getProgramFamilyCategory(){
+            waitHelper.waitForElementPresent(programCategoryInProjectDetails);
+            return elementHelper.doGetText(programCategoryInProjectDetails).trim();
+        }
+
         /**
          * Click on row of strategic goal grid
          *
@@ -772,7 +780,16 @@
         public String getProjectName() {
             return elementHelper.doGetText(projectNameInProjectDetails);
         }
-    
+
+        public void clickUnifierSync(){
+            navigation.switchFrameToDefault();
+            elementHelper.doClick(projectFolder);
+            waitHelper.waitForPageToLoad();
+            navigation.switchFrameToContent();
+            clickRibbonIcon(RibbonIcons.Edit);
+            elementHelper.doClick(clickUnifierSyncButton);
+            waitHelper.waitForPageToLoad();
+        }
         /**
          * Select all the checkbox
          */

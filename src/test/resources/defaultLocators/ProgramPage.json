@@ -15,6 +15,36 @@
     "value": ".//table[contains(@class,'ui-grid-head-table')]//th[contains(@class,'ui-widget-header')]"
   },
   {
+    "name": "revisionName",
+    "type": "id",
+    "value": "revisionName"
+  },
+  {
+    "name": "reviseButton",
+    "type": "id",
+    "value": "lnkRevise"
+  },
+  {
+    "name": "revisionType",
+    "type": "id",
+    "value": "ctl09_radddlRevisionType"
+  },
+  {
+    "name": "saveRevision",
+    "type": "id",
+    "value": "btnSave"
+  },
+  {
+    "name": "revisionHistory",
+    "type": "xpath",
+    "value": "//img[contains(@src,'HelpTooltip.svg')]"
+  },
+  {
+    "name": "revisionNotes",
+    "type": "id",
+    "value": "revisionNotes"
+  },
+  {
     "name": "contentRowsXpath",
     "type": "xpath",
     "value": ".//table[@class='ui-selectable ui-grid-body-table']//tr[contains(@class,'rq-grid-row')]"
@@ -98,5 +128,10 @@
     "name": "deleteAttachment",
     "type": "xpath",
     "value": "//tr[starts-with(@id,'C1_ct') and contains(@id,'trAttachHeaderPanel')]/descendant::input[@title='Delete']"
+  },
+  {
+    "name": "programHeader",
+    "type": "xpath",
+    "value": "//a[@title='Program']"
   }
 ]

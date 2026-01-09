@@ -19,6 +19,7 @@ import com.aurigo.masterworks.testframework.webUI.generic.ItemListPage;
 import com.aurigo.masterworks.testframework.webUI.generic.ListPage;
 import com.aurigo.masterworks.testframework.webUI.generic.Picker;
 import com.aurigo.masterworks.testframework.webUI.pages.planning.PlanningPage;
+import com.aurigo.masterworks.testframework.webUI.pages.planning.ProjectDetailsPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -135,7 +136,7 @@ public class BudgetEstimatePage extends ListPage {
      */
     public void createBudgetNEstimate(String fundRuleName) {
         if(getPage(Validations.class).isNoRecordsFoundDivDisplayed()){
-            getPage(PlanningPage.class).clickUnifierSync();
+            getPage(ProjectDetailsPage.class).clickUnifierSync();
             navigateTo();
         }
         editBudgetEstimate();

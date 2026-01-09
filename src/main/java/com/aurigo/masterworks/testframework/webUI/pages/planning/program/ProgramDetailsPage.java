@@ -12,7 +12,6 @@ import com.aurigo.masterworks.testframework.webUI.constants.Constants;
 import com.aurigo.masterworks.testframework.webUI.constants.enums.*;
 import com.aurigo.masterworks.testframework.webUI.constants.enums.autodesk.listPageFields.WorkflowOptions;
 import com.aurigo.masterworks.testframework.webUI.generic.*;
-import com.aurigo.masterworks.testframework.webUI.pages.planning.ProjectDetailsPage;
 import com.aurigo.masterworks.testframework.webUI.testData.Program;
 import com.aurigo.masterworks.testframework.webUI.testData.Project;
 import org.apache.commons.lang3.StringUtils;
@@ -90,7 +89,8 @@ public class ProgramDetailsPage extends RibbonMenu {
     private final By attachmentGridHeaderDetails;
     private final By plannedProjectGirdTotal;
     private final By fiscalYearSelected;
-
+    private final By fundSourceReviseProgramSelectButton;
+    private final By clearButtonProgramBudget;
 
     private String programCategoryDataFieldValue = "ProgramCategory";
     private String name = "Name";
@@ -170,6 +170,8 @@ public class ProgramDetailsPage extends RibbonMenu {
         plannedProjectGirdTotal = locators.get("plannedProjectGirdTotal");
         programDetailsTab = locators.get("programDetailsTab");
         fiscalYearSelected = locators.get("fiscalYearSelected");
+        fundSourceReviseProgramSelectButton = locators.get("fundSourceReviseProgramSelectButton");
+        clearButtonProgramBudget = locators.get("clearButtonProgramBudget");
     }
 
     /**
@@ -206,7 +208,19 @@ public class ProgramDetailsPage extends RibbonMenu {
      * @return program data
      */
     public Program createNewProgram(List<String> publishedProjectsToAdd, boolean isContingencyProgram) {
-        var program = addProgramData(isContingencyProgram);
+        addProgramData(isContingencyProgram);
+        logger().info("Planned projects to add : " + StringUtils.join(publishedProjectsToAdd, ","));
+        if (!isContingencyProgram) {
+            addPlannedProjects(publishedProjectsToAdd);
+        }
+        clickRibbonIcon(RibbonIcons.Save);
+        waitHelper.waitForPageToLoad();
+        logger().info("New program creation complete");
+        return addProgramData(isContingencyProgram);
+    }
+
+    public Program createNewProgram(Program program, List<String> publishedProjectsToAdd, boolean isContingencyProgram) {
+        addProgramData(program, isContingencyProgram);
         logger().info("Planned projects to add : " + StringUtils.join(publishedProjectsToAdd, ","));
         if (!isContingencyProgram) {
             addPlannedProjects(publishedProjectsToAdd);
@@ -331,7 +345,6 @@ public class ProgramDetailsPage extends RibbonMenu {
      * @param isContingencyProgram true if it is a Contingency Program
      */
     public void addProgramData(Program program, boolean isContingencyProgram) {
-        String projectName = getPage(ProjectDetailsPage.class).getProjectName();
         waitHelper.waitForPageToLoad(RibbonIcons.Save);
         if (isContingencyProgram) {
             navigation.switchFrameToContent();
@@ -347,10 +360,11 @@ public class ProgramDetailsPage extends RibbonMenu {
         elementHelper.selectComboBoxItemByText(programYearDropDown, program.year);
         logger().info("Program Category : " + program.category);
         waitHelper.waitForElementClickable(programCategoryDropDown);
+        System.out.println(program.category);
         elementHelper.selectComboBoxItemByText(programCategoryDropDown, program.category);
         elementHelper.doSendKeys(programDescriptionTxtArea, program.description);
-        JavaScriptUtil.sendKeysUsingJSWithID(driver, elementHelper.getLocatorAsString(programBudgetTxtBox), program.budget);
-        getPage(GenericFormProposed.class).selectFiscalYear(defaultFiscalYearSelect);
+//        JavaScriptUtil.sendKeysUsingJSWithID(driver, elementHelper.getLocatorAsString(programBudgetTxtBox), program.budget);
+//        getPage(GenericFormProposed.class).selectFiscalYear(defaultFiscalYearSelect);
     }
 
     /**
@@ -932,15 +946,20 @@ public class ProgramDetailsPage extends RibbonMenu {
         waitHelper.waitForPageTabHeaderToBeClickable();
         for (var projectName : publishedProjectsToAdd) {
             logger().info("Adding project '" + projectName + "' to program");
+            //elementHelper.moveToElement(elementHelper.getElement(addPlannedProjectsBtn));
+            JavaScriptUtil.scrollIntoView(elementHelper.getElement(addPlannedProjectsBtn) , driver);
             elementHelper.doClick(addPlannedProjectsBtn);
             waitHelper.waitForPageToLoad();
             waitHelper.waitForElementPresent(plannedProjectPicker);
             waitHelper.waitForLoadingSpinnerDisappear();
             getPage(Picker.class).singleSelectByText(ProgramListPageHeader.Name.getValue(), projectName, plannedProjectPicker);
-            elementHelper.doClick(fundSourceProgramSelectButton);
+            JavaScriptUtil.scrollIntoView(elementHelper.getElement(fundSourceReviseProgramSelectButton), driver);
+            elementHelper.doClick(fundSourceReviseProgramSelectButton);
             waitHelper.waitForPageToLoad(fundPicker);
             if (planningFundName.length > 0) {
-                getPage(Picker.class).singleSelectByText(PlanningFundListPageColumns.Title.getValue(), planningFundName[0], fundPicker);
+                elementHelper.doClick(clearButtonProgramBudget);
+                waitHelper.waitForPageToLoad();
+                getPage(Picker.class).singleSelectByText(PlanningFundListPageColumns.Title.getValue(), "Temp Planning Fund", fundPicker);
             } else {
                 getPage(Picker.class).singleSelectByRowNumber(1, fundPicker);
             }

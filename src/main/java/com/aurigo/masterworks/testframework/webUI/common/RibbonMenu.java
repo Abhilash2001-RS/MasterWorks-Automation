@@ -68,7 +68,7 @@ public class RibbonMenu extends BasePage {
      */
     private void clickIcon(String icon) {
         var hoverParent = false;
-        var locator = locatorHashMap.get(icon);
+        Locator locator = locatorHashMap.get(icon);
         Locator iconLocator = new Locator();
         iconLocator.identifier = locator.identifier;
         iconLocator.name = locator.name;

@@ -1,5 +1,6 @@
 package com.aurigo.masterworks.testframework.webUI.pages.budgetManagement.budgetEstimate;
 
+import com.aurigo.masterworks.testframework.utilities.JavaScriptUtil;
 import com.aurigo.masterworks.testframework.utilities.LocatorUtil;
 import com.aurigo.masterworks.testframework.webUI.generic.GenericFormProposed;
 import org.openqa.selenium.By;
@@ -7,6 +8,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.security.Key;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -64,28 +66,28 @@ public class AuthorizationRequestForecastPage extends GenericFormProposed
         return columnNumber;
     }
 
-    public void enterData() {
-        var actualColumnIndexes = getColumnIndex("Actual");
+    public void enterData() throws InterruptedException {
+        List<Integer> actualColumnIndexes = getColumnIndex("Actual");
+        //gets the Index of the First Actual Column
         int actualColumn = actualColumnIndexes.get(0);
-        var remainingAmountColumn = getColumnIndex("Remaining");
-        List<WebElement> items = elementHelper.getElements(itemRows);
+        List<Integer> remainingAmountColumn = getColumnIndex("Remaining");
+        List<WebElement> rows = elementHelper.getElements(itemRows);
 
-        for (WebElement row : items) {
-            var remainingAmountFromItems = elementHelper.doGetText(row.findElement(By.xpath
-                    ("./td[not(contains(@style,'display:none')) and not(contains(@style,'display: none;'))]" + remainingAmountColumn)));
-            Double remainingAmount = Double.parseDouble(remainingAmountFromItems.replace(",",""));
-            for (Integer colIndex : actualColumnIndexes) {
-                var actualCells = row.findElement(By.xpath("./td[not(contains(@style,'display:none')) " +
-                        "and not(contains(@style,'width: 100px; text-align: right; display: none;'))][" + actualColumn
-                        + "]"));
-                var displayDiv = actualCells.findElement(By.xpath("./div"));
-                elementHelper.doClick(displayDiv);
-                var editor = actualCells.findElement(By.xpath(".//input | .//textarea"));
-                editor.clear();
-                elementHelper.doSendKeys(editor, String.format("%.2f", remainingAmount));
-                elementHelper.doSendKeys(Keys.TAB);
-                break;
-            }
+        for (WebElement row : rows)
+        {
+            //Extract the Remaining Amount
+            String remainingAmountCell = elementHelper.doGetText(row.findElement(By.xpath(String.format("./td[not(contains(@style,'display:none')) and not(contains(@style,'display: none;'))]%s",  remainingAmountColumn))));
+            System.out.println(remainingAmountCell);
+            Double remainingAmount = Double.parseDouble(remainingAmountCell.replace(",",""));
+            System.out.println(remainingAmount);
+
+            var actualCell = row.findElement(By.xpath(String.format("./td[not(contains(@style,'display:none')) and not(contains(@style,'width: 100px; text-align: right; display: none;'))][%s]",actualColumn)));
+            var displayDiv = actualCell.findElement(By.xpath("./div"));
+            elementHelper.doClick(displayDiv);
+            var editor = actualCell.findElement(By.xpath(".//input | .//textarea"));
+            editor.clear();
+            elementHelper.doSendKeys(editor, String.format("%.2f", remainingAmount));
+            elementHelper.doClick(row.findElement(By.xpath(String.format("./td[not(contains(@style,'display:none')) and not(contains(@style,'width: 100px; text-align: right; display: none;'))][%s]",actualColumn-1))));
         }
         saveAuthRequestForecast();
     }

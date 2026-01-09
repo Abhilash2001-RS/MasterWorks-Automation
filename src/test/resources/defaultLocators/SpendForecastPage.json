@@ -23,5 +23,10 @@
     "name": "saveSpendForecast",
     "type": "id",
     "value": "lnkSave"
+  },
+  {
+    "name": "gridHeader",
+    "type": "xpath",
+    "value": "//div[@id='ctl00_C1_SPENDFC_SpendDistributionDetails_id_GridHeader']//th[@class='rgHeader' and not(contains(@style,'display:none'))]"
   }
 ]

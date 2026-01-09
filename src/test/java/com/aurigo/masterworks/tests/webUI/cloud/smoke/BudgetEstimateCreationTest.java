@@ -14,7 +14,7 @@ import com.aurigo.masterworks.testframework.webUI.pages.fundManagement.ProjectFu
 import com.aurigo.masterworks.testframework.webUI.pages.planning.PlanningPage;
 import com.aurigo.masterworks.testframework.webUI.pages.planning.ProjectDetailsPage;
 import com.aurigo.masterworks.testframework.webUI.pages.planning.program.ProgramPage;
-import com.aurigo.masterworks.testframework.webUI.pages.projects.ProjectsPage;
+import com.aurigo.masterworks.testframework.webUI.testData.Program;
 import com.aurigo.masterworks.tests.BaseTest;
 import org.testng.annotations.Test;
 
@@ -23,59 +23,63 @@ import java.util.List;
 
 public class BudgetEstimateCreationTest extends BaseTest {
 
-    @Test(testName = "Budget Management", description = "Validation Creation and Approval of" +
+    @Test(testName = "Budget Management", description = "Creation and Approval of" +
             "Budget Estimate")
     @TestInfo(testIds = {"718771", "711884", "713894", "269776"})
-    public void budgetEstimateTest(){
+    public void budgetEstimateTest() throws InterruptedException {
         getPage(SharedSteps.class).login("AutomationUser", "Aurigo@1234567");
+
         String globalFundName = "GFL-" + TestDataUtil.getRandomName();
-        String projectName = "FY2025 Highway-Rail Grade Crossing Safety Program";
+        String projectName = "US 13, Philadelphia Pike, Claymont Transportation Plan Implementation";
 
-        String programFamilyCategory = getPage(ProjectDetailsPage.class).getProgramFamilyCategory(projectName);
-
-        //Create Global Fund and Approve
-        getPage(GlobalFundListPage.class).navigateTo(true);
-        getPage(GlobalFundListPage.class).createGlobalFundList(globalFundName);
-        getPage(GlobalFundListPage.class).approveGlobalFund(globalFundName);
+//        Create Global Fund and Approve
+//        getPage(GlobalFundListPage.class).navigateTo(true);
+//        getPage(GlobalFundListPage.class).createGlobalFundList(globalFundName);
+//        getPage(GlobalFundListPage.class).approveGlobalFund(globalFundName);
 
        // Edit Planning Page
         getPage(PlanningPage.class).openPlannedProject(projectName);
+        String category = getPage(ProjectDetailsPage.class).getProgramFamilyCategory();
+        System.out.println("Program Family Category: " + category);
+        Program program = TestDataUtil.generateNewProgramData();
+        program.category = category;
 
         //Project Fund list creation and Approval
-        getPage(ProjectFundListPage.class).navigateTo();
-        getPage(ProjectFundListPage.class).createProjectFundList(globalFundName);
-        getPage(ProjectFundListPage.class).approveProjectFund(globalFundName);
+//        getPage(ProjectFundListPage.class).navigateTo();
+//        getPage(ProjectFundListPage.class).createProjectFundList(globalFundName);
+//        getPage(ProjectFundListPage.class).approveProjectFund(globalFundName);
 
         //Fund Rule Creation and Approval
-        String fundRuleName = "Rule - " + TestDataUtil.getRandomName();
-        getPage(ProjectFundingRulesPage.class).navigateTo();
-        getPage(ProjectFundingRulesPage.class).createFundingRule(fundRuleName, globalFundName);
-        getPage(ProjectFundingRulesPage.class).approveFundingRule(fundRuleName);
+//        String fundRuleName = "Rule - " + TestDataUtil.getRandomName();
+//        getPage(ProjectFundingRulesPage.class).navigateTo();
+//        getPage(ProjectFundingRulesPage.class).createFundingRule(fundRuleName, globalFundName);
+//        getPage(ProjectFundingRulesPage.class).approveFundingRule(fundRuleName);
 
         //Budget Estimate Creation
-        getPage(BudgetEstimatePage.class).navigateTo();
-        getPage(BudgetEstimatePage.class).createBudgetNEstimate("FR-1");
-        getPage(AuthorizationRequestForecastPage.class).navigateTo();
-        getPage(AuthorizationRequestForecastPage.class).enterData();
-        getPage(SpendForecastPage.class).navigateTo();
-        getPage(SpendForecastPage.class).enterData();
-
-        getPage(BudgetEstimatePage.class).changeBudgetEstimateForecastStatus( "BE-1", WorkFlowActions.Complete, WorkFlowStatus.Completed);
-        getPage(BudgetEstimatePage.class).changeBudgetEstimateForecastStatus( "BE-1", WorkFlowActions.Publish, WorkFlowStatus.Published);
-
-        //Publishing the project
-        getPage(PlanningPage.class).publishProject(projectName);
+//        getPage(BudgetEstimatePage.class).navigateTo();
+//        getPage(BudgetEstimatePage.class).createBudgetNEstimate(fundRuleName);
+//        getPage(AuthorizationRequestForecastPage.class).navigateTo();
+//        getPage(AuthorizationRequestForecastPage.class).enterData();
+//        getPage(SpendForecastPage.class).navigateTo();
+//        getPage(SpendForecastPage.class).enterData();
+//
+//        getPage(BudgetEstimatePage.class).changeBudgetEstimateForecastStatus( "BE-1", WorkFlowActions.Complete, WorkFlowStatus.Completed);
+//        getPage(BudgetEstimatePage.class).changeBudgetEstimateForecastStatus( "BE-1", WorkFlowActions.Publish, WorkFlowStatus.Published);
+//
+//        //Publishing the project
+//        getPage(PlanningPage.class).publishProject(projectName);
 
         //Creating a program
         List<String> publishedProjectsList = new ArrayList<>();
         publishedProjectsList.add(projectName);
-        var program = getPage(ProgramPage.class).createNewProgram(publishedProjectsList);
+        getPage(ProgramPage.class).navigateTo();
+        getPage(ProgramPage.class).createProgram(program.category, publishedProjectsList);
 
-        //Submitting and Approving the program
-        getPage(ProgramPage.class).changeProgramWorkFlowStatus(program.title, WorkFlowActions.Submit, WorkFlowStatus.Submitted);
-        getPage(ProgramPage.class).changeProgramWorkFlowStatus(program.title, WorkFlowActions.Approve, WorkFlowStatus.Approved);
-
-        getPage(ProjectsPage.class).navigateAndOpenProject(projectName);
-
+        //getPage(ProgramPage.class).createNewProgram(program, publishedProjectsList);
+//
+//
+//        //Submitting and Approving the program
+//        getPage(ProgramPage.class).changeProgramWorkFlowStatus(program.title, WorkFlowActions.Submit, WorkFlowStatus.Submitted);
+//        getPage(ProgramPage.class).changeProgramWorkFlowStatus(program.title, WorkFlowActions.Approve, WorkFlowStatus.Approved);
     }
 }

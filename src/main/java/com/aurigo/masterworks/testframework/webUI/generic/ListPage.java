@@ -136,7 +136,7 @@ public class ListPage extends GenericFormProposed {
      * @return An integer which is the Row number of the item in the list page.
      */
     public int getRowNumberFromListPage(String columnNameToSearchIn, String searchText) {
-        int returnValue = -1;
+            int returnValue = -1;
 
         if (getPage(Validations.class).isNoRecordsFoundDivDisplayed()) {
             logger().info("No records were found in list page");
@@ -188,7 +188,7 @@ public class ListPage extends GenericFormProposed {
     /**
      * @param headers          List of headers.
      * @param columnToSearchIn This is the column name to search in the List Page
-     * @return Cloumn number of header.
+     * @return Column number of header.
      */
     public int getColumnNumberOfHeader(List<WebElement> headers, String columnToSearchIn) {
         waitForListPageLoading();
